@@ -1,0 +1,244 @@
+{
+  "issue_id": "2026-10-21",
+  "issue_number": 4,
+  "issue_date": "2026-10-21",
+  "timezone": "Asia/Tokyo",
+  "research_cutoff": "2026-10-21T11:30:00+09:00",
+  "research_file": "../production/2026-10-21-research.json",
+  "max_characters_per_utterance": 90,
+  "utterance_count": 24,
+  "speaker_reference": {
+    "akari": {
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "gender": "female"
+    },
+    "naoto": {
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "gender": "male"
+    }
+  },
+  "style": "normal",
+  "speed": "standard",
+  "audio_status": "pending",
+  "audio": null,
+  "utterances": [
+    {
+      "order": 1,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "こんにちは。AIモデル最新情報ラジオ第4号、10月21日確認号です。",
+      "characters": 34
+    },
+    {
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "基準時は日本時間10月21日午前11時30分です。発表日とは分けてお届けします。",
+      "characters": 40
+    },
+    {
+      "order": 3,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "Cohereの公式更新欄は、Rerank 5を10月21日付で掲載しています。",
+      "characters": 39
+    },
+    {
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "ただし公開時刻やタイムゾーンは不記載。10月21日JST公開とは断定しません。",
+      "characters": 39
+    },
+    {
+      "order": 5,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "Rerankは検索候補などを、質問との意味的な近さで並べ直す仕組みです。",
+      "characters": 36
+    },
+    {
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "ProとFastの二種類。文書には100超の言語と、合計三万二千七百六十八トークンを記載。",
+      "characters": 45
+    },
+    {
+      "order": 7,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "context focusは任意機能で、初期設定ではオフです。",
+      "characters": 31
+    },
+    {
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "提供元の説明であり、独立した精度比較ではありません。",
+      "characters": 26
+    },
+    {
+      "order": 9,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "API、Microsoft Foundry、Amazon SageMakerが提供経路として挙がっています。",
+      "characters": 54
+    },
+    {
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "専用環境も案内。VPCやオンプレミスは営業への問い合わせが必要です。発表ページに価格はありません。",
+      "characters": 49
+    },
+    {
+      "order": 11,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "次はMistralのVoxtral 3。公式告知の日付は10月20日です。",
+      "characters": 37
+    },
+    {
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "MiniとSmallの文字起こし、Miniのリアルタイム文字起こし、Mini TTSがプレビューです。",
+      "characters": 51
+    },
+    {
+      "order": 13,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "公式文書の価格は、バッチが毎分〇点〇〇三五ドルから。",
+      "characters": 26
+    },
+    {
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "リアルタイムは毎分〇点〇〇八ドル、TTSは百万文字あたり十三ドルです。",
+      "characters": 35
+    },
+    {
+      "order": 15,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "価格とプレビュー条件は変更されることがあります。",
+      "characters": 24
+    },
+    {
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "自己展開の説明はありますが、公開ウェイトとは確認できないのでそうは呼びません。",
+      "characters": 39
+    },
+    {
+      "order": 17,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "言語数の記述は告知と個別文書で差があり、今号では断定しません。",
+      "characters": 31
+    },
+    {
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "ElevenLabsは10月20日付でRealtime v1 MiniとMaxを発表しました。",
+      "characters": 47
+    },
+    {
+      "order": 19,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "ElevenAgentsとRealtime APIで提供すると説明しています。",
+      "characters": 39
+    },
+    {
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "九十超の言語などは会社発表の仕様です。独立比較はしていません。",
+      "characters": 31
+    },
+    {
+      "order": 21,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "ほかにOpenAI、Anthropic、Google、xAI、DeepSeekの公式情報も確認しました。",
+      "characters": 52
+    },
+    {
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "確認したページの範囲で、世界中に他の発表がないという断定ではありません。",
+      "characters": 36
+    },
+    {
+      "order": 23,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "発表日、確認日、提供元の説明、独立評価を分けて読みましょう。",
+      "characters": 30
+    },
+    {
+      "order": 24,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "以上、第4号、2026年10月21日確認号でした。また次回。",
+      "characters": 30
+    }
+  ]
+}
