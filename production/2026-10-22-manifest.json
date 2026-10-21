@@ -1,0 +1,66 @@
+{
+  "issue_id": "2026-10-22",
+  "issue_number": 5,
+  "edition_date_jst": "2026-10-22",
+  "timezone": "Asia/Tokyo",
+  "research_cutoff": "2026-10-22T08:17:39+09:00",
+  "input_hash_algorithm": "SHA-256 of production/2026-10-22-research.json raw UTF-8 bytes",
+  "input_hash": "7544c111e10cd97221aed71b646549a3dbf2dac8dc52ea5685b5be8da1e0ca2c",
+  "audio": {
+    "status": "available",
+    "path": "audio/2026-10-22.mp3",
+    "sha256": "8d0869dc9de792865e4f5a71422b7d6ff02c1757eab944df51444888842fd6b4",
+    "codec": "mp3",
+    "duration_seconds": 160.896,
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "bit_rate_bps": 96000,
+    "full_ffmpeg_decode": "passed",
+    "human_listening_claimed": false,
+    "public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-22.mp3",
+    "backup_path": "audio/2026-10-22-backup.mp3",
+    "backup_public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-22-backup.mp3",
+    "backup_sha256": "8d0869dc9de792865e4f5a71422b7d6ff02c1757eab944df51444888842fd6b4",
+    "backup_status": "available"
+  },
+  "voice": {
+    "engine": "VOICEVOX Nemo",
+    "version": "0.24.0",
+    "platform": "Linux CPU x64",
+    "style": "normal",
+    "speed": "standard",
+    "speakers": {
+      "akari": {
+        "name": "あかり",
+        "speaker_id": 10005
+      },
+      "naoto": {
+        "name": "なおと",
+        "speaker_id": 10001
+      }
+    },
+    "official_archive_url": "https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001",
+    "official_archive_sha256": "c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7",
+    "short_sample_synthesis_and_ffmpeg_decode": "passed"
+  },
+  "files_sha256": {
+    "2026-10-22.md": "a1242727c3381e54f46f347ec60312f0b43bd9549bf8a92ec8a710844e70b6d1",
+    "2026-10-22-script.md": "c33734fd2f66a71860f4a92db608c5aae9bdf064e3b9282dad6bce45e88ede43",
+    "2026-10-22-script.json": "5aa0069fa042ca3bfb01c738600331c74d801f857b4930e38d3b9b52aa6f5a1c",
+    "2026-10-22.html": "f563e2c96b6e977a5b54626500ae415f88963c448015ed9be0b81c09a73271af",
+    "2026-10-22-research.json": "7544c111e10cd97221aed71b646549a3dbf2dac8dc52ea5685b5be8da1e0ca2c",
+    "2026-10-22-research.md": "696cb310f33ea6bd0b8b76e3387fdc17940973a0dafad4e9fa272ba10784a75d",
+    "index.json": "e9d6c3b816afd00ed7f89ed069f4d1ba9f7593f30cac796c2521943020764fa3",
+    "index.html": "a8b581dcdd996e0ee87485f148b7c2bc909150c9af7ff12a45091f25a7b8089a",
+    "2026-10-22.mp3": "8d0869dc9de792865e4f5a71422b7d6ff02c1757eab944df51444888842fd6b4",
+    "2026-10-22-provenance.json": "b11c4824a174139be920f428e5e2eb8b005f4eeb997ffdc615aa18ec530ba73c",
+    "2026-10-22-backup.mp3": "8d0869dc9de792865e4f5a71422b7d6ff02c1757eab944df51444888842fd6b4"
+  },
+  "checked_outputs": {
+    "utterance_count": 28,
+    "maximum_utterance_characters": 56,
+    "source_and_issue_date_consistency": "passed",
+    "old_editions_preserved": true,
+    "public_files_secret_scan": "passed"
+  }
+}
