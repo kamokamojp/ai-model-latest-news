@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-10-22T08:54:52+09:00",
-  "latest_issue": "2026-10-22",
+  "generated_at": "2026-10-23T08:42:19+09:00",
+  "latest_issue": "2026-10-23",
   "issues": [
+    {
+      "id": "2026-10-23",
+      "issue_number": 6,
+      "date": "2026-10-23",
+      "title": "AIモデル最新情報ラジオ 第6号・10月23日確認号",
+      "page": "2026-10-23.html",
+      "article": "2026-10-23.md",
+      "script_markdown": "2026-10-23-script.md",
+      "script_json": "2026-10-23-script.json",
+      "audio_status": "available",
+      "audio": "../audio/2026-10-23.mp3",
+      "input_hash": "338294699bd3eed048cfea5fe62179d81313f72e0f7b913d159689c36281ab72",
+      "audio_backup": "../audio/2026-10-23-backup.mp3",
+      "audio_sha256": "e419a1d3975aba7e6946dad36fb0da51e0d5f37fde5cef4082d9cc1177e6e28f",
+      "audio_backup_sha256": "e419a1d3975aba7e6946dad36fb0da51e0d5f37fde5cef4082d9cc1177e6e28f",
+      "audio_public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-23.mp3",
+      "audio_backup_public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-23-backup.mp3",
+      "audio_duration_seconds": 173.208,
+      "audio_file_size_bytes": 2078828,
+      "audio_generated_at_jst": "2026-10-23T08:48:52.344328+09:00",
+      "synthesis_input_script_sha256": "0bf6c522057d5fd9564a690d7991041583a43118c2c4958874bcb61ecb5492be"
+    },
     {
       "id": "2026-10-22",
       "issue_number": 5,
