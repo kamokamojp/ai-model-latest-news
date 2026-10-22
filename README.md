@@ -5,7 +5,7 @@ AIモデルや関連機能の公式発表を、提供条件とともに確認す
 - 最新号（公式サイト）: https://ai-model-latest-radio.kamokamojp.chatgpt.site/editions/2026-10-22
 - 最新音声（MP3）: https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-22.mp3
 - 予備音声（同一データのMP3コピー）: https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-22-backup.mp3
-- 音声SHA-256: `8d0869dc9de792865e4f5a71422b7d6ff02c1757eab944df51444888842fd6b4`（1,931,084 bytes、両URLで同一）
+- 音声SHA-256: `4381dace246934c1dfb306d62ad6ca43311e0db0ee5fa2fc03421b2ac0241813`（1,893,932 bytes、両URLで同一）
 
 ## Repository layout
 

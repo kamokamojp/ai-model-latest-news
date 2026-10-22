@@ -3,7 +3,7 @@
   "issue_number": 5,
   "timezone": "Asia/Tokyo",
   "edition_date_jst": "2026-10-22",
-  "research_cutoff": "2026-10-22T08:17:39+09:00",
+  "research_cutoff": "2026-10-22T08:54:52+09:00",
   "research_method": "Official provider release/news/changelog/API/pricing/model documentation checked; dates copied as displayed. When publication time/timezone is absent, neither is inferred. Findings are limited to the listed pages and are not a claim that no announcements exist elsewhere.",
   "scope_checked": [
     "OpenAI",
@@ -87,15 +87,6 @@
       "publication_time_or_timezone": "not stated",
       "checked_on": "2026-10-22",
       "notes": "Google lists GPT-Astra, GPT-6.1 Sol, GPT-6 Luna as rolling out in private preview to select enterprise customers; API access and local Codex CLI/Desktop integration with Gemini platform; Marketplace billing, GCP commitment drawdown/Flexible Savings Plans. Google states dedicated Cloud infrastructure and data-perimeter/no-training controls; ZDR and Confidential Compute coming soon. Specific Model Garden API IDs/endpoints, per-model prices/units, rate limits, available regions, exact preview expansion and license/weight terms are not provided in this announcement. Company statements are not independent verification."
-    },
-    {
-      "company": "Google Cloud",
-      "title": "Official Google Cloud X post announcing OpenAI models in Model Garden",
-      "url": "https://x.com/googlecloud/status/2112896659608785181",
-      "publication_date": "2026-10-21",
-      "publication_time_or_timezone": "2026-10-21T13:19:54Z (UTC timestamp from the post DOM datetime attribute); X display itself has no timezone label",
-      "checked_on": "2026-10-22",
-      "notes": "Official Google Cloud account post text matches the Model Garden announcement. The official blog page has date 2026-10-21 but no publication time; keep the blog page and X post timestamps distinct. The Z timestamp is UTC and is not an inferred timezone."
     },
     {
       "company": "OpenAI API",

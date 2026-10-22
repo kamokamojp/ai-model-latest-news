@@ -21,17 +21,18 @@ def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
 
 idx_path=ROOT/'editions/index.json'
 idx=json.loads(idx_path.read_text())
-assert idx['latest_issue']==DATE and idx['generated_at']=='2026-10-22T08:17:39+09:00'
+assert idx['latest_issue']==DATE and idx['generated_at']=='2026-10-22T08:54:52+09:00'
 assert [x['id'] for x in idx['issues']]==[DATE,'2026-10-21','2026-10-20','2026-10-19','2026-10-17']
 cur=idx['issues'][0]
 assert cur['issue_number']==5 and cur['date']==DATE and cur['audio_status']=='available'
 assert cur['audio']=='../audio/2026-10-22.mp3' and cur['audio_backup']=='../audio/2026-10-22-backup.mp3'
 research=json.loads((ROOT/f'production/{DATE}-research.json').read_text())
 assert research['issue_id']==DATE and research['issue_number']==5 and research['timezone']=='Asia/Tokyo'
-assert research['research_cutoff']=='2026-10-22T08:17:39+09:00'
+assert research['research_cutoff']=='2026-10-22T08:54:52+09:00'
 assert research['commercial_and_api_notes']['google_cloud_model_garden']['availability'].startswith('private preview')
 assert research['commercial_and_api_notes']['direct_openai_api_separate_channel']['model_ids']['GPT-6 Astra']=='gpt-6-astra'
 assert research['items'] and all(x['checked_on']=='2026-10-22' for x in research['items'])
+assert not any(x['url'].startswith('https://x.com/') for x in research['items'])
 script_path=ROOT/f'editions/{DATE}-script.json'
 script=json.loads(script_path.read_text())
 assert script['issue_id']==DATE and script['issue_date']==DATE and script['timezone']=='Asia/Tokyo'
@@ -53,6 +54,7 @@ html_path=ROOT/f'editions/{DATE}.html'
 home_path=ROOT/'index.html'
 for txt in (article_md,script_md,html_path.read_text(),home_path.read_text()):
     assert DATE in txt
+    assert not re.search(r'2026-10-21T\d{2}:\d{2}:\d{2}Z', txt)
 for u in script['utterances']:
     assert u['text'] in script_md
     assert u['text'] in html_path.read_text()
@@ -106,7 +108,7 @@ for name,digest in manifest['files_sha256'].items():
     candidates=[ROOT/name, ROOT/'editions'/name, ROOT/'production'/name, ROOT/'audio'/name]
     file=next((p for p in candidates if p.exists()),None)
     assert file is not None and sha(file)==digest, f'manifest hash mismatch: {name}'
-secret_patterns=[re.compile(p,re.I) for p in [r'gh[pousr]_[A-Za-z0-9]{20,}',r'github_pat_[A-Za-z0-9_]{20,}',r'Bearer\s+[A-Za-z0-9._~-]{16,}',r'Authorization\s*:',r'/home/agent/[^\s]+',r'https?://[^\s]*token=[^\s]+']]
+secret_patterns=[re.compile(p,re.I) for p in [r'gh[pousr]_[A-Za-z0-9]{20,}',r'github_pat_[A-Za-z0-9_]{20,}',r'Bearer\s+[A-Za-z0-9._~-]{16,}',r'Authorization\s*:',r'/home/[^/\s]+/[^\s]+',r'https?://[^\s]*token=[^\s]+']]
 public_files=[ROOT/'index.html',ROOT/f'editions/{DATE}.html',ROOT/f'editions/{DATE}.md',ROOT/f'editions/{DATE}-script.md',ROOT/f'editions/{DATE}-script.json',ROOT/f'production/{DATE}-research.json',ROOT/f'production/{DATE}-research.md',ROOT/f'production/{DATE}-manifest.json',ROOT/f'production/build-radio-{DATE}.mjs']
 for f in public_files:
     text=f.read_text()

@@ -3,7 +3,7 @@
   "issue_number": 5,
   "issue_date": "2026-10-22",
   "timezone": "Asia/Tokyo",
-  "research_cutoff": "2026-10-22T08:17:39+09:00",
+  "research_cutoff": "2026-10-22T08:54:52+09:00",
   "research_file": "../production/2026-10-22-research.json",
   "max_characters_per_utterance": 90,
   "utterance_count": 28,
@@ -24,14 +24,14 @@
   "audio_status": "available",
   "audio": {
     "file": "../audio/2026-10-22.mp3",
-    "sha256": "8d0869dc9de792865e4f5a71422b7d6ff02c1757eab944df51444888842fd6b4",
+    "sha256": "4381dace246934c1dfb306d62ad6ca43311e0db0ee5fa2fc03421b2ac0241813",
     "codec": "mp3",
     "sample_rate_hz": 24000,
     "channels": 1,
     "bit_rate_bps": 96000,
-    "duration_seconds": 160.896,
+    "duration_seconds": 157.8,
     "backup_file": "../audio/2026-10-22-backup.mp3",
-    "backup_sha256": "8d0869dc9de792865e4f5a71422b7d6ff02c1757eab944df51444888842fd6b4",
+    "backup_sha256": "4381dace246934c1dfb306d62ad6ca43311e0db0ee5fa2fc03421b2ac0241813",
     "public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-22.mp3",
     "backup_public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-22-backup.mp3"
   },
@@ -69,8 +69,8 @@
       "speaker_name": "なおと",
       "speaker_id": 10001,
       "part": 1,
-      "text": "Google Cloud公式ブログは10月21日付で時刻なし。公式Xは21日13:19:54 UTCです。",
-      "characters": 53
+      "text": "Google Cloud公式ブログは10月21日付です。公開時刻は記事にありません。",
+      "characters": 42
     },
     {
       "order": 5,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:17:39+09:00",
+  "generated_at": "2026-10-22T08:54:52+09:00",
   "latest_issue": "2026-10-22",
   "issues": [
     {
@@ -13,7 +13,7 @@
       "script_json": "2026-10-22-script.json",
       "audio_status": "available",
       "audio": "../audio/2026-10-22.mp3",
-      "input_hash": "7544c111e10cd97221aed71b646549a3dbf2dac8dc52ea5685b5be8da1e0ca2c",
+      "input_hash": "d024881e6dde76b057dfcbc189a8f51244e6f76f453922815779208de8b6c73b",
       "audio_backup": "../audio/2026-10-22-backup.mp3"
     },
     {
