@@ -2,10 +2,10 @@
 
 AIモデルや関連機能の公式発表を、提供条件とともに確認する日本語ラジオの公開アーカイブです。この記事の日付は日本時間の確認日を表し、各提供元の発表日は一次資料に記された表記を保っています。
 
-- 最新号（公式サイト）: https://ai-model-latest-radio.kamokamojp.chatgpt.site/editions/2026-10-23.html
-- 最新音声（MP3）: https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-23.mp3
-- 予備音声（同一データのMP3コピー）: https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-23-backup.mp3
-- 音声SHA-256: `e419a1d3975aba7e6946dad36fb0da51e0d5f37fde5cef4082d9cc1177e6e28f`（2,078,828 bytes、両URLで同一）
+- 最新号（公式サイト）: https://ai-model-latest-radio.kamokamojp.chatgpt.site/editions/2026-10-24.html
+- 最新音声（MP3）: https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-24.mp3
+- 予備音声（同一データのMP3コピー）: https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-24-backup.mp3
+- 音声SHA-256: `aa1ccd57ac0798ed2a1a21737145f461918363ac5fd614e7ebd926ff1b1ae089`（2,742,956 bytes、両URLで同一）
 
 ## Repository layout
 
