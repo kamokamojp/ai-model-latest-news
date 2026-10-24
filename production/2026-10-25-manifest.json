@@ -1,0 +1,105 @@
+{
+  "issue_id": "2026-10-25",
+  "issue_number": 8,
+  "issue_date": "2026-10-25",
+  "timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-25T08:00+09:00",
+  "research_cutoff": "2026-10-25T08:07+09:00",
+  "research_cutoff_utc": "2026-10-24T23:07:00Z",
+  "previous_issue_id": "2026-10-24",
+  "previous_issue_cutoff": "2026-10-24T08:10:58+09:00",
+  "idempotency": {
+    "same_day_record_count": 1,
+    "input_hash": "5b0673d20f289cfe4a7b945f9b1fb70c157087ff92c47f573408d20d5ab9de47"
+  },
+  "selected_story": {
+    "publisher": "Moonshot AI",
+    "official_listing_date": "2026-10-24",
+    "publication_time": "not stated",
+    "timezone": "not stated",
+    "classification": "official vendor page date; cannot establish relation to prior issue cutoff or scheduled Oct 25 08:00 JST",
+    "vendor_claims_not_independently_verified": true
+  },
+  "audio": {
+    "status": "available_locally",
+    "primary": "audio/2026-10-25.mp3",
+    "sha256": "298eec835a9bbbbd651919cded6428d9bf97b90fa85ff6261e312c02cc97ca7c",
+    "backup": "audio/2026-10-25-backup.mp3",
+    "backup_sha256": "298eec835a9bbbbd651919cded6428d9bf97b90fa85ff6261e312c02cc97ca7c",
+    "bytes": 1487276,
+    "codec": "mp3",
+    "bitrate_bps": 96000,
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "duration_seconds": 123.912,
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "archive_sha256": "c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7",
+    "archive_source": "https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "style": "normal",
+    "speed": "standard",
+    "short_sample_full_decode": "passed",
+    "full_mp3_decode": "passed",
+    "human_listening_claimed": false,
+    "synthesis_input_script_sha256": "81be754916562a7a2b9677f1f43db86021886a4e60dcef23fe6eed2131e244b8"
+  },
+  "checks": {
+    "research_coverage": "bounded official histories across listed providers; no global-absence claim",
+    "audio_local_hash_and_decode": "passed; primary and backup SHA-256 identical; ffprobe + full ffmpeg decode passed",
+    "html_and_archive_qa": "passed by production/verify-issue-2026-10-25.py",
+    "public_deploy": {
+      "status": "succeeded",
+      "url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site"
+    },
+    "public_readback": {
+      "checked_at_utc": "2026-10-24T23:24:25Z",
+      "checked_at_jst": "2026-10-25T08:24:25+09:00",
+      "homepage": {
+        "status": "200",
+        "content_type": "text/html",
+        "body_sha256": "ef4de6dbf331efc234f8036e7c6aa82430d15abc05ec86114c0510540aff65d6",
+        "issue_date_and_cutoff_verified": true
+      },
+      "issue_page": {
+        "status": "200 after following normal same-site redirect",
+        "canonical_path": "/editions/2026-10-25",
+        "body_sha256": "ece8edf5235bde945fbc930f24848f74ddb65457ddf780f55f8265584fcf8fdf",
+        "date_model_and_audio_links_verified": true
+      },
+      "primary_audio": {
+        "status": "200",
+        "content_type": "audio/mpeg",
+        "content_length_bytes": 1487276,
+        "sha256": "298eec835a9bbbbd651919cded6428d9bf97b90fa85ff6261e312c02cc97ca7c"
+      },
+      "backup_audio": {
+        "status": "200",
+        "content_type": "audio/mpeg",
+        "content_length_bytes": 1487276,
+        "sha256": "298eec835a9bbbbd651919cded6428d9bf97b90fa85ff6261e312c02cc97ca7c"
+      }
+    }
+  },
+  "publication": {
+    "audience": "preserve existing public audience",
+    "public_github_mirror": "kamokamojp/ai-model-latest-news:main",
+    "status": "Published to the public Site; issue page and both current audio URLs were read back and verified by normal HTTP GET."
+  },
+  "files_sha256": {
+    "editions/2026-10-25.md": "a20c640eb63f77196e7c6d75d4611d8ba24c280e166b941811caf4c88d9a60c4",
+    "editions/2026-10-25.html": "ece8edf5235bde945fbc930f24848f74ddb65457ddf780f55f8265584fcf8fdf",
+    "editions/2026-10-25-script.md": "58526d7013fd39ae0a01977f1da56b17b414d3e531b001bca4d0ccc7cb439e61",
+    "editions/2026-10-25-script.json": "486b3e2392f3a68cfbc2a9d1b0403858d26b6c0874543c9b787fa3d1182228e3",
+    "editions/index.json": "0bab780676c3e906a64cbdb2e5a4be91e6bd43005b8dcaff99a3b024e408315e",
+    "production/2026-10-25-research.json": "425365507bfabc2470a65afd0a7af0857c0c914cdf9e260dcac4f9dcefed1203",
+    "production/2026-10-25-research.md": "72d39eb325d5c3e1d6ebbddbf775b65321097a7fe9a701844cf097da0771232e",
+    "production/build-radio-2026-10-25.mjs": "8a57dcdfc0c4da450f6f63b5d0b32213025ddb6f6edd51c10bc161575fc0daa4",
+    "production/verify-issue-2026-10-25.py": "66a63e141c46b24890b91742151e13a8bd470b65053fc08b6c31ce8fe2eb1190",
+    "audio/2026-10-25.mp3": "298eec835a9bbbbd651919cded6428d9bf97b90fa85ff6261e312c02cc97ca7c",
+    "audio/2026-10-25-backup.mp3": "298eec835a9bbbbd651919cded6428d9bf97b90fa85ff6261e312c02cc97ca7c"
+  }
+}

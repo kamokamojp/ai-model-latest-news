@@ -1,0 +1,299 @@
+{
+  "issue_id": "2026-10-25",
+  "issue_number": 8,
+  "issue_date": "2026-10-25",
+  "timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-25T08:00+09:00",
+  "research_cutoff": "2026-10-25T08:07+09:00",
+  "research_file": "../production/2026-10-25-research.json",
+  "max_characters_per_utterance": 90,
+  "utterance_count": 27,
+  "speaker_reference": {
+    "akari": {
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "gender": "female"
+    },
+    "naoto": {
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "gender": "male"
+    }
+  },
+  "style": "normal",
+  "speed": "standard",
+  "audio_status": "available",
+  "audio": {
+    "file": "../audio/2026-10-25.mp3",
+    "sha256": "298eec835a9bbbbd651919cded6428d9bf97b90fa85ff6261e312c02cc97ca7c",
+    "file_size_bytes": 1487276,
+    "codec": "mp3",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "bit_rate_bps": 96000,
+    "duration_seconds": 123.912,
+    "generated_at_jst": "2026-10-25T08:13:05+09:00",
+    "generated_at_time_precision": "approximate; builder completion was observed by 2026-10-24T23:13:05Z",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "style": "normal",
+    "speed": "standard",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "synthesis_input_script_sha256": "81be754916562a7a2b9677f1f43db86021886a4e60dcef23fe6eed2131e244b8",
+    "backup_file": "../audio/2026-10-25-backup.mp3",
+    "backup_sha256": "298eec835a9bbbbd651919cded6428d9bf97b90fa85ff6261e312c02cc97ca7c",
+    "public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-25.mp3",
+    "backup_public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-25-backup.mp3",
+    "full_ffmpeg_decode": "passed",
+    "human_listening_claimed": false,
+    "backup_status": "available"
+  },
+  "utterances": [
+    {
+      "order": 1,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "こんにちは。AIモデル最新情報ラジオ第8号、10月25日の確認号です。",
+      "characters": 35
+    },
+    {
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "高瀬直人です。公式資料の発表日と、利用条件を分けて紹介します。",
+      "characters": 31
+    },
+    {
+      "order": 3,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "調査基準時は、10月25日午前8時7分、日本時間です。",
+      "characters": 27
+    },
+    {
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "予定した8時を過ぎた後も、公式資料の再確認を続けました。",
+      "characters": 28
+    },
+    {
+      "order": 5,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "今日の焦点は、Moonshot AIのKimi K3.1 Proです。",
+      "characters": 35
+    },
+    {
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "公式研究一覧には、10月24日付で掲載されています。",
+      "characters": 26
+    },
+    {
+      "order": 7,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "ただし発表ページに、時刻とタイムゾーンはありません。",
+      "characters": 26
+    },
+    {
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "前号より後か、今朝8時より前かは確定できません。",
+      "characters": 24
+    },
+    {
+      "order": 9,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "10月25日の発表とは呼ばず、10月24日付と記録します。",
+      "characters": 29
+    },
+    {
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "Kimiは、K3.1シリーズの最初のモデルと説明しています。",
+      "characters": 30
+    },
+    {
+      "order": 11,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "同社の説明では、文脈長は100万トークンです。",
+      "characters": 23
+    },
+    {
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "高速版は、通常版の2倍から3倍速いとKimiは説明。",
+      "characters": 26
+    },
+    {
+      "order": 13,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "これは提供元の説明で、独立した速度評価ではありません。",
+      "characters": 27
+    },
+    {
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "同社はKimi.com、アプリ、Kimi Work、Kimi Code、APIで提供中と案内。",
+      "characters": 47
+    },
+    {
+      "order": 15,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "APIの識別子は kimi-k3.1-pro と kimi-k3.1-pro-highspeed。",
+      "characters": 49
+    },
+    {
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "ガイドでは、最低10元の入金がAPIアクセスに必要です。",
+      "characters": 28
+    },
+    {
+      "order": 17,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "新規登録の15元クーポンは、このモデルに使えないとの説明です。",
+      "characters": 31
+    },
+    {
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "料金表示では、通常版は100万入力13元、出力68元です。",
+      "characters": 29
+    },
+    {
+      "order": 19,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "高速版は入力26元、出力136元。適用開始日は見当たりません。",
+      "characters": 31
+    },
+    {
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "キャッシュ書き込みとヒットは別料金。日本円換算はしていません。",
+      "characters": 31
+    },
+    {
+      "order": 21,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "速度制限や利用条件は、アカウントの状態を含め確認を。",
+      "characters": 26
+    },
+    {
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "完全なモデル重みは、11月4日までに公開予定と同社は記載。",
+      "characters": 29
+    },
+    {
+      "order": 23,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "今回の資料では、重みのライセンスや地域条件は特定できません。",
+      "characters": 30
+    },
+    {
+      "order": 24,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "比較やベンチマークの説明は、提供元の主張として扱います。",
+      "characters": 28
+    },
+    {
+      "order": 25,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "主要各社の公式履歴も確認し、範囲は調査記録に示しました。",
+      "characters": 28
+    },
+    {
+      "order": 26,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "限られた確認だけで、他社に発表がなかったとは結論しません。",
+      "characters": 29
+    },
+    {
+      "order": 27,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "以上、第8号でした。発表日と提供条件を確かめてご活用ください。",
+      "characters": 31
+    }
+  ]
+}
