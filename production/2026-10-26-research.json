@@ -1,0 +1,276 @@
+{
+  "issue_id": "2026-10-26",
+  "issue_number": 9,
+  "issue_date": "2026-10-26",
+  "timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-26T08:00+09:00",
+  "research_cutoff": "2026-10-26T08:14:18+09:00",
+  "research_cutoff_utc": "2026-10-25T23:14:18Z",
+  "previous_issue_id": "2026-10-25",
+  "previous_issue_cutoff": "2026-10-25T08:07+09:00",
+  "previous_issue_cutoff_utc": "2026-10-24T23:07:00Z",
+  "method": "Selected official vendor model/news histories, API changelogs and model lists, official service-status history, and selected serving-platform announcements. Search inventory is bounded; missing items are not proof that no announcement exists globally.",
+  "temporal_handling": "Publisher/page dates, event impact times, actual checked time, planned availability, and page update dates are kept separate. UTC is preserved for Anthropic incidents; date-only publication pages have no inferred time or timezone.",
+  "selected_items": [
+    {
+      "publisher": "Anthropic Status",
+      "title": "Two resolved Claude error incidents on Oct 25 UTC",
+      "url": "https://status.claude.com/",
+      "published_date": "2026-10-25",
+      "publication_time": null,
+      "publication_timezone": "UTC for incident updates and impact intervals as displayed",
+      "checked_at": "2026-10-26T08:14:18+09:00",
+      "status": "selected_availability_update",
+      "finding": "First incident impact 06:05–06:35 UTC, resolving update 07:53 UTC; investigating elevated errors for requests to Claude Mythos 5.1, Fable 5.1, Opus 5.5, Sonnet 5.5, Haiku 5.5. Second Fable 5.1 incident impact 08:08–08:29 UTC, resolving update 08:49 UTC. Page showed All Systems Operational at check. This is service availability history, not model release.",
+      "limitations": [
+        "Incident descriptions and current component status are provider-reported.",
+        "No independent uptime measurement was conducted."
+      ]
+    },
+    {
+      "publisher": "Volcengine Ark",
+      "title": "Ark catalog and release bulletin listing Kimi K3.1 Pro",
+      "url": "https://console.volcengine.com/ark/region:cn-beijing/docs/model-release-announcement",
+      "supporting_urls": [
+        "https://console.volcengine.com/ark/region:cn-beijing/docs/model-list"
+      ],
+      "published_date": "2026-10-24 (bulletin page update date)",
+      "publication_time": null,
+      "publication_timezone": null,
+      "catalog_page_update_date": "2026-10-25",
+      "checked_at": "2026-10-26T08:14:18+09:00",
+      "status": "selected_platform_availability_update",
+      "finding": "Bulletin marks Kimi K3.1 Pro as newly released with model ID kimi-k3-1-pro-261024. Model list on the Beijing-region docs URL shows 1,024K context, tool calling and structured output. First-party Kimi API ID previously documented as kimi-k3.1-pro is different.",
+      "limitations": [
+        "Bulletin update date has no hour/timezone and cannot be ordered relative to the previous issue cutoff.",
+        "A page on a Beijing-region docs route does not establish availability in other regions.",
+        "No Ark per-token price or model-weight license was confirmed in checked sources.",
+        "The platform listing is not an independent model-quality evaluation."
+      ]
+    }
+  ],
+  "scope_checked": [
+    {
+      "provider": "OpenAI",
+      "source_urls": [
+        "https://developers.openai.com/api/docs/changelog",
+        "https://openai.com/news/",
+        "https://developers.openai.com/api/docs/pricing"
+      ],
+      "last_relevant_visible_date": "2026-10-22",
+      "result": "Selected changelog/news histories surfaced the Oct 22 Decisions API GA (`gpt-6-luna`), before the previous cutoff; no later qualifying model release surfaced in these selected pages.",
+      "classification": "model/API update pre-cutoff",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Anthropic",
+      "source_urls": [
+        "https://platform.claude.com/docs/en/release-notes/overview",
+        "https://www.anthropic.com/news/models",
+        "https://status.claude.com/"
+      ],
+      "last_relevant_visible_date": "2026-10-25",
+      "result": "Platform release notes through Oct 22 show service/API updates, not a new model; official status history lists two resolved Oct 25 error incidents after the previous issue cutoff.",
+      "classification": "service incidents; selected as availability update, not model launch",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Google",
+      "source_urls": [
+        "https://ai.google.dev/gemini-api/docs/changelog",
+        "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-builders/"
+      ],
+      "last_relevant_visible_date": "2026-10-13",
+      "result": "Gemini 4 Argon GA entry is dated Oct 13, pre-cutoff; no later model release surfaced in the selected API release history.",
+      "classification": "no qualifying current-window model release surfaced",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "xAI",
+      "source_urls": [
+        "https://docs.x.ai/developers/release-notes",
+        "https://x.ai/api/changelog",
+        "https://x.ai/news"
+      ],
+      "last_relevant_visible_date": "2026-10-14",
+      "result": "Latest relevant selected release-note entries are Grok Voice 3.0 and Grok Voice 2.0 deprecation on Oct 14, a voice/API update, not a new foundation model; pre-cutoff.",
+      "classification": "voice/API update pre-cutoff",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "DeepSeek",
+      "source_urls": [
+        "https://api-docs.deepseek.com/updates/"
+      ],
+      "last_relevant_visible_date": "2026-10-17",
+      "result": "DeepSeek-V4.1-Flash-1017 and Search API entries dated Oct 17; pre-cutoff.",
+      "classification": "model/API update pre-cutoff",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Mistral",
+      "source_urls": [
+        "https://docs.mistral.ai/resources/changelogs"
+      ],
+      "last_relevant_visible_date": "2026-10-22",
+      "result": "Oct 22 Z.ai GLM 5.3 Flash availability and Oct 20 Voxtral 3 family public-preview release are listed; both precede previous cutoff.",
+      "classification": "hosted model releases pre-cutoff",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Cohere",
+      "source_urls": [
+        "https://docs.cohere.com/v2/changelog",
+        "https://cohere.com/blog"
+      ],
+      "last_relevant_visible_date": "2026-10-21",
+      "result": "Rerank 5 Pro and Fast release dated Oct 21; pre-cutoff. No newer qualifying model launch surfaced in selected history.",
+      "classification": "model release pre-cutoff",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Alibaba / Qwen",
+      "source_urls": [
+        "https://help.aliyun.com/en/model-studio/newly-released-models",
+        "https://help.aliyun.com/en/model-studio/model-release-notes",
+        "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1"
+      ],
+      "last_relevant_visible_date": "2026-10-24",
+      "result": "Model Studio table’s latest selected model release is MiniMax M3.1 Flash on Oct 21. Qwen Code v0.26.1 is an integration/tool update, not a foundation-model launch; date displayed without timezone.",
+      "classification": "model/tool updates pre-cutoff; no later model launch surfaced",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Moonshot AI / Kimi",
+      "source_urls": [
+        "https://www.kimi.com/en/blog/",
+        "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+        "https://platform.kimi.com/docs/guide/kimi-k3-1-pro-quickstart"
+      ],
+      "last_relevant_visible_date": "2026-10-24",
+      "result": "Kimi K3.1 Pro’s official article/index are dated Oct 24, with no time/TZ; that launch was covered in the preceding issue. This issue compares its first-party API identifier with Ark’s separate listing.",
+      "classification": "prior issue/background; date chronology unresolved",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Meta",
+      "source_urls": [
+        "https://ai.meta.com/blog/",
+        "https://dev.meta.ai/docs/models",
+        "https://dev.meta.ai/docs/pricing-rate-limits"
+      ],
+      "last_relevant_visible_date": "2026-07-09",
+      "result": "Selected Meta AI blog shows Muse Spark 1.1 dated July 9 as latest featured model release; no newer model/API update surfaced on checked pages.",
+      "classification": "no qualifying current-window model release surfaced",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "NVIDIA",
+      "source_urls": [
+        "https://nvidianews.nvidia.com/",
+        "https://developer.nvidia.com/blog/"
+      ],
+      "last_relevant_visible_date": "2026-10-23",
+      "result": "Recent Oct 21–23 posts surfaced were tooling, optimization, deployment, or application articles; no new foundation model in selected pages.",
+      "classification": "non-model AI/tooling material",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "MiniMax",
+      "source_urls": [
+        "https://ir.minimax.io/news-events/new-releases",
+        "https://www.minimax.io/blog"
+      ],
+      "last_relevant_visible_date": "2026-10-22",
+      "result": "MiniMax M3.1 Flash dated Oct 19; Oct 22 MiniMax Code Mini App is a product update, not a foundation model launch.",
+      "classification": "model/product updates pre-cutoff",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Z.ai",
+      "source_urls": [
+        "https://z.ai/blog",
+        "https://zcode.z.ai/en/changelog",
+        "https://docs.mistral.ai/resources/changelogs"
+      ],
+      "last_relevant_visible_date": "2026-10-23",
+      "result": "ZCode v3.16.3 dated Oct 23 contains desktop app features/fixes; GLM 5.3 Flash listing at Mistral is dated Oct 22. Both pre-cutoff; no newer model release surfaced.",
+      "classification": "desktop update and hosted model pre-cutoff",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Tencent",
+      "source_urls": [
+        "https://www.tencent.com/tencent-releases-and-opensources-tencent-hy4-preview/",
+        "https://www.tencent.com/tencent-hy3-now-available-globally-extending-practical-ai-across-products-workflows-and-cloud-services/",
+        "https://cloud.tencent.com/document/product/1729/97765"
+      ],
+      "last_relevant_visible_date": "2026-08-28",
+      "result": "Selected official release pages surfaced Hy4 preview dated Aug 28 as the latest relevant model announcement; no later launch surfaced in selected pages.",
+      "classification": "no qualifying current-window model release surfaced",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Baidu",
+      "source_urls": [
+        "https://cloud.baidu.com/support/ainews"
+      ],
+      "last_relevant_visible_date": "2026-10-19",
+      "result": "Latest surfaced selected feed item concerned TTS voice additions, not a foundation-model release.",
+      "classification": "voice feature; not model launch",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Amazon Bedrock / AWS",
+      "source_urls": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-ug-doc-history.html",
+        "https://aws.amazon.com/blogs/machine-learning/"
+      ],
+      "last_relevant_visible_date": "2026-10-22",
+      "result": "Oct 22 SageMaker serverless training-sessions GA post is model-customization infrastructure, not a newly released foundation model; no later model-serving release surfaced in selected histories.",
+      "classification": "infrastructure update, not model release",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Volcengine / Ark",
+      "source_urls": [
+        "https://console.volcengine.com/ark/region:cn-beijing/docs/model-release-announcement",
+        "https://console.volcengine.com/ark/region:cn-beijing/docs/model-list"
+      ],
+      "last_relevant_visible_date": "2026-10-25",
+      "result": "Release bulletin page updated Oct 24 labels Kimi K3.1 Pro as a new release with Ark ID kimi-k3-1-pro-261024; model list page updated Oct 25 shows the ID and capability/context details. Time/TZ absent from the bulletin; it cannot be sequenced against prior cutoff. Beijing-region docs only.",
+      "classification": "selected platform catalog/availability update; no independently verified price or global availability",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    },
+    {
+      "provider": "Model-serving hosts",
+      "source_urls": [
+        "https://openrouter.ai/blog/announcements/",
+        "https://www.together.ai/blog",
+        "https://fireworks.ai/blog?blogTypes=Announcement",
+        "https://huggingface.co/blog/",
+        "https://replicate.com/blog"
+      ],
+      "last_relevant_visible_date": "2026-10-14",
+      "result": "Selected host announcements surfaced no newer qualifying model serving update; OpenRouter visible dated entries through Oct 14. Bounded check only.",
+      "classification": "no qualifying current-window host announcement surfaced",
+      "checked_at": "2026-10-26T08:14:18+09:00"
+    }
+  ],
+  "scope_limits": [
+    "This is not a census of all AI announcements.",
+    "No qualifying new major model announcement surfaced in the selected histories after the prior issue cutoff; the statement is limited to the listed pages.",
+    "Ark date-only release-bulletin update cannot be ordered relative to previous issue cutoff.",
+    "Anthropic incidents are provider-recorded service errors, not independently measured failures or model-quality changes.",
+    "Ark catalog route is Beijing-region documentation and does not establish global/other-region availability.",
+    "Prices, licenses, regional terms and weights not shown in checked pages are not inferred."
+  ],
+  "no_global_absence_claim": true,
+  "primary_source_urls": [
+    "https://status.claude.com/",
+    "https://console.volcengine.com/ark/region:cn-beijing/docs/model-release-announcement",
+    "https://console.volcengine.com/ark/region:cn-beijing/docs/model-list"
+  ],
+  "no_secrets_or_local_paths": true,
+  "scheduled_target_cutoff_utc": "2026-10-25T23:00:00Z"
+}
