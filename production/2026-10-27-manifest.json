@@ -1,0 +1,78 @@
+{
+  "issue_id": "2026-10-27",
+  "issue_number": 10,
+  "issue_date": "2026-10-27",
+  "timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-27T08:00:00+09:00",
+  "research_cutoff": "2026-10-27T08:07:05+09:00",
+  "research_cutoff_utc": "2026-10-26T23:07:05Z",
+  "previous_issue_id": "2026-10-26",
+  "previous_issue_cutoff": "2026-10-26T08:14:18+09:00",
+  "idempotency": {
+    "same_day_record_count": 0,
+    "input_hash": "7684f2f906824ebd31d98e0ed78b4f1e2ae8947a16dabc3b2f0d4c8eefce0c74",
+    "same_day_duplicate_policy": "update this issue if new verified evidence; do not create a second row"
+  },
+  "selected_items": [
+    "OpenAI API changelog lists gpt-6.1-terra on Oct 26 (date-only; chronology vs prior cutoff unknown)",
+    "Google Gemini API changelog changes default request storage for new paid-tier Generate Content API projects on Oct 26 (date-only; chronology vs prior cutoff unknown)",
+    "NVIDIA Nemotron 3.5 Bolt E4B 4GB dated Oct 23, explicitly older context"
+  ],
+  "audio": {
+    "status": "available_locally",
+    "primary": "audio/2026-10-27.mp3",
+    "sha256": "964b9f785b1cd772c47d1a3056a7c032b558aabc791c6d3d9865569a64640c50",
+    "backup": "audio/2026-10-27-backup.mp3",
+    "backup_sha256": "964b9f785b1cd772c47d1a3056a7c032b558aabc791c6d3d9865569a64640c50",
+    "bytes": 1296908,
+    "codec": "mp3",
+    "bitrate_bps": 96024,
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "duration_seconds": 108.048,
+    "generated_at_jst": "2026-10-27T08:09+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "archive_sha256_expected": "c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7",
+    "archive_source": "https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "style": "normal",
+    "speed": "standard",
+    "synthesis_input_script_sha256": "d8cebe7ec3f8ce735bb189d8a2d5515e234c316606cf9904a7c83d25470dbb05",
+    "short_sample_full_decode": "passed",
+    "full_mp3_decode": "passed",
+    "human_listening_claimed": false
+  },
+  "checks": {
+    "research_scope": "bounded official pages; no global absence claim",
+    "same_day_index_check": "passed; no existing 2026-10-27 record",
+    "utterance_limit": "passed, all 23 utterances <=90 chars",
+    "short_sample": "passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode",
+    "full_mp3_decode": "passed; 24 kHz mono, ~96 kbps; primary and backup byte-identical",
+    "html_archive_qa": "passed by production/verify-issue-date.py: script/article/source agreement, current audio, broken local refs/anchors, old archive retention, root/dist sync",
+    "historical_preservation": "source and dist old editions/audio retained"
+  },
+  "publication": {
+    "status": "Site deployment succeeded; public content and HTTP headers could not be read back with the available fetch tool.",
+    "site_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site",
+    "site_version_number": 19,
+    "site_source_commit": "3a2a49469b61b7abd1c3550d0d7d2f31179cbcdb",
+    "deployment_id": "appgdep_6adfde9344c08191aea787e81ffcd781",
+    "deployment_status": "succeeded",
+    "public_readback": {
+      "status": "not_verified",
+      "checked_at_utc": "2026-10-26T23:13:45Z",
+      "checked_at_jst": "2026-10-27T08:13:45+09:00",
+      "attempts": [
+        "Sites deployment-status and saved-version APIs confirmed succeeded, version 19, public URL.",
+        "Web fetch attempts for homepage, issue page, primary MP3, and backup MP3 returned URL not accessible via this tool."
+      ],
+      "http_status_body_headers_and_public_hash": "not captured; no bypass attempted"
+    },
+    "mirror_note": "GitHub mirror publication is tracked separately."
+  }
+}

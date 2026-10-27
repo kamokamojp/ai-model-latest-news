@@ -1,0 +1,269 @@
+{
+  "issue_id": "2026-10-27",
+  "issue_number": 10,
+  "issue_date": "2026-10-27",
+  "timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-27T08:00:00+09:00",
+  "research_cutoff": "2026-10-27T08:07:05+09:00",
+  "research_cutoff_utc": "2026-10-26T23:07:05Z",
+  "previous_issue_id": "2026-10-26",
+  "previous_issue_cutoff": "2026-10-26T08:14:18+09:00",
+  "research_file": "../production/2026-10-27-research.json",
+  "max_characters_per_utterance": 90,
+  "utterance_count": 23,
+  "speaker_reference": {
+    "akari": {
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "gender": "female"
+    },
+    "naoto": {
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "gender": "male"
+    }
+  },
+  "style": "normal",
+  "speed": "standard",
+  "audio_status": "available",
+  "audio": {
+    "file": "../audio/2026-10-27.mp3",
+    "sha256": "964b9f785b1cd772c47d1a3056a7c032b558aabc791c6d3d9865569a64640c50",
+    "file_size_bytes": 1296908,
+    "codec": "mp3",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "bit_rate_bps": 96024,
+    "duration_seconds": 108.048,
+    "generated_at_jst": "2026-10-27T08:09+09:00",
+    "generated_at_time_precision": "approximate; local filesystem output timestamp to the minute",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "style": "normal",
+    "speed": "standard",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "synthesis_input_script_sha256": "d8cebe7ec3f8ce735bb189d8a2d5515e234c316606cf9904a7c83d25470dbb05",
+    "backup_file": "../audio/2026-10-27-backup.mp3",
+    "backup_sha256": "964b9f785b1cd772c47d1a3056a7c032b558aabc791c6d3d9865569a64640c50",
+    "public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-27.mp3",
+    "backup_public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-27-backup.mp3",
+    "full_ffmpeg_decode": "passed",
+    "short_sample_full_decode": "passed",
+    "human_listening_claimed": false,
+    "backup_status": "available"
+  },
+  "utterances": [
+    {
+      "order": 1,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第10号です。",
+      "characters": 26
+    },
+    {
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "2026年10月27日の確認号。基準時は午前8時7分5秒です。",
+      "characters": 31
+    },
+    {
+      "order": 3,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "前号からの変化を、一次資料の日付と条件に分けて読みます。",
+      "characters": 28
+    },
+    {
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "OpenAIの資料には、GPT-6.1 Terraが10月26日付で掲載されました。",
+      "characters": 42
+    },
+    {
+      "order": 5,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "APIのモデルIDは、gpt-6.1-terraです。",
+      "characters": 27
+    },
+    {
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "ResponsesとChat CompletionsのAPIに対応と記載されています。",
+      "characters": 43
+    },
+    {
+      "order": 7,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "文脈窓は105万トークン、最大出力は12万8千トークン。",
+      "characters": 28
+    },
+    {
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "標準料金は100万トークン当たり、入力1ドル、出力5ドルです。",
+      "characters": 31
+    },
+    {
+      "order": 9,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "キャッシュ入力は5セント、30分の書き込みは1ドル25セント。",
+      "characters": 31
+    },
+    {
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "272K超の入力など、利用条件で価格が変わる点に注意です。",
+      "characters": 29
+    },
+    {
+      "order": 11,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "10月26日は日付のみ。前号締め切りの後かは判断できません。",
+      "characters": 30
+    },
+    {
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "次はGoogle。新しい有料プロジェクトのリクエスト保存が既定でオンに。",
+      "characters": 36
+    },
+    {
+      "order": 13,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "対象はGenerate Content APIの三つの呼び出し方法です。",
+      "characters": 36
+    },
+    {
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "既存プロジェクトの設定は変更されず、個別に保存を止められます。",
+      "characters": 31
+    },
+    {
+      "order": 15,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "AI Studioの設定から、ログ保存自体をオフにする方法もあります。",
+      "characters": 35
+    },
+    {
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "保存オンでも、ログが自動でGoogleへ共有されるという意味ではありません。",
+      "characters": 38
+    },
+    {
+      "order": 17,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "方針ページは、Googleとの共有は利用者が選ぶと説明しています。",
+      "characters": 33
+    },
+    {
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "この変更も10月26日付のみで、時刻とタイムゾーンは記載なし。",
+      "characters": 31
+    },
+    {
+      "order": 19,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "補足は10月23日付のNVIDIA Nemotron Bolt E4B 4GB。",
+      "characters": 40
+    },
+    {
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "モデル利用はOpenMDW 1.1、APIはNVIDIAの試用条件が適用です。",
+      "characters": 39
+    },
+    {
+      "order": 21,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "Apache 2.0は追加情報。利用方法ごとの条件確認が必要です。",
+      "characters": 33
+    },
+    {
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "各社の選定した公式資料を確認しましたが、全発表の網羅ではありません。",
+      "characters": 34
+    },
+    {
+      "order": 23,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "以上、第10号でした。日付、モデルID、保存とライセンス条件をご確認ください。",
+      "characters": 39
+    }
+  ],
+  "synthesis_input_script_sha256": "d8cebe7ec3f8ce735bb189d8a2d5515e234c316606cf9904a7c83d25470dbb05",
+  "input_hash": "7684f2f906824ebd31d98e0ed78b4f1e2ae8947a16dabc3b2f0d4c8eefce0c74"
+}
