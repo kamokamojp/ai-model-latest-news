@@ -1,0 +1,43 @@
+{
+  "issue_id": "2026-10-28",
+  "issue_number": 11,
+  "issue_date": "2026-10-28",
+  "timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-28T08:00:00+09:00",
+  "research_cutoff": "2026-10-28T08:04:15+09:00",
+  "research_cutoff_utc": "2026-10-27T23:04:15Z",
+  "previous_issue_id": "2026-10-27",
+  "previous_issue_cutoff": "2026-10-27T08:07:05+09:00",
+  "idempotency": {
+    "same_day_record_count": 0,
+    "input_hash": "402818bce23a05138f00d8b5f6ef9de2441cf871789e96fc0397a9052d412d46",
+    "same_day_duplicate_policy": "update the dated issue/index record if new verified evidence; do not add duplicate row"
+  },
+  "selected_items": [
+    "GPT-6.1 Terra",
+    "DeepSeek-V4.1-Flash-1017 update",
+    "Rerank 5 models",
+    "Voxtral 3 audio family"
+  ],
+  "audio": {
+    "status": "pending",
+    "file": null,
+    "backup": null,
+    "note": "No new audio was generated; audio is pending and no earlier issue MP3 was reused."
+  },
+  "checks": {
+    "script_utterance_limit": "passed",
+    "speaker_ids": "passed: akari 10005, naoto 10001",
+    "audio": "pending; no MP3 references"
+  },
+  "publication": {
+    "status": "Sites deployment succeeded; public content readback not verified.",
+    "site_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site",
+    "site_version_number": 22,
+    "deployment_status": "succeeded",
+    "public_readback": {
+      "status": "not_verified",
+      "http_status_body_headers_and_audio_hash": "not captured"
+    }
+  }
+}

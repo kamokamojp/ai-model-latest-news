@@ -1,0 +1,195 @@
+{
+  "issue_id": "2026-10-28",
+  "issue_number": 11,
+  "issue_date": "2026-10-28",
+  "timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-28T08:00:00+09:00",
+  "research_cutoff": "2026-10-28T08:04:15+09:00",
+  "research_cutoff_utc": "2026-10-27T23:04:15Z",
+  "previous_issue_id": "2026-10-27",
+  "previous_issue_cutoff": "2026-10-27T08:07:05+09:00",
+  "research_file": "../production/2026-10-28-research.json",
+  "max_characters_per_utterance": 90,
+  "utterance_count": 18,
+  "speaker_reference": {
+    "akari": {
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "gender": "female"
+    },
+    "naoto": {
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "gender": "male"
+    }
+  },
+  "style": "normal",
+  "speed": "standard",
+  "audio_status": "pending",
+  "audio": null,
+  "utterances": [
+    {
+      "order": 1,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "おはようございます。十月二十八日、水曜日のAIモデル最新情報ラジオです。",
+      "characters": 36
+    },
+    {
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "前号基準時から後と確認できる新モデル発表は見つかっていません。",
+      "characters": 31
+    },
+    {
+      "order": 3,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "以下は以前の日付の公式更新を、背景情報としてまとめます。",
+      "characters": 28
+    },
+    {
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "視覚的な理解とコンピューター操作を重視したモデルで、API名は gpt-6.1-terra です。",
+      "characters": 49
+    },
+    {
+      "order": 5,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "標準API価格は、入力が百万トークンあたり一ドル、出力が五ドル。",
+      "characters": 32
+    },
+    {
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "キャッシュ入力は〇・〇五ドルです。発表では前世代より操作性能などが向上したと説明しています。",
+      "characters": 46
+    },
+    {
+      "order": 7,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "ただし、そこで示されたベンチマークはOpenAI自身の評価です。利用条件も確認しましょう。",
+      "characters": 45
+    },
+    {
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "ChatGPT WorkとCodexでは、Plus、Pro、Enterprise、Edu向けに提供と案内されています。",
+      "characters": 59
+    },
+    {
+      "order": 9,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "次はDeepSeek。十月十七日、V4.1 Flashを「1017」版へ更新しました。",
+      "characters": 43
+    },
+    {
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "APIでは従来の deepseek-flash を指定。公式告知では料金も変更なしです。",
+      "characters": 44
+    },
+    {
+      "order": 11,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "Cohereは二十一日に、文書検索向けのRerank 5を発表しました。",
+      "characters": 36
+    },
+    {
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "高品質版と高速版があり、百を超える言語と三万二千トークンの文脈に対応します。",
+      "characters": 38
+    },
+    {
+      "order": 13,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "関連箇所を同時に返すContext Focusも用意。対応先はAPIやFoundryなどです。",
+      "characters": 47
+    },
+    {
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "Mistralは二十日、音声モデルのVoxtral 3を四種、Public Previewとして公開しました。",
+      "characters": 55
+    },
+    {
+      "order": 15,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "音声合成や文字起こし、話者分離、リアルタイム文字起こしをカバーします。",
+      "characters": 35
+    },
+    {
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "各社の評価値は、測定条件を見て判断を。最後は自分の用途で試すのが確実です。",
+      "characters": 37
+    },
+    {
+      "order": 17,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "以上、十月二十八日朝のAIモデル最新情報でした。",
+      "characters": 24
+    },
+    {
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "今日もよい一日を。また次回お会いしましょう。",
+      "characters": 22
+    }
+  ],
+  "input_hash": "402818bce23a05138f00d8b5f6ef9de2441cf871789e96fc0397a9052d412d46"
+}
