@@ -1,0 +1,232 @@
+{
+  "issue_id": "2026-10-22",
+  "issue_number": 5,
+  "timezone": "Asia/Tokyo",
+  "edition_date_jst": "2026-10-22",
+  "research_cutoff": "2026-10-22T08:54:52+09:00",
+  "research_method": "Official provider release/news/changelog/API/pricing/model documentation checked; dates copied as displayed. When publication time/timezone is absent, neither is inferred. Findings are limited to the listed pages and are not a claim that no announcements exist elsewhere.",
+  "scope_checked": [
+    "OpenAI",
+    "Google Cloud",
+    "Google DeepMind",
+    "Anthropic",
+    "xAI",
+    "DeepSeek",
+    "Mistral AI",
+    "Cohere",
+    "ElevenLabs"
+  ],
+  "input_status": {
+    "existing_index_latest_issue_before_edit": "2026-10-21",
+    "issue_id_already_present": false,
+    "action": "new issue record; do not overwrite prior editions"
+  },
+  "commercial_and_api_notes": {
+    "google_cloud_model_garden": {
+      "model_names_as_google_prints": [
+        "GPT-Astra",
+        "GPT-6.1 Sol",
+        "GPT-6 Luna"
+      ],
+      "availability": "private preview rolling out to select enterprise customers",
+      "api_endpoint_or_model_ids": "not stated in checked announcement",
+      "regions": "not stated in checked announcement",
+      "preview_rate_limits": "not stated in checked announcement",
+      "model_garden_price_or_unit": "not stated in checked announcement or checked pricing reference",
+      "transaction": "Google Cloud Marketplace; OpenAI and Google say existing GCP spend commitments can be drawn down; Google says no separate vendor contracts, subject to underlying terms not detailed in announcement",
+      "license_or_weights": "not stated in checked announcement",
+      "security_claims": "Google says prompts/context/outputs remain in a designated data perimeter and are not used to train foundation models; ZDR and Confidential Compute are described as coming soon. These are provider statements."
+    },
+    "direct_openai_api_separate_channel": {
+      "model_ids": {
+        "GPT-6 Astra": "gpt-6-astra",
+        "GPT-6.1 Sol": "gpt-6.1-sol",
+        "GPT-6 Luna": "gpt-6-luna"
+      },
+      "price_unit": "USD per 1 million input/output tokens as listed in OpenAI direct API model catalog",
+      "prices": {
+        "gpt-6-astra": {
+          "input_usd_per_million_tokens": 10,
+          "output_usd_per_million_tokens": 50
+        },
+        "gpt-6.1-sol": {
+          "input_usd_per_million_tokens": 2,
+          "output_usd_per_million_tokens": 10
+        },
+        "gpt-6-luna": {
+          "input_usd_per_million_tokens": 0.1,
+          "output_usd_per_million_tokens": 0.5
+        }
+      },
+      "rate_limits": "tiered by usage level on the direct API docs; these are not Google Cloud Model Garden quotas",
+      "important_caveat": "Do not transfer direct OpenAI API IDs, prices, or limits to the Google Cloud preview."
+    },
+    "elevenlabs_realtime_translation": {
+      "availability": "alpha for ElevenAPI enterprise customers, as announced",
+      "price": "not stated in checked announcement",
+      "regions": "not stated in checked announcement",
+      "model_id_or_rate_limits": "not stated in checked announcement",
+      "performance": "language/latency/capability figures are vendor claims; no independent evaluation was checked"
+    }
+  },
+  "items": [
+    {
+      "company": "OpenAI",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "publication_date": "2026-10-21",
+      "publication_time_or_timezone": "not stated",
+      "checked_on": "2026-10-22",
+      "notes": "OpenAI says Google Cloud Model Garden access is planned; purchases via Google Cloud Marketplace and existing GCP spend commitments may be used. Page says general availability is expected in the coming weeks. No exact publish time or timezone."
+    },
+    {
+      "company": "Google Cloud",
+      "title": "Google Cloud brings OpenAI models to customers",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+      "publication_date": "2026-10-21",
+      "publication_time_or_timezone": "not stated",
+      "checked_on": "2026-10-22",
+      "notes": "Google lists GPT-Astra, GPT-6.1 Sol, GPT-6 Luna as rolling out in private preview to select enterprise customers; API access and local Codex CLI/Desktop integration with Gemini platform; Marketplace billing, GCP commitment drawdown/Flexible Savings Plans. Google states dedicated Cloud infrastructure and data-perimeter/no-training controls; ZDR and Confidential Compute coming soon. Specific Model Garden API IDs/endpoints, per-model prices/units, rate limits, available regions, exact preview expansion and license/weight terms are not provided in this announcement. Company statements are not independent verification."
+    },
+    {
+      "company": "OpenAI API",
+      "title": "Models catalog, direct OpenAI API route",
+      "url": "https://developers.openai.com/api/docs/models",
+      "publication_date": null,
+      "publication_time_or_timezone": "not stated",
+      "checked_on": "2026-10-22",
+      "notes": "Direct OpenAI API catalog lists GPT-6 Astra / gpt-6-astra at $10 input and $50 output per 1M tokens; GPT-6.1 Sol / gpt-6.1-sol at $2/$10 per 1M tokens; GPT-6 Luna / gpt-6-luna at $0.10/$0.50 per 1M tokens. These are direct OpenAI API prices and IDs, not evidence of Google Cloud Model Garden endpoint IDs or preview pricing. Direct API rate limits vary by usage tier."
+    },
+    {
+      "company": "OpenAI API",
+      "title": "API changelog",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "publication_date": "2026-10-21 (service-tier feature); 2026-10-20 (12-hour cache feature)",
+      "publication_time_or_timezone": "not stated",
+      "checked_on": "2026-10-22",
+      "notes": "Oct 21: projects can choose allowed service tiers, with organization settings able to restrict tiers across projects. Oct 20: optional 12-hour prompt caching in Responses API; cache writes cost 2.5x the input token price. These are API feature updates, not a model launch."
+    },
+    {
+      "company": "ElevenLabs",
+      "title": "Talk to anyone, in any language, in realtime",
+      "url": "https://elevenlabs.io/blog/realtime-translation",
+      "publication_date": "2026-10-21",
+      "publication_time_or_timezone": "not stated",
+      "checked_on": "2026-10-22",
+      "notes": "Eleven Realtime Translation live voice translation model is announced in alpha for ElevenAPI enterprise customers. Company says it uses Eleven v4 Turbo by default and describes 90+ languages / automatic language detection / 17,500+ voices; these are vendor claims. Announcement does not list public price, regional availability, rate limits, or a stable model ID/endpoint in the checked page."
+    },
+    {
+      "company": "Anthropic",
+      "title": "Models news page reviewed",
+      "url": "https://www.anthropic.com/news/models",
+      "publication_date": "latest listed: Haiku 5.5 2026-10-07; Sonnet 5.5 2026-09-28; Opus 5.5 2026-09-22",
+      "publication_time_or_timezone": "dates only; no time or timezone shown",
+      "checked_on": "2026-10-22",
+      "notes": "Official model news listing reviewed. This describes the latest items visible on this page only; no global no-announcement claim."
+    },
+    {
+      "company": "xAI",
+      "title": "Official news page reviewed",
+      "url": "https://x.ai/news",
+      "publication_date": "latest model-specific visible: Grok Voice 3.0 2026-10-14; Grok 4.7 2026-09-21",
+      "publication_time_or_timezone": "dates only; no time or timezone shown",
+      "checked_on": "2026-10-22",
+      "notes": "Visible Oct 20 item concerns Grok Bot incident response, not a model launch. Findings are scoped to the page reviewed."
+    },
+    {
+      "company": "DeepSeek",
+      "title": "API updates reviewed",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "publication_date": "latest visible: 2026-10-17",
+      "publication_time_or_timezone": "date only; no time or timezone shown",
+      "checked_on": "2026-10-22",
+      "notes": "Oct 17 page entry describes Search & Fetch API and DeepSeek-V4.1-Flash-1017; API calling method and pricing stated unchanged, with deepseek-flash alias. Benchmark and performance assertions are DeepSeek's own claims, not independent results."
+    },
+    {
+      "company": "Mistral AI",
+      "title": "Official news page reviewed",
+      "url": "https://mistral.ai/news/",
+      "publication_date": "latest visible model release: Voxtral 3 2026-10-20",
+      "publication_time_or_timezone": "date only; no time or timezone shown",
+      "checked_on": "2026-10-22",
+      "notes": "Mistral's current news page reviewed; Voxtral 3 is the latest visible model-related release and was covered in the prior Oct 21 issue. No new model launch identified in the page checked."
+    },
+    {
+      "company": "Cohere",
+      "title": "Release notes reviewed",
+      "url": "https://docs.cohere.com/v2/changelog",
+      "publication_date": "latest visible entry: Rerank 5 2026-10-21",
+      "publication_time_or_timezone": "date only; no time or timezone shown",
+      "checked_on": "2026-10-22",
+      "notes": "Rerank 5 Pro/Fast remains the latest visible release-note entry and was covered in the prior Oct 21 issue. No additional Oct 22 item on the checked page."
+    },
+    {
+      "company": "Google Cloud",
+      "title": "Vertex AI pricing reference reviewed",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/pricing?hl=en",
+      "publication_date": null,
+      "publication_time_or_timezone": "not applicable",
+      "checked_on": "2026-10-22",
+      "notes": "Official general Vertex AI pricing reference reviewed to distinguish pricing from the OpenAI private preview announcement; it does not provide a model-specific OpenAI Model Garden price in the checked content. Do not infer an exact price or unit for the preview."
+    },
+    {
+      "company": "Google DeepMind",
+      "title": "Gemini model catalog reviewed",
+      "url": "https://deepmind.google/models/gemini/",
+      "publication_date": null,
+      "publication_time_or_timezone": "not applicable",
+      "checked_on": "2026-10-22",
+      "notes": "Official model catalog reviewed for a separate Google model launch; this issue's new Google-related item is OpenAI model serving via Google Cloud, not a claimed new Google model release."
+    }
+  ],
+  "primary_sources": [
+    {
+      "company": "OpenAI",
+      "url": "https://openai.com/index/openai-models-google-cloud/"
+    },
+    {
+      "company": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
+    },
+    {
+      "company": "OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models"
+    },
+    {
+      "company": "OpenAI API",
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "company": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/realtime-translation"
+    },
+    {
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/models"
+    },
+    {
+      "company": "xAI",
+      "url": "https://x.ai/news"
+    },
+    {
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/"
+    },
+    {
+      "company": "Cohere",
+      "url": "https://docs.cohere.com/v2/changelog"
+    },
+    {
+      "company": "Google Cloud",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/pricing?hl=en"
+    },
+    {
+      "company": "Google DeepMind",
+      "url": "https://deepmind.google/models/gemini/"
+    }
+  ]
+}

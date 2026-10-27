@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="AIモデル最新情報 第1回。2026年10月17日時点の主要AIモデル、開発ツール、エージェント実行環境を一次資料で読み解きます。">
+  <title>AIモデル最新情報 — 第1回</title>
+  <style>
+:root {
+  --paper: #f4f0e7;
+  --ink: #1d2928;
+  --muted: #58615c;
+  --line: #c7c4b9;
+  --accent: #d45e43;
+  --blue: #94b6ae;
+  --display: Georgia, 'Times New Roman', serif;
+  --sans: 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: var(--paper); }
+body { margin: 0; color: var(--ink); font-family: var(--sans); line-height: 1.75; background: var(--paper); }
+a { color: inherit; text-underline-offset: .2em; }
+a:hover { color: var(--accent); }
+a:focus-visible, button:focus-visible { outline: 3px solid #226b62; outline-offset: 4px; }
+.skip-link { position: absolute; top: -4rem; left: 1rem; z-index: 5; padding: .6rem .9rem; background: var(--ink); color: white; }
+.skip-link:focus { top: 1rem; }
+.masthead { border-bottom: 1px solid var(--line); }
+.masthead-inner { max-width: 1240px; min-height: 84px; padding: 12px 30px; margin: auto; display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+.brand { color: var(--ink); font: 700 1rem/1.02 var(--sans); letter-spacing: .08em; text-decoration: none; }
+.brand span { color: var(--accent); }
+.masthead-meta { display: flex; gap: 28px; color: var(--muted); font: 600 .68rem/1.4 var(--sans); letter-spacing: .12em; }
+.top-link, .issue-bar a, .footer a { min-height: 44px; display: inline-flex; align-items: center; font-size: .78rem; font-weight: 700; text-decoration: none; }
+.cover { max-width: 1240px; margin: auto; padding: 34px 30px 20px; }
+.cover-kicker, .cover-foot { display: flex; justify-content: space-between; gap: 16px; color: var(--muted); font-size: .7rem; letter-spacing: .13em; font-weight: 700; text-transform: uppercase; }
+.cover-grid { min-height: 0; display: grid; grid-template-columns: 1fr; align-items: center; gap: 0; }
+.cover-copy { padding: 40px 0 55px; }
+.eyebrow { margin: 0 0 14px; color: var(--accent); font-size: .69rem; font-weight: 800; letter-spacing: .17em; }
+h1, h2, h3, p { margin-top: 0; }
+h1 { margin-bottom: 24px; font: 500 clamp(3.3rem, 7.8vw, 6.8rem)/.98 var(--display); letter-spacing: -.055em; }
+h1 em { color: var(--accent); font-weight: 400; }
+.dek { max-width: 480px; margin-bottom: 28px; color: #414d49; font-size: clamp(1rem, 1.7vw, 1.22rem); line-height: 1.85; }
+.button-link { min-height: 44px; display: inline-flex; align-items: center; gap: 30px; padding: 12px 16px; color: var(--paper); background: var(--ink); font-weight: 700; font-size: .82rem; text-decoration: none; }
+.button-link:hover { background: var(--accent); color: white; }
+.cover-art { margin: 0; width: 100%; min-height: 0; position: relative; overflow: hidden; background: #203432; }
+.host-hero { max-width: 920px; margin: 18px auto 14px; }
+.cover-art img { display: block; width: 100%; height: auto; object-fit: contain; }
+.host-caption { margin-top: 0; padding: 8px 10px; background: var(--paper); color: var(--ink); font-size: .8rem; line-height: 1.6; }
+.cover-foot { padding-top: 14px; border-top: 1px solid var(--line); }
+.issue-bar { max-width: 1240px; margin: 32px auto 88px; padding: 19px 30px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.issue-bar > div { display: flex; align-items: center; gap: 16px; }.issue-label { color: var(--accent); font-size: .64rem; font-weight: 800; letter-spacing: .14em; }.issue-bar strong { font-size: .96rem; }.issue-bar p { margin: 0; color: var(--muted); font-size: .85rem; }.issue-bar p span { padding: 0 7px; color: var(--accent); }
+.archive { max-width: 1240px; margin: 0 auto 88px; padding: 0 30px; scroll-margin-top: 24px; }
+.archive-heading { margin-bottom: 22px; }
+.archive-heading h2 { margin: 0 0 10px; font: 500 clamp(1.9rem, 4vw, 2.8rem)/1.15 var(--display); }
+.archive-heading > p:last-child { margin: 0; color: var(--muted); font-size: .88rem; }
+.issue-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+.issue-card { padding: 22px 0; display: grid; grid-template-columns: minmax(180px, .7fr) minmax(240px, 1.3fr) auto; align-items: center; gap: 16px 24px; border-bottom: 1px solid var(--line); }
+.issue-card-meta { display: grid; gap: 5px; color: var(--muted); font-size: .76rem; }
+.issue-card-meta span { color: var(--accent); font-weight: 800; letter-spacing: .12em; }
+.issue-card h3 { margin: 0; font: 600 1rem/1.45 var(--sans); }
+.issue-card-links { display: flex; flex-wrap: wrap; gap: 10px 18px; }
+.issue-card-links a { min-height: 44px; display: inline-flex; align-items: center; color: var(--accent); font-size: .8rem; font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.issue-card-links a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.article { max-width: 1050px; margin: 0 auto 110px; padding: 0 30px; }
+.article-heading { max-width: 780px; margin: 0 auto 52px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+.article-heading h2 { margin: 0 0 18px; font: 500 clamp(2.6rem, 6vw, 4.7rem)/1.09 var(--display); letter-spacing: -.04em; }
+.article-meta { margin: 0; color: var(--muted); font-size: .76rem; }
+.article-body { max-width: 680px; margin: auto; font-size: 1.125rem; line-height: 1.9; }
+.article-body p { margin-bottom: 1.55em; }
+.lead { font-size: 1.21rem; line-height: 1.95; font-weight: 600; }
+.fact-strip { margin: 38px 0 55px; padding: 19px 22px; display: grid; grid-template-columns: 150px 1fr; gap: 18px; border-left: 4px solid var(--accent); background: #e9e5da; font-size: .87rem; }
+.fact-strip strong { color: var(--accent); }
+.story-section { margin: 0 0 74px; scroll-margin-top: 24px; }
+.section-number { margin-bottom: 8px !important; color: var(--accent); font-size: .66rem; font-weight: 800; letter-spacing: .16em; }
+.topic-heading { margin: 28px 0 11px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--ink); font-size: 1.08rem; font-weight: 800; line-height: 1.45; }
+.story-section h3 { margin-bottom: 18px; font: 500 clamp(1.8rem, 4vw, 2.8rem)/1.2 var(--display); letter-spacing: -.025em; }
+.story-section p { color: #263530; }
+.key-point { margin: 0 0 26px !important; padding: 13px 16px; border-left: 3px solid var(--accent); background: #e9e5da; color: #263530 !important; font-size: .98rem; font-weight: 700; line-height: 1.75; }
+.article-toc { margin: 34px 0 48px; padding: 20px 24px; border: 1px solid var(--line); background: #eeeae0; }
+.article-toc strong { display: block; margin-bottom: 10px; font-size: 1rem; }
+.article-toc ol { margin: 0; padding-left: 1.4em; columns: 2; }
+.article-toc li { padding: 3px 0; font-size: .95rem; }
+.article-toc a { text-decoration-thickness: 1px; text-underline-offset: .2em; }
+.cite { margin-left: .15em; color: #a44530; font-size: .78em; font-weight: 800; text-decoration: none; }
+.callout { margin-top: 28px; padding: 18px 22px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-weight: 600; }
+.callout span { display: block; margin-bottom: 5px; color: var(--accent); font-size: .66rem; letter-spacing: .14em; }
+.summary { padding: 24px 26px 12px; background: #e5e8df; }
+.radio { margin: 24px 0 20px; padding: 20px; border: 1px solid var(--line); background: #203432; color: var(--paper); }
+.radio-head, .sources-head { display: flex; align-items: end; justify-content: space-between; gap: 30px; }
+.radio h2, .sources h2 { margin: 0; font: 500 clamp(2.3rem, 4.5vw, 3.4rem)/1.1 var(--display); letter-spacing: -.03em; }
+.radio .eyebrow { color: #ed987d; }
+.duration { padding-bottom: 6px; color: #c8d1ca; font-size: .82rem; }
+.audio-status { margin: 14px 0 12px; padding: 16px 18px; display: flex; gap: 14px; align-items: flex-start; border: 1px solid rgba(244,240,231,.25); background: rgba(255,255,255,.04); }
+.audio-status p { margin: 0; color: #e0e4db; font-size: .86rem; }.audio-status strong { color: white; }.status-dot { flex: 0 0 9px; height: 9px; margin-top: 8px; border-radius: 50%; background: #e6a06e; }
+.audio-status.is-live .status-dot { background: #76c89a; }
+.audio-player { margin: 12px 0 18px; }
+.audio-player audio { display: block; width: 100%; max-width: 680px; min-width: 0; }
+.audio-download { min-height: 44px; display: inline-flex; align-items: center; margin-top: 11px; color: #f2a68d; font-size: .8rem; font-weight: 700; }
+.radio-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.control-button { min-height: 44px; padding: 10px 15px; border: 1px solid var(--paper); background: var(--paper); color: var(--ink); font: 700 .82rem var(--sans); cursor: pointer; }
+.control-button.secondary { background: transparent; color: var(--paper); }.control-button:hover { background: var(--accent); border-color: var(--accent); color: white; }
+.script-panel { margin-top: 28px; padding: 25px; background: #f4f0e7; color: var(--ink); }.script-line { display: grid; grid-template-columns: 130px 1fr; gap: 16px; padding: 14px 0; border-bottom: 1px solid #d4d0c4; }.script-line:last-child { border-bottom: 0; }.script-line p { margin: 0; font-size: .9rem; }.speaker { font-weight: 800; font-size: .8rem; }.speaker.akari { color: #a44530; }.speaker.naoto { color: #356b68; }
+.sources { max-width: 1110px; margin: auto; padding: 85px 30px 70px; }.sources-head { margin-bottom: 30px; }.sources-head > p { max-width: 350px; margin: 0; color: var(--muted); font-size: .8rem; }.sources .eyebrow { margin-bottom: 8px; }
+.source-list { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 0 34px; padding: 0; list-style: none; border-top: 1px solid var(--line); }.source-list li { min-width: 0; padding: 15px 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 130px 1fr; align-items: baseline; column-gap: 10px; }.source-list li span { color: var(--accent); font-size: .7rem; font-weight: 800; }.source-list li a { font-size: .82rem; font-weight: 700; }.source-list li small { grid-column: 2; margin-top: 3px; color: var(--muted); font-size: .7rem; line-height: 1.5; }
+.method-note { margin: 22px 0 0; color: var(--muted); font-size: .76rem; }
+.footer { min-height: 88px; padding: 20px 30px; display: flex; justify-content: space-between; align-items: center; gap: 16px; border-top: 1px solid var(--line); }.footer p { margin: 0; color: var(--muted); font-size: .72rem; }.footer-brand { font: 700 .85rem var(--sans); letter-spacing: .08em; }.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+@media (max-width: 760px) {
+  .masthead-inner { min-height: 72px; padding: 12px 18px; }.masthead-meta { display: grid; gap: 3px; font-size: .58rem; }.top-link { font-size: .7rem; }
+  .cover { padding: 25px 18px 16px; }.cover-grid { min-height: auto; grid-template-columns: 1fr; gap: 0; }.cover-copy { padding: 44px 0 32px; }.cover-art { min-height: 0; }.cover-kicker, .cover-foot { font-size: .58rem; letter-spacing: .08em; }
+  .issue-bar { margin: 20px 18px 65px; padding: 16px 0; flex-wrap: wrap; }.issue-bar > div { width: 100%; justify-content: space-between; }.issue-bar p { font-size: .76rem; }
+  .archive { margin: 0 18px 65px; padding: 0; }.issue-card { grid-template-columns: 1fr; gap: 9px; padding: 18px 0; }.issue-card-links { gap: 10px 16px; }
+  .article { margin-bottom: 75px; padding: 0 18px; }.article-heading { margin-bottom: 34px; }.article-heading h2 { font-size: clamp(2.3rem, 11vw, 3.5rem); }.mobile-break { display: none; }.article-body { max-width: 100%; font-size: 1.08rem; line-height: 1.9; }.lead { font-size: 1.08rem; }.fact-strip { grid-template-columns: 1fr; gap: 4px; margin: 28px 0 42px; padding: 16px; }.story-section { margin-bottom: 56px; }.article-toc { padding: 16px; }.article-toc ol { columns: 1; }.key-point { font-size: .96rem; }.radio { margin: 20px 0 18px; padding: 16px; }.radio h2 { font-size: 1.8rem; }
+  .radio { padding: 16px; }.radio-head { display: block; }.duration { display: block; margin-top: 16px; }.script-panel { padding: 14px; }.script-line { grid-template-columns: 1fr; gap: 3px; padding: 12px 0; }
+  .sources { padding: 60px 18px 50px; }.sources-head { display: block; }.sources-head > p { margin-top: 16px; }.source-list { grid-template-columns: 1fr; }.source-list li { grid-template-columns: 90px 1fr; }.source-list li small { grid-column: 2; }
+  .footer { padding: 20px 18px; flex-wrap: wrap; }.footer p { order: 3; width: 100%; }
+}
+@media (max-width: 360px) { .top-link { display: none; }.masthead-meta { margin-left: auto; }.cover-kicker { gap: 7px; }.cover-kicker span:last-child { text-align: right; }.issue-bar > div { align-items: flex-start; gap: 8px; }.issue-label { max-width: 100px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
+
+.listen { margin: 14px 0 18px; padding: 12px 14px; border: 1px solid var(--line); background: #203432; color: var(--paper); }
+.listen-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.listen h2 { margin: 0; font: 600 1.15rem/1.25 var(--sans); }
+.listen .duration { padding: 0; color: #d6ded5; font-size: .76rem; }
+.listen .audio-player { margin: 8px 0 4px; }
+.listen .audio-status { margin: 4px 0 0; padding: 9px 11px; font-size: .78rem; }
+.listen .audio-status p { font-size: .78rem; line-height: 1.5; }
+@media (max-width: 760px) { .listen { margin: 12px 0 16px; padding: 10px 12px; }.listen-heading { align-items: start; flex-direction: column; gap: 3px; }.listen h2 { font-size: 1.05rem; }.listen .audio-status { padding: 8px 10px; } }
+</style>
+
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="brand" href="#top" aria-label="AIモデル最新情報 トップ">AI<span>モデル</span><br>最新情報</a>
+      <div class="masthead-meta"><span>MODEL WATCH / JAPAN</span><span>初回配信 · 2026.10.17</span></div>
+      <a class="top-link" href="#sources">一次資料 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="cover" id="top" aria-labelledby="cover-title">
+      <div class="cover-kicker"><span>ISSUE 001</span><span>基準日時 2026-10-17 06:00 UTC</span></div>
+<figure class="cover-art host-hero"><img src="assets/ai-model-radio-hosts.png" width="1672" height="941" alt="AI生成の架空の司会者、水野あかりと高瀬直人が並ぶ「AIモデル最新情報ラジオ」のスタジオ画像"><figcaption class="host-caption">AI生成の架空の司会者：水野あかり・高瀬直人</figcaption></figure>
+      <section class="listen" id="listen" aria-labelledby="listen-title">
+      <div class="listen-heading"><h2 id="listen-title">第1回を聴く</h2><span class="duration">約4分24秒 · 水野あかり × 高瀬直人</span></div>
+      <div class="audio-player">
+        <audio controls preload="metadata" playsinline aria-label="AIモデル最新情報 第1回の音声版">
+          <source src="audio/episode-001.mp3?v=db92e7b02ebd" type="audio/mpeg">
+          このブラウザーはMP3再生に対応していません。<a href="audio/episode-001.mp3?v=db92e7b02ebd" download>MP3をダウンロード</a>してください。
+        </audio>
+        <a class="audio-download" href="audio/episode-001.mp3?v=db92e7b02ebd" download>MP3をダウンロード</a>
+      </div>
+      <div class="audio-status is-live" role="status"><span class="status-dot" aria-hidden="true"></span><p><strong>第1回の音声版を公開しています。</strong>司会者は架空の人物です。音声はVOICEVOX Nemo（女声1・男声1）で生成しました。</p></div>
+    </section>
+      <div class="cover-grid">
+        <div class="cover-copy">
+          <p class="eyebrow">モデルの先にある、仕事を動かす仕組み</p>
+          <h1 id="cover-title">AIモデルの<br><em>「その先」</em>を読む。</h1>
+          <p class="dek">新モデルの性能だけを追う時代から、道具を使い、手順を確かめ、仕事を最後まで運ぶ環境を選ぶ時代へ。</p>
+          
+          <a class="button-link" href="#feature">特集を読む <span aria-hidden="true">↓</span></a>
+        </div>
+        
+      </div>
+      <div class="cover-foot"><span>公式発表と提供条件を照合</span><span>AI / DEVELOPERS / AGENTS</span></div>
+    </section>
+
+    <section class="issue-bar" aria-label="番組情報">
+      <div><span class="issue-label">THE BRIEFING</span><strong>AIモデル最新情報</strong></div>
+      <p>水野あかり <span aria-hidden="true">×</span> 高瀬直人</p>
+      <a href="#radio">ラジオ台本 <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <article id="feature" class="article">
+      <header class="article-heading">
+        <p class="eyebrow">THE LANDSCAPE / 01</p>
+        <h2>「モデル名」より、<br class="mobile-break">どこで何ができるか。</h2>
+        <p class="article-meta">編集部調査 · 2026年10月17日 06:00 UTC時点 · 読了約8分</p>
+      </header>
+      <div class="article-body">
+        <p class="lead">2026年秋のAI競争を見渡すと、注目点はモデルの点数だけではありません。誰が使えるのか、APIは一般提供かプレビューか、重みは公開されているか。そして、モデルにツールや記憶、検証手順を組み合わせて仕事を進める「ハーネス」が、製品の実力を左右し始めています。</p>
+
+        <nav class="article-toc" aria-label="記事の目次"><strong>この記事でわかること</strong><ol><li><a href="#frontier">主要モデルの提供状況</a></li><li><a href="#china">中国発モデルと重み公開</a></li><li><a href="#other">その他の主要プレイヤー</a></li><li><a href="#harness">開発ツールと実行環境</a></li><li><a href="#takeaway">選定時の要点</a></li></ol></nav>
+
+        <div class="fact-strip" role="note"><strong>読み方の前提</strong><span>「発表」「順次提供」「一般提供」「APIプレビュー」「重み公開」は別の状態です。地域、契約、アカウントによって使える範囲も変わります。</span></div>
+
+        <section class="story-section" id="frontier">
+          <p class="section-number">01 / FRONTIER MODELS</p>
+          <h3>モデルは「使える場所」まで見る</h3>
+          <p class="key-point">要点：モデルごとに、使える製品、APIの提供段階、地域やアカウント条件を分けて確認します。</p>
+          <h4 class="topic-heading">OpenAI · GPT-6.1 Sol</h4><p>OpenAIのGPT-6.1 Solは、ChatGPTのWorkとCodex、およびAPIで提供中です。通常のChatGPTのChatではまだ利用できないと明記されています。同じモデル名でも、製品内の機能とAPIの提供状況は同じではありません。<a href="#src-1" class="cite">[1]</a></p>
+          <h4 class="topic-heading">OpenAI · GPT-Live-1.1 / Voice</h4><p>音声製品では、10月15日の更新情報でGPT-Live-1.1とGPT-Live-1.1 QuipのChatGPT Voiceへの展開が案内されました。新しい日本語音声も含まれますが、順次提供のためアカウントや地域で差があります。さらにAPIでは、説明文から音声を作る機能が一般提供になりました。声の作成は無料でも、実際の音声生成には通常のGPT-Live利用料がかかります。<a href="#src-28" class="cite">[28]</a></p>
+          <h4 class="topic-heading">Anthropic · Claude Opus 5.5 / Fable / Mythos</h4><p>AnthropicはClaude Opus 5.5を発表し、Claudeの各製品と主要クラウド経由で提供しています。高度な生物・サイバー用途は検証プログラムの対象となるなど、モデルの能力と安全上のアクセス条件を同時に読む必要があります。<a href="#src-2" class="cite">[2]</a> Claude Fable 5.1は一般提供、Claude Mythos 5.1は信頼された組織向けアクセスという区分です。<a href="#src-3" class="cite">[3]</a></p>
+          <h4 class="topic-heading">Google · Gemini 4 Argon / Gemini 3.8 Live</h4><p>GoogleのGemini 4 Argonは開発者・企業向けAPIではグローバルに提供開始。Antigravity、Geminiアプリ、SearchのAI ModeではUltraやProなど契約プランごとの範囲があります。Gemini 3.8 Liveは音声対話、リアルタイムの視覚情報、推論、バックグラウンド作業を組み合わせ、APIと製品へ段階的に広がっています。「順次提供」は、すべての利用者に同時に届いたという意味ではありません。<a href="#src-4" class="cite">[4]</a><a href="#src-5" class="cite">[5]</a></p>
+          <h4 class="topic-heading">xAI · Grok 4.7</h4><p>xAIのGrok 4.7はAPIとGrok Buildなどの開発環境から利用可能。モデル単体だけでなく、コード編集や外部ハーネスとの接続も提供条件に含まれます。<a href="#src-6" class="cite">[6]</a></p>
+          <h4 class="topic-heading">Meta · Muse Spark 1.1</h4><p>MetaのMuse Spark 1.1はMeta AIアプリとmeta.aiのThinkingモードで利用でき、Meta Model APIはパブリックプレビューです。アプリで使えることと、APIが正式提供になったことを区別しておきたい例です。<a href="#src-27" class="cite">[27]</a></p>
+          <p class="callout"><span>編集部メモ</span>「最新モデル」一覧を見るときは、提供地域・プラン・API名・プレビュー表示をセットで確認。デモ動画だけでは、実際のアクセス条件は分かりません。</p>
+        </section>
+
+        <section class="story-section" id="china">
+          <p class="section-number">02 / CHINA & OPEN WEIGHTS</p>
+          <h3>中国勢はモデルと周辺道具を一緒に出す</h3>
+          <p class="key-point">要点：提供形態とライセンスはモデル単位で異なります。重み公開の有無も個別に確かめます。</p>
+          <h4 class="topic-heading">Qwen · モデル一覧と公開条件</h4><p>中国勢は、アプリでの提供、API、重み公開、開発用CLIを組み合わせて競争しています。Qwenの公式モデル一覧には複数サイズや用途別のチェックポイントが並びます。公開状況やライセンスはモデルごとに異なるため、組織で使う場合は個別のモデルカードを確認してください。<a href="#src-7" class="cite">[7]</a></p>
+          <h4 class="topic-heading">DeepSeek · V4 Preview / V4.1 Flash</h4><p>DeepSeekはV4 Previewの重みとAPIを公開した後、V4.1 FlashをAPIで提供しています。今回のFlash発表はAPI利用を案内していますが、V4.1 Flashの重み公開を意味しません。後続のデプロイ計画は別途発表を待つ必要があります。<a href="#src-8" class="cite">[8]</a><a href="#src-9" class="cite">[9]</a></p>
+          <h4 class="topic-heading">Moonshot AI · Kimi K3</h4><p>Moonshot AIのKimi K3はKimiの各サービスとAPIから利用でき、公式リポジトリでは重み公開を確認できます。ただしライセンスは独自のKimi K3 Licenseです。「重みが公開された」ことと、制約のないオープンソースであることは同義ではありません。<a href="#src-10" class="cite">[10]</a><a href="#src-11" class="cite">[11]</a></p>
+          <h4 class="topic-heading">ByteDance · Seed2.1</h4><p>ByteDance SeedはSeed2.1をDoubaoとVolcano Engine経由で提供。<a href="#src-12" class="cite">[12]</a></p>
+          <h4 class="topic-heading">Baidu · ERNIE 5.1</h4>
+          <p>BaiduはERNIE 5.1をチャット製品とAI Studioで公開しています。<a href="#src-13" class="cite">[13]</a></p>
+          <h4 class="topic-heading">Tencent · Hy4 / Hy-Memory 2.0</h4>
+          <p>TencentはHy4 Previewのオープンソース化とクラウドAPIを発表し、Hy-Memory 2.0ではモデルそのものに加えて、記憶フレームワークやアプリ層も公開対象にしています。<a href="#src-14" class="cite">[14]</a><a href="#src-15" class="cite">[15]</a></p>
+          <h4 class="topic-heading">Huawei Cloud · Pangu / MaaS</h4><p>Huawei CloudもPanguモデル群とMaaSの提供窓口を案内しています。個別モデルの重みや各地域での利用可否は、製品ページ単位で確かめる必要があります。<a href="#src-16" class="cite">[16]</a></p>
+        </section>
+
+        <section class="story-section" id="other">
+          <p class="section-number">03 / OTHER PLAYERS</p>
+          <h3>重みの公開条件にも差がある</h3>
+          <p class="key-point">要点：公開重み、APIプレビュー、製品提供は別の条件です。名称だけで利用可能性を判断しません。</p>
+          <h4 class="topic-heading">Mistral · Large 4 / Small 4</h4><p>Mistral Large 4はAPIのパブリックプレビューとして提供され、重みは10月末までの公開予定と告知されています。したがって、10月17日の時点では公開済みと扱えません。一方、Mistral Small 4はApache 2.0ライセンスでAPIやモデル配布サイトから利用できます。<a href="#src-17" class="cite">[17]</a><a href="#src-18" class="cite">[18]</a></p>
+          <h4 class="topic-heading">Cohere · Command A+</h4><p>Cohere Command A+もApache 2.0のモデルとして公開されています。各社の「open」の表記をひとまとめにせず、ライセンス、商用利用条件、配布物、推論要件を個別に見比べるのが実務的です。<a href="#src-19" class="cite">[19]</a></p>
+          <h4 class="topic-heading">Meta · エージェントのツール利用</h4><p>Metaの例のように、エージェントモデル自身がツールを選んだり、複数のサブエージェントへ仕事を分けたりする機能も広がっています。評価結果を比べるときは、モデルに加えて、使われたハーネスやツール設定、試行回数も読み取る必要があります。</p>
+        </section>
+
+        <section class="story-section" id="harness">
+          <p class="section-number">04 / DEVELOPER TOOLS & HARNESS</p>
+          <h3>性能を形にする「ハーネス」</h3>
+          <p class="key-point">要点：実際の成果はモデルに加え、接続するツール、権限、検証と再実行の手順で決まります。</p>
+          <h4 class="topic-heading">実行環境 · ハーネスの役割</h4><p>ここでいうハーネスは、モデルを仕事に接続する実行環境です。指示と文脈の管理、ファイルやブラウザーなどのツール、権限と隔離、複数エージェントへの分担、結果の検証、失敗時の再試行やログまでを組み立てます。よいモデルでも、道具の渡し方や作業を止める条件が弱ければ、安定して仕事を終えられません。</p>
+          <h4 class="topic-heading">実行環境 · 製品と開発用ツール</h4><p>代表例は、OpenAIのCodexとAgents SDK、AnthropicのClaude Code、Google AntigravityとCLI、xAIのGrok Build、MoonshotのKimi Code、DeepSeek Harnessです。GoogleはAntigravity CLIにスキル、フック、サブエージェント、バックグラウンド実行を加え、エディターだけでなくターミナルやブラウザーも扱う環境を示しています。<a href="#src-20" class="cite">[20]</a><a href="#src-21" class="cite">[21]</a><a href="#src-22" class="cite">[22]</a><a href="#src-23" class="cite">[23]</a><a href="#src-9" class="cite">[9]</a></p>
+          <h4 class="topic-heading">接続と制御 · MCP / フレームワーク</h4><p>MCP（Model Context Protocol）は、AIアプリと外部のデータ・ツールをつなぐための共通プロトコルです。Agents SDKやGoogle ADKのような開発フレームワークと、CodexやClaude Codeのような完成された実行環境は役割が異なります。採用時はモデルのベンチマークだけでなく、必要な接続先、承認操作、隔離、再現性、観測しやすさを確かめましょう。<a href="#src-24" class="cite">[24]</a><a href="#src-25" class="cite">[25]</a><a href="#src-26" class="cite">[26]</a></p>
+          <p class="callout"><span>次に見るポイント</span>モデルを一つ選ぶ前に、日々の作業を一つ決めて、同じ入力・同じツール・同じ終了条件で試す。速度、修正回数、確認のしやすさ、利用料金をまとめて評価するのが近道です。</p>
+        </section>
+
+        <section class="story-section summary" id="takeaway">
+          <p class="section-number">05 / THE TAKEAWAY</p>
+          <h3>選ぶ単位は「モデル＋環境」へ</h3>
+          <p class="key-point">要点：必要な作業を先に定め、利用地域、ツール、運用条件を含めてモデルと環境を選びます。</p>
+          <p>2026年10月の全体像は、モデルの能力向上と、仕事を実行する製品・CLI・API・オープンな重みの多様化が同時に進んでいることです。まず提供条件を確かめ、そのうえでハーネス込みの小さな実務試験を行う。モデル名の話題性だけで決めないことが、今号の結論です。</p>
+        </section>
+      </div>
+    </article>
+
+    <section class="radio" id="radio" aria-labelledby="radio-title">
+      <div class="radio-head"><div><p class="eyebrow">AUDIO DESK / EPISODE 001</p><h2 id="radio-title">第1回の台本</h2></div><span class="duration">約4分24秒 · 水野あかり × 高瀬直人</span></div>
+      <div class="radio-actions"><button id="script-toggle" class="control-button" type="button" aria-expanded="false" aria-controls="script-text">台本を表示</button><button id="copy-script" class="control-button secondary" type="button" aria-controls="script-text">台本をコピー</button><span id="copy-status" class="sr-only" aria-live="polite"></span></div>
+      <div id="script-text" class="script-panel" hidden>
+        <div class="script-line"><span class="speaker akari">水野あかり</span><p>こんばんは。「AIモデル最新情報」、初回は水野あかりと、</p></div>
+        <div class="script-line"><span class="speaker naoto">高瀬直人</span><p>高瀬直人がお届けします。初回のテーマは、モデルの名前よりも、そのモデルがどこで使えて、どんな仕事を最後までできるのか。2026年10月17日、午前6時UTCを基準に整理しました。</p></div>
+        <div class="script-line"><span class="speaker akari">水野あかり</span><p>本編に入る前にお知らせです。水野あかりと高瀬直人は、どちらも架空の司会者です。音声はAI合成で制作しています。</p></div>
+        <div class="script-line"><span class="speaker akari">水野あかり</span><p>まず大切なのは、「発表」と「使える」を同じ意味にしないことです。製品で順次提供中なのか、APIのプレビューなのか、一般提供なのか。契約や地域によっても違います。</p></div>
+        <div class="script-line"><span class="speaker naoto">高瀬直人</span><p>たとえばOpenAIのGPT-6.1 Sol。公式ページでは、ChatGPTのWorkとCodex、APIから利用できる一方、通常のChatではまだ利用できないと説明されています。モデルが同じでも、入口ごとに提供状況が違うわけです。</p></div>
+        <div class="script-line"><span class="speaker akari">水野あかり</span><p>音声製品では、GPT-Live-1.1などのChatGPT Voiceへの展開も始まりました。新しい日本語音声を含みますが、地域やアカウントで差があります。APIのprompt-to-voiceは一般提供でも、声の作成と音声生成の利用料は別です。</p></div>
+        <div class="script-line"><span class="speaker akari">水野あかり</span><p>AnthropicはClaude Opus 5.5を発表。高い能力を持つモデルほど、使える組織や用途の条件も一緒に確認したいですね。Claude Fableは一般提供、Mythosは信頼された組織向けアクセスという区分もあります。</p></div>
+        <div class="script-line"><span class="speaker naoto">高瀬直人</span><p>GoogleのGemini 4 Argonは開発者APIや契約プランに応じた製品へ展開中。Gemini 3.8 Liveは音声、映像、推論を組み合わせた体験を広げています。「順次提供中」は、全員に一斉に届いているとは限りません。</p></div>
+        <div class="script-line"><span class="speaker akari">水野あかり</span><p>xAIのGrok 4.7も、APIに加えてGrok Buildなどの開発環境との接続がポイントです。ここからは中国勢も見ていきましょう。</p></div>
+        <div class="script-line"><span class="speaker naoto">高瀬直人</span><p>MetaのMuse Spark 1.1はMeta AIアプリで使えますが、開発者向けModel APIはパブリックプレビューです。Mistral Large 4もAPIプレビュー、重みは月末公開予定。Small 4はApache 2.0で配布されています。</p></div>
+        <div class="script-line"><span class="speaker naoto">高瀬直人</span><p>Qwenは公式モデル一覧に、サイズや用途の異なるチェックポイントを並べています。DeepSeekはV4 Previewの重みを公開し、後続のV4.1 FlashはAPIで案内。FlashのAPI提供を、Flash自身の重み公開と取り違えないようにします。</p></div>
+        <div class="script-line"><span class="speaker akari">水野あかり</span><p>Kimi K3はサービス、API、開発用コード環境に加えて、公式リポジトリで重みも確認できます。ただしライセンスは独自条件です。「重み公開だから何でも自由」とは言えません。</p></div>
+        <div class="script-line"><span class="speaker naoto">高瀬直人</span><p>ByteDance Seed、Baidu ERNIE、Tencent Hy4も、アプリやクラウド、API、公開モデルの組み合わせで展開しています。TencentはHy-Memoryという記憶基盤も公開対象にしていて、モデルだけを競うのではない流れが見えます。</p></div>
+        <div class="script-line"><span class="speaker akari">水野あかり</span><p>HuaweiもPanguモデルとクラウド上のMaaSを案内しています。個別モデルの重みや地域ごとの利用条件は、製品ページで別に確認します。</p></div>
+        <div class="script-line"><span class="speaker akari">水野あかり</span><p>では、モデルの周りにある「ハーネス」とは何でしょう。</p></div>
+        <div class="script-line"><span class="speaker naoto">高瀬直人</span><p>モデルに、文脈、ツール、権限、作業場所、チェック、再試行、記録を組み合わせる実行環境です。Codex、Claude Code、Antigravity、Grok Build、Kimi Code、DeepSeek Harnessのような開発環境や、Agents SDK、ADKのようなフレームワークが、その一部を担います。</p></div>
+        <div class="script-line"><span class="speaker akari">水野あかり</span><p>MCPのように、アプリと外部ツールをつなぐ共通プロトコルもあります。モデルがどれだけ賢いかだけでなく、必要な道具に安全につなげるかも大事なんですね。</p></div>
+        <div class="script-line"><span class="speaker naoto">高瀬直人</span><p>それから、ハーネスが異なれば同じモデルでも結果が変わります。評価では使われた道具、指示、試行回数、モデルへの接続条件も確認したいですね。</p></div>
+        <div class="script-line"><span class="speaker akari">水野あかり</span><p>比べるときは、作業の開始条件、終わりとする条件、使ってよい道具を先に決める。やり直しや人による確認も含めて、同じ土俵を作ることが大切ですね。</p></div>
+        <div class="script-line"><span class="speaker naoto">高瀬直人</span><p>その通りです。まず実際の仕事を一つ決め、同じ入力、同じツール、同じ終了条件で比べる。速さだけでなく、やり直しの回数、結果の確かめやすさ、コストまで見る。今号は「モデルと実行環境をセットで選ぶ」が結論です。</p></div>
+        <div class="script-line"><span class="speaker akari">水野あかり</span><p>なお、この記事は2026年10月17日午前6時UTC時点で各社の公式資料を確認したものです。製品や地域の提供状況は変わるため、使い始める前に公式ページで最新条件をご確認ください。</p></div>
+        <div class="script-line"><span class="speaker naoto">高瀬直人</span><p>それではまた次回。「AIモデル最新情報」でした。</p></div>
+      </div>
+    </section>
+
+
+
+    <section class="sources" id="sources" aria-labelledby="sources-title">
+      <div class="sources-head"><div><p class="eyebrow">PRIMARY SOURCES</p><h2 id="sources-title">出典・確認した提供条件</h2></div><p>各社の公式発表、公式製品ページ、公式リポジトリを参照。発表文の自己評価は第三者評価と区別しています。</p></div>
+      <ol class="source-list">
+        <li id="src-1"><span>[1] OpenAI</span><a href="https://openai.com/index/introducing-gpt-6-1-sol/" target="_blank" rel="noopener noreferrer">GPT-6.1 Sol — availability</a><small>ChatGPT Work / Codex / API。Chatでは未提供と記載。</small></li>
+        <li id="src-2"><span>[2] Anthropic</span><a href="https://www.anthropic.com/claude-opus-5-5" target="_blank" rel="noopener noreferrer">Claude Opus 5.5</a><small>モデル発表、用途と利用条件。</small></li>
+        <li id="src-3"><span>[3] Anthropic</span><a href="https://www.anthropic.com/claude-fable-and-mythos-5-1" target="_blank" rel="noopener noreferrer">Claude Fable and Mythos 5.1</a><small>Fable一般提供、Mythos trusted access。</small></li>
+        <li id="src-4"><span>[4] Google</span><a href="https://blog.google/intl/en-in/products/introducing-gemini-4-argon/" target="_blank" rel="noopener noreferrer">Gemini 4 Argon availability</a><small>API、開発者製品、契約プランごとの提供範囲。</small></li>
+        <li id="src-5"><span>[5] Google</span><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/" target="_blank" rel="noopener noreferrer">Gemini 3.8 Live and Extended Thinking</a><small>音声・視覚・推論機能と順次提供。</small></li>
+        <li id="src-6"><span>[6] xAI</span><a href="https://x.ai/news/grok-4-7" target="_blank" rel="noopener noreferrer">Grok 4.7</a><small>APIと開発環境の利用案内。</small></li>
+        <li id="src-7"><span>[7] Qwen</span><a href="https://huggingface.co/Qwen" target="_blank" rel="noopener noreferrer">Official model organization</a><small>モデルカードと各リポジトリ。ライセンスはモデルごと。</small></li>
+        <li id="src-8"><span>[8] DeepSeek</span><a href="https://www.deepseek.com/en/news/v4-preview/" target="_blank" rel="noopener noreferrer">DeepSeek V4 Preview</a><small>公式発表、重みとAPIの案内。</small></li>
+        <li id="src-9"><span>[9] DeepSeek</span><a href="https://www.deepseek.com/en/news/deepseek-v4-1-flash/" target="_blank" rel="noopener noreferrer">DeepSeek V4.1 Flash</a><small>FlashのAPI案内。重み公開とは区別。</small></li>
+        <li id="src-10"><span>[10] Moonshot AI</span><a href="https://www.kimi.com/en/blog/kimi-k3" target="_blank" rel="noopener noreferrer">Kimi K3 announcement</a><small>Kimi製品、API、重み公開予定に関する発表。</small></li>
+        <li id="src-11"><span>[11] Moonshot AI</span><a href="https://github.com/MoonshotAI/Kimi-K3" target="_blank" rel="noopener noreferrer">Kimi K3 official repository</a><small>公式リポジトリと独自ライセンス。</small></li>
+        <li id="src-12"><span>[12] ByteDance Seed</span><a href="https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity" target="_blank" rel="noopener noreferrer">Seed2.1 release</a><small>Doubao / Volcano Engineでの提供案内。</small></li>
+        <li id="src-13"><span>[13] Baidu</span><a href="https://ernie.baidu.com/blog/posts/ernie-5.1-0508-release/" target="_blank" rel="noopener noreferrer">ERNIE 5.1 release</a><small>チャットとAI Studioでの提供。</small></li>
+        <li id="src-14"><span>[14] Tencent</span><a href="https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/" target="_blank" rel="noopener noreferrer">Tencent Hy4 Preview</a><small>オープンソース告知、製品とAPIの提供。</small></li>
+        <li id="src-15"><span>[15] Tencent Hunyuan</span><a href="https://memory.hunyuan.tencent.com/" target="_blank" rel="noopener noreferrer">Hy-Memory 2.0</a><small>モデル、記憶フレームワーク、アプリ層の公開情報。</small></li>
+        <li id="src-16"><span>[16] Huawei Cloud</span><a href="https://www.huaweicloud.com/intl/en-us/product/maas.html" target="_blank" rel="noopener noreferrer">ModelArts MaaS</a><small>Panguなどの提供窓口。個別モデル条件は要確認。</small></li>
+        <li id="src-17"><span>[17] Mistral</span><a href="https://mistral.ai/news/mistral-large-4/" target="_blank" rel="noopener noreferrer">Mistral Large 4</a><small>API public preview。重み公開は10月末の予定。</small></li>
+        <li id="src-18"><span>[18] Mistral</span><a href="https://mistral.ai/news/mistral-small-4/" target="_blank" rel="noopener noreferrer">Mistral Small 4</a><small>Apache 2.0、APIと配布先。</small></li>
+        <li id="src-19"><span>[19] Cohere</span><a href="https://cohere.com/blog/command-a-plus" target="_blank" rel="noopener noreferrer">Command A+</a><small>モデル発表とApache 2.0ライセンス情報。</small></li>
+        <li id="src-20"><span>[20] OpenAI</span><a href="https://openai.com/index/devday-2026-recap/" target="_blank" rel="noopener noreferrer">DevDay 2026 recap</a><small>Agents APIとCodexなどの開発環境。</small></li>
+        <li id="src-21"><span>[21] OpenAI</span><a href="https://developers.openai.com/api/docs/guides/agents" target="_blank" rel="noopener noreferrer">Agents guide</a><small>エージェント構築とツール接続。</small></li>
+        <li id="src-22"><span>[22] Anthropic</span><a href="https://code.claude.com/docs/en/overview" target="_blank" rel="noopener noreferrer">Claude Code documentation</a><small>CLIベースの開発環境。</small></li>
+        <li id="src-23"><span>[23] Google Developers Blog</span><a href="https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/" target="_blank" rel="noopener noreferrer">Antigravity CLI transition</a><small>CLI、エージェントスキル、フック、サブエージェント等。</small></li>
+        <li id="src-24"><span>[24] Model Context Protocol</span><a href="https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro" target="_blank" rel="noopener noreferrer">MCP introduction</a><small>AIアプリとデータ・ツールをつなぐプロトコル。</small></li>
+        <li id="src-25"><span>[25] OpenAI</span><a href="https://github.com/openai/openai-agents-python" target="_blank" rel="noopener noreferrer">OpenAI Agents SDK</a><small>オープンソースSDKのリポジトリ。</small></li>
+        <li id="src-26"><span>[26] Google</span><a href="https://google.github.io/adk-docs/" target="_blank" rel="noopener noreferrer">Google Agent Development Kit</a><small>エージェント開発フレームワークの公式資料。</small></li>
+        <li id="src-27"><span>[27] Meta</span><a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/" target="_blank" rel="noopener noreferrer">Muse Spark 1.1 Model API</a><small>Meta AI製品とModel API public previewの提供条件。</small></li>
+        <li id="src-28"><span>[28] OpenAI</span><a href="https://openai.com/products/release-notes/" target="_blank" rel="noopener noreferrer">Product release notes, Oct 15–16, 2026</a><small>GPT-Liveの順次提供、prompt-to-voice APIの一般提供。</small></li>
+      </ol>
+      <p class="method-note">確認方法：各社の公式発表・公式製品ページ・公式リポジトリを2026-10-17 06:00 UTCを基準に確認。公式発表にあるベンチマークや性能評価は各社の測定条件に依存し、横並びの独立評価とは限りません。提供条件は変更されることがあります。</p>
+    </section>
+
+    <footer class="footer">
+      <a class="footer-brand" href="#top">AIモデル最新情報</a>
+      <p>別番組 · 初回号 · 2026.10.17</p>
+      <a href="#top">ページ上部へ ↑</a>
+    </footer>
+  </main>
+<script>
+const toggle = document.querySelector('#script-toggle');
+const script = document.querySelector('#script-text');
+const copyButton = document.querySelector('#copy-script');
+const copyStatus = document.querySelector('#copy-status');
+
+toggle?.addEventListener('click', () => {
+  const expanded = toggle.getAttribute('aria-expanded') === 'true';
+  toggle.setAttribute('aria-expanded', String(!expanded));
+  script.hidden = expanded;
+  toggle.textContent = expanded ? '台本を表示' : '台本を閉じる';
+});
+
+copyButton?.addEventListener('click', async () => {
+  const text = Array.from(script.querySelectorAll('.script-line'))
+    .map(line => `${line.querySelector('.speaker').textContent}\n${line.querySelector('p').textContent}`)
+    .join('\n\n');
+  try {
+    await navigator.clipboard.writeText(text);
+    copyStatus.textContent = '台本をコピーしました。';
+  } catch {
+    copyStatus.textContent = 'コピーできませんでした。台本を表示して手動で選択してください。';
+  }
+});
+
+</script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a50fc81aca0dd779',t:'MTc5MzA4Mzk4NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

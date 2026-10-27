@@ -1,0 +1,463 @@
+{
+  "issue_id": "2026-10-23",
+  "issue_number": 6,
+  "timezone": "Asia/Tokyo",
+  "edition_date_jst": "2026-10-23",
+  "research_cutoff": "2026-10-23T08:42:19+09:00",
+  "research_cutoff_utc": "2026-10-22T23:42:19Z",
+  "research_method": "Official provider announcement, live feed, changelog, guide, model card, repository, and deployment/pricing documents checked where listed. Publisher date, feed listing timestamp, and check timestamp are separate fields. No timezone is inferred for date-only sources. Findings are limited to the listed pages and available prior research; no global absence claim. Minerva announcement, feed entry and product page were directly checked at the later cutoff recorded in their items. For NVIDIA Minerva, announcement, event-feed listing, and product/deployment page were directly checked; the feed listing timestamp is not treated as availability.",
+  "scope_checked": [
+    "NVIDIA",
+    "OpenAI",
+    "Anthropic",
+    "Google Cloud",
+    "Google DeepMind",
+    "xAI",
+    "DeepSeek",
+    "Mistral AI",
+    "Cohere",
+    "ElevenLabs",
+    "AWS (exact page/result not retained)",
+    "Alibaba/Qwen (exact page/result not retained)"
+  ],
+  "input_status": {
+    "existing_index_latest_issue_before_edit": "2026-10-22",
+    "issue_id_already_present": false,
+    "action": "append issue #6 without changing prior archive entries"
+  },
+  "confirmed_in_window_story": {
+    "company": "NVIDIA",
+    "topic": "NVIDIA Minerva AI-factory AIOps and observability",
+    "why_in_window": "NVIDIA’s GTC Berlin feed lists Minerva at Thursday, Oct. 22, 8:00 am PDT. Converting the explicitly stated PDT (UTC−07:00) gives 2026-10-22T15:00:00Z / 2026-10-23T00:00:00+09:00. This is the feed listing time, not availability. The announcement article itself is dated October 22, 2026 with no time or timezone.",
+    "not_a_model_release": "Minerva is an AI-factory observability/AIOps platform, not a new foundation model release.",
+    "business_relevance": "Correlates telemetry across infrastructure and AI workloads, adds anomaly/root-cause investigation and agent-assisted workflows. The vendor’s operational-benefit statements are not independently measured in this research.",
+    "deployment_pricing_caveat": "Official product page describes on-premises and SaaS deployment and multiple consumption models. The US page directs visitors to regional sites for pricing and availability; no price was listed on the checked US page.",
+    "vendor_reported_adoption": "NVIDIA says IREN is using Minerva and lists other companies as planning deployments; treated as vendor reporting, not independent verification."
+  },
+  "ambiguous_or_excluded_checks": [
+    {
+      "item": "OpenAI Decisions API GA",
+      "date_displayed": "2026-10-22",
+      "time_timezone": "not stated",
+      "status": "date-only page; relation to prior issue cutoff cannot be verified; exclude from confirmed in-window reporting",
+      "details_checked": "POST /v1/decisions; gpt-6-luna only; prompt caching; per-question images; input_json; up to 400 questions versus 200 beta; uncached input $0.10 per million tokens; cache follows standard Luna rates; output tokens not charged; regional and long-context premiums apply. See official guide/changelog items."
+    },
+    {
+      "item": "Cohere confidential-computing Model Vault beta",
+      "date_displayed": "2026-10-22",
+      "time_timezone": "not stated",
+      "status": "date-only announcement; relation to prior issue cutoff cannot be verified; exclude from confirmed in-window reporting",
+      "details_checked": "Docs describe TEEs/OHTTP attestation, restricted model/GPU/region availability, beta free only for design partners, and GA prices TBD."
+    },
+    {
+      "item": "NVIDIA RFD4-Proteina",
+      "date_displayed": "model card release date 2026-10-20",
+      "time_timezone": "no time/timezone stated",
+      "status": "not new in this window; later feed listing is not model release date evidence"
+    },
+    {
+      "item": "Cohere Rerank 5",
+      "date_displayed": "2026-10-21",
+      "time_timezone": "no time/timezone stated",
+      "status": "already covered in issue #5; excluded as a repeat"
+    }
+  ],
+  "items": [
+    {
+      "company": "NVIDIA",
+      "title": "Cosmos: Open, Train, Evaluate and Deploy World Models",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "announcement_date": "2026-10-21",
+      "publisher_page_date": "2026-10-21",
+      "publisher_page_time_or_timezone": "not stated",
+      "live_feed_listing_timestamp": null,
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": true,
+      "notes": "Official article date is Oct 21, 2026; no time or timezone is stated on the article. Describes five cloud-native Cosmos Data Factory blueprints through GitHub, Microsoft Azure, Nebius, and CoreWeave; Cosmos Framework skills extending training, optimization, and deployment workflows to more open models including GR00T, Alpamayo, Qwen, and Pi0.5; Cosmos 3 Nano simulation variants; updated Cosmos 3 NIM and Metropolis VSS 3.3. This is tooling/workflow expansion, not a new base-model weight release. The article does not state new model API IDs, prices, or regions. Vendor performance claims were not independently benchmarked."
+    },
+    {
+      "company": "NVIDIA",
+      "title": "GTC Berlin 2026 live news feed",
+      "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+      "announcement_date": null,
+      "publisher_page_date": null,
+      "publisher_page_time_or_timezone": "not a dated article; feed entry timestamp shown as below",
+      "live_feed_listing_timestamp": {
+        "displayed": "Wednesday, Oct. 21, 10:00 pm PDT",
+        "timezone": "PDT (UTC-07:00)",
+        "utc": "2026-10-22T05:00:00Z",
+        "jst": "2026-10-22T14:00:00+09:00",
+        "meaning": "time this Cosmos item is listed in the live feed; not product availability time"
+      },
+      "checked_at": "2026-10-23T08:42:19+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": true,
+      "notes": "Feed listing timestamp is kept separate from the article date and from product availability. Conversion is based on the explicit PDT designation."
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Cosmos Data Factory repository",
+      "url": "https://github.com/NVIDIA/cosmos-data-factory",
+      "announcement_date": null,
+      "publisher_page_date": "not stated for the license information cited",
+      "publisher_page_time_or_timezone": "not stated",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": true,
+      "notes": "Repository states code is Apache-2.0 and docs/skill content is CC-BY-4.0. These terms apply to the contents in that repository, not all model weights or other Cosmos assets."
+    },
+    {
+      "company": "OpenAI API",
+      "title": "API changelog: Decisions API general availability",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "announcement_date": null,
+      "publisher_page_date": "2026-10-22",
+      "publisher_page_time_or_timezone": "date only; no time or timezone shown",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "ambiguous relative to prior issue cutoff; excluded from confirmed in-window reporting",
+      "notes": "Changelog shows Decisions API GA dated Oct 22 only. No publication time/timezone, so relation to the prior issue cutoff cannot be verified. The entry was checked but is not presented as a confirmed new in-window update."
+    },
+    {
+      "company": "OpenAI API",
+      "title": "Decisions API guide",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "announcement_date": null,
+      "publisher_page_date": "no dated announcement field used for this check",
+      "publisher_page_time_or_timezone": "not stated",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "feature details checked for ambiguous dated changelog item",
+      "notes": "Guide confirms POST /v1/decisions, model gpt-6-luna only, prompt caching, per-question images, input_json, and up to 400 questions versus 200 in beta. Pricing section: uncached input $0.10 per million tokens, cache rates follow standard Luna rates, output tokens are not charged, and regional/long-context premiums apply. These details are not included as a confirmed Oct 23 news item."
+    },
+    {
+      "company": "Cohere",
+      "title": "Introducing confidential computing on Cohere Model Vault",
+      "url": "https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault",
+      "announcement_date": null,
+      "publisher_page_date": "2026-10-22",
+      "publisher_page_time_or_timezone": "date only; no time or timezone shown",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "ambiguous relative to prior issue cutoff; excluded from confirmed in-window reporting",
+      "notes": "Announcement shows Oct 22 only, without publication time or timezone. It is checked but not reported as a confirmed new in-window update."
+    },
+    {
+      "company": "Cohere",
+      "title": "Model Vault encrypted deployment documentation",
+      "url": "https://docs.cohere.com/docs/model-vault/encrypted",
+      "announcement_date": null,
+      "publisher_page_date": "documentation page; no announcement date used",
+      "publisher_page_time_or_timezone": "not stated",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "availability details checked for ambiguous dated announcement",
+      "notes": "Docs describe confidential-computing TEEs and OHTTP attestation, with model/GPU/region availability limited. Do not imply universal rollout."
+    },
+    {
+      "company": "Cohere",
+      "title": "Model Vault encrypted deployment pricing",
+      "url": "https://docs.cohere.com/docs/model-vault/encrypted/pricing",
+      "announcement_date": null,
+      "publisher_page_date": "documentation page; no announcement date used",
+      "publisher_page_time_or_timezone": "not stated",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "availability details checked for ambiguous dated announcement",
+      "notes": "Pricing docs say beta is free only for design partners and GA rates are TBD; not a universal free beta or generally available price."
+    },
+    {
+      "company": "NVIDIA",
+      "title": "RFD4-Proteina model card",
+      "url": "https://build.nvidia.com/ipd/rfd4-proteina/modelcard",
+      "announcement_date": "2026-10-20",
+      "publisher_page_date": "2026-10-20",
+      "publisher_page_time_or_timezone": "date only; no time or timezone shown",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "not new in the issue window; model card release date predates this issue window",
+      "notes": "Current model card states release date 10/20/2026. A later live-feed listing does not make the model release new in-window. No unsupported X timestamps used."
+    },
+    {
+      "company": "Cohere",
+      "title": "Rerank 5 changelog",
+      "url": "https://docs.cohere.com/v2/changelog/rerank-v5",
+      "announcement_date": "2026-10-21",
+      "publisher_page_date": "2026-10-21",
+      "publisher_page_time_or_timezone": "date only; no time or timezone shown",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "already covered in Oct 22 issue; excluded as a repeat",
+      "notes": "Rerank 5 was covered in issue #5. Not repeated in this issue."
+    },
+    {
+      "company": "Anthropic",
+      "title": "Models news page reviewed",
+      "url": "https://www.anthropic.com/news/models",
+      "announcement_date": null,
+      "publisher_page_date": "latest listed: Haiku 5.5 2026-10-07; Sonnet 5.5 2026-09-28; Opus 5.5 2026-09-22",
+      "publisher_page_time_or_timezone": "dates only; no time or timezone shown",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "scope check; page-only status",
+      "notes": "Existing prior-issue research records these as the latest model entries visible on the page; this is not a global absence claim."
+    },
+    {
+      "company": "Google Cloud",
+      "title": "Google Cloud AI/ML blog and prior-issue source pages reviewed",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/",
+      "announcement_date": null,
+      "publisher_page_date": "no separately dated Oct 23 issue item recorded",
+      "publisher_page_time_or_timezone": "not applicable to scope status",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "scope check; no separate new Google model release selected",
+      "notes": "Earlier issue research covered a Google Cloud announcement about serving OpenAI models, not a new Google base-model release. This check is limited to the sources/snapshot recorded."
+    },
+    {
+      "company": "Google DeepMind",
+      "title": "Gemini model catalog reviewed",
+      "url": "https://deepmind.google/models/gemini/",
+      "announcement_date": null,
+      "publisher_page_date": "catalog page; no announcement date used for this check",
+      "publisher_page_time_or_timezone": "not applicable",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "scope check; no separate new model item selected",
+      "notes": "Prior issue research checked this model catalog. Findings are scoped to the page/snapshot, not a universal absence claim."
+    },
+    {
+      "company": "xAI",
+      "title": "Official news page reviewed",
+      "url": "https://x.ai/news",
+      "announcement_date": null,
+      "publisher_page_date": "prior recorded latest model-specific visible entries: Grok Voice 3.0 2026-10-14; Grok 4.7 2026-09-21",
+      "publisher_page_time_or_timezone": "dates only; no time or timezone shown",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "scope check; no new dated item selected",
+      "notes": "Prior issue research recorded the latest model-specific visible entries. No X post timestamps are used or inferred."
+    },
+    {
+      "company": "DeepSeek",
+      "title": "API updates reviewed",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "announcement_date": null,
+      "publisher_page_date": "prior recorded latest visible entry: 2026-10-17",
+      "publisher_page_time_or_timezone": "date only; no time or timezone shown",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "scope check; no new dated item selected",
+      "notes": "Prior research recorded the latest visible page update as Oct 17. Scope-limited status only."
+    },
+    {
+      "company": "Mistral AI",
+      "title": "Official news page reviewed",
+      "url": "https://mistral.ai/news/",
+      "announcement_date": null,
+      "publisher_page_date": "prior recorded latest visible model release: Voxtral 3 2026-10-20",
+      "publisher_page_time_or_timezone": "date only; no time or timezone shown",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "scope check; latest known item already covered",
+      "notes": "Voxtral 3 was already covered in prior issue research; no repeat."
+    },
+    {
+      "company": "ElevenLabs",
+      "title": "Official realtime translation article reviewed in previous issue",
+      "url": "https://elevenlabs.io/blog/realtime-translation",
+      "announcement_date": "2026-10-21",
+      "publisher_page_date": "2026-10-21",
+      "publisher_page_time_or_timezone": "not stated",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "scope check; previous issue item, no new item selected",
+      "notes": "Realtime Translation was covered in issue #5; no repeat in this issue."
+    },
+    {
+      "company": "AWS",
+      "title": "AWS model-provider scope check",
+      "url": null,
+      "announcement_date": null,
+      "publisher_page_date": null,
+      "publisher_page_time_or_timezone": "not retained",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "scope included per research context; exact page and dated result not retained",
+      "notes": "The task-provided research context includes AWS among scoped checks, but the existing repository contains no exact page/snapshot/date finding to reproduce. No absence claim is made."
+    },
+    {
+      "company": "Alibaba / Qwen",
+      "title": "Alibaba/Qwen model-provider scope check",
+      "url": null,
+      "announcement_date": null,
+      "publisher_page_date": null,
+      "publisher_page_time_or_timezone": "not retained",
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": false,
+      "status": "scope included per research context; exact page and dated result not retained",
+      "notes": "The task-provided research context includes Alibaba/Qwen among scoped checks, but the existing repository contains no exact page/snapshot/date finding to reproduce. No absence claim is made."
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "announcement_date": "2026-10-22",
+      "publisher_page_date": "2026-10-22",
+      "publisher_page_time_or_timezone": "date only; no time or timezone stated",
+      "live_feed_listing_timestamp": {
+        "displayed": "Thursday, Oct. 22, 8:00 am PDT",
+        "timezone": "PDT (UTC-07:00)",
+        "utc": "2026-10-22T15:00:00Z",
+        "jst": "2026-10-23T00:00:00+09:00",
+        "meaning": "time displayed for the Minerva entry in NVIDIA’s GTC Berlin live feed; not availability time"
+      },
+      "checked_at": "2026-10-23T08:42:19+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": true,
+      "notes": "Official article says Minerva is an AIOps platform joining infrastructure and AI-workload telemetry, using AI models for actionable insights. It describes topology-aware knowledge graph context, anomaly and event correlation, a native assistant and external agent tools, and human-in-loop or API-connected automation. NVIDIA reports IREN is using the platform and lists other planned deployments; these are vendor-reported statements, not independently checked. No article time/TZ was inferred."
+    },
+    {
+      "company": "NVIDIA",
+      "title": "GTC Berlin 2026 live news feed (Minerva listing)",
+      "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+      "announcement_date": null,
+      "publisher_page_date": null,
+      "publisher_page_time_or_timezone": "not a separately dated article; listing timestamp is explicit PDT",
+      "live_feed_listing_timestamp": {
+        "displayed": "Thursday, Oct. 22, 8:00 am PDT",
+        "timezone": "PDT (UTC-07:00)",
+        "utc": "2026-10-22T15:00:00Z",
+        "jst": "2026-10-23T00:00:00+09:00",
+        "meaning": "listing timestamp in the live feed; not product availability"
+      },
+      "checked_at": "2026-10-23T08:05:34+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": true,
+      "notes": "Feed entry links directly to the Minerva announcement and labels the product “Launched today.” Listing is used only as a timestamp for the feed item, not product availability."
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA Minerva product and deployment page",
+      "url": "https://www.nvidia.com/en-us/networking/products/software/minerva/",
+      "announcement_date": null,
+      "publisher_page_date": "undated product page",
+      "publisher_page_time_or_timezone": "not applicable",
+      "live_feed_listing_timestamp": null,
+      "checked_at": "2026-10-23T08:42:19+09:00",
+      "checked_on": "2026-10-23",
+      "selected_for_public_issue": true,
+      "notes": "Product page describes telemetry coverage across compute, network, storage, schedulers and workloads; topology-aware correlation; natural-language assistant; external agent integrations; on-premises or SaaS and DIY to turnkey consumption models. US page directs users to regional site for pricing/where to buy; no price amount was listed on the checked page."
+    }
+  ],
+  "primary_sources": [
+    {
+      "company": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "title": "Cosmos: Open, Train, Evaluate and Deploy World Models"
+    },
+    {
+      "company": "NVIDIA",
+      "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+      "title": "GTC Berlin 2026 live news feed"
+    },
+    {
+      "company": "NVIDIA",
+      "url": "https://github.com/NVIDIA/cosmos-data-factory",
+      "title": "Cosmos Data Factory repository"
+    },
+    {
+      "company": "OpenAI API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "title": "API changelog: Decisions API general availability"
+    },
+    {
+      "company": "OpenAI API",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "title": "Decisions API guide"
+    },
+    {
+      "company": "Cohere",
+      "url": "https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault",
+      "title": "Introducing confidential computing on Cohere Model Vault"
+    },
+    {
+      "company": "Cohere",
+      "url": "https://docs.cohere.com/docs/model-vault/encrypted",
+      "title": "Model Vault encrypted deployment documentation"
+    },
+    {
+      "company": "Cohere",
+      "url": "https://docs.cohere.com/docs/model-vault/encrypted/pricing",
+      "title": "Model Vault encrypted deployment pricing"
+    },
+    {
+      "company": "NVIDIA",
+      "url": "https://build.nvidia.com/ipd/rfd4-proteina/modelcard",
+      "title": "RFD4-Proteina model card"
+    },
+    {
+      "company": "Cohere",
+      "url": "https://docs.cohere.com/v2/changelog/rerank-v5",
+      "title": "Rerank 5 changelog"
+    },
+    {
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/models",
+      "title": "Models news page reviewed"
+    },
+    {
+      "company": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/",
+      "title": "Google Cloud AI/ML blog and prior-issue source pages reviewed"
+    },
+    {
+      "company": "Google DeepMind",
+      "url": "https://deepmind.google/models/gemini/",
+      "title": "Gemini model catalog reviewed"
+    },
+    {
+      "company": "xAI",
+      "url": "https://x.ai/news",
+      "title": "Official news page reviewed"
+    },
+    {
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "title": "API updates reviewed"
+    },
+    {
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/",
+      "title": "Official news page reviewed"
+    },
+    {
+      "company": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/realtime-translation",
+      "title": "Official realtime translation article reviewed in previous issue"
+    }
+  ],
+  "additional_confirmed_story": {
+    "company": "NVIDIA",
+    "topic": "Cosmos tooling and workflow expansion",
+    "why_in_window": "The official GTC feed displays the Cosmos entry at Wednesday, Oct. 21, 10:00 pm PDT (2026-10-22 05:00 UTC / 14:00 JST). This is a feed listing timestamp, not product availability. The article is dated October 21 without a time or timezone.",
+    "not_a_model_release": "Tooling/workflow expansion; not a new base-model weight release."
+  }
+}

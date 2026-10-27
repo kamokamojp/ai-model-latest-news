@@ -1,0 +1,266 @@
+{
+  "issue_id": "2026-10-26",
+  "issue_number": 9,
+  "issue_date": "2026-10-26",
+  "timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-26T08:00+09:00",
+  "research_cutoff": "2026-10-26T08:14:18+09:00",
+  "research_file": "../production/2026-10-26-research.json",
+  "max_characters_per_utterance": 90,
+  "utterance_count": 23,
+  "speaker_reference": {
+    "akari": {
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "gender": "female"
+    },
+    "naoto": {
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "gender": "male"
+    }
+  },
+  "style": "normal",
+  "speed": "standard",
+  "audio_status": "available",
+  "audio": {
+    "file": "../audio/2026-10-26.mp3",
+    "sha256": "deec094c4114790b2b14f4ec46080bef42f93660d74744630b281b4cb43b29fe",
+    "file_size_bytes": 1268972,
+    "codec": "mp3",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "bit_rate_bps": 96000,
+    "duration_seconds": 105.72,
+    "generated_at_jst": "2026-10-26T08:18:01+09:00",
+    "generated_at_time_precision": "approximate; builder completion was observed at approximately 2026-10-25T23:18:01Z",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "style": "normal",
+    "speed": "standard",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "synthesis_input_script_sha256": "3478335c6672d227b7c1d79cae69ea212890e524f6f039cd163db94670c1ed8e",
+    "backup_file": "../audio/2026-10-26-backup.mp3",
+    "backup_sha256": "deec094c4114790b2b14f4ec46080bef42f93660d74744630b281b4cb43b29fe",
+    "public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-26.mp3",
+    "backup_public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-26-backup.mp3",
+    "full_ffmpeg_decode": "passed",
+    "short_sample_full_decode": "passed",
+    "human_listening_claimed": false,
+    "backup_status": "available"
+  },
+  "utterances": [
+    {
+      "order": 1,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第9号です。",
+      "characters": 25
+    },
+    {
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "2026年10月26日の確認号。調査基準時は午前8時14分18秒です。",
+      "characters": 35
+    },
+    {
+      "order": 3,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "予定の8時を過ぎ、公式資料の確認を続けました。",
+      "characters": 23
+    },
+    {
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "今日の焦点は、Anthropicの障害履歴とArkのモデル一覧です。",
+      "characters": 34
+    },
+    {
+      "order": 5,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "Anthropicは、10月25日にClaude関連の2件を記録しました。",
+      "characters": 37
+    },
+    {
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "1件目はUTC午前6時5分から6時35分までの影響です。",
+      "characters": 28
+    },
+    {
+      "order": 7,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "調査対象はMythos 5.1、Fable 5.1など5モデルへのリクエスト。",
+      "characters": 39
+    },
+    {
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "公式履歴は、午前7時53分UTCに解決と記載しています。",
+      "characters": 28
+    },
+    {
+      "order": 9,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "2件目はFable 5.1のエラーで、8時8分から29分まで。",
+      "characters": 31
+    },
+    {
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "こちらも午前8時49分UTCに解決と記録されています。",
+      "characters": 27
+    },
+    {
+      "order": 11,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "確認時のステータスページは、全コンポーネント稼働中です。",
+      "characters": 28
+    },
+    {
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "これは一時的なサービス障害の記録で、新モデル発表ではありません。",
+      "characters": 32
+    },
+    {
+      "order": 13,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "別件でArkのモデル公開公告は、10月24日更新と表示。",
+      "characters": 28
+    },
+    {
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "Kimi K3.1 Proに、kimi-k3-1-pro-261024というIDが載りました。",
+      "characters": 47
+    },
+    {
+      "order": 15,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "北京リージョンのモデル一覧は、1,024Kの文脈窓を案内します。",
+      "characters": 32
+    },
+    {
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "ツール呼び出しと構造化出力も、その一覧に記載があります。",
+      "characters": 28
+    },
+    {
+      "order": 17,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "前号のKimi公式APIのIDとは表記が違います。",
+      "characters": 25
+    },
+    {
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "ArkのIDを他サービスで使えると決めつけないようにしましょう。",
+      "characters": 32
+    },
+    {
+      "order": 19,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "公告日は日付のみ。前号の締め切りより後かは特定できません。",
+      "characters": 29
+    },
+    {
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "Arkの単価や他リージョンの提供条件も、今回の資料では未確認です。",
+      "characters": 33
+    },
+    {
+      "order": 21,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "選定した各社の公式履歴で、新しい主要モデル発表は確認できませんでした。",
+      "characters": 35
+    },
+    {
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "ただし限定した確認範囲で、世界中の発表がないという意味ではありません。",
+      "characters": 35
+    },
+    {
+      "order": 23,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "以上、第9号でした。発表日、ID、提供先をそれぞれご確認ください。",
+      "characters": 33
+    }
+  ],
+  "audio_run_not_claimed_as_listened": true,
+  "scheduled_target_cutoff_utc": "2026-10-25T23:00:00Z"
+}

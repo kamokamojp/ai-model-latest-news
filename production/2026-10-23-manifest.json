@@ -1,0 +1,93 @@
+{
+  "issue_id": "2026-10-23",
+  "issue_number": 6,
+  "edition_date_jst": "2026-10-23",
+  "timezone": "Asia/Tokyo",
+  "research_cutoff": "2026-10-23T08:42:19+09:00",
+  "input_hash_algorithm": "SHA-256 of production/2026-10-23-research.json raw UTF-8 bytes",
+  "input_hash": "338294699bd3eed048cfea5fe62179d81313f72e0f7b913d159689c36281ab72",
+  "audio": {
+    "status": "available",
+    "path": "audio/2026-10-23.mp3",
+    "sha256": "e419a1d3975aba7e6946dad36fb0da51e0d5f37fde5cef4082d9cc1177e6e28f",
+    "file_size_bytes": 2078828,
+    "codec": "mp3",
+    "duration_seconds": 173.208,
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "bit_rate_bps": 96000,
+    "generated_at_jst": "2026-10-23T08:48:52.344328+09:00",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "style": "normal",
+    "speed": "standard",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "synthesis_input_script_sha256": "0bf6c522057d5fd9564a690d7991041583a43118c2c4958874bcb61ecb5492be",
+    "full_ffmpeg_decode": "passed",
+    "human_listening_claimed": false,
+    "public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-23.mp3",
+    "backup_path": "audio/2026-10-23-backup.mp3",
+    "backup_public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-23-backup.mp3",
+    "backup_sha256": "e419a1d3975aba7e6946dad36fb0da51e0d5f37fde5cef4082d9cc1177e6e28f",
+    "backup_status": "available",
+    "superseded_draft_sha256": "3e2ab41a2dfbdae70768fb78c185f1f87a15cd0b746eef5715305ea596aba7f9"
+  },
+  "voice": {
+    "engine": "VOICEVOX Nemo",
+    "version": "0.24.0",
+    "style": "normal",
+    "speed": "standard",
+    "speakers": {
+      "akari": {
+        "name": "あかり",
+        "speaker_id": 10005
+      },
+      "naoto": {
+        "name": "なおと",
+        "speaker_id": 10001
+      }
+    },
+    "platform": "Linux CPU x64",
+    "official_archive_url": "https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001",
+    "official_archive_sha256": "c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7",
+    "short_sample_synthesis_and_ffmpeg_decode": "passed"
+  },
+  "files_sha256": {
+    "editions/2026-10-23.md": "b1bc5e8f6b66c3edb8935569d52150551b6f28aa558d41667300350f38d4c3f6",
+    "editions/2026-10-23-script.md": "8396df427a6c3ae5ae57db66b97a325c1a36fc02c12382a48619f738be19fbbf",
+    "editions/2026-10-23-script.json": "4a940fb9e22d9e80d27e0a293b3e2623e73b6fcdcad22888b2e4cddd8ff9050a",
+    "editions/2026-10-23.html": "dd24de411644da4395a09b55b3bcaaa980c37e94f294d5acbf66b6e976dfc192",
+    "production/2026-10-23-research.json": "338294699bd3eed048cfea5fe62179d81313f72e0f7b913d159689c36281ab72",
+    "production/2026-10-23-research.md": "9a78e6d49071cc7ab2bbe8f74677cb1ae949dd56877a7abc9efcb58c1574f20e",
+    "editions/index.json": "6a3ae3b10047f201eef02fcca0d3bc8d7fbdb99c1f99829cb5f8ee8295920550",
+    "index.html": "38ab2bba8f07bf1c0069cd12cfb5e0db3ecf9f8b4592cf785e415c4f3a2962b4",
+    "production/build-radio-2026-10-23.mjs": "fb0882fadbd06d4b62022f0416f03847179afa849fb60808dbd7f97d07ed5cfc",
+    "production/verify-issue-2026-10-23.py": "8db26fd57f0e524eca61b97ce146b1a80bbb2133a48d0405d7ff72fc9e98458d",
+    "audio/2026-10-23.mp3": "e419a1d3975aba7e6946dad36fb0da51e0d5f37fde5cef4082d9cc1177e6e28f",
+    "audio/2026-10-23-backup.mp3": "e419a1d3975aba7e6946dad36fb0da51e0d5f37fde5cef4082d9cc1177e6e28f"
+  },
+  "checked_outputs": {
+    "utterance_count": 33,
+    "maximum_utterance_characters": 54,
+    "audio_file_generated_for_final_script": true,
+    "audio_public_reference": true,
+    "old_editions_preserved": true,
+    "public_files_secret_scan": "passed by production/verify-issue-2026-10-23.py",
+    "audio_synthesis_input_script_sha256": "0bf6c522057d5fd9564a690d7991041583a43118c2c4958874bcb61ecb5492be",
+    "audio_sha256": "e419a1d3975aba7e6946dad36fb0da51e0d5f37fde5cef4082d9cc1177e6e28f",
+    "audio_backup_sha256": "e419a1d3975aba7e6946dad36fb0da51e0d5f37fde5cef4082d9cc1177e6e28f",
+    "audio_file_size_bytes": 2078828,
+    "audio_duration_seconds": 173.208,
+    "audio_full_ffmpeg_decode": "passed",
+    "audio_backup_byte_identical": true,
+    "human_listening_claimed": false
+  },
+  "script_hash_algorithm": "SHA-256 of editions/2026-10-23-script.json raw UTF-8 bytes at synthesis input time",
+  "final_script_sha256": "0bf6c522057d5fd9564a690d7991041583a43118c2c4958874bcb61ecb5492be",
+  "synthesis_input_script_sha256": "0bf6c522057d5fd9564a690d7991041583a43118c2c4958874bcb61ecb5492be",
+  "published_script_json_sha256": "4a940fb9e22d9e80d27e0a293b3e2623e73b6fcdcad22888b2e4cddd8ff9050a",
+  "audio_metadata_updated_after_synthesis": true
+}

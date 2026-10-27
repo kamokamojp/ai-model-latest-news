@@ -1,0 +1,350 @@
+{
+  "issue_id": "2026-10-23",
+  "issue_number": 6,
+  "issue_date": "2026-10-23",
+  "timezone": "Asia/Tokyo",
+  "research_cutoff": "2026-10-23T08:42:19+09:00",
+  "research_file": "../production/2026-10-23-research.json",
+  "max_characters_per_utterance": 90,
+  "utterance_count": 33,
+  "speaker_reference": {
+    "akari": {
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "gender": "female"
+    },
+    "naoto": {
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "gender": "male"
+    }
+  },
+  "style": "normal",
+  "speed": "standard",
+  "audio_status": "available",
+  "audio": {
+    "file": "../audio/2026-10-23.mp3",
+    "sha256": "e419a1d3975aba7e6946dad36fb0da51e0d5f37fde5cef4082d9cc1177e6e28f",
+    "file_size_bytes": 2078828,
+    "codec": "mp3",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "bit_rate_bps": 96000,
+    "duration_seconds": 173.208,
+    "generated_at_jst": "2026-10-23T08:48:52.344328+09:00",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "style": "normal",
+    "speed": "standard",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "synthesis_input_script_sha256": "0bf6c522057d5fd9564a690d7991041583a43118c2c4958874bcb61ecb5492be",
+    "backup_file": "../audio/2026-10-23-backup.mp3",
+    "backup_sha256": "e419a1d3975aba7e6946dad36fb0da51e0d5f37fde5cef4082d9cc1177e6e28f",
+    "public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-23.mp3",
+    "backup_public_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-23-backup.mp3",
+    "full_ffmpeg_decode": "passed",
+    "human_listening_claimed": false
+  },
+  "utterances": [
+    {
+      "order": 1,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "こんにちは、水野あかりです。AIモデル最新情報ラジオ、第6号です。",
+      "characters": 33
+    },
+    {
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "高瀬直人です。2026年10月23日の確認号をお届けします。",
+      "characters": 30
+    },
+    {
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "この番組の音声はAIで生成しています。発音や話し方が不自然な場合がありますが、ご了承ください。",
+      "characters": 47,
+      "order": 3
+    },
+    {
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "調査確認は10月23日午前8時42分、日本時間です。",
+      "characters": 26
+    },
+    {
+      "order": 5,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "まずNVIDIA Minerva。AI工場の運用を支えるAIOps基盤です。",
+      "characters": 38
+    },
+    {
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "公式記事の日付は10月22日。時刻とタイムゾーンの記載はありません。",
+      "characters": 34
+    },
+    {
+      "order": 7,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "同社のGTC Berlinフィードは、10月22日8時PDTに掲載。",
+      "characters": 34
+    },
+    {
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "PDTを換算した掲載時刻は、10月23日午前0時、日本時間です。",
+      "characters": 32
+    },
+    {
+      "order": 9,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "これはフィードの掲載時刻で、利用開始時刻や提供地域の証明ではありません。",
+      "characters": 36
+    },
+    {
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "NVIDIA記事は「本日開始」と記載。ただし記事日付には時刻もTZもありません。",
+      "characters": 40,
+      "order": 10
+    },
+    {
+      "order": 11,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "MinervaはGPU、ネットワーク、ストレージ、スケジューラー、AI業務の情報を統合。",
+      "characters": 44
+    },
+    {
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "設備の異常と、影響を受ける学習ジョブをトポロジー込みで結び付けます。",
+      "characters": 34
+    },
+    {
+      "order": 13,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "関連アラートをまとめ、原因調査や予防保全を支援する設計です。",
+      "characters": 30
+    },
+    {
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "自然文で調べるAIアシスタントや外部エージェントとの連携も説明されています。",
+      "characters": 38
+    },
+    {
+      "order": 15,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "修正を人が確認して実施する運用と、API経由の自動化を選べます。",
+      "characters": 32
+    },
+    {
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "大規模GPU群の障害切り分けを、複数チーム横断で効率化する狙いですね。",
+      "characters": 35
+    },
+    {
+      "order": 17,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "ただし導入効果は提供元の説明。独立評価や一般企業での効果測定ではありません。",
+      "characters": 38
+    },
+    {
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "NVIDIAはIRENが利用中と報告し、複数社は導入予定と記しています。",
+      "characters": 36
+    },
+    {
+      "order": 19,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "製品ページはオンプレミスとSaaS、DIYから一括型までの選択肢を案内。",
+      "characters": 36
+    },
+    {
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "米国ページに価格はなく、地域別サイトで価格と購入先を確認する案内です。",
+      "characters": 35
+    },
+    {
+      "order": 21,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "次はNVIDIA Cosmos。こちらは学習や展開を助けるツール群の拡張です。",
+      "characters": 39
+    },
+    {
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "公式記事の日付は10月21日で、記事に時刻やタイムゾーンはありません。",
+      "characters": 35
+    },
+    {
+      "order": 23,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "GTCフィードは10月21日22時PDTに掲載。10月22日14時JSTです。",
+      "characters": 39
+    },
+    {
+      "order": 24,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "この時刻も掲載時刻で、Cosmosの機能提供開始を示すものではありません。",
+      "characters": 37
+    },
+    {
+      "order": 25,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "Cosmos Data Factoryの5つの設計図や、学習、最適化、展開の作業例を案内。",
+      "characters": 45
+    },
+    {
+      "order": 26,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "Cosmos Frameworkのskillsは、GR00T、Alpamayo、Qwenなどのモデルに対応。",
+      "characters": 54
+    },
+    {
+      "order": 27,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "基盤モデルの新しい重み公開ではなく、既存モデルを扱う道具と流れの更新です。",
+      "characters": 37
+    },
+    {
+      "order": 28,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "掲載ページに新しいAPI名、価格、提供地域の記載はありません。",
+      "characters": 31
+    },
+    {
+      "order": 29,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "OpenAIとCohereの10月22日付ページは時刻がなく、更新時点を確定できません。",
+      "characters": 44
+    },
+    {
+      "order": 30,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "そのため前号後の新情報とは断定せず、今回の紹介対象から外しました。",
+      "characters": 33
+    },
+    {
+      "order": 31,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "まとめると、MinervaはAI工場の運用監視、Cosmosはモデル開発の作業支援。",
+      "characters": 42
+    },
+    {
+      "order": 32,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "まずは自社の設備構成、接続条件、地域別の提供条件を公式資料でご確認ください。",
+      "characters": 38
+    },
+    {
+      "order": 33,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "以上、第6号でした。また次回。",
+      "characters": 15
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "issue_id": "2026-10-25",
+  "issue_number": 8,
+  "issue_date": "2026-10-25",
+  "timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-25T08:00+09:00",
+  "research_cutoff": "2026-10-25T08:07+09:00",
+  "research_cutoff_utc": "2026-10-24T23:07:00Z",
+  "previous_issue_id": "2026-10-24",
+  "previous_issue_cutoff": "2026-10-24T08:10:58+09:00",
+  "previous_issue_date": "2026-10-24",
+  "method": "Selected official vendor release/news pages, model/API changelogs, API model and pricing pages, and selected model-serving provider announcement histories. The inventory is bounded; absence from checked pages is not proof that no announcement exists globally.",
+  "temporal_handling": "Publisher date, page date, checked time, planned availability and price effective date are separate. Never infer a timezone for date-only pages.",
+  "selected_items": [
+    {
+      "provider": "Moonshot AI / Kimi",
+      "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+      "published_date": "2026-10-24",
+      "publication_time": null,
+      "publication_timezone": null,
+      "checked_at": "2026-10-25T08:07+09:00",
+      "status": "selected",
+      "finding": "Official article describes Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed as available on Kimi.com, mobile apps, Kimi Work, Kimi Code and Kimi API; describes the model as 3T-class and gives a 1M-token context window; says full weights are planned by Nov 4, 2026.",
+      "limitations": [
+        "The official index gives only a date, not an hour or timezone; chronology relative to the previous issue cutoff and the target 08:00 JST checkpoint cannot be confirmed.",
+        "Availability and speed statements are provider claims, not independent tests.",
+        "The checked pages did not establish regional API availability or license terms for future weights."
+      ]
+    },
+    {
+      "provider": "Moonshot AI / Kimi",
+      "url": "https://www.kimi.com/en/blog/",
+      "published_date": "2026-10-24",
+      "publication_time": null,
+      "publication_timezone": null,
+      "checked_at": "2026-10-25T08:07+09:00",
+      "status": "selected_date_verification",
+      "finding": "Official research index dates Kimi K3.1 Pro to 2026-10-24.",
+      "limitations": [
+        "Date-only display; no timezone or posting time."
+      ]
+    },
+    {
+      "provider": "Moonshot AI / Kimi API",
+      "url": "https://platform.kimi.com/docs/guide/kimi-k3-1-pro-quickstart",
+      "published_date": null,
+      "publication_time": null,
+      "publication_timezone": null,
+      "checked_at": "2026-10-25T08:07+09:00",
+      "status": "selected_supporting_documentation",
+      "finding": "Confirms API IDs kimi-k3.1-pro and kimi-k3.1-pro-highspeed, 1M-token context, minimum CNY 10 top-up for access, CNY 15 new-user coupon not applicable, and usage limits vary with cumulative top-ups.",
+      "limitations": [
+        "The page does not establish a region-wide availability promise."
+      ]
+    },
+    {
+      "provider": "Moonshot AI / Kimi API pricing",
+      "url": "https://platform.kimi.com/",
+      "published_date": null,
+      "publication_time": null,
+      "publication_timezone": null,
+      "checked_at": "2026-10-25T08:07+09:00",
+      "status": "selected_supporting_documentation",
+      "finding": "At the checked time the listing displays standard Pro at CNY 13 input/CNY 68 output per MTok and Highspeed at CNY 26 input/CNY 136 output per MTok; cache-write prices CNY 13/CNY 26 and cache-hit price CNY 1.30 for both.",
+      "limitations": [
+        "The listing has no effective date; figures are recorded as displayed at check time and are not currency-converted."
+      ]
+    }
+  ],
+  "scope_checked": [
+    {
+      "provider": "OpenAI",
+      "source_urls": [
+        "https://developers.openai.com/api/docs/changelog",
+        "https://community.openai.com/t/decisions-api-is-now-generally-available-with-new-updates/1408934",
+        "https://developers.openai.com/api/docs/pricing",
+        "https://openai.com/news/"
+      ],
+      "last_relevant_visible_date": "2026-10-22",
+      "result": "Decisions API GA (`gpt-6-luna`) with 400-question cap and associated changes; pre-dates the previous edition cutoff, so not selected as a current-window release.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "Anthropic",
+      "source_urls": [
+        "https://platform.claude.com/docs/en/release-notes/overview",
+        "https://www.anthropic.com/news/models",
+        "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+      ],
+      "last_relevant_visible_date": "2026-10-22",
+      "result": "Latest relevant model/API entries in the selected official histories pre-date the current issue window; no qualifying newer item surfaced.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "Google",
+      "source_urls": [
+        "https://ai.google.dev/gemini-api/docs/changelog?release=09-18-2026",
+        "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-builders/",
+        "https://docs.cloud.google.com/release-notes/"
+      ],
+      "last_relevant_visible_date": "2026-10-23",
+      "result": "The Oct 23 Argon builder showcase is a use-case article, not a new model/API/pricing entry; it has no visible hour/TZ. Selected API and Cloud histories showed no later qualifying release.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "xAI",
+      "source_urls": [
+        "https://docs.x.ai/developers/release-notes",
+        "https://x.ai/api/changelog",
+        "https://x.ai/news"
+      ],
+      "last_relevant_visible_date": "2026-10-14",
+      "result": "Latest relevant developer release-note entry surfaced was Grok Voice 3.0 on Oct 14; not current-window model/API/pricing update.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "DeepSeek",
+      "source_urls": [
+        "https://api-docs.deepseek.com/updates/"
+      ],
+      "last_relevant_visible_date": "2026-10-17",
+      "result": "V4.1-Flash-1017/API update dated Oct 17, pre-cutoff.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "Mistral",
+      "source_urls": [
+        "https://docs.mistral.ai/resources/changelogs"
+      ],
+      "last_relevant_visible_date": "2026-10-22",
+      "result": "Oct 22 entries included Z.ai GLM 5.3 Flash and Voxtral 3 Public Preview; pre-cutoff.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "Cohere",
+      "source_urls": [
+        "https://docs.cohere.com/v2/changelog",
+        "https://cohere.com/blog"
+      ],
+      "last_relevant_visible_date": "2026-10-22",
+      "result": "Rerank 5 entries dated Oct 21; Oct 22 Model Vault posts were not new model launches; pre-cutoff.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "Alibaba / Qwen",
+      "source_urls": [
+        "https://help.aliyun.com/en/model-studio/newly-released-models",
+        "https://help.aliyun.com/en/model-studio/model-release-notes",
+        "https://github.com/QwenLM/Qwen3.8",
+        "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1"
+      ],
+      "last_relevant_visible_date": "2026-10-24",
+      "result": "Model Studio Oct 24 entry was model-unit deployment, not a model/API change. Qwen Code v0.26.1 adds catalog/preset support for other models, an integration change rather than a model launch; its release page shows Oct 24 15:47 without timezone.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "Meta",
+      "source_urls": [
+        "https://ai.meta.com/",
+        "https://dev.meta.ai/resources/blog/build-with-muse-wonder",
+        "https://dev.meta.ai/docs/models",
+        "https://dev.meta.ai/docs/pricing-rate-limits"
+      ],
+      "last_relevant_visible_date": "2026-10-12",
+      "result": "Muse Wonder API release dated Oct 12; pre-cutoff. No later model/API-ID/pricing update surfaced.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "NVIDIA",
+      "source_urls": [
+        "https://nvidianews.nvidia.com/",
+        "https://developer.nvidia.com/blog/"
+      ],
+      "last_relevant_visible_date": "2026-10-22",
+      "result": "Oct 21–22 items surfaced were model deployment/operations tooling, not a new foundation model or API ID.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "MiniMax",
+      "source_urls": [
+        "https://ir.minimax.io/news-events/new-releases",
+        "https://www.minimax.io/blog/minimax-m31f",
+        "https://www.minimax.io/blog/minimax-code-mini-app-1792650729"
+      ],
+      "last_relevant_visible_date": "2026-10-22",
+      "result": "M3.1 Flash was dated Oct 19; Oct 22 MiniMax Code Mini App is a non-model product update. Neither is after previous cutoff.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "Z.ai",
+      "source_urls": [
+        "https://zcode.z.ai/en/changelog",
+        "https://autoclaw.z.ai/blog/model/"
+      ],
+      "last_relevant_visible_date": "2026-10-23",
+      "result": "Oct 23 ZCode entry was desktop app fixes/features, not a model/API launch.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "Tencent",
+      "source_urls": [
+        "https://www.tencent.com/tencent-releases-and-opensources-tencent-hy4-preview/",
+        "https://www.tencent.com/tencent-hy3-now-available-globally-extending-practical-ai-across-products-workflows-and-cloud-services/",
+        "https://cloud.tencent.com/document/product/1729/97765"
+      ],
+      "last_relevant_visible_date": "2026-08-28",
+      "result": "Latest surfaced relevant release was Hy4 preview on Aug 28; no later model/API update surfaced.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "Baidu",
+      "source_urls": [
+        "https://cloud.baidu.com/support/ainews"
+      ],
+      "last_relevant_visible_date": "2026-10-19",
+      "result": "Latest surfaced feed item was TTS voice additions, not a foundation-model release.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "Amazon Bedrock / AWS",
+      "source_urls": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-ug-doc-history.html"
+      ],
+      "last_relevant_visible_date": "2026-10-20",
+      "result": "Selected Bedrock documentation history did not surface a newer model-serving entry in the target window.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    },
+    {
+      "provider": "Model-serving hosts",
+      "source_urls": [
+        "https://openrouter.ai/blog/announcements/",
+        "https://www.together.ai/blog",
+        "https://fireworks.ai/blog?blogTypes=Announcement",
+        "https://groq.com/blog/meta-s-muse-spark-open-release-is-now-in-limited-preview-on-groqcloud",
+        "https://huggingface.co/blog/",
+        "https://replicate.com/blog"
+      ],
+      "last_relevant_visible_date": "2026-10-21",
+      "result": "Selected host announcement pages surfaced no later dated model serving or launch item; this is a bounded check only.",
+      "checked_at": "2026-10-25T08:07+09:00"
+    }
+  ],
+  "scope_limits": [
+    "This is not a census of all AI announcements.",
+    "Date-only Kimi sources cannot be ordered against the previous issue cutoff or the scheduled 08:00 JST target cutoff.",
+    "Model/API prices were recorded in the currencies and units displayed; no conversion was performed.",
+    "Performance, speed, safety and benchmark statements are provider claims unless explicitly identified as independent external evaluation.",
+    "No model-weight license or region-wide API availability was confirmed from the selected Kimi sources."
+  ],
+  "no_global_absence_claim": true,
+  "primary_source_urls": [
+    "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+    "https://www.kimi.com/en/blog/",
+    "https://platform.kimi.com/docs/guide/kimi-k3-1-pro-quickstart",
+    "https://platform.kimi.com/"
+  ],
+  "no_secrets_or_local_paths": true
+}

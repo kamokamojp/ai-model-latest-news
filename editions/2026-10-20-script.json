@@ -1,0 +1,280 @@
+{
+  "issue_id": "2026-10-20",
+  "issue_number": 3,
+  "issue_date": "2026-10-20",
+  "timezone": "Asia/Tokyo",
+  "research_cutoff": "2026-10-20T09:40:51+09:00",
+  "research_file": "../production/2026-10-20-research.json",
+  "max_characters_per_utterance": 90,
+  "utterance_count": 28,
+  "speaker_reference": {
+    "akari": {
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "gender": "female"
+    },
+    "naoto": {
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "gender": "male"
+    }
+  },
+  "style": "normal",
+  "speed": "standard",
+  "audio_status": "pending",
+  "audio": null,
+  "utterances": [
+    {
+      "order": 1,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "こんにちは。AIモデル最新情報ラジオ第3号、10月20日確認号です。",
+      "characters": 34
+    },
+    {
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "10月19日から20日付の新しいモデル発表は、今回調べた公式資料では確認できませんでした。",
+      "characters": 45
+    },
+    {
+      "order": 3,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "世界のどこにも発表がない、という意味ではありません。確認範囲を明示してお届けします。",
+      "characters": 42
+    },
+    {
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "今日は直近の公式発表から三件を選び、提供条件を確認します。",
+      "characters": 29
+    },
+    {
+      "order": 5,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "まずDeepSeekです。V4.1 Flash 1017は10月17日付で案内されました。",
+      "characters": 45
+    },
+    {
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "Web、アプリ、APIで展開され、API名はdeepseek-flash。Harness 0.2.1 rc1以降を推奨です。",
+      "characters": 62
+    },
+    {
+      "order": 7,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "性能改善や推奨版は提供元の説明で、今回独立検証はしていません。",
+      "characters": 31
+    },
+    {
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "SearchとFetchは各endpoint千回あたり0.75米ドルです。",
+      "characters": 37
+    },
+    {
+      "order": 9,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "DeepSeek API利用者がHarness、Claude Code、Codexのserver-side tools経由で使う場合、10月31日16時UTCまで無料。",
+      "characters": 84
+    },
+    {
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "日本時間11月1日午前1時から課金開始。これはモデル推論料金とは別です。",
+      "characters": 36
+    },
+    {
+      "order": 11,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "次はOpenAIのprompt-to-voice。10月16日に全API顧客向け提供が発表されました。",
+      "characters": 51
+    },
+    {
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "文章で声質を指定して声を作り、GPT-Liveで使用できます。声の作成自体は無料です。",
+      "characters": 43
+    },
+    {
+      "order": 13,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "GPT-Liveでの発話生成とPlaygroundでの試聴には、通常のセッション課金が適用されます。",
+      "characters": 50
+    },
+    {
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "文章から作る声はGPT-Live限定。Text to Speech、Realtime、Chat Completions APIでは使えません。",
+      "characters": 71
+    },
+    {
+      "order": 15,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "日本語HaremaとShidaを含む標準音声9種類も追加されました。",
+      "characters": 34
+    },
+    {
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "組織あたり100声まで。子供の声は禁止。声の作成はZero Data Retention非対応です。",
+      "characters": 50
+    },
+    {
+      "order": 17,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "録音からの声複製は別機能で、対象顧客と同意録音の条件があります。",
+      "characters": 32
+    },
+    {
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "prompt-to-voiceとは別の機能です。この案内で番組のNemo設定は変わりません。",
+      "characters": 46
+    },
+    {
+      "order": 19,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "続いてxAIのGrok Voice 3.0。10月14日にVoice Agent API向けに発表されました。",
+      "characters": 55
+    },
+    {
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "料金は1分あたり0.08米ドル、1時間あたり4.80米ドルと案内されています。",
+      "characters": 39
+    },
+    {
+      "order": 21,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "grok-voice-latest指定のエージェントは、新モデルに自動切替したと発表されています。",
+      "characters": 49
+    },
+    {
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "料金と自動切替は提供元の案内です。独立した品質比較はしていません。",
+      "characters": 33
+    },
+    {
+      "order": 23,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "今日の三件は、新モデル発表よりも機能や提供条件の確認が中心でした。",
+      "characters": 33
+    },
+    {
+      "order": 24,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "発表日と確認日を分け、提供元の説明と独立評価も分けて読むのが大切です。",
+      "characters": 35
+    },
+    {
+      "order": 25,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "出典はDeepSeek公式更新情報とSearch、Fetchの告知です。",
+      "characters": 36
+    },
+    {
+      "order": 26,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "OpenAIのリリースノートとカスタム音声ガイドも、番組ページに掲載しています。",
+      "characters": 40
+    },
+    {
+      "order": 27,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "Grok Voice 3.0はxAIの公式告知を参照しました。",
+      "characters": 31
+    },
+    {
+      "order": 28,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "以上、AIモデル最新情報ラジオ第3号、10月20日確認号でした。また次回。",
+      "characters": 37
+    }
+  ]
+}

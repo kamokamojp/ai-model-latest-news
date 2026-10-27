@@ -1,0 +1,302 @@
+{
+  "issue_id": "2026-10-19",
+  "issue_number": 2,
+  "issue_date": "2026-10-19",
+  "timezone": "Asia/Tokyo",
+  "research_cutoff": "2026-10-19T10:12:00+09:00",
+  "research_file": "research.json",
+  "max_characters_per_utterance": 90,
+  "utterance_count": 28,
+  "speaker_reference": {
+    "akari": {
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005
+    },
+    "naoto": {
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001
+    }
+  },
+  "utterances": [
+    {
+      "order": 1,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 1,
+      "part": 1,
+      "text": "おはようございます。「AIモデル最新情報」第2回、水野あかりです。",
+      "characters": 33
+    },
+    {
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 2,
+      "part": 1,
+      "text": "高瀬直人です。今日は10月19日午前10時12分、日本時間の確認号です。",
+      "characters": 36
+    },
+    {
+      "order": 3,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 3,
+      "part": 1,
+      "text": "はじめに、18日から19日付の新発表は、調査した一次資料では確認できませんでした。",
+      "characters": 41
+    },
+    {
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 4,
+      "part": 1,
+      "text": "世界中に発表がなかった、という意味ではありません。確認できた公表日を分けて紹介します。",
+      "characters": 43
+    },
+    {
+      "order": 5,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 5,
+      "part": 1,
+      "text": "水野あかりと高瀬直人は架空の司会者です。音声はAI合成で制作しています。",
+      "characters": 36
+    },
+    {
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 6,
+      "part": 1,
+      "text": "まずDeepSeek。公式更新履歴に10月17日付で、V4.1 Flash 1017の更新が載りました。",
+      "characters": 52
+    },
+    {
+      "order": 7,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 7,
+      "part": 1,
+      "text": "Web、アプリ、APIへ展開し、APIの呼び出し名deepseek-flashとモデル料金は維持と説明されています。",
+      "characters": 58
+    },
+    {
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 8,
+      "part": 1,
+      "text": "モデル本体の差分は提供元の案内です。私たちは独立した性能比較をしていません。",
+      "characters": 38
+    },
+    {
+      "order": 9,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 9,
+      "part": 1,
+      "text": "利用環境はHarness 0.2.1-rc.1以降を公式が推奨しています。",
+      "characters": 37
+    },
+    {
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 10,
+      "part": 1,
+      "text": "同じ10月17日発表のSearchとFetchは、通常、各エンドポイント千回あたり0.75ドルです。",
+      "characters": 50
+    },
+    {
+      "order": 11,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 11,
+      "part": 1,
+      "text": "DeepSeek API利用者がHarness、Claude Code、Codexのサーバー側ツール経由で使う場合、無料期間があります。",
+      "characters": 68
+    },
+    {
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 12,
+      "part": 1,
+      "text": "発表文の期限は10月31日16時UTC、日本時間では11月1日午前1時です。条件付きの案内です。",
+      "characters": 48
+    },
+    {
+      "order": 13,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 13,
+      "part": 1,
+      "text": "モデルカードではV4.1 Flash 1017の重みとMITライセンスを確認できます。API利用条件とは別です。",
+      "characters": 56
+    },
+    {
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 14,
+      "part": 1,
+      "text": "ここまでが10月17日のDeepSeek情報です。モデル更新と検索機能を、一つの発表日として整理します。",
+      "characters": 52
+    },
+    {
+      "order": 15,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 15,
+      "part": 1,
+      "text": "次は開発ツール。公式Changelogで、Codex CLI 0.163.0が10月15日付と確認できます。",
+      "characters": 54
+    },
+    {
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 16,
+      "part": 1,
+      "text": "設定の検索、応答中の追指示、daemon再起動、スレッド再開時の権限とnetwork承認の扱いなどが記載されています。",
+      "characters": 59
+    },
+    {
+      "order": 17,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 17,
+      "part": 1,
+      "text": "子プロセスがpipeを保持する時のcommand完了も改善項目にあります。日付は今日ではなく15日です。",
+      "characters": 52
+    },
+    {
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 18,
+      "part": 1,
+      "text": "CLIとDesktopアプリは別です。利用中の環境の版と反映状況は個別に確認してください。",
+      "characters": 45
+    },
+    {
+      "order": 19,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 19,
+      "part": 1,
+      "text": "三つ目はAnthropicのClaude Haiku 5.5。発表日は10月7日です。API IDはclaude-haiku-5-5。",
+      "characters": 67
+    },
+    {
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 20,
+      "part": 1,
+      "text": "大量の要約や分類を担うモデルとして案内されています。提供元はAWS、Google Cloud、Azureも挙げています。",
+      "characters": 60
+    },
+    {
+      "order": 21,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 21,
+      "part": 1,
+      "text": "料金は入力が十万トークン以下なら、百万トークンあたり入力0.10ドル、出力0.50ドルです。",
+      "characters": 46
+    },
+    {
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 22,
+      "part": 1,
+      "text": "十万を超えるpromptでは、入力0.50ドル、出力2.50ドルへ切り替わります。公式掲載の段階料金です。",
+      "characters": 53
+    },
+    {
+      "order": 23,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 23,
+      "part": 1,
+      "text": "各クラウドの地域や契約条件までは今回確認できず、性能も独立評価していません。",
+      "characters": 38
+    },
+    {
+      "order": 24,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 24,
+      "part": 1,
+      "text": "今日の要点は、発表日、提供経路、料金条件をセットで確認することです。三件とも公表日を添えました。",
+      "characters": 48
+    },
+    {
+      "order": 25,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 25,
+      "part": 1,
+      "text": "10月18日から19日にかけての新モデル発表は、今回確認した一次資料では見つかりませんでした。",
+      "characters": 47
+    },
+    {
+      "order": 26,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 26,
+      "part": 1,
+      "text": "これは調査範囲での確認です。未確認の企業や発表まで、無かったとは言いません。",
+      "characters": 38
+    },
+    {
+      "order": 27,
+      "speaker": "akari",
+      "speaker_name": "水野あかり",
+      "speaker_id": 10005,
+      "source_line": 27,
+      "part": 1,
+      "text": "本号は10月19日10時12分、日本時間の情報確認にもとづいています。条件の最新状況は各公式ページをご確認ください。",
+      "characters": 58
+    },
+    {
+      "order": 28,
+      "speaker": "naoto",
+      "speaker_name": "高瀬直人",
+      "speaker_id": 10001,
+      "source_line": 28,
+      "part": 1,
+      "text": "それではまた次回。「AIモデル最新情報」第2回でした。",
+      "characters": 27
+    }
+  ]
+}

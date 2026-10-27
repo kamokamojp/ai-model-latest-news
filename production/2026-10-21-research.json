@@ -1,0 +1,135 @@
+{
+  "issue_id": "2026-10-21",
+  "issue_number": 4,
+  "timezone": "Asia/Tokyo",
+  "research_cutoff": "2026-10-21T11:30:00+09:00",
+  "research_method": "Official release/changelog/documentation pages only; calendar dates copied as shown by publisher. Pages with no publication time/timezone are not converted to JST. Findings describe pages checked, not exhaustive web-wide absence.",
+  "items": [
+    {
+      "company": "Cohere",
+      "title": "Rerank 5 Pro and Fast",
+      "published_at": "2026-10-21 (publisher date; no time or timezone stated)",
+      "checked_on": "2026-10-21",
+      "url": "https://docs.cohere.com/v2/changelog/rerank-v5",
+      "notes": "The official changelog lists October 21. Since it gives no time or timezone, this is not asserted to have been published during October 21 JST."
+    },
+    {
+      "company": "Mistral AI",
+      "title": "Voxtral 3",
+      "published_at": "2026-10-20 (publisher date; no time or timezone stated)",
+      "checked_on": "2026-10-21",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "notes": "Official launch date is October 20. Feature and price details verified against official model docs below; no open-weight claim."
+    },
+    {
+      "company": "Mistral AI",
+      "title": "Official model documentation: Voxtral Mini / Small Transcribe 3.0; Realtime Mini; Mini TTS",
+      "published_at": "model pages dated 2026-10-20",
+      "checked_on": "2026-10-21",
+      "url": "https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0",
+      "notes": "Public Preview; Mini batch $0.0035/min, Small batch $0.004/min, Realtime Mini $0.008/min, Mini TTS $13 per 1M characters. Dedicated TTS page says 9 languages, differing from launch page language claim; not repeated as settled."
+    },
+    {
+      "company": "ElevenLabs",
+      "title": "Realtime v1 Mini and Max",
+      "published_at": "2026-10-20 (publisher date; no time or timezone stated)",
+      "checked_on": "2026-10-21",
+      "url": "https://elevenlabs.io/blog/realtime",
+      "notes": "Company announcement; describes availability through ElevenAgents and Realtime API. Language/voice figures treated as vendor claims."
+    },
+    {
+      "company": "OpenAI",
+      "title": "Official product release notes reviewed; latest relevant visible API update was October 16, not a new model launch",
+      "published_at": "latest visible relevant entry 2026-10-16",
+      "checked_on": "2026-10-21",
+      "url": "https://openai.com/products/release-notes/",
+      "notes": "No claim that no OpenAI announcements exist outside this checked page."
+    },
+    {
+      "company": "Anthropic",
+      "title": "Official model list reviewed; latest listed model dates: Haiku 5.5 Oct 7, Sonnet 5.5 Sep 28, Opus 5.5 Sep 22",
+      "published_at": "dates as displayed on official model list",
+      "checked_on": "2026-10-21",
+      "url": "https://www.anthropic.com/news/models",
+      "notes": "No claim of comprehensive absence outside this list."
+    },
+    {
+      "company": "Google",
+      "title": "Official blog item dated October 20 describes Gemini app small-business tools and references Nano Banana 2.1; treated as app feature rollout, not a separate model release",
+      "published_at": "2026-10-20 (publisher date; no time or timezone stated)",
+      "checked_on": "2026-10-21",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+      "notes": "Rollout described as coming days; not included as a standalone model announcement."
+    },
+    {
+      "company": "xAI",
+      "title": "Official news page reviewed; latest model-specific posts visible: Grok Voice 3.0 Oct 14 and Grok 4.7 Sep 21",
+      "published_at": "dates as displayed on official news page",
+      "checked_on": "2026-10-21",
+      "url": "https://x.ai/news",
+      "notes": "An Oct 20 item is not a model announcement; no global absence claim."
+    },
+    {
+      "company": "DeepSeek",
+      "title": "Official API updates reviewed; latest entry visible October 17 (V4.1 Flash 1017 and Search API)",
+      "published_at": "2026-10-17",
+      "checked_on": "2026-10-21",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "notes": "No global absence claim."
+    }
+  ],
+  "primary_sources": [
+    {
+      "company": "Cohere",
+      "url": "https://docs.cohere.com/v2/changelog/rerank-v5"
+    },
+    {
+      "company": "Cohere",
+      "url": "https://docs.cohere.com/v2/docs/rerank"
+    },
+    {
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-3/"
+    },
+    {
+      "company": "Mistral AI",
+      "url": "https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0"
+    },
+    {
+      "company": "Mistral AI",
+      "url": "https://docs.mistral.ai/models/voxtral-small-transcribe-3-0"
+    },
+    {
+      "company": "Mistral AI",
+      "url": "https://docs.mistral.ai/models/voxtral-mini-transcribe-realtime-3-0"
+    },
+    {
+      "company": "Mistral AI",
+      "url": "https://docs.mistral.ai/models/voxtral-mini-tts-3-0"
+    },
+    {
+      "company": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/realtime"
+    },
+    {
+      "company": "OpenAI",
+      "url": "https://openai.com/products/release-notes/"
+    },
+    {
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/models"
+    },
+    {
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/"
+    },
+    {
+      "company": "xAI",
+      "url": "https://x.ai/news"
+    },
+    {
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/updates/"
+    }
+  ]
+}

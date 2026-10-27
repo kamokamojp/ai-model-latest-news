@@ -1,0 +1,39 @@
+{
+  "series": "AIモデル最新情報ラジオ",
+  "issue_id": "2026-10-21",
+  "issue_number": 4,
+  "issue_date_semantics": "Confirmation date in Asia/Tokyo; not an inferred publication date",
+  "timezone": "Asia/Tokyo",
+  "confirmation_cutoff": "2026-10-21T11:30:00+09:00",
+  "canonical_site_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/editions/2026-10-21",
+  "canonical_source_commit": "9a2fa60fd95af1d1df6cc65e3c524336b622516b",
+  "article": "../editions/2026-10-21.md",
+  "html": "../editions/2026-10-21.html",
+  "script_markdown": "../editions/2026-10-21-script.md",
+  "script_json": "../editions/2026-10-21-script.json",
+  "research_json": "2026-10-21-research.json",
+  "audio": {
+    "status": "published",
+    "url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site/audio/2026-10-21.mp3",
+    "sha256": "c3fcfa5999424b93b3916f5aa32c7e51c1593d6ddcb8bc48728d58bd3ce9adbf",
+    "bytes": 1465100,
+    "format": "MP3",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "bit_rate_bps": 96000,
+    "duration_seconds": 122.064,
+    "duplicate_binary_in_mirror": false,
+    "generation": {
+      "engine": "VOICEVOX Nemo 0.24.0 Linux CPU x64",
+      "voices": {"akari": 10005, "naoto": 10001},
+      "style": "normal",
+      "speed": "standard"
+    },
+    "checks": {
+      "full_decode": "passed",
+      "human_listening_test": "not performed"
+    }
+  },
+  "primary_source_packet": "2026-10-21-research.json",
+  "provenance_note": "Publisher dates and confirmation date are kept separate. Dates without a publisher time or timezone are not converted to JST."
+}
