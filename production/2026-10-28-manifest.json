@@ -4,40 +4,65 @@
   "issue_date": "2026-10-28",
   "timezone": "Asia/Tokyo",
   "scheduled_target_cutoff": "2026-10-28T08:00:00+09:00",
-  "research_cutoff": "2026-10-28T08:04:15+09:00",
-  "research_cutoff_utc": "2026-10-27T23:04:15Z",
+  "research_cutoff": "2026-10-28T08:39:21+09:00",
+  "research_cutoff_utc": "2026-10-27T23:39:21Z",
   "previous_issue_id": "2026-10-27",
   "previous_issue_cutoff": "2026-10-27T08:07:05+09:00",
   "idempotency": {
     "same_day_record_count": 0,
-    "input_hash": "402818bce23a05138f00d8b5f6ef9de2441cf871789e96fc0397a9052d412d46",
-    "same_day_duplicate_policy": "update the dated issue/index record if new verified evidence; do not add duplicate row"
+    "input_hash": "3c623938948aacfee0df6182103de7d4c4ff3c8471369fa3a639d3e7cecc3bad",
+    "input_hash_definition": "SHA-256 of research JSON bytes concatenated with the pre-audio script JSON bytes",
+    "synthesis_input_script_sha256": "e2f472704d676abf41743c2333927c38a2a0ac3e1072c1208bdac333094043d8",
+    "synthesis_input_definition": "SHA-256 of the script JSON file before audio metadata (sha/size/duration) was filled",
+    "same_day_duplicate_policy": "update this issue if new verified evidence; do not create a second row"
   },
   "selected_items": [
-    "GPT-6.1 Terra",
-    "DeepSeek-V4.1-Flash-1017 update",
-    "Rerank 5 models",
-    "Voxtral 3 audio family"
+    "Alibaba Cloud Model Studio lists qwen-audio-3.1-realtime-flash on 2026-10-27 (date-only; chronology vs prior cutoff unknown)",
+    "Mistral changelog lists zai-glm-5-3-flash as available on 2026-10-22 (older than the prior cutoff; Mistral platform availability, not a new announcement)"
   ],
   "audio": {
-    "status": "pending",
-    "file": null,
-    "backup": null,
-    "note": "No new audio was generated; audio is pending and no earlier issue MP3 was reused."
+    "status": "available_locally",
+    "primary": "audio/2026-10-28.mp3",
+    "sha256": "9f3adbe1eb57c2e8480650cd1bf37d68abc96ac438e5f8cb33419756c4923c11",
+    "backup": "audio/2026-10-28-backup.mp3",
+    "backup_sha256": "9f3adbe1eb57c2e8480650cd1bf37d68abc96ac438e5f8cb33419756c4923c11",
+    "bytes": 1171053,
+    "codec": "mp3",
+    "bitrate_bps": 96082,
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "duration_seconds": 97.504,
+    "generated_at_jst": "2026-10-28T08:43+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "archive_sha256_expected": "c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7",
+    "archive_source": "https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "style": "normal",
+    "speed": "standard",
+    "synthesis_input_script_sha256": "e2f472704d676abf41743c2333927c38a2a0ac3e1072c1208bdac333094043d8",
+    "short_sample_full_decode": "passed",
+    "full_mp3_decode": "passed",
+    "human_listening_claimed": false
   },
   "checks": {
-    "script_utterance_limit": "passed",
-    "speaker_ids": "passed: akari 10005, naoto 10001",
-    "audio": "pending; no MP3 references"
+    "research_scope": "bounded official pages; no global absence claim",
+    "same_day_index_check": "passed; no existing 2026-10-28 record in Pages index or handover index before authoring",
+    "utterance_limit": "passed, all 21 utterances <=90 chars (max 39)",
+    "short_sample": "passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode",
+    "full_mp3_decode": "passed; 24 kHz mono, ~96 kbps; primary and backup byte-identical",
+    "html_archive_qa": "passed by production/verify-issue-2026-10-28.py (local staging checks; old-archive preservation verified on the AI-device git worktree before push)",
+    "historical_preservation": "source files for past issues retained; only additive changes in both pushes"
   },
   "publication": {
-    "status": "Sites deployment succeeded; public content readback not verified.",
-    "site_url": "https://ai-model-latest-radio.kamokamojp.chatgpt.site",
-    "site_version_number": 22,
-    "deployment_status": "succeeded",
-    "public_readback": {
-      "status": "not_verified",
-      "http_status_body_headers_and_audio_hash": "not captured"
-    }
+    "status": "pending at manifest authoring; filled after Pages and main pushes with read-back results",
+    "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
+    "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-10-28.html",
+    "audio_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-10-28.mp3",
+    "audio_backup_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-10-28-backup.mp3"
   }
 }
