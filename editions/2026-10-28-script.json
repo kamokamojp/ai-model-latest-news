@@ -1,0 +1,250 @@
+{
+  "issue_id": "2026-10-28",
+  "issue_number": 11,
+  "issue_date": "2026-10-28",
+  "timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-28T08:00:00+09:00",
+  "research_cutoff": "2026-10-28T08:39:21+09:00",
+  "research_cutoff_utc": "2026-10-27T23:39:21Z",
+  "previous_issue_id": "2026-10-27",
+  "previous_issue_cutoff": "2026-10-27T08:07:05+09:00",
+  "research_file": "../production/2026-10-28-research.json",
+  "max_characters_per_utterance": 90,
+  "utterance_count": 21,
+  "speaker_reference": {
+    "akari": {
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "gender": "female"
+    },
+    "naoto": {
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "gender": "male"
+    }
+  },
+  "style": "normal",
+  "speed": "standard",
+  "audio_status": "available",
+  "audio": {
+    "file": "../audio/2026-10-28.mp3",
+    "codec": "mp3",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "style": "normal",
+    "speed": "standard",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "backup_file": "../audio/2026-10-28-backup.mp3",
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-10-28.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-10-28-backup.mp3",
+    "human_listening_claimed": false,
+    "backup_status": "available",
+    "sha256": "9f3adbe1eb57c2e8480650cd1bf37d68abc96ac438e5f8cb33419756c4923c11",
+    "backup_sha256": "9f3adbe1eb57c2e8480650cd1bf37d68abc96ac438e5f8cb33419756c4923c11",
+    "file_size_bytes": 1171053,
+    "bit_rate_bps": 96082,
+    "duration_seconds": 97.504,
+    "generated_at_jst": "2026-10-28T08:43+09:00",
+    "generated_at_time_precision": "approximate; local filesystem output timestamp to the minute",
+    "short_sample_full_decode": "passed",
+    "full_ffmpeg_decode": "passed"
+  },
+  "utterances": [
+    {
+      "order": 1,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第11号です。",
+      "characters": 26
+    },
+    {
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "2026年10月28日の確認号。基準時は午前8時39分です。",
+      "characters": 30
+    },
+    {
+      "order": 3,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "前号からの変化を、一次資料の日付と条件に分けて読みます。",
+      "characters": 28
+    },
+    {
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "アリババの資料には、10月27日付で音声モデルが掲載されました。",
+      "characters": 32
+    },
+    {
+      "order": 5,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "モデルIDは、qwen-audio-3.1-realtime-flashです。",
+      "characters": 39
+    },
+    {
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "テキストと音声の入出力に対応する、双方向の音声モデルです。",
+      "characters": 29
+    },
+    {
+      "order": 7,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "文脈窓は26万2144トークンと記載されています。",
+      "characters": 25
+    },
+    {
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "関数呼び出し、ウェブ検索、音声クローンにも対応します。",
+      "characters": 27
+    },
+    {
+      "order": 9,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "10月27日は日付のみ。前号締め切りの後かは判断できません。",
+      "characters": 30
+    },
+    {
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "次は少し前の情報。10月22日付のMistralの記載です。",
+      "characters": 30
+    },
+    {
+      "order": 11,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "Z.aiのGLM-5.3-Flashが、Mistralで利用できます。",
+      "characters": 35
+    },
+    {
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "モデルIDは、zai-glm-5-3-flashです。",
+      "characters": 27
+    },
+    {
+      "order": 13,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "総パラメータ3200億、動作するのは180億の混合専門家モデルです。",
+      "characters": 34
+    },
+    {
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "文脈窓は100万トークン。料金は100万トークン当たりの記載です。",
+      "characters": 33
+    },
+    {
+      "order": 15,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "入力15セント、キャッシュ入力3セント、出力50セントです。",
+      "characters": 30
+    },
+    {
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "この情報は前号締め切りより前で、新発表とは言いません。",
+      "characters": 27
+    },
+    {
+      "order": 17,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "OpenAIとGoogleの最新は、前号で扱った10月26日付のままです。",
+      "characters": 37
+    },
+    {
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "そのため、10月26日付の内容を新しい発表として繰り返しません。",
+      "characters": 32
+    },
+    {
+      "order": 19,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "各社の選定した公式資料を確認しましたが、全発表の網羅ではありません。",
+      "characters": 34
+    },
+    {
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "part": 1,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。",
+      "characters": 28
+    },
+    {
+      "order": 21,
+      "speaker": "akari",
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "part": 1,
+      "text": "以上、第11号でした。モデルIDと日付、利用条件をご確認ください。",
+      "characters": 33
+    }
+  ],
+  "input_hash": "3c623938948aacfee0df6182103de7d4c4ff3c8471369fa3a639d3e7cecc3bad",
+  "synthesis_input_script_sha256": "e2f472704d676abf41743c2333927c38a2a0ac3e1072c1208bdac333094043d8"
+}
