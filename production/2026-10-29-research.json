@@ -1,0 +1,129 @@
+{
+  "issue_date": "2026-10-29",
+  "issue_timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-29T08:00:00+09:00",
+  "research_cutoff_jst": "2026-10-29T08:40:27+09:00",
+  "research_cutoff_utc": "2026-10-28T23:40:27Z",
+  "previous_issue_id": "2026-10-28",
+  "previous_issue_cutoff": "2026-10-28T08:39:21+09:00",
+  "same_day_existing_issue_count": 0,
+  "same_day_existing_record_checked": "editions/index.json on GitHub Pages; latest 2026-10-28, no 2026-10-29 record before authoring",
+  "research_method": "Official developer release notes, model catalogs, changelogs and terms were checked. Each finding is bounded to the listed pages; date-only pages are not assigned times or time zones.",
+  "selected_items": [
+    "OpenAI API changelog lists free API credits for eligible ChatGPT Pro/Business subscribers on 2026-10-28 (date-only; up to $500/month)",
+    "Google Gemini API release notes list the Gemini API CLI (gemini-api) beta on 2026-10-27 (date-only)",
+    "xAI release notes list content-guidelines (guidelines array) for text API requests on 2026-10-27 (date-only)"
+  ],
+  "sources": [
+    {
+      "provider": "OpenAI",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "note": "Oct 28: eligible ChatGPT Pro and Business subscribers can claim up to $500/month in free API credits. Date-only; no time/timezone."
+    },
+    {
+      "provider": "OpenAI",
+      "url": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits",
+      "note": "Pro $100/$200/$500 tiers; Business Standard $20/paid seat, Premium $100/paid seat, pooled cap $500/workspace/month; first grant prorated, expires end of billing cycle; requires 7+ day paid subscription, owner of subscription and API org, same email; Codex via API keys excluded; does not raise ChatGPT/Codex limits."
+    },
+    {
+      "provider": "Google",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "note": "Oct 27: Gemini API CLI (gemini-api) beta. Date-only; no time/timezone."
+    },
+    {
+      "provider": "Google",
+      "url": "https://ai.google.dev/gemini-api/docs/cli",
+      "note": "gemini-api is a stateless, zero-dependency CLI on the Interactions API; generate text/media, analyze files, run managed agents; API key from Google AI Studio; beta, not GA."
+    },
+    {
+      "provider": "xAI",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "note": "Oct 27: guidelines array on Chat Completions / Responses API text requests for nsfw, violence, profanity categories. Date-only; no time/timezone. API behavior setting, not a model launch."
+    },
+    {
+      "provider": "Alibaba Cloud Model Studio",
+      "url": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "note": "Latest rows remain 2026-10-27 (already covered in No.11); no 2026-10-28 or 2026-10-29 row found."
+    },
+    {
+      "provider": "Mistral",
+      "url": "https://docs.mistral.ai/resources/changelogs",
+      "note": "Latest remains Oct 22 (already covered in No.11 context)."
+    },
+    {
+      "provider": "Anthropic",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "note": "Latest is Oct 23 Claude Tag API beta (platform item, before No.11 cutoff); no Oct 28/29 model item."
+    },
+    {
+      "provider": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "note": "Latest remains 2026-10-17 DeepSeek-V4.1-Flash-1017."
+    },
+    {
+      "provider": "Cohere",
+      "url": "https://docs.cohere.com/v2/changelog",
+      "note": "Fetched text carries no dates; no dated Oct 28/29 item could be confirmed from this fetch."
+    }
+  ],
+  "coverage_inventory": [
+    {
+      "provider": "OpenAI",
+      "checked": [
+        "https://developers.openai.com/api/docs/changelog",
+        "https://developers.openai.com/api/docs/guides/chatgpt-api-credits"
+      ],
+      "result": "SELECTED: Oct 28 API-credits benefit (see sources). No.11 record showed latest Oct 26, so this Oct 28 entry is newly confirmed in this edition; date-only, so chronology vs the No.11 cutoff time is not asserted."
+    },
+    {
+      "provider": "Google",
+      "checked": [
+        "https://ai.google.dev/gemini-api/docs/changelog",
+        "https://ai.google.dev/gemini-api/docs/cli"
+      ],
+      "result": "SELECTED: Oct 27 Gemini API CLI beta (see sources). No.11 record showed latest Oct 26, so this Oct 27 entry is newly confirmed in this edition; date-only."
+    },
+    {
+      "provider": "xAI",
+      "checked": [
+        "https://docs.x.ai/developers/release-notes"
+      ],
+      "result": "SELECTED: Oct 27 guidelines array for text API requests (see sources). No.11 record showed latest model-related Oct 14; date-only."
+    },
+    {
+      "provider": "Alibaba / Qwen",
+      "checked": [
+        "https://help.aliyun.com/en/model-studio/newly-released-models"
+      ],
+      "result": "Latest rows remain 2026-10-27, already covered in No.11; not repeated as a new announcement. No 2026-10-28/29 row found in the fetched page."
+    },
+    {
+      "provider": "Mistral",
+      "checked": [
+        "https://docs.mistral.ai/resources/changelogs"
+      ],
+      "result": "Latest remains Oct 22, already covered in No.11 context; not repeated as a new announcement."
+    },
+    {
+      "provider": "Anthropic",
+      "checked": [
+        "https://platform.claude.com/docs/en/release-notes/overview"
+      ],
+      "result": "Latest is Oct 23 Claude Tag API beta and Oct 22 Claude Models on Google Cloud; platform items, before the No.11 cutoff; no new model item."
+    },
+    {
+      "provider": "DeepSeek",
+      "checked": [
+        "https://api-docs.deepseek.com/updates/"
+      ],
+      "result": "Latest remains 2026-10-17 DeepSeek-V4.1-Flash-1017; no later entry seen."
+    },
+    {
+      "provider": "Cohere",
+      "checked": [
+        "https://docs.cohere.com/v2/changelog"
+      ],
+      "result": "Fetched page lists Rerank 5, Embed 5 and other model announcements without dates in the fetched text; no dated Oct 28/29 item could be confirmed from this fetch."
+    }
+  ]
+}
