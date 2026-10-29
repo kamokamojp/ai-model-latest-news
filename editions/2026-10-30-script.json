@@ -1,0 +1,184 @@
+{
+  "audio_status": "available",
+  "issue_date": "2026-10-30",
+  "issue_id": "2026-10-30",
+  "issue_number": 13,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-10-29T08:40:27+09:00",
+  "previous_issue_id": "2026-10-29",
+  "research_cutoff": "2026-10-30T08:38:34+09:00",
+  "research_cutoff_utc": "2026-10-29T23:38:34Z",
+  "research_file": "../production/2026-10-30-research.json",
+  "scheduled_target_cutoff": "2026-10-30T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 18,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第13号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年10月30日の確認号。基準時は午前8時38分です。"
+    },
+    {
+      "characters": 28,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "前号からの変化を、一次資料の日付と条件に分けて読みます。"
+    },
+    {
+      "characters": 29,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "アリババの一覧には、10月29日付の新モデルが載りました。"
+    },
+    {
+      "characters": 33,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "名前は、Ling-3.1-flash。アントデジタルが提供します。"
+    },
+    {
+      "characters": 27,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "全体は約5600億パラメータ、動くのは約250億です。"
+    },
+    {
+      "characters": 25,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "文脈は最大100万トークン。思考モードで動きます。"
+    },
+    {
+      "characters": 35,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次はAnthropic。10月29日付で、利用と費用の分析APIです。"
+    },
+    {
+      "characters": 26,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "ベータ版で、トークン数と費用を次元別に集計できます。"
+    },
+    {
+      "characters": 23,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "従来の利用・費用APIは、旧版として残ります。"
+    },
+    {
+      "characters": 34,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "10月28日付では、要請の最大サイズが128メガバイトに増えました。"
+    },
+    {
+      "characters": 33,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "従来は32メガバイトでした。対象は自社のClaude APIです。"
+    },
+    {
+      "characters": 30,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "OpenAIの最新は、10月28日付のAPI特典のままです。"
+    },
+    {
+      "characters": 32,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "Googleは10月27日付、xAIも10月27日付のままです。"
+    },
+    {
+      "characters": 27,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "そのため、既報の項目を新しい発表として繰り返しません。"
+    },
+    {
+      "characters": 34,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "各社の選定した公式資料を確認しましたが、全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 33,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第13号でした。モデルIDと日付、利用条件をご確認ください。"
+    }
+  ],
+  "audio": {
+    "file": "../audio/2026-10-30.mp3",
+    "codec": "mp3",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "style": "normal",
+    "speed": "standard",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "backup_file": "../audio/2026-10-30-backup.mp3",
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-10-30.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-10-30-backup.mp3",
+    "human_listening_claimed": false,
+    "backup_status": "available",
+    "sha256": "82a59a7ffa85ce3b70f3174c7bbd19e662fbe47679a9b4c643e4f8d7a7427e15",
+    "backup_sha256": "82a59a7ffa85ce3b70f3174c7bbd19e662fbe47679a9b4c643e4f8d7a7427e15",
+    "file_size_bytes": 970317,
+    "duration_seconds": 80.779,
+    "generated_at_jst": "2026-10-30T08:46+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "short_sample_full_decode": "passed",
+    "full_mp3_decode": "passed"
+  }
+}
