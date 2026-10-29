@@ -1,0 +1,205 @@
+{
+  "issue_id": "2026-10-29",
+  "issue_number": 12,
+  "issue_date": "2026-10-29",
+  "timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-29T08:00:00+09:00",
+  "research_cutoff": "2026-10-29T08:40:27+09:00",
+  "research_cutoff_utc": "2026-10-28T23:40:27Z",
+  "previous_issue_id": "2026-10-28",
+  "previous_issue_cutoff": "2026-10-28T08:39:21+09:00",
+  "research_file": "../production/2026-10-29-research.json",
+  "max_characters_per_utterance": 90,
+  "utterance_count": 21,
+  "speaker_reference": {
+    "akari": {
+      "speaker_name": "あかり",
+      "speaker_id": 10005,
+      "gender": "female"
+    },
+    "naoto": {
+      "speaker_name": "なおと",
+      "speaker_id": 10001,
+      "gender": "male"
+    }
+  },
+  "style": "normal",
+  "speed": "standard",
+  "audio_status": "available",
+  "audio": {
+    "file": "../audio/2026-10-29.mp3",
+    "codec": "mp3",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "style": "normal",
+    "speed": "standard",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "backup_file": "../audio/2026-10-29-backup.mp3",
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-10-29.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-10-29-backup.mp3",
+    "human_listening_claimed": false,
+    "backup_status": "available",
+    "sha256": "7a784c7b6ba5e437ad1b008b70e5a6580ce03c4c9128e9e1483afc983c7970f3",
+    "backup_sha256": "7a784c7b6ba5e437ad1b008b70e5a6580ce03c4c9128e9e1483afc983c7970f3",
+    "file_size_bytes": 1102221,
+    "duration_seconds": 91.776,
+    "generated_at_jst": "2026-10-29T08:50+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "short_sample_full_decode": "passed",
+    "full_mp3_decode": "passed"
+  },
+  "utterances": [
+    {
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第12号です。",
+      "characters": 26
+    },
+    {
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年10月29日の確認号。基準時は午前8時40分です。",
+      "characters": 30
+    },
+    {
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "前号からの変化を、一次資料の日付と条件に分けて読みます。",
+      "characters": 28
+    },
+    {
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "OpenAIの記録には、10月28日付のAPI特典が載りました。",
+      "characters": 32
+    },
+    {
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "対象のChatGPT ProとBusinessで、無料のAPIクレジットです。",
+      "characters": 39
+    },
+    {
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "上限は月500ドル。プランや席数で額が決まります。",
+      "characters": 25
+    },
+    {
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "初回は日割りで、未使用分は請求期間の終わりで失効します。",
+      "characters": 28
+    },
+    {
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "申請には、7日以上の有料契約と所有者であることが要ります。",
+      "characters": 29
+    },
+    {
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "APIキー経由のCodex利用は、この特典の対象外です。",
+      "characters": 28
+    },
+    {
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次はGoogle。10月27日付で、Gemini APIのCLIが公開されました。",
+      "characters": 41
+    },
+    {
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "コマンド名は、gemini-api。ベータ版の提供です。",
+      "characters": 28
+    },
+    {
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "シェルから直接、文章や画像、音声、動画を作れます。",
+      "characters": 25
+    },
+    {
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "状態を持たず、依存関係なしで動く設計です。",
+      "characters": 21
+    },
+    {
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "管理対象エージェントの実行や、文書の分析もできます。",
+      "characters": 26
+    },
+    {
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "次はxAI。10月27日付で、内容ガイドラインの指定が増えました。",
+      "characters": 33
+    },
+    {
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "不適切な内容など3分野の扱いを、要請ごとに設定できます。",
+      "characters": 28
+    },
+    {
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "アリババの最新は、前号で扱った10月27日付のままです。",
+      "characters": 28
+    },
+    {
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "そのため、音声モデルを新しい発表として繰り返しません。",
+      "characters": 27
+    },
+    {
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "各社の選定した公式資料を確認しましたが、全発表の網羅ではありません。",
+      "characters": 34
+    },
+    {
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。",
+      "characters": 28
+    },
+    {
+      "order": 21,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "以上、第12号でした。モデルIDと日付、利用条件をご確認ください。",
+      "characters": 33
+    }
+  ]
+}

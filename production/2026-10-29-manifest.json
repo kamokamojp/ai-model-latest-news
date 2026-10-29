@@ -1,0 +1,64 @@
+{
+  "issue_id": "2026-10-29",
+  "issue_number": 12,
+  "issue_date": "2026-10-29",
+  "timezone": "Asia/Tokyo",
+  "scheduled_target_cutoff": "2026-10-29T08:00:00+09:00",
+  "research_cutoff": "2026-10-29T08:40:27+09:00",
+  "research_cutoff_utc": "2026-10-28T23:40:27Z",
+  "previous_issue_id": "2026-10-28",
+  "previous_issue_cutoff": "2026-10-28T08:39:21+09:00",
+  "idempotency": {
+    "same_day_record_count": 0,
+    "input_hash": "af94bedcf481204f8dd0ffaf81f1276236b665cae41ace53e2712b95a82e456c",
+    "input_hash_definition": "SHA-256 of research JSON bytes concatenated with the pre-audio script JSON bytes",
+    "synthesis_input_script_sha256": "f6ba197db493f978703bcf07099994125c12b8e630a265712bc31d6e7dd6dc7c",
+    "synthesis_input_definition": "SHA-256 of the script JSON file before audio metadata (sha/size/duration) was filled",
+    "same_day_duplicate_policy": "update this issue if new verified evidence; do not create a second row"
+  },
+  "selected_items": [
+    "OpenAI API changelog lists free API credits for eligible ChatGPT Pro/Business subscribers on 2026-10-28 (date-only; up to $500/month)",
+    "Google Gemini API release notes list the Gemini API CLI (gemini-api) beta on 2026-10-27 (date-only)",
+    "xAI release notes list content-guidelines (guidelines array) for text API requests on 2026-10-27 (date-only)"
+  ],
+  "audio": {
+    "status": "available_locally",
+    "primary": "audio/2026-10-29.mp3",
+    "sha256": "7a784c7b6ba5e437ad1b008b70e5a6580ce03c4c9128e9e1483afc983c7970f3",
+    "backup": "audio/2026-10-29-backup.mp3",
+    "backup_sha256": "7a784c7b6ba5e437ad1b008b70e5a6580ce03c4c9128e9e1483afc983c7970f3",
+    "bytes": 1102221,
+    "codec": "mp3",
+    "bitrate_bps": 96079,
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "duration_seconds": 91.776,
+    "generated_at_jst": "2026-10-29T08:50+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "archive_sha256_expected": "c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7",
+    "archive_source": "https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "style": "normal",
+    "speed": "standard",
+    "synthesis_input_script_sha256": "f6ba197db493f978703bcf07099994125c12b8e630a265712bc31d6e7dd6dc7c",
+    "short_sample_full_decode": "passed",
+    "full_mp3_decode": "passed",
+    "human_listening_claimed": false
+  },
+  "checks": {
+    "research_scope": "bounded official pages; no global absence claim",
+    "same_day_index_check": "passed; no existing 2026-10-29 record in Pages index before authoring",
+    "utterance_limit": "passed, all 21 utterances <=90 chars (max 41)",
+    "short_sample": "passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode",
+    "full_mp3_decode": "passed; 24 kHz mono, ~96 kbps; primary and backup byte-identical",
+    "historical_preservation": "source files for past issues retained; only additive changes in both pushes"
+  },
+  "publication": {
+    "status": "pending"
+  }
+}
