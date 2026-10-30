@@ -1,0 +1,254 @@
+{
+  "audio_status": "available",
+  "issue_date": "2026-10-31",
+  "issue_id": "2026-10-31",
+  "issue_number": 14,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-10-30T08:38:34+09:00",
+  "previous_issue_id": "2026-10-30",
+  "research_cutoff": "2026-10-31T08:39:27+09:00",
+  "research_cutoff_utc": "2026-10-30T23:39:27Z",
+  "research_file": "../production/2026-10-31-research.json",
+  "scheduled_target_cutoff": "2026-10-31T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 28,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第14号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年10月31日の確認号。基準時は午前8時39分です。"
+    },
+    {
+      "characters": 21,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの発表は、時刻を補わずに読みます。"
+    },
+    {
+      "characters": 28,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "まずOpenAI。10月30日付で、新モデルが出ました。"
+    },
+    {
+      "characters": 25,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "名前はGPT-6ロザリンド。生命科学の研究用です。"
+    },
+    {
+      "characters": 35,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "API名はgpt-6-rosalind。承認された研究利用が対象です。"
+    },
+    {
+      "characters": 41,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "チャット画面には出ません。企業向けは2週間の管理者プレビューで、既定では無効です。"
+    },
+    {
+      "characters": 34,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次はAnthropic。10月30日付で、高速モードの廃止予告です。"
+    },
+    {
+      "characters": 39,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "対象はClaude Opus 4.8。11月30日に高速モードがなくなります。"
+    },
+    {
+      "characters": 37,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "その後は、高速指定の要請がエラーになります。移行先はOpus 5.5です。"
+    },
+    {
+      "characters": 38,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "Googleです。10月30日付で、コンピューター利用が正式版になりました。"
+    },
+    {
+      "characters": 42,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "対象はInteractions APIとGenerateContent APIです。"
+    },
+    {
+      "characters": 29,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "10月28日付の発表も、本シリーズではまだ扱っていません。"
+    },
+    {
+      "characters": 33,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "GoogleのGemini 4カーボン。最強モデルと位置づけます。"
+    },
+    {
+      "characters": 30,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "サイバー防衛と長期の課題が中心。最初は防衛側の一部だけです。"
+    },
+    {
+      "characters": 32,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "導入価格は、入力100万トークンあたり2ドル、出力10ドルです。"
+    },
+    {
+      "characters": 38,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "Mistralです。10月29日付で、Large 4の重みが公開されました。"
+    },
+    {
+      "characters": 23,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "通称ル・チョンク。全体は約1兆パラメータです。"
+    },
+    {
+      "characters": 34,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "動くのは1トークンあたり約490億。文脈は最大100万トークンです。"
+    },
+    {
+      "characters": 31,
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "ライセンスは修正MIT系。ホスト販売には別途の許諾が必要です。"
+    },
+    {
+      "characters": 35,
+      "order": 21,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "Anthropicの料金プランも、10月30日付で名前が変わりました。"
+    },
+    {
+      "characters": 41,
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "Max 5xがMaxに、Max 20xがウルトラになりました。料金は変わりません。"
+    },
+    {
+      "characters": 34,
+      "order": 23,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "認証済みウルトラは、5時間の制限がなくなります。週の上限は残ります。"
+    },
+    {
+      "characters": 32,
+      "order": 24,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "OpenAIの10月29日付では、モデル仕様の改訂もありました。"
+    },
+    {
+      "characters": 27,
+      "order": 25,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "5つの価値観に整理され、人の意図への忠実さが土台です。"
+    },
+    {
+      "characters": 33,
+      "order": 26,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 27,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 33,
+      "order": 28,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第14号でした。モデルIDと日付、利用条件をご確認ください。"
+    }
+  ],
+  "audio": {
+    "file": "../audio/2026-10-31.mp3",
+    "codec": "mp3",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "style": "normal",
+    "speed": "standard",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "backup_file": "../audio/2026-10-31-backup.mp3",
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-10-31.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-10-31-backup.mp3",
+    "human_listening_claimed": false,
+    "backup_status": "available",
+    "sha256": "b0cfa33d04089f89e8560cf41757d90086dc863989bc3e0108b9002dcd286e81",
+    "backup_sha256": "b0cfa33d04089f89e8560cf41757d90086dc863989bc3e0108b9002dcd286e81",
+    "file_size_bytes": 1569933,
+    "duration_seconds": 130.752,
+    "generated_at_jst": "2026-10-31T08:50+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "short_sample_full_decode": "passed",
+    "full_mp3_decode": "passed"
+  }
+}

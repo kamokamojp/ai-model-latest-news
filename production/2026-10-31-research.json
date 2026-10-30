@@ -1,0 +1,108 @@
+{
+  "issue_date": "2026-10-31",
+  "issue_number": 14,
+  "scheduled_target_cutoff": "2026-10-31T08:00:00+09:00",
+  "research_cutoff": "2026-10-31T08:39:27+09:00",
+  "research_cutoff_utc": "2026-10-30T23:39:27Z",
+  "previous_issue_id": "2026-10-30",
+  "previous_issue_cutoff": "2026-10-30T08:38:34+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "OpenAI",
+      "date": "2026-10-30",
+      "item": "GPT-6 Rosalind",
+      "api_id": "gpt-6-rosalind",
+      "sources": [
+        "https://developers.openai.com/api/docs/changelog",
+        "https://help.openai.com/en/articles/9624314-model-release-notes"
+      ],
+      "date_only": true
+    },
+    {
+      "vendor": "Anthropic",
+      "date": "2026-10-30",
+      "item": "Claude Opus 4.8 fast mode deprecation (removal 2026-11-30; migrate to Opus 5.5)",
+      "sources": [
+        "https://platform.claude.com/docs/en/release-notes/overview"
+      ],
+      "date_only": true
+    },
+    {
+      "vendor": "Google",
+      "date": "2026-10-30",
+      "item": "Gemini API Computer Use GA (Interactions and GenerateContent APIs)",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/changelog"
+      ],
+      "date_only": true
+    },
+    {
+      "vendor": "Google DeepMind",
+      "date": "2026-10-28",
+      "item": "Gemini 4 Carbon (first coverage in this series; staged rollout to cyber defenders first)",
+      "sources": [
+        "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+      ],
+      "date_only": true,
+      "note": "Vendor-claimed benchmarks; external benchmarks evaluated without guardrails per the post."
+    },
+    {
+      "vendor": "Mistral",
+      "date": "2026-10-29",
+      "item": "Mistral Large 4 open weights (Le Chonk; first coverage in this series)",
+      "sources": [
+        "https://huggingface.co/blog/mistral-large4"
+      ],
+      "date_only": true,
+      "note": "Release date 2026-10-29 per Mistral announcement as reported by multiple secondary sources; Mistral docs changelog does not yet list it."
+    },
+    {
+      "vendor": "Anthropic",
+      "date": "2026-10-30",
+      "item": "Claude plans renamed Max 5x->Max, Max 20x->Ultra; verified Ultra 5-hour limit removed; weekly limits unchanged; prices $100/$200 unchanged",
+      "sources": [
+        "https://claude.com/pricing"
+      ],
+      "date_only": true,
+      "note": "Primary announcement is the official Claude social post of 2026-10-30, quoted verbatim by multiple reports; corroborated by the pricing page."
+    },
+    {
+      "vendor": "OpenAI",
+      "date": "2026-10-29",
+      "item": "Model Spec revision reorganized around five values",
+      "sources": [
+        "https://help.openai.com/en/articles/9624314-model-release-notes"
+      ],
+      "date_only": true
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "Alibaba",
+      "latest": "2026-10-29",
+      "note": "antdigital/Ling-3.1-flash, covered in No.13; no 2026-10-30 row"
+    },
+    {
+      "vendor": "xAI",
+      "latest": "2026-10-27",
+      "note": "guidelines array, covered in No.12"
+    },
+    {
+      "vendor": "Mistral docs changelog",
+      "latest": "2026-10-22",
+      "note": "open-weights release not listed there"
+    },
+    {
+      "vendor": "DeepSeek",
+      "latest": "2026-10-17",
+      "note": "DeepSeek-V4.1-Flash-1017"
+    },
+    {
+      "vendor": "Cohere",
+      "latest": null,
+      "note": "fetched text carries no dates; no dated 2026-10-30/31 item confirmed"
+    }
+  ],
+  "limits": "Date-only entries carry no inferred time/timezone. Coverage is the selected official pages only, not all announcements. Unknown values are not guessed."
+}
