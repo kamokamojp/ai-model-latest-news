@@ -1,0 +1,68 @@
+{
+  "audio": {
+    "archive_sha256_expected": "c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7",
+    "archive_source": "https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001",
+    "backup": "audio/2026-10-31-backup.mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "human_listening_claimed": false,
+    "primary": "audio/2026-10-31.mp3",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "status": "available_locally",
+    "style": "normal",
+    "synthesis_input_script_sha256": "7bebac29a1f36b621ab914f5247cc2e17c0abfe99aa3749591871f2e78706c8f",
+    "backup_sha256": "b0cfa33d04089f89e8560cf41757d90086dc863989bc3e0108b9002dcd286e81",
+    "bitrate_bps": 96055,
+    "bytes": 1569933,
+    "channels": 1,
+    "codec": "mp3",
+    "duration_seconds": 130.752,
+    "full_mp3_decode": "passed",
+    "generated_at_jst": "2026-10-31T08:50+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "sample_rate_hz": 24000,
+    "sha256": "b0cfa33d04089f89e8560cf41757d90086dc863989bc3e0108b9002dcd286e81",
+    "short_sample_full_decode": "passed"
+  },
+  "checks": {
+    "utterance_limit": "passed, all 28 utterances <=90 chars (max 42)",
+    "same_day_index_check": "passed; no existing 2026-10-31 record in Pages index before authoring",
+    "research_scope": "bounded official pages; no global absence claim",
+    "full_mp3_decode": "passed; 24 kHz mono, ~96 kbps; primary and backup byte-identical",
+    "short_sample": "passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode",
+    "historical_preservation": "source files for past issues retained; only additive changes in both pushes"
+  },
+  "idempotency": {
+    "input_hash": "a543a913a5febf2e889bf3466ba011e7fb40457ad1ebc825fb2637d26d4ab37a",
+    "input_hash_definition": "SHA-256 of research JSON bytes concatenated with the pre-audio script JSON bytes",
+    "same_day_duplicate_policy": "update this issue if new verified evidence; do not create a second row",
+    "same_day_record_count": 0,
+    "synthesis_input_definition": "SHA-256 of the script JSON file before audio metadata (sha/size/duration) was filled",
+    "synthesis_input_script_sha256": "7bebac29a1f36b621ab914f5247cc2e17c0abfe99aa3749591871f2e78706c8f"
+  },
+  "issue_date": "2026-10-31",
+  "issue_id": "2026-10-31",
+  "issue_number": 14,
+  "previous_issue_cutoff": "2026-10-30T08:38:34+09:00",
+  "previous_issue_id": "2026-10-30",
+  "publication": {
+    "status": "pending"
+  },
+  "research_cutoff": "2026-10-31T08:39:27+09:00",
+  "research_cutoff_utc": "2026-10-30T23:39:27Z",
+  "scheduled_target_cutoff": "2026-10-31T08:00:00+09:00",
+  "selected_items": [
+    "OpenAI lists GPT-6 Rosalind (gpt-6-rosalind) on 2026-10-30 (date-only)",
+    "Anthropic lists Claude Opus 4.8 fast mode deprecation, removal 2026-11-30, on 2026-10-30 (date-only)",
+    "Gemini API lists Computer Use GA on 2026-10-30 (date-only)",
+    "Google DeepMind announces Gemini 4 Carbon on 2026-10-28 (first coverage in this series)",
+    "Mistral Large 4 open weights released 2026-10-29 (first coverage in this series)",
+    "Anthropic renames Claude plans Max 5x->Max, Max 20x->Ultra on 2026-10-30; verified Ultra 5-hour limit removed",
+    "OpenAI revises Model Spec around five values on 2026-10-29 (date-only)"
+  ],
+  "timezone": "Asia/Tokyo"
+}
