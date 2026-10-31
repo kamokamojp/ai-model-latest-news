@@ -35,14 +35,53 @@
     },
     "speed": "standard",
     "style": "normal",
-    "status": "pending_synthesis"
+    "status": "available_locally",
+    "sha256": "0e0bb4c0af9f5d27510e1a02fcd8148ef574e3f75241f896da5b6d0f65852ca6",
+    "backup_sha256": "0e0bb4c0af9f5d27510e1a02fcd8148ef574e3f75241f896da5b6d0f65852ca6",
+    "bitrate_bps": 96092,
+    "bytes": 1145421,
+    "channels": 1,
+    "codec": "mp3",
+    "duration_seconds": 95.36,
+    "full_mp3_decode": "passed",
+    "generated_at_jst": "2026-11-01T08:45+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "sample_rate_hz": 24000,
+    "short_sample_full_decode": "passed"
   },
   "checks": {
     "utterance_limit": "passed, all 23 utterances <=90 chars (max 40)",
     "same_day_index_check": "passed; no existing 2026-11-01 record in Pages index before authoring",
-    "research_scope": "bounded official pages; no global absence claim"
+    "research_scope": "bounded official pages; no global absence claim",
+    "full_mp3_decode": "passed; 24 kHz mono, ~96 kbps; primary and backup byte-identical",
+    "short_sample": "passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode",
+    "historical_preservation": "source files for past issues retained; only additive changes in both pushes",
+    "html_archive_qa": "passed by production/verify-issue-2026-11-01.py (local staging checks; old-archive preservation verified on the AI-device git worktree before push)"
   },
   "publication": {
-    "status": "pending"
+    "status": "published",
+    "pages_commit": "282de16",
+    "pages_commit_message": "Publish AI model radio issue 2026-11-01 (No.15) to GitHub Pages",
+    "main_commit": "1b85cbc",
+    "main_commit_message": "Archive AI model radio No.15 GitHub Pages edition to main",
+    "pages_push_note": "first gh-pages push rejected by remote (remote unpack/index-pack failure); same commit 282de16 re-pushed successfully (3ac1416..282de16)",
+    "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
+    "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-01.html",
+    "audio_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-01.mp3",
+    "audio_backup_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-01-backup.mp3",
+    "pages_readback": {
+      "status": "verified",
+      "issue_page": "HTTP 200, byte-identical to local edition HTML (SHA-256 6a9c5aa22be1de39b1a230efeb3764b5a574b760497a25582221b26f289085be)",
+      "index": "HTTP 200, identical to local editions/index.json, latest 2026-11-01, 15 issues",
+      "homepage": "HTTP 200, identical to local index.html, ISSUE 015 present, ISSUE 014 archive card retained",
+      "audio": "HTTP 200, 1145421 bytes, SHA-256 matches local, full ffmpeg decode OK",
+      "audio_backup": "HTTP 200, 1145421 bytes, SHA-256 matches local",
+      "past_issue": "2026-10-31 HTML and MP3 still HTTP 200 (past MP3 SHA-256 matches No.14)"
+    },
+    "main_readback": {
+      "status": "verified",
+      "index_json": "raw main editions/index.json HTTP 200, SHA-256 identical to local"
+    },
+    "human_listening_claimed": false
   }
 }
