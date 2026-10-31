@@ -34,7 +34,8 @@
     "research_scope": "bounded official pages; no global absence claim",
     "full_mp3_decode": "passed; 24 kHz mono, ~96 kbps; primary and backup byte-identical",
     "short_sample": "passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode",
-    "historical_preservation": "source files for past issues retained; only additive changes in both pushes"
+    "historical_preservation": "source files for past issues retained; only additive changes in both pushes",
+    "html_archive_qa": "passed by production/verify-issue-2026-10-31.py (local staging checks; old-archive preservation verified on the AI-device git worktree before push)"
   },
   "idempotency": {
     "input_hash": "a543a913a5febf2e889bf3466ba011e7fb40457ad1ebc825fb2637d26d4ab37a",
@@ -50,7 +51,30 @@
   "previous_issue_cutoff": "2026-10-30T08:38:34+09:00",
   "previous_issue_id": "2026-10-30",
   "publication": {
-    "status": "pending"
+    "status": "published",
+    "pages_commit": "f804c18",
+    "pages_commit_message": "Publish AI model radio issue 2026-10-31 (No.14) to GitHub Pages",
+    "main_commit": "eb96080",
+    "main_commit_message": "Archive AI model radio No.14 GitHub Pages edition to main",
+    "main_push_note": "first main push rejected by remote (remote unpack/index-pack failure); same commit eb96080 re-pushed successfully (7caba48..eb96080)",
+    "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
+    "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-10-31.html",
+    "audio_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-10-31.mp3",
+    "audio_backup_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-10-31-backup.mp3",
+    "pages_readback": {
+      "status": "verified",
+      "issue_page": "HTTP 200, byte-identical to local edition HTML (SHA-256 5303e18a767bde9ae7fd9fc370a7ca841870f6a2d72b91f8fa9c54468f34308a)",
+      "index": "HTTP 200, identical to local editions/index.json, latest 2026-10-31, 14 issues",
+      "homepage": "HTTP 200, identical to local index.html, ISSUE 014 present, ISSUE 013 archive card retained",
+      "audio": "HTTP 200, 1569933 bytes, SHA-256 matches local, full ffmpeg decode OK",
+      "audio_backup": "HTTP 200, 1569933 bytes, SHA-256 matches local",
+      "past_issue": "2026-10-30 HTML and MP3 still HTTP 200 (past MP3 SHA-256 matches No.13)"
+    },
+    "main_readback": {
+      "status": "verified",
+      "index_json": "raw main editions/index.json HTTP 200, SHA-256 identical to local"
+    },
+    "human_listening_claimed": false
   },
   "research_cutoff": "2026-10-31T08:39:27+09:00",
   "research_cutoff_utc": "2026-10-30T23:39:27Z",
