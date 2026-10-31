@@ -1,0 +1,219 @@
+{
+  "audio_status": "available",
+  "issue_date": "2026-11-01",
+  "issue_id": "2026-11-01",
+  "issue_number": 15,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-10-31T08:39:27+09:00",
+  "previous_issue_id": "2026-10-31",
+  "research_cutoff": "2026-11-01T08:39:00+09:00",
+  "research_cutoff_utc": "2026-10-31T23:39:00Z",
+  "research_file": "../production/2026-11-01-research.json",
+  "scheduled_target_cutoff": "2026-11-01T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 23,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第15号です。"
+    },
+    {
+      "characters": 29,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月1日の確認号。基準時は午前8時39分です。"
+    },
+    {
+      "characters": 21,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの発表は、時刻を補わずに読みます。"
+    },
+    {
+      "characters": 40,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "まずGoogle DeepMind。10月27日付で、Genie 4が出ました。"
+    },
+    {
+      "characters": 24,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "実時間で世界を描くモデル。音もその場で作ります。"
+    },
+    {
+      "characters": 26,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "文字で指示すると、天候や人物をその場で変えられます。"
+    },
+    {
+      "characters": 35,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "進み具合はGemini 3.8 Flashが見守り、段取りを整えます。"
+    },
+    {
+      "characters": 27,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "今は研究プレビューで、信頼できる試用者だけが使えます。"
+    },
+    {
+      "characters": 22,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "まだ実験段階で、生成物には透かしが入ります。"
+    },
+    {
+      "characters": 34,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次はOpenAI。10月29日付で、GPT-6の表示が変わりました。"
+    },
+    {
+      "characters": 20,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "返答が短くなり、過度なお世辞が減ります。"
+    },
+    {
+      "characters": 21,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "無料とGo、未ログインの利用者が対象です。"
+    },
+    {
+      "characters": 27,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "PlusとProは、上限後の切替モデルだけが対象です。"
+    },
+    {
+      "characters": 31,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "主なGPT-6は変わりません。新しいモデル発表ではありません。"
+    },
+    {
+      "characters": 34,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "GoogleのAPI側。10月26日付で、保存の既定が変わりました。"
+    },
+    {
+      "characters": 25,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "新しい有料プロジェクトは、要請を既定で保存します。"
+    },
+    {
+      "characters": 24,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "既存のプロジェクトは、そのままの設定が残ります。"
+    },
+    {
+      "characters": 30,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "止めたい場合は、store=falseか設定画面で切れます。"
+    },
+    {
+      "characters": 31,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "10月31日付の一次記載は、選定ページに見当たりませんでした。"
+    },
+    {
+      "characters": 29,
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "前号の10月30日付の内容は、新発表として繰り返しません。"
+    },
+    {
+      "characters": 33,
+      "order": 21,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 33,
+      "order": 23,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "以上、第15号でした。モデルIDと日付、利用条件をご確認ください。"
+    }
+  ],
+  "audio": {
+    "file": "../audio/2026-11-01.mp3",
+    "codec": "mp3",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "style": "normal",
+    "speed": "standard",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "backup_file": "../audio/2026-11-01-backup.mp3",
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-01.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-01-backup.mp3",
+    "human_listening_claimed": false,
+    "backup_status": "available",
+    "sha256": "0e0bb4c0af9f5d27510e1a02fcd8148ef574e3f75241f896da5b6d0f65852ca6",
+    "backup_sha256": "0e0bb4c0af9f5d27510e1a02fcd8148ef574e3f75241f896da5b6d0f65852ca6",
+    "file_size_bytes": 1145421,
+    "duration_seconds": 95.36,
+    "generated_at_jst": "2026-11-01T08:45+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "short_sample_full_decode": "passed",
+    "full_mp3_decode": "passed"
+  }
+}
