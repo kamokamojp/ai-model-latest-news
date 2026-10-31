@@ -1,0 +1,48 @@
+{
+  "issue_date": "2026-11-01",
+  "issue_id": "2026-11-01",
+  "issue_number": 15,
+  "timezone": "Asia/Tokyo",
+  "research_cutoff": "2026-11-01T08:39:00+09:00",
+  "research_cutoff_utc": "2026-10-31T23:39:00Z",
+  "scheduled_target_cutoff": "2026-11-01T08:00:00+09:00",
+  "previous_issue_cutoff": "2026-10-31T08:39:27+09:00",
+  "previous_issue_id": "2026-10-31",
+  "selected_items": [
+    "Google DeepMind announces Genie 4 on 2026-10-27 (first coverage in this series; research preview)",
+    "OpenAI updates GPT-6 in ChatGPT on 2026-10-29 (first coverage in this series; concise responses)",
+    "Google changes Gemini API Generate Content storage default on 2026-10-26 (first coverage in this series)"
+  ],
+  "idempotency": {
+    "input_hash": "e04ff3be59d8b020ff8f372ae7d8f791382e83694d4ce486a1f46352d9337a54",
+    "input_hash_definition": "SHA-256 of research JSON bytes concatenated with the pre-audio script JSON bytes",
+    "same_day_duplicate_policy": "update this issue if new verified evidence; do not create a second row",
+    "same_day_record_count": 0,
+    "synthesis_input_definition": "SHA-256 of the script JSON file before audio metadata (sha/size/duration) was filled",
+    "synthesis_input_script_sha256": "6bb512c535254c35fdb8e31752477ff9826a21cd0a312b1054c596a1559fddc0"
+  },
+  "audio": {
+    "archive_sha256_expected": "c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7",
+    "archive_source": "https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "human_listening_claimed": false,
+    "primary": "audio/2026-11-01.mp3",
+    "backup": "audio/2026-11-01-backup.mp3",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "status": "pending_synthesis"
+  },
+  "checks": {
+    "utterance_limit": "passed, all 23 utterances <=90 chars (max 40)",
+    "same_day_index_check": "passed; no existing 2026-11-01 record in Pages index before authoring",
+    "research_scope": "bounded official pages; no global absence claim"
+  },
+  "publication": {
+    "status": "pending"
+  }
+}

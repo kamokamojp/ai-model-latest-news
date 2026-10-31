@@ -1,0 +1,83 @@
+{
+  "issue_date": "2026-11-01",
+  "issue_number": 15,
+  "scheduled_target_cutoff": "2026-11-01T08:00:00+09:00",
+  "research_cutoff": "2026-11-01T08:39:00+09:00",
+  "research_cutoff_utc": "2026-10-31T23:39:00Z",
+  "previous_issue_id": "2026-10-31",
+  "previous_issue_cutoff": "2026-10-31T08:39:27+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Google DeepMind",
+      "date": "2026-10-27",
+      "item": "Genie 4 (first coverage in this series; research preview for trusted testers; native audio; real-time text steering; Gemini 3.8 Flash as guiding agent in the loop; early experimental model; SynthID on generated video and audio)",
+      "sources": [
+        "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      ],
+      "date_only": true
+    },
+    {
+      "vendor": "OpenAI",
+      "date": "2026-10-29",
+      "item": "GPT-6 in ChatGPT update (more concise responses, less overly flattering language; Free, Go and logged-out users; on Plus and Pro only the fallback model after GPT-6 message limits; main GPT-6 on Plus and Pro unchanged)",
+      "sources": [
+        "https://help.openai.com/en/articles/9624314-model-release-notes"
+      ],
+      "date_only": true,
+      "note": "No.14 cited this page for other items but did not feature this entry; it is dated 2026-10-29 and is not presented as a new announcement."
+    },
+    {
+      "vendor": "Google",
+      "date": "2026-10-26",
+      "item": "Generate Content API storage on by default for new paid-tier projects (generateContent, streamGenerateContent, batchGenerateContent), matching the Interactions API; existing projects keep their setting; opt out with store=false or the dashboard Logs and Datasets setting",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/changelog"
+      ],
+      "date_only": true
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Oct 30 GPT-6 Rosalind (No.14); no Oct 31 entry."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://platform.claude.com/docs/en/release-notes/overview",
+      "result": "Latest is Oct 30 Opus 4.8 fast mode deprecation (No.14); Oct 23 Claude Tag API beta is a platform item predating the No.11 cutoff and was not selected; no Oct 31 entry."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Oct 30 Computer Use GA (No.14); Oct 26 storage-default entry selected as a series-uncovered item; no Oct 31 entry."
+    },
+    {
+      "vendor": "Alibaba",
+      "page": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "result": "Latest is 2026-10-29 antdigital/Ling-3.1-flash (No.13); no Oct 30/31 row."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is October 27 guidelines array (No.12); no Oct 28-31 entry."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is 2026-10-17 DeepSeek-V4.1-Flash-1017."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is October 22 Z.ai GLM 5.3 Flash (seen in No.11 context); no Oct 23-31 entry; Large 4 weights were covered in No.14."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/v2/changelog",
+      "result": "Fetched text carries no dates; Oct 30/31 entries cannot be confirmed. Secondary Oct 31 reports about Claude watermarking are not primary-source verified and were not selected."
+    }
+  ],
+  "note": "No Oct 31-dated primary entry was found on any selected changelog at this cutoff. Selected items are explicitly dated older and are first coverage in this series, not new announcements presented as today's releases."
+}
