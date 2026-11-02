@@ -1,0 +1,198 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-02-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-02-backup.mp3",
+    "backup_sha256": "1aa599bfaabf9ef8f5fcd38223f33ecdd375186411cac2fed7b246b4eb846202",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "duration_seconds": 80.01,
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-02.mp3",
+    "file_size_bytes": 961101,
+    "full_mp3_decode": "passed",
+    "generated_at_jst": "2026-11-02T13:34+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-02.mp3",
+    "sample_rate_hz": 24000,
+    "sha256": "1aa599bfaabf9ef8f5fcd38223f33ecdd375186411cac2fed7b246b4eb846202",
+    "short_sample_full_decode": "passed",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-02",
+  "issue_id": "2026-11-02",
+  "issue_number": 16,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-01T08:39:00+09:00",
+  "previous_issue_id": "2026-11-01",
+  "research_cutoff": "2026-11-02T13:35:00+09:00",
+  "research_cutoff_utc": "2026-11-02T04:35:00Z",
+  "research_file": "../production/2026-11-02-research.json",
+  "scheduled_target_cutoff": "2026-11-02T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 20,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第16号です。"
+    },
+    {
+      "characters": 29,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月2日の確認号。基準時は午後1時35分です。"
+    },
+    {
+      "characters": 21,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの発表は、時刻を補わずに読みます。"
+    },
+    {
+      "characters": 34,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "まずMistral。10月20日付で、Voxtral 3が出ました。"
+    },
+    {
+      "characters": 27,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "音声の新世代です。読み上げと文字起こしが4モデルです。"
+    },
+    {
+      "characters": 24,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "読み上げは声の複製もでき、流れに沿って届けます。"
+    },
+    {
+      "characters": 22,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "文字起こしは録音と実時間の両方に対応します。"
+    },
+    {
+      "characters": 26,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "今は公開プレビューです。正式版とは書かれていません。"
+    },
+    {
+      "characters": 31,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "次はOpenAI。10月20日付で、12時間の保存が選べます。"
+    },
+    {
+      "characters": 25,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "共有した指示や道具を、長く残しておける仕組みです。"
+    },
+    {
+      "characters": 23,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "書き込みは入力単価の2.5倍と書かれています。"
+    },
+    {
+      "characters": 36,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "対象はResponses APIです。詳しい条件は資料をご確認ください。"
+    },
+    {
+      "characters": 32,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "DeepSeekは10月17日付で、Flashの新版が出ました。"
+    },
+    {
+      "characters": 20,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "検索の機能も、自社製の仕組みで使えます。"
+    },
+    {
+      "characters": 26,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "呼び方は変わらず、価格も変わらないと書かれています。"
+    },
+    {
+      "characters": 33,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月1日と2日付の一次記載は、選定ページに見当たりませんでした。"
+    },
+    {
+      "characters": 29,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "前号の10月30日付の内容は、新発表として繰り返しません。"
+    },
+    {
+      "characters": 33,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 33,
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第16号でした。モデルIDと日付、利用条件をご確認ください。"
+    }
+  ]
+}
