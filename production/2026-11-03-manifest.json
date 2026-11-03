@@ -55,7 +55,24 @@
     "human_listening_claimed": false,
     "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-03.html",
     "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
-    "status": "pending_push"
+    "status": "published",
+    "main_commit": "8d56176",
+    "main_commit_message": "Archive AI model radio No.17 GitHub Pages edition to main",
+    "main_readback": {
+      "index_json": "to verify after final manifest push",
+      "status": "pending"
+    },
+    "pages_commit": "29012cc",
+    "pages_commit_message": "Publish AI model radio issue 2026-11-03 (No.17) to GitHub Pages",
+    "pages_readback": {
+      "audio": "pending browser playback check",
+      "audio_backup": "pending browser playback check",
+      "homepage": "pending browser check",
+      "index": "public editions/index.json latest 2026-11-03, No.17, hashes/sizes match local",
+      "issue_page": "public detail page text matches local (ISSUE 017, date, 08:45 JST cutoff, stories, full transcript)",
+      "past_issue": "pending browser check",
+      "status": "partially_verified"
+    }
   },
   "research_cutoff": "2026-11-03T08:45:00+09:00",
   "research_cutoff_utc": "2026-11-02T23:45:00Z",
