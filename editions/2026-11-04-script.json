@@ -1,0 +1,170 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-04-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-04-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-04.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-04.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "duration_seconds": 67.15,
+    "file_size_bytes": 806733,
+    "full_mp3_decode": "passed",
+    "generated_at_jst": "2026-11-04T08:44+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "sha256": "c781b2e4c7bc04ccdae0c87a8053772a4359ea3621d21e54330ec57e5789cd5a",
+    "backup_sha256": "c781b2e4c7bc04ccdae0c87a8053772a4359ea3621d21e54330ec57e5789cd5a",
+    "short_sample_full_decode": "passed"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-04",
+  "issue_id": "2026-11-04",
+  "issue_number": 18,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-03T08:45:00+09:00",
+  "previous_issue_id": "2026-11-03",
+  "research_cutoff": "2026-11-04T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-03T23:45:00Z",
+  "research_file": "../production/2026-11-04-research.json",
+  "scheduled_target_cutoff": "2026-11-04T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 16,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第18号です。"
+    },
+    {
+      "characters": 29,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月4日の確認号。基準時は午前8時45分です。"
+    },
+    {
+      "characters": 21,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの発表は、時刻を補わずに読みます。"
+    },
+    {
+      "characters": 30,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "今回はAnthropic。11月3日付で、透かしの記載です。"
+    },
+    {
+      "characters": 38,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "Mythos 5とOpus 4.7、Sonnet 4.6の生成文に付きます。"
+    },
+    {
+      "characters": 24,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "透かしは見えず、意味や読みやすさは変わりません。"
+    },
+    {
+      "characters": 27,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "トークンや隠し文字は増えず、利用者の情報も含みません。"
+    },
+    {
+      "characters": 29,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "要請や受け取り方を変える必要はないと、資料は書いています。"
+    },
+    {
+      "characters": 33,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "ただしSonnet 4.6では、サンプリング指定に注意が必要です。"
+    },
+    {
+      "characters": 30,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "温度などを既定以外にすると、透かしが付かない場合があります。"
+    },
+    {
+      "characters": 28,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "頼る場合は、その3項目を送らないよう資料は勧めています。"
+    },
+    {
+      "characters": 28,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "前号の11月2日付の内容は、新発表として繰り返しません。"
+    },
+    {
+      "characters": 30,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月4日付の一次記載は、選定ページに見当たりませんでした。"
+    },
+    {
+      "characters": 33,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 31,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第18号でした。モデルと日付、利用条件をご確認ください。"
+    }
+  ]
+}
