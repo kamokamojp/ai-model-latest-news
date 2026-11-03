@@ -1,0 +1,79 @@
+{
+  "issue_date": "2026-11-03",
+  "issue_number": 17,
+  "scheduled_target_cutoff": "2026-11-03T08:00:00+09:00",
+  "research_cutoff": "2026-11-03T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-02T23:45:00Z",
+  "previous_issue_id": "2026-11-02",
+  "previous_issue_cutoff": "2026-11-02T13:35:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Google",
+      "date": "2026-11-02",
+      "item": "Gemini 2.5 Pro and Gemini 2.5 Flash deprecation (no longer selectable in Google AI Studio; from December 1, 2026 requests auto-route: gemini-2.5-pro to gemini-3.8-flash billed at Gemini 3.8 Flash rates, gemini-2.5-flash to gemini-3.5-flash-lite billed at Gemini 3.5 Flash-Lite rates; breaking changes include function calling and thought_signature validation, thinking_level replacing thinking_budget, removed sampling parameters and prefilled model turns)",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/changelog"
+      ],
+      "date_only": true,
+      "note": "Previous issue No.16 recorded Google's latest as Oct 30; the Nov 2 entry is newly visible in this check. Date-only, so publication after the previous cutoff is not asserted."
+    },
+    {
+      "vendor": "Anthropic",
+      "date": "2026-11-02",
+      "item": "Message threads on the Messages API in beta (beta header message-threads-2026-08-12; conversation kept on the server so later requests send only new messages; smaller requests and lower time to first token; thread expires 5 minutes after its last request and is deleted no more than 1 hour after its last use; available on the Claude API, Claude Platform on AWS, Claude Models on Google Cloud (Anthropic managed), and Claude in Microsoft Foundry)",
+      "sources": [
+        "https://platform.claude.com/docs/en/release-notes/overview"
+      ],
+      "date_only": true,
+      "note": "Previous issue No.16 recorded Anthropic's latest as Oct 30; the Nov 2 entry is newly visible in this check. Date-only, so publication after the previous cutoff is not asserted."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Oct 30 GPT-6 Rosalind (No.14); no Nov 3 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "Latest is Oct 30 Rosalind (No.14); no Nov 3 entry."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Nov 2 Gemini 2.5 deprecation selected; no Nov 3 entry."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://platform.claude.com/docs/en/release-notes/overview",
+      "result": "Nov 2 message threads selected; no Nov 3 entry."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is October 22 Z.ai GLM 5.3 Flash (featured in No.11); no Nov 3 entry."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is 2026-10-17 DeepSeek-V4.1-Flash-1017 (No.16); no Nov 3 entry."
+    },
+    {
+      "vendor": "Alibaba",
+      "page": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "result": "Latest is 2026-10-29 antdigital/Ling-3.1-flash (No.13); no Oct 30-Nov 3 row."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is October 27 guidelines array (No.12); Nov 2 grok-imagine-image-quality retirement already noted in No.16; no Nov 3 entry."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/v2/changelog",
+      "result": "Fetched text carries no dates; Nov 3 entries cannot be confirmed."
+    }
+  ]
+}
