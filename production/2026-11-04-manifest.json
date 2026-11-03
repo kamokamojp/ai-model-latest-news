@@ -1,1 +1,85 @@
-{"audio":{"archive_sha256_expected":"c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7","archive_source":"https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001","backup":"audio/2026-11-04-backup.mp3","backup_sha256":"c781b2e4c7bc04ccdae0c87a8053772a4359ea3621d21e54330ec57e5789cd5a","bitrate_bps":96115,"bytes":806733,"channels":1,"codec":"mp3","duration_seconds":67.15,"engine":"VOICEVOX Nemo","engine_version":"0.24.0","full_mp3_decode":"passed","generated_at_jst":"2026-11-04T08:44+09:00","generated_at_precision":"approximate; local filesystem output timestamp to the minute","human_listening_claimed":false,"primary":"audio/2026-11-04.mp3","sample_rate_hz":24000,"sha256":"c781b2e4c7bc04ccdae0c87a8053772a4359ea3621d21e54330ec57e5789cd5a","short_sample_full_decode":"passed","speaker_ids":{"akari":10005,"naoto":10001},"speed":"standard","status":"available_locally","style":"normal"},"checks":{"full_mp3_decode":"passed; 24 kHz mono, ~96 kbps; primary and backup byte-identical","historical_preservation":"source files for past issues retained; only additive changes in both pushes","html_archive_qa":"passed by production/verify-issue-2026-11-04.py (local staging checks; old-archive preservation verified on the AI-device git worktree before push)","research_scope":"bounded official pages; no global absence claim","same_day_index_check":"passed; no existing 2026-11-04 record in Pages index before authoring","short_sample":"passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode","utterance_limit":"passed, all 16 utterances <=90 chars (max 38)"},"idempotency":{"input_hash":"89b7345ddd49347e77939dcf963cc41adaf5354c08f071f6598249616cd57afc","input_hash_definition":"SHA-256 of research JSON bytes concatenated with the pre-audio script JSON bytes","same_day_duplicate_policy":"update this issue if new verified evidence; do not create a second row","same_day_record_count":0,"synthesis_input_definition":"SHA-256 of the script JSON file before audio metadata (sha/size/duration) was filled","synthesis_input_script_sha256":"d3577a7706defcf07c217c7c42884bb40f72c118224b3b939f743692f8f201ea"},"issue_date":"2026-11-04","issue_id":"2026-11-04","issue_number":18,"previous_issue_cutoff":"2026-11-03T08:45:00+09:00","previous_issue_id":"2026-11-03","publication":{"audio_backup_url":"https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-04-backup.mp3","audio_url":"https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-04.mp3","human_listening_claimed":false,"issue_url":"https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-04.html","pages_site_url":"https://kamokamojp.github.io/ai-model-latest-news/","status":"pending_push"},"research_cutoff":"2026-11-04T08:45:00+09:00","research_cutoff_utc":"2026-11-03T23:45:00Z","scheduled_target_cutoff":"2026-11-04T08:00:00+09:00","selected_items":["Anthropic text watermark on 2026-11-03 (first coverage in this series; Claude Mythos 5, Claude Opus 4.7, Claude Sonnet 4.6; Sonnet 4.6 sampling-settings caveat)"],"timezone":"Asia/Tokyo"}
+{
+  "audio": {
+    "archive_sha256_expected": "c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7",
+    "archive_source": "https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001",
+    "backup": "audio/2026-11-04-backup.mp3",
+    "backup_sha256": "c781b2e4c7bc04ccdae0c87a8053772a4359ea3621d21e54330ec57e5789cd5a",
+    "bitrate_bps": 96115,
+    "bytes": 806733,
+    "channels": 1,
+    "codec": "mp3",
+    "duration_seconds": 67.15,
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "full_mp3_decode": "passed",
+    "generated_at_jst": "2026-11-04T08:44+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "human_listening_claimed": false,
+    "primary": "audio/2026-11-04.mp3",
+    "sample_rate_hz": 24000,
+    "sha256": "c781b2e4c7bc04ccdae0c87a8053772a4359ea3621d21e54330ec57e5789cd5a",
+    "short_sample_full_decode": "passed",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "status": "available_locally",
+    "style": "normal"
+  },
+  "checks": {
+    "full_mp3_decode": "passed; 24 kHz mono, ~96 kbps; primary and backup byte-identical",
+    "historical_preservation": "source files for past issues retained; only additive changes in both pushes",
+    "html_archive_qa": "passed by production/verify-issue-2026-11-04.py (local staging checks; old-archive preservation verified on the AI-device git worktree before push)",
+    "research_scope": "bounded official pages; no global absence claim",
+    "same_day_index_check": "passed; no existing 2026-11-04 record in Pages index before authoring",
+    "short_sample": "passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode",
+    "utterance_limit": "passed, all 16 utterances <=90 chars (max 38)"
+  },
+  "idempotency": {
+    "input_hash": "89b7345ddd49347e77939dcf963cc41adaf5354c08f071f6598249616cd57afc",
+    "input_hash_definition": "SHA-256 of research JSON bytes concatenated with the pre-audio script JSON bytes",
+    "same_day_duplicate_policy": "update this issue if new verified evidence; do not create a second row",
+    "same_day_record_count": 0,
+    "synthesis_input_definition": "SHA-256 of the script JSON file before audio metadata (sha/size/duration) was filled",
+    "synthesis_input_script_sha256": "d3577a7706defcf07c217c7c42884bb40f72c118224b3b939f743692f8f201ea"
+  },
+  "issue_date": "2026-11-04",
+  "issue_id": "2026-11-04",
+  "issue_number": 18,
+  "previous_issue_cutoff": "2026-11-03T08:45:00+09:00",
+  "previous_issue_id": "2026-11-03",
+  "publication": {
+    "audio_backup_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-04-backup.mp3",
+    "audio_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-04.mp3",
+    "human_listening_claimed": false,
+    "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-04.html",
+    "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
+    "status": "published",
+    "pages_commit": "7444540",
+    "pages_commit_message": "Publish AI model radio issue 2026-11-04 (No.18) to GitHub Pages",
+    "main_commit": "2c48e41",
+    "main_commit_message": "Archive AI model radio No.18 GitHub Pages edition to main",
+    "pages_readback": {
+      "audio": "public main audio plays in browser player, total 1:07 matching local 67.15s (playback observed to 0:19; not full human listening)",
+      "audio_backup": "public backup audio plays in browser player, total 1:07 matching main audio (playback observed to 0:16)",
+      "homepage": "public top page ISSUE 018 on top, ISSUE 017 archive card retained",
+      "index": "public editions/index.json latest 2026-11-04, 18 issues, duration 67.15 matches local",
+      "issue_page": "public detail page text matches local (ISSUE 018, date, 08:45 JST cutoff, watermark story, 16-line transcript, 1分7秒 audio note)",
+      "note": "browser display did not expose HTTP status, content-type or content-length, so served-byte hash was not directly observed; blobs were hash-verified on the device worktree before push",
+      "past_issue": "2026-11-03 detail audio still available; past audio plays 1:20 matching No.17 (playback observed to 0:21)",
+      "status": "verified"
+    },
+    "main_readback": {
+      "index_json": "raw main editions/index.json shows latest 2026-11-04 No.18 with matching hashes/sizes",
+      "status": "verified"
+    }
+  },
+  "research_cutoff": "2026-11-04T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-03T23:45:00Z",
+  "scheduled_target_cutoff": "2026-11-04T08:00:00+09:00",
+  "selected_items": [
+    "Anthropic text watermark on 2026-11-03 (first coverage in this series; Claude Mythos 5, Claude Opus 4.7, Claude Sonnet 4.6; Sonnet 4.6 sampling-settings caveat)"
+  ],
+  "timezone": "Asia/Tokyo"
+}
