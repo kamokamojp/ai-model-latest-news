@@ -1,0 +1,76 @@
+{
+  "issue_date": "2026-11-06",
+  "issue_number": 20,
+  "scheduled_target_cutoff": "2026-11-06T08:00:00+09:00",
+  "research_cutoff": "2026-11-06T08:40:00+09:00",
+  "research_cutoff_utc": "2026-11-05T23:40:00Z",
+  "previous_issue_id": "2026-11-05",
+  "previous_issue_cutoff": "2026-11-05T08:40:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "OpenAI",
+      "date": "2026-11-05",
+      "item": "GPT-6-Cyber (gpt-6-cyber) released to investigate vulnerabilities, reproduce them in an authorized test environment, and verify fixes. Requires Daybreak Red access and approval; Daybreak setup before the first request. 1,050,000 context window, 128,000 max output tokens. Pricing per 1M tokens: $20.00 input, $2.00 cached input, $25.00 cache writes, $100.00 output (short-context)",
+      "sources": [
+        "https://developers.openai.com/api/docs/changelog",
+        "https://developers.openai.com/api/docs/models/gpt-6-cyber"
+      ],
+      "date_only": true,
+      "note": "No.19 recorded no Nov 5 entry in the selected pages; the Nov 5 entry is newly visible in this check. Date-only, so publication after the previous cutoff is not asserted."
+    },
+    {
+      "vendor": "Google",
+      "date": "2026-11-05",
+      "item": "Gemini Omni 1.2 Flash (gemini-omni-1.2-flash) generally available (GA): up to 15-second video generation and conversational editing (3-10s first/last frame interpolation, 3-10s per-turn video extension up to 30s total), improved character and subject consistency across up to 6 reference images, 30% lower video output pricing ($12.00 per 1M tokens), doubled paid-tier rate limits. Effective Dec 3, 2026, requests to gemini-omni-1.1-flash automatically route to gemini-omni-1.2-flash at 1.2 rates. Same-date items on the same page: expanded Office/OpenDocument file support and multimodal function responses",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/changelog",
+        "https://deepmind.google/blog/"
+      ],
+      "date_only": true,
+      "note": "No.19 recorded no Nov 5 entry in the selected pages; the Nov 5 entry is newly visible in this check. Date-only, so publication after the previous cutoff is not asserted. DeepMind blog lists the Gemini Omni 1.2 Flash post under November 2026, consistent with the changelog date."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "Anthropic",
+      "page": "https://platform.claude.com/docs/en/release-notes/overview",
+      "result": "Latest is Nov 5 IP allowlist (beta) and Admin API sign-out; platform/console features, not a model release, so not selected. No Nov 6 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "Latest is Oct 30 Rosalind (No.14); no Nov 5 or Nov 6 entry."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is October 22 Z.ai GLM 5.3 Flash (featured in No.11); no Nov 5 or Nov 6 entry."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is 2026-10-17 DeepSeek-V4.1-Flash-1017 (No.16); no Nov 5 or Nov 6 entry."
+    },
+    {
+      "vendor": "Alibaba",
+      "page": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "result": "Latest is 2026-10-29 antdigital/Ling-3.1-flash (No.13); no Oct 30-Nov 6 row."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is November 2 grok-imagine-image-quality retirement note (already noted earlier); no Nov 5 or Nov 6 entry."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/v2/changelog",
+      "result": "Fetched text carries no dates; Nov 5 or Nov 6 entries cannot be confirmed."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "https://deepmind.google/blog/",
+      "result": "Latest model post is November 2026 Gemini Omni 1.2 Flash (corroborates the selected Gemini changelog item); next is October 2026 Genie 4. No other Nov 5 or Nov 6 model entry in the selected index."
+    }
+  ]
+}
