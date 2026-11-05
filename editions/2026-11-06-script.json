@@ -1,0 +1,182 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-06-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-06-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-06.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-06.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "630b65c8f97dc9ddf0b8cde58b19433a5c005632227d8d10c1429c5a5d056eac",
+    "backup_sha256": "630b65c8f97dc9ddf0b8cde58b19433a5c005632227d8d10c1429c5a5d056eac",
+    "duration_seconds": 76.71,
+    "file_size_bytes": 921645,
+    "generated_at_jst": "2026-11-06T08:45+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-06",
+  "issue_id": "2026-11-06",
+  "issue_number": 20,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-05T08:40:00+09:00",
+  "previous_issue_id": "2026-11-05",
+  "research_cutoff": "2026-11-06T08:40:00+09:00",
+  "research_cutoff_utc": "2026-11-05T23:40:00Z",
+  "research_file": "../production/2026-11-06-research.json",
+  "scheduled_target_cutoff": "2026-11-06T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 18,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第20号です。"
+    },
+    {
+      "characters": 29,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月6日の確認号。基準時は午前8時40分です。"
+    },
+    {
+      "characters": 21,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの発表は、時刻を補わずに読みます。"
+    },
+    {
+      "characters": 23,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "今回は11月5日付の記載、2件を初掲載します。"
+    },
+    {
+      "characters": 23,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "まずOpenAI。脆弱性を調べる新モデルです。"
+    },
+    {
+      "characters": 33,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "GPT-6-Cyber。脆弱性の調査と再現、修正の検証ができます。"
+    },
+    {
+      "characters": 30,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "利用にはDaybreak Redのアクセスと承認が必要です。"
+    },
+    {
+      "characters": 32,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "価格は100万トークンあたり、入力20ドル、出力100ドルです。"
+    },
+    {
+      "characters": 41,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "次はGoogle。Gemini Omni 1.2 Flashが正式版になりました。"
+    },
+    {
+      "characters": 24,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "最長15秒の動画生成と、会話での編集ができます。"
+    },
+    {
+      "characters": 28,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "6枚までの参照画像で、人物や被写体の一貫性も高めました。"
+    },
+    {
+      "characters": 29,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "動画の出力価格は3割下がり、100万トークン12ドルです。"
+    },
+    {
+      "characters": 32,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "12月3日からは、1.1への要求が1.2に自動で切り替わります。"
+    },
+    {
+      "characters": 28,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "前号の11月4日付の2件は、新発表として繰り返しません。"
+    },
+    {
+      "characters": 30,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月6日付の一次記載は、選定ページに見当たりませんでした。"
+    },
+    {
+      "characters": 33,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 31,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第20号でした。モデルと日付、利用条件をご確認ください。"
+    }
+  ]
+}
