@@ -1,0 +1,86 @@
+{
+  "issue_date": "2026-11-08",
+  "issue_number": 22,
+  "scheduled_target_cutoff": "2026-11-08T08:00:00+09:00",
+  "research_cutoff": "2026-11-08T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-07T23:45:00Z",
+  "previous_issue_id": "2026-11-07",
+  "previous_issue_cutoff": "2026-11-07T08:40:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Google",
+      "date": "2026-11-05",
+      "item": "Gemini API expanded Office and OpenDocument file support: the Gemini API now accepts PowerPoint 97-2003 (PPT), OpenDocument Presentation (ODP), and OpenDocument Spreadsheet (ODS) files as input, and adds page-image processing for Word 97-2003 (DOC) files. DOC, PPT, and ODP files are rendered as page images. For ODS files, the model receives the data and formulas from the first sheet. Also: tools can now return Office and OpenDocument files, audio, and video to the model in function responses; GenerateContent API function response parts now accept audio, video, and Office and OpenDocument files in addition to images, PDFs, and plain text, and accept fileData so tools can return a Files API URI instead of inline bytes.",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/changelog",
+        "https://ai.google.dev/gemini-api/docs/document-processing#office-documents",
+        "https://ai.google.dev/gemini-api/docs/function-calling#multimodal"
+      ],
+      "date_only": true,
+      "note": "No November 7 or November 8 dated entry was found on any selected page, so this older dated November 5 item is the main feature, with its date clearly marked; not covered in earlier issues of this series. Date-only, so publication after the previous cutoff is not asserted."
+    },
+    {
+      "vendor": "OpenAI",
+      "date": "2026-11-02",
+      "item": "GPT-Live (gpt-live-1) outbound SIP calling is now available to all organizations through the Live API. Connect GPT-Live to a phone number through your SIP provider.",
+      "sources": [
+        "https://developers.openai.com/api/docs/changelog"
+      ],
+      "date_only": true,
+      "note": "Older dated item (November 2), included as a supplementary useful update because no new November 7 or November 8 item was found; not presented as a new announcement. Not covered in earlier issues of this series."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 6 Gemini Embedding 2 Preview deprecation (No.21); no Nov 7 or Nov 8 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 5 gpt-6-cyber (No.20); no Nov 6, Nov 7 or Nov 8 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "Latest is Oct 30 Rosalind (No.14); no Nov 7 or Nov 8 entry."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://platform.claude.com/docs/en/release-notes/overview",
+      "result": "Latest is Nov 5 IP allowlist (beta) and Admin API sign-out (already noted in No.20); platform/console features, not a model release, so not selected. No Nov 6, Nov 7 or Nov 8 entry."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is October 22 Z.ai GLM 5.3 Flash (featured in No.11); no Nov 7 or Nov 8 entry."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is 2026-10-17 DeepSeek-V4.1-Flash-1017 (No.16); no Nov 7 or Nov 8 entry."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is November 2 grok-imagine-image-quality retirement note (already noted earlier); no Nov 7 or Nov 8 entry."
+    },
+    {
+      "vendor": "Alibaba",
+      "page": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "result": "Fetched text carries no dates; Nov 7 or Nov 8 rows cannot be confirmed."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/v2/changelog",
+      "result": "Fetched text carries no dates; Nov 7 or Nov 8 entries cannot be confirmed."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "https://deepmind.google/blog/",
+      "result": "Latest model post is November 2026 Gemini Omni 1.2 Flash (corroborates the No.20 item); next is the November 2026 Science post 'Agentic cheminformatics with Google Antigravity', then October 2026 Genie 4. No Nov 7 or Nov 8 model entry in the selected index."
+    }
+  ]
+}
