@@ -1,0 +1,63 @@
+{
+  "audio": {
+    "archive_sha256_expected": "c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7",
+    "archive_source": "https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001",
+    "backup": "audio/2026-11-07-backup.mp3",
+    "backup_sha256": "746c85dca808ca5e898103567468fd6694a9a21cdb586081178baa3f2618c5f4",
+    "bitrate_bps": 96139,
+    "bytes": 779373,
+    "channels": 1,
+    "codec": "mp3",
+    "duration_seconds": 64.85,
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "full_mp3_decode": "passed",
+    "generated_at_jst": "2026-11-07T11:28+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+    "human_listening_claimed": false,
+    "primary": "audio/2026-11-07.mp3",
+    "sample_rate_hz": 24000,
+    "sha256": "746c85dca808ca5e898103567468fd6694a9a21cdb586081178baa3f2618c5f4",
+    "short_sample_full_decode": "passed",
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "status": "available_locally",
+    "style": "normal"
+  },
+  "checks": {
+    "full_mp3_decode": "passed; 24 kHz mono, ~96 kbps; primary and backup byte-identical",
+    "historical_preservation": "source files for past issues retained; only additive changes in both pushes",
+    "html_archive_qa": "passed by production/verify-issue-2026-11-07.py (local staging checks; old-archive preservation verified on the AI-device git worktree before push)",
+    "research_scope": "bounded official pages; no global absence claim",
+    "same_day_index_check": "passed; no existing 2026-11-07 record in Pages index before authoring",
+    "short_sample": "passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode",
+    "utterance_limit": "passed, all 17 utterances <=90 chars (max 36)"
+  },
+  "idempotency": {
+    "input_hash": "1afc5802a000b377d7a2bfb4ca620dd1d6ee59d38d35f80e7a3055b0cc3552df",
+    "input_hash_definition": "SHA-256 of research JSON bytes concatenated with the pre-audio script JSON bytes",
+    "same_day_duplicate_policy": "update this issue if new verified evidence; do not create a second row",
+    "same_day_record_count": 0,
+    "synthesis_input_definition": "SHA-256 of the script JSON file before audio metadata (sha/size/duration) was filled",
+    "synthesis_input_script_sha256": "bc6021274071a7e9cd8a941c41698b2840d7fb0dd4fdeea28d42b1e924b91b3e"
+  },
+  "issue_date": "2026-11-07",
+  "issue_id": "2026-11-07",
+  "issue_number": 21,
+  "previous_issue_cutoff": "2026-11-06T08:40:00+09:00",
+  "previous_issue_id": "2026-11-06",
+  "publication": {
+    "audio_backup_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-07-backup.mp3",
+    "audio_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-07.mp3",
+    "human_listening_claimed": false,
+    "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-07.html",
+    "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
+    "status": "pending_push"
+  },
+  "research_cutoff": "2026-11-07T08:40:00+09:00",
+  "research_cutoff_utc": "2026-11-06T23:40:00Z",
+  "scheduled_target_cutoff": "2026-11-07T08:00:00+09:00"
+}

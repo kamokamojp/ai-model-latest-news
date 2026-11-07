@@ -1,0 +1,175 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-07-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-07-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-07.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-07.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "746c85dca808ca5e898103567468fd6694a9a21cdb586081178baa3f2618c5f4",
+    "backup_sha256": "746c85dca808ca5e898103567468fd6694a9a21cdb586081178baa3f2618c5f4",
+    "duration_seconds": 64.85,
+    "file_size_bytes": 779373,
+    "generated_at_jst": "2026-11-07T11:28+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-07",
+  "issue_id": "2026-11-07",
+  "issue_number": 21,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-06T08:40:00+09:00",
+  "previous_issue_id": "2026-11-06",
+  "research_cutoff": "2026-11-07T08:40:00+09:00",
+  "research_cutoff_utc": "2026-11-06T23:40:00Z",
+  "research_file": "../production/2026-11-07-research.json",
+  "scheduled_target_cutoff": "2026-11-07T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 17,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第21号です。"
+    },
+    {
+      "characters": 29,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月7日の確認号。基準時は午前8時40分です。"
+    },
+    {
+      "characters": 21,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの発表は、時刻を補わずに読みます。"
+    },
+    {
+      "characters": 23,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "今回は11月6日付の記載、1件を初掲載します。"
+    },
+    {
+      "characters": 26,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "まずGoogle。埋め込みモデルの移行の知らせです。"
+    },
+    {
+      "characters": 36,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月6日から、要求はGemini Embedding 2へ送られます。"
+    },
+    {
+      "characters": 20,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "料金と仕組みは同じで、再索引も不要です。"
+    },
+    {
+      "characters": 21,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "モデル名だけ、新しい表記に変えてください。"
+    },
+    {
+      "characters": 26,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "補足は10月30日付、OpenAIのAPI更新です。"
+    },
+    {
+      "characters": 24,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "Agents APIで、自動レビューが選べます。"
+    },
+    {
+      "characters": 18,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "文脈の圧縮は、既定で裏側で動きます。"
+    },
+    {
+      "characters": 18,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "時刻の認識は、選んで有効にできます。"
+    },
+    {
+      "characters": 22,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "前号の11月5日付の2件は、繰り返しません。"
+    },
+    {
+      "characters": 30,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月7日付の一次記載は、選定ページに見当たりませんでした。"
+    },
+    {
+      "characters": 33,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 30,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "以上、第21号でした。モデル名と移行の期限をご確認ください。"
+    }
+  ]
+}
