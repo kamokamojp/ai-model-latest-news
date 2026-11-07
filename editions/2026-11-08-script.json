@@ -1,0 +1,161 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-08-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-08-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-08.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-08.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "e6189e3cd0dde345339e8a5f33d61ea3acc4e41e7d13e454c06013df058ee65b",
+    "backup_sha256": "e6189e3cd0dde345339e8a5f33d61ea3acc4e41e7d13e454c06013df058ee65b",
+    "duration_seconds": 59.62,
+    "file_size_bytes": 716301,
+    "generated_at_jst": "2026-11-08T08:46+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-08",
+  "issue_id": "2026-11-08",
+  "issue_number": 22,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-07T08:40:00+09:00",
+  "previous_issue_id": "2026-11-07",
+  "research_cutoff": "2026-11-08T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-07T23:45:00Z",
+  "research_file": "../production/2026-11-08-research.json",
+  "scheduled_target_cutoff": "2026-11-08T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 15,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第22号です。"
+    },
+    {
+      "characters": 29,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月8日の確認号。基準時は午前8時45分です。"
+    },
+    {
+      "characters": 21,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの発表は、時刻を補わずに読みます。"
+    },
+    {
+      "characters": 27,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月7日と8日付の一次記載は、見当たりませんでした。"
+    },
+    {
+      "characters": 28,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "そこで11月5日付のGoogleの記載を、初掲載します。"
+    },
+    {
+      "characters": 31,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "Gemini APIが、Office文書の入力に対応しました。"
+    },
+    {
+      "characters": 21,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "パワーポイントや表計算の文書も、扱えます。"
+    },
+    {
+      "characters": 22,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "道具の返答にも、音声や動画や文書が使えます。"
+    },
+    {
+      "characters": 26,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "補足は11月2日付、OpenAIの音声の知らせです。"
+    },
+    {
+      "characters": 26,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "GPT-Liveの外線発信が、全組織に広がりました。"
+    },
+    {
+      "characters": 23,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "電話番号につなぐには、SIP事業者を使います。"
+    },
+    {
+      "characters": 22,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "前号の11月6日付の1件は、繰り返しません。"
+    },
+    {
+      "characters": 33,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 30,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "以上、第22号でした。入力形式と通話の仕様をご確認ください。"
+    }
+  ]
+}
