@@ -34,7 +34,8 @@
     "research_scope": "bounded official pages; no global absence claim",
     "same_day_index_check": "passed; no existing 2026-11-09 record in Pages index before authoring",
     "short_sample": "passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode",
-    "utterance_limit": "passed, all 19 utterances <=90 chars (max 39)"
+    "utterance_limit": "passed, all 19 utterances <=90 chars (max 39)",
+    "publication_read_back": "passed; see publication.read_back"
   },
   "idempotency": {
     "input_hash": "b971d79c355bc14583bed365ef6c729dfc92a464d232971cf796c617e709efe2",
@@ -55,7 +56,11 @@
     "human_listening_claimed": false,
     "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-09.html",
     "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
-    "status": "pending_push"
+    "status": "published",
+    "gh_pages_commit": "7c94bcb",
+    "main_commit": "d3180f8",
+    "read_back_verified_at_jst": "2026-11-09T08:54+09:00",
+    "read_back": "passed; published index.json, edition HTML and top HTML byte-identical to local staging; primary and backup MP3 HTTP 200 with SHA-256 704afe6b6e40451e71f481bc69a416baa2740b62e1a6089f06b46d449ea14408 matching local; ffprobe duration 68.84s"
   },
   "research_cutoff": "2026-11-09T08:45:00+09:00",
   "research_cutoff_utc": "2026-11-08T23:45:00Z",
