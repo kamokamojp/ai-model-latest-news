@@ -1,0 +1,112 @@
+{
+  "issue_date": "2026-11-09",
+  "issue_number": 23,
+  "scheduled_target_cutoff": "2026-11-09T08:00:00+09:00",
+  "research_cutoff": "2026-11-09T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-08T23:45:00Z",
+  "previous_issue_id": "2026-11-08",
+  "previous_issue_cutoff": "2026-11-08T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Anthropic",
+      "date": "2026-11-08",
+      "item": "Claude Sonnet 4.6 (claude-sonnet-4-6): Anthropic's most capable Sonnet model yet, with a 1M token context window in beta. Full upgrade across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. Pricing unchanged from Sonnet 4.5, starting at $3/$15 per million tokens. Now the default model in claude.ai and Claude Cowork on Free and Pro plans. Available on all Claude plans, Claude Cowork, Claude Code, the API, and all major cloud platforms. Supports adaptive thinking and extended thinking, plus context compaction in beta. Anthropic's early testing: users preferred Sonnet 4.6 over Sonnet 4.5 roughly 70% of the time, and over Opus 4.5 59% of the time (Anthropic's own claims, not independent verification).",
+      "sources": [
+        "https://www.anthropic.com/news/claude-sonnet-4-6"
+      ],
+      "date_only": true,
+      "note": "The primary announcement page shows no publication date in its body, so the announcement date is not asserted from the primary page. Secondary coverage dates the release November 8, 2026; the page metadata lists Published 2026-02-17 / Updated 2026-10-14, which do not match the release, so the date is recorded from secondary coverage only. Not covered in earlier issues of this series."
+    },
+    {
+      "vendor": "OpenAI",
+      "date": "2026-11-04",
+      "item": "GPT-Image-2.6 Sunburst (gpt-image-2.6-sunburst) and GPT-Image-2.6 Flare (gpt-image-2.6-flare) released for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Markup-guided editing added for supported GPT Image 2.5 and 2.6 models. Endpoints v1/images/generations and v1/images/edits. Pricing (both models): text input $5.00, cached input $1.25, image input $8.00, cached image input $2.00, image output $30.00 per 1M tokens.",
+      "sources": [
+        "https://developers.openai.com/api/docs/changelog",
+        "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+        "https://developers.openai.com/api/docs/models/gpt-image-2.6-flare"
+      ],
+      "date_only": true,
+      "note": "November 4 dated changelog entry, not covered in earlier issues of this series. Date-only, so publication after the previous cutoff is not asserted."
+    },
+    {
+      "vendor": "Thinking Machines Lab",
+      "date": "2026-11-05",
+      "item": "Inkling 2 Small: second-generation Mixture-of-Experts model with 594B total parameters and 17B active per token, supporting image inputs and variable effort. Artificial Analysis Intelligence Index score of 31 (vendor-reported). Initially available through Tinker with closed weights; the lab intends to make the full weights available under an Apache 2.0 license next week after the completion of external safety testing and red-teaming. Try it on Tinker Playground; fine-tuning and sampling on Tinker.",
+      "sources": [
+        "https://thinkingmachines.ai/news/inkling-2-small/"
+      ],
+      "date_only": true,
+      "note": "The primary announcement page shows no publication date in its body, so the announcement date is not asserted from the primary page; secondary coverage dates it November 5, 2026. Not covered in earlier issues of this series. A new vendor for this series (outside the previously checked vendor pages)."
+    },
+    {
+      "vendor": "Google",
+      "date": "2026-11-04",
+      "item": "Voice remixing for Gemini 3.8 TTS: modify an existing prebuilt or designed voice using natural-language instructions to create a new, independent stored voice. Use POST /v1beta/voices with gemini-3.8-flash-tts (or remix interactively in Google AI Studio) to generate a voice_... ID, then synthesize speech with Gemini 3.8 Flash TTS or Gemini 3.8 Flash-Lite TTS.",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/changelog",
+        "https://ai.google.dev/gemini-api/docs/voice-remixing"
+      ],
+      "date_only": true,
+      "note": "November 4 dated changelog entry, included as a supplementary update; not covered in earlier issues of this series. Date-only, so publication after the previous cutoff is not asserted."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 6 Gemini Embedding 2 Preview deprecation (No.21); no Nov 7, Nov 8 or Nov 9 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 5 gpt-6-cyber (No.20); no Nov 6, Nov 7, Nov 8 or Nov 9 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "Latest is Oct 30 Rosalind (No.14); no Nov 7, Nov 8 or Nov 9 entry."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Latest is Nov 5 IP allowlist (beta) and Admin API sign-out (already noted in No.20); platform/console features, not a model release, so not selected. Nov 3 text watermark note is also a platform feature. No Nov 6, Nov 7, Nov 8 or Nov 9 entry. (Sonnet 4.6 is covered from the separate news announcement page.)"
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is October 22 Z.ai GLM 5.3 Flash (featured in No.11); no Nov 7, Nov 8 or Nov 9 entry. Note: https://docs.mistral.ai/release-notes/ returns 404 (confirmed in the live browser 2026-11-09 08:37-08:38 JST)."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is 2026-10-17 DeepSeek-V4.1-Flash-1017 (No.16); no Nov 7, Nov 8 or Nov 9 entry. Note: https://api-docs.deepseek.com/news/ now serves a docs page with no dated entries."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is November 2 grok-imagine-image-quality retirement note (already noted earlier); no Nov 7, Nov 8 or Nov 9 entry. The xAI models page carries no dates (last updated September 21, 2026)."
+    },
+    {
+      "vendor": "Alibaba",
+      "page": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "result": "Fetched text carries no dates; Nov 7, Nov 8 or Nov 9 rows cannot be confirmed."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched text carries no dates; Nov 7, Nov 8 or Nov 9 entries cannot be confirmed."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "https://deepmind.google/blog/",
+      "result": "Latest model post is November 2026 Gemini Omni 1.2 Flash (corroborates the No.20 item); next is the November 2026 Science post 'Agentic cheminformatics with Google Antigravity', then October 2026 Genie 4. No Nov 7, Nov 8 or Nov 9 model entry in the selected index."
+    },
+    {
+      "vendor": "Tencent",
+      "page": "secondary coverage only",
+      "result": "Secondary coverage reports Tencent released Hy4 on November 4; no primary source was checked in this run, so it is not selected."
+    }
+  ]
+}
