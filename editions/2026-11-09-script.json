@@ -1,0 +1,189 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-09-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-09-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-09.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-09.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "704afe6b6e40451e71f481bc69a416baa2740b62e1a6089f06b46d449ea14408",
+    "backup_sha256": "704afe6b6e40451e71f481bc69a416baa2740b62e1a6089f06b46d449ea14408",
+    "duration_seconds": 68.84,
+    "file_size_bytes": 827181,
+    "generated_at_jst": "2026-11-09T08:48+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-09",
+  "issue_id": "2026-11-09",
+  "issue_number": 23,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-08T08:45:00+09:00",
+  "previous_issue_id": "2026-11-08",
+  "research_cutoff": "2026-11-09T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-08T23:45:00Z",
+  "research_file": "../production/2026-11-09-research.json",
+  "scheduled_target_cutoff": "2026-11-09T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 19,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第23号です。"
+    },
+    {
+      "characters": 29,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月9日の確認号。基準時は午前8時45分です。"
+    },
+    {
+      "characters": 22,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "今回は新しいモデルの発表が、4件ありました。"
+    },
+    {
+      "characters": 33,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "まずAnthropicの、Claude Sonnet 4.6です。"
+    },
+    {
+      "characters": 22,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "100万トークンの文脈が、ベータで使えます。"
+    },
+    {
+      "characters": 26,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "価格は前のSonnetと同じ、3ドルと15ドルです。"
+    },
+    {
+      "characters": 21,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "発表日はページに記載がなく、断定しません。"
+    },
+    {
+      "characters": 18,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次はOpenAI、画像の2.6です。"
+    },
+    {
+      "characters": 25,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "SunburstとFlareの、2つのモデルです。"
+    },
+    {
+      "characters": 20,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "SVGの出力や、GIFの生成ができます。"
+    },
+    {
+      "characters": 20,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月4日付の変更履歴で、確認しました。"
+    },
+    {
+      "characters": 39,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次はThinking Machinesの、Inkling 2 Smallです。"
+    },
+    {
+      "characters": 23,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "5940億パラメータの、混合専門家モデルです。"
+    },
+    {
+      "characters": 24,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "まずはTinkerだけで、重みは来週の予定です。"
+    },
+    {
+      "characters": 23,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "最後はGoogle、音声の声を変える機能です。"
+    },
+    {
+      "characters": 24,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月4日付、Geminiの音声合成の更新です。"
+    },
+    {
+      "characters": 33,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 27,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "以上、第23号でした。発表元のページをご確認ください。"
+    }
+  ]
+}
