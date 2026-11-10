@@ -1,0 +1,151 @@
+{
+  "issue_date": "2026-11-11",
+  "issue_number": 25,
+  "scheduled_target_cutoff": "2026-11-11T08:00:00+09:00",
+  "research_cutoff": "2026-11-11T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-10T23:45:00Z",
+  "previous_issue_id": "2026-11-10",
+  "previous_issue_cutoff": "2026-11-10T08:50:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Google",
+      "date": "2026-11-10",
+      "item": "Gemini 4 Carbon (gemini-4-carbon) generally available (GA): Google's strongest model, with frontier performance in cybersecurity capabilities and long-horizon agentic workflows across complex knowledge work, software engineering and scientific reasoning. Announced October 28, 2026 and first released only to cybersecurity defenders via the Fairwind Program; on November 10, 2026 it became available to developers, enterprises, scientists and consumers. Available via the paid Gemini API in Google AI Studio and Android Studio and in Gemini for business, at the same introductory price as Gemini 4 Argon: $2 per million input tokens and $10 per million output tokens through November 30, 2026 (then $4/$20). Rolling out to all Google AI Ultra subscribers in Google Antigravity, the Gemini app and AI Mode in Search. The cyber-focused variant stays gated through the Fairwind Program. Google also previews /swarm in Google Antigravity, turning a single prompt into a coordinated team of agents. Vendor-reported benchmarks: #1 on CursorBench 4.0, Perplexity WANDR and Zapier AutomationBench at more than 2x lower cost per task than the next best external model; SEC-bench Pro 88.2% (finding vulnerabilities), ExploitGym 54.8%, CWE-bench 71.0%; Gray Swan IPI 0.0% attack success rate. All benchmark claims are Google's own, not independent verification.",
+      "sources": [
+        "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+        "https://ai.google.dev/gemini-api/docs/changelog"
+      ],
+      "date_only": true,
+      "note": "The DeepMind blog post is dated November 10, 2026 and the Gemini API changelog entry is dated November 10, 2026. The model itself was announced October 28, 2026; November 10 is the general-availability date, not the announcement. Not covered in earlier issues of this series."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "date": "2026-11-10",
+      "item": "Gemini Robotics 2.5: Google DeepMind's most capable vision-language-action (VLA) model to date. Evaluated across over 200 distinct tasks (serving food with tongs, tying a bow, pipetting liquid); compared with previous baselines it achieves a 30% to 100% higher success rate depending on task type while completing tasks 20% to 30% faster. In a proof-of-concept on active Mercedes-Benz production lines in Kecskemet, Hungary and Sindelfingen, Germany, Apptronik Apollo 2 humanoids using Gemini Robotics ER for workflow tracking and Gemini Robotics 2.5 for hand/arm control performed automotive kitting with a 96% success rate. Safety: inference-time reasoning guidance boosts safe task completion around obstacles by 33% and around nearby people by 43%; the new open-source ASIMOV-Jailbreak benchmark tests jailbreak robustness (Argon achieves 99.5% jailbreak resistance vs 82% for the previous baseline). Rolling out to Google robotics partners; no public API, price or country rollout announced. Development was accelerated by Gemini 4 Argon as a simulation engine. All figures are DeepMind's own, not independent verification.",
+      "sources": [
+        "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+      ],
+      "date_only": true,
+      "note": "The DeepMind blog post is dated November 10, 2026. Not covered in earlier issues of this series."
+    },
+    {
+      "vendor": "Meta",
+      "date": "2026-11-09",
+      "item": "Muse Ember (muse-ember-1.0): Meta's smallest and most efficient model, designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction and long document parsing. Available on the Meta Model API and Muse Code. Price $0.10 per million input tokens, $0.004 per million cached input tokens and $0.50 per million output tokens (higher rates above 200k input tokens: $0.30/$1.50 per the API pricing docs cited in secondary coverage; the blog itself states the base rates). 1M-token context window, up to 512K output tokens; natively understands text, images, audio and video; supports the Responses API. First model trained using Muse Wonder Full. Meta's published comparison: Artificial Analysis Intelligence Index 36 at max reasoning (Claude Haiku 5.5 max 36, GPT-6 Luna max 28), about $0.14 per Artificial Analysis task. Also available on Google Cloud and Oracle Cloud. All benchmark and cost-per-task claims are Meta's own, not independent verification.",
+      "sources": [
+        "https://research.meta.ai/blog/muse-ember"
+      ],
+      "date_only": true,
+      "note": "The research blog page body shows no publication date line in the fetched text; the date is taken from Meta's own figure captions (Artificial Analysis | November 9, 2026) and secondary coverage of the November 9, 2026 post. Published November 9, 2026, before the No.24 cutoff, but not covered in No.24 because the Meta research blog was not in that run's checked set; first coverage in this series here. Not covered in earlier issues."
+    },
+    {
+      "vendor": "NVIDIA",
+      "date": "2026-11-09",
+      "item": "GR00T 2: an open frontier world action model built on NVIDIA Cosmos, introduced at the Conference on Robot Learning (CoRL) in Austin, Texas. A world action model predicts future video and robot actions together, so robots learn dexterous manipulation skills from human video. Trained on diverse robot and human data including 100,000 hours of NVIDIA open-source human egocentric data (Human-1M-100K, released under a CC BY licence per secondary coverage of the research page). Vendor-reported results: completed 40 of 50 evaluated tasks at least once without task-specific demonstrations; 71% average success across the 50 tasks with one demonstration per task, rising to 95% with five. Ranks among the top three models across the RoboCasa365, RoboLab, RoboDojo and MolmoSpaces benchmarks. Nexuni is testing it for robotic laundry handling, Foxconn is applying it to server-manufacturing automation and Siemens is evaluating it for industrial use. Isaac Lab 3.0, the open-source robot-learning framework, was released alongside it, with up to 2.5x training throughput vs Isaac Lab 2.3 with PhysX when combined with Newton. Caveats: NVIDIA's own whitepaper states the 50 tasks were chosen among those the model learns with five episodes at 80% success or better, so the 95% figure is high partly by construction; the blog post gives no release date or licence for the model weights or code. All figures are NVIDIA's own, not independent verification.",
+      "sources": [
+        "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/"
+      ],
+      "date_only": true,
+      "note": "The blog post metadata gives publication 2026-11-09T14:00:01Z (updated 2026-11-10T17:37:18Z). Published November 9, 2026, before the No.24 cutoff, but not covered in No.24 because the NVIDIA blog was not in that run's checked set; first coverage in this series here. The 95% caveat comes from NVIDIA's own whitepaper as reported in secondary coverage; the blog post itself does not disclose the task-selection condition. Not covered in earlier issues."
+    },
+    {
+      "vendor": "Baidu",
+      "date": "2026-11-05",
+      "item": "ERNIE 5.5 Flash Base (ERNIE-5.5-Flash-Base): a sparse mixture-of-experts language model with 280B total parameters and 14B activated per token, pre-trained from scratch on 33.5T tokens with a training context of up to 128K; fine-tuning and inference support a 1M-token context. Released as the checkpoint at the end of pre-training, before any mid- or post-training, so it has no chat, instruct or reasoning tuning; the post-trained ERNIE 5.5 Flash will follow at an unspecified date. Weights available on Hugging Face in FP8 and BF16 (and ModelScope), served through a completions endpoint via SGLang or vLLM. Vendor-reported benchmarks (unified pipeline vs DeepSeek-V4-Flash-Base, Hy3-preview-Base, MiMo-V2.5-Base): MMLU 93.3, MMLU-Pro 78.4, GPQA 60.2, HumanEval+ 82.3. Provided under the ERNIE 5.5 Flash Base Model License Agreement v1.0, a custom licence whose geographic grant excludes the European Union, the United Kingdom and South Korea; commercial use above $50M/year in related revenue needs Baidu's written authorisation. All benchmark claims are Baidu's own, not independent verification.",
+      "sources": [
+        "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+        "https://ernie.baidu.com/release/ernie-5-5-flash-base/"
+      ],
+      "date_only": true,
+      "note": "The Hugging Face model card carries no date; the release date November 5, 2026 is taken from Baidu's ERNIE release page (dated 5 November 2026 per secondary coverage) and the model's publication timestamp. Published November 5, 2026, before the No.24 cutoff, but not covered in earlier issues because Baidu's release page was not in those runs' checked sets; first coverage in this series here, with the older date stated explicitly."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 10 entries are 'Introducing Businesses in ChatGPT' (product feature), 'Helping caregivers use AI in everyday life', 'Closing the AI guidance gap in education' and 'Work at the Frontier: AI's effect on freelance work' (company items) — no model release. Nov 9 entries are Control Room (No.24) and ChatGPT Enterprise in AWS Marketplace."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 5 gpt-6-cyber (No.20); no Nov 6, Nov 7, Nov 8, Nov 9, Nov 10 or Nov 11 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "Latest is Oct 30 Rosalind (No.14); no Nov 10 or Nov 11 entry."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Latest is Nov 9 Claude Fable 5.2 / Mythos 5.2 (No.24); no Nov 10 or Nov 11 entry."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://www.anthropic.com/news",
+      "result": "Latest is Nov 9 Fable 5.2 / Mythos 5.2 (No.24); no Nov 10 or Nov 11 item."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Nov 10 entry is Gemini 4 Carbon GA (selected). Nov 6 Gemini Embedding 2 Preview deprecation was covered in No.21. No Nov 11 entry."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "https://deepmind.google/blog/",
+      "result": "Latest model posts are Nov 10 'Gemini 4 Carbon is now available' (selected) and Nov 10 'Gemini Robotics 2.5' (selected); next is the November 2026 research post 'Introducing AlphaProof Code' (a verification framework, not a model release, so not selected), then November 2026 'Gemini Omni 1.2 Flash' (No.20) and 'Agentic cheminformatics with Google Antigravity' (science post). No Nov 11 model entry in the selected index."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is October 22 Z.ai GLM 5.3 Flash (No.11); no Nov 9, Nov 10 or Nov 11 entry."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is 2026-10-17 DeepSeek-V4.1-Flash-1017 (No.16); no Nov 9, Nov 10 or Nov 11 entry."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is November 2 grok-imagine-image-quality retirement note (already noted earlier); no Nov 9, Nov 10 or Nov 11 entry."
+    },
+    {
+      "vendor": "Alibaba",
+      "page": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "result": "Fetched text carries no dates (no '2026-11-1' match); Nov 9, Nov 10 or Nov 11 rows cannot be confirmed."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched text carries no dates; Nov 9, Nov 10 or Nov 11 entries cannot be confirmed."
+    },
+    {
+      "vendor": "Thinking Machines Lab",
+      "page": "secondary coverage only",
+      "result": "Latest is Nov 5 Inkling 2 Small (No.23); no Nov 9, Nov 10 or Nov 11 item in secondary coverage."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "secondary coverage only",
+      "result": "Claude Meetings / Claude workspace with plugins, spreadsheets and whiteboards (reported Nov 10) is a product feature, not a model release, so not selected; no primary source was checked in this run."
+    },
+    {
+      "vendor": "Google",
+      "page": "secondary coverage only",
+      "result": "TPU 8tx and TPU 8i Max (reported Nov 10) are hardware, not a model release, so not selected."
+    },
+    {
+      "vendor": "Meta",
+      "page": "secondary coverage only",
+      "result": "Muse on Apple Watch and Wear OS (reported Nov 10) is a product feature, not a model release, so not selected."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "secondary coverage only",
+      "result": "ChatGPT business profiles / dot multi-computer support (reported Nov 10) are product features, not model releases, so not selected."
+    }
+  ]
+}
