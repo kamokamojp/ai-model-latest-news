@@ -1,0 +1,121 @@
+{
+  "issue_date": "2026-11-10",
+  "issue_number": 24,
+  "scheduled_target_cutoff": "2026-11-10T08:00:00+09:00",
+  "research_cutoff": "2026-11-10T08:50:00+09:00",
+  "research_cutoff_utc": "2026-11-09T23:50:00Z",
+  "previous_issue_id": "2026-11-09",
+  "previous_issue_cutoff": "2026-11-09T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Anthropic",
+      "date": "2026-11-09",
+      "item": "Claude Fable 5.2 (claude-fable-5-2) and Claude Mythos 5.2: Anthropic's most capable models for daunting technical work. Fable and Mythos are the same underlying model; Fable has strong cybersecurity and biology safeguards and is available to all users, while Mythos is offered only to organizations verified through the Cyber and Life Sciences Verification Programs. Outputs up to 30% faster than Fable 5.1 and Mythos 5.1. 1M token context window, 128k max output tokens, always-on adaptive thinking. Price $8/$40 per million tokens (down from $10/$50 for 5.1). Optional fast mode delivers up to 2.5x higher output tokens per second at $16/$80. Available on the Claude API, Claude Platform on AWS, Google Cloud (Anthropic managed and Google managed), Amazon Bedrock, and Microsoft Foundry, and in paid Claude plans and Claude Code. Vendor-reported benchmarks: FrontierCode 2.0 49.1% (Fable 5.1 32.4%, Opus 5.5 45.5%, GPT-6 Astra 42.8%, Gemini 4 Carbon 41.1%); FrontierSWE v2 69.9%; Terminal-Bench-Science 74.6% (Mythos 5.2 75.3%); Humanity's Last Exam 74.2% with tools. Prerelease testing: a team of 1,000 Fable 5.2 agents formalized the proof of Fermat's Last Theorem in 30 hours; the model solved two open problems in black-hole physics and designed three working electronic devices. All benchmark and prerelease claims are Anthropic's own, not independent verification.",
+      "sources": [
+        "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "https://docs.anthropic.com/en/release-notes/overview"
+      ],
+      "date_only": true,
+      "note": "The announcement page body shows no publication date; the date is taken from Anthropic's news index (November 9, 2026) and the Claude Platform release notes entry dated November 9, 2026. Not covered in earlier issues of this series."
+    },
+    {
+      "vendor": "OpenAI",
+      "date": "2026-11-09",
+      "item": "Control Room: a central system to track and stop model workloads across OpenAI's research infrastructure. Built and deployed in production in 2025 and publicly described on November 9, 2026. Covers all research infrastructure: thousands of machines and tens of thousands of GPUs across 8 compute clusters in the US and Europe. It is the only system that can authorize a model workload to launch and to continue running. Three capabilities: authorization (designated-staff approval plus automated checks), tracking (a single source of truth for each workload's identity, origin, training data, evaluation results and deployment history), and enforcement through local agents on each cluster. Fail-closed: launches without valid authorization are blocked; if a cluster cannot reach Control Room, or Control Room fails, launches are blocked and clusters stop workloads that lose authorization. In a recent exercise, OpenAI went from detection to stopping a simulated compromised model workload across all 8 clusters in 35 seconds (previously hours, contacting each site individually). OpenAI plans to expand coverage to inference and other model deployments beyond research. The 35-second figure is OpenAI's own exercise result, not independent verification.",
+      "sources": [
+        "https://openai.com/index/control-room/"
+      ],
+      "date_only": true,
+      "note": "The article body shows no publication date; the date is taken from OpenAI's news index (Nov 9, 2026). The URL https://openai.com/index/introducing-control-room cited in secondary coverage returned 404 in the live browser; the working URL was found by following the news-index card. The system was built and deployed in 2025; November 9, 2026 is the public disclosure, not the launch. Not covered in earlier issues of this series."
+    },
+    {
+      "vendor": "Google",
+      "date": "2026-11-09",
+      "item": "Google Maps Platform inside Google AI Studio (supplementary): describe a location-based app idea to Gemini and AI Studio sets up the Maps Platform configuration and API-key management, then loads a live interactive map in the preview. Covers the Maps, Places, Routes and Environment APIs: store locators, route planners, cinematic 3D flyovers and real-time air quality monitors. Built-in sandbox quotas of 100 calls per day per API, resetting every 24 hours, with no credit card required; new Google Cloud users get a Maps Demo Key. Production use requires a paid Cloud billing account.",
+      "sources": [
+        "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/"
+      ],
+      "date_only": false,
+      "note": "Supplementary item (a Gemini/AI Studio feature, not a model release). The Developers Blog post is dated November 9, 2026; the blog.google version is timestamped 2026-11-09T17:00:00Z (JST November 10 02:00). Not covered in earlier issues of this series."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 6 Gemini Embedding 2 Preview deprecation (No.21); no Nov 7, Nov 8, Nov 9 or Nov 10 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 5 gpt-6-cyber (No.20); no Nov 6, Nov 7, Nov 8, Nov 9 or Nov 10 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "Latest is Oct 30 Rosalind (No.14); no Nov 7, Nov 8, Nov 9 or Nov 10 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 9 entries are Control Room (selected) and ChatGPT Enterprise in AWS Marketplace (distribution/business, not a model release, so not selected); Nov 6 Hacktron partnership is a security item; Nov 4 Images 2.6 was covered in No.23."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Nov 9 entry is Claude Fable 5.2 / Mythos 5.2 (selected). Nov 5 IP allowlist (beta) and Admin API sign-out are platform/console features, not model releases, so not selected. Nov 3 text watermark note is also a platform feature. No Nov 6, Nov 7, Nov 8 or Nov 10 entry. (The old changelog URL https://docs.anthropic.com/en/release-notes/changelog returns 404.)"
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is October 22 Z.ai GLM 5.3 Flash (featured in No.11); no Nov 7, Nov 8, Nov 9 or Nov 10 entry."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is 2026-10-17 DeepSeek-V4.1-Flash-1017 (No.16); no Nov 7, Nov 8, Nov 9 or Nov 10 entry. Note: https://api-docs.deepseek.com/news/ now serves a docs page with no dated entries."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is November 2 grok-imagine-image-quality retirement note (already noted earlier); no Nov 7, Nov 8, Nov 9 or Nov 10 entry. The xAI models page carries no dates (last updated September 21, 2026)."
+    },
+    {
+      "vendor": "Alibaba",
+      "page": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "result": "Fetched text carries no dates; Nov 8, Nov 9 or Nov 10 rows cannot be confirmed."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched text carries no dates; Nov 8, Nov 9 or Nov 10 entries cannot be confirmed."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "https://deepmind.google/blog/",
+      "result": "Latest model post is November 2026 Gemini Omni 1.2 Flash (No.20 item); next is the November 2026 Science post 'Agentic cheminformatics with Google Antigravity', then October 2026 Genie 4. No Nov 8, Nov 9 or Nov 10 model entry in the selected index."
+    },
+    {
+      "vendor": "Google Cloud",
+      "page": "secondary coverage only",
+      "result": "Google Cloud Pathways GA was published 2026-11-09T16:00:11-0500 (JST November 10 06:00); a learning platform, not a model release, so not selected."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "secondary coverage only",
+      "result": "The reported $3.4B gas-turbine purchase (TechCrunch 2026-11-09T16:56:54Z) is business news, not a model release, so not selected."
+    },
+    {
+      "vendor": "Industry",
+      "page": "secondary coverage only",
+      "result": "A common robots.txt signal for AI-training opt-out (reported 2026-11-09T16:03:57Z) is policy news, not a model release, so not selected."
+    },
+    {
+      "vendor": "Tencent",
+      "page": "secondary coverage only",
+      "result": "Secondary coverage reports Tencent released Hy4 on November 4; no primary source was checked in this run, so it is not selected."
+    }
+  ]
+}

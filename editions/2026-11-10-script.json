@@ -1,0 +1,189 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-10-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-10-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-10.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-10.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "e369e784c1db8d3a395558d4133c0dd2db88b57f93756d487db5289ec42767d6",
+    "backup_sha256": "e369e784c1db8d3a395558d4133c0dd2db88b57f93756d487db5289ec42767d6",
+    "duration_seconds": 70.65,
+    "file_size_bytes": 848781,
+    "generated_at_jst": "2026-11-10T09:08+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-10",
+  "issue_id": "2026-11-10",
+  "issue_number": 24,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-09T08:45:00+09:00",
+  "previous_issue_id": "2026-11-09",
+  "research_cutoff": "2026-11-10T08:50:00+09:00",
+  "research_cutoff_utc": "2026-11-09T23:50:00Z",
+  "research_file": "../production/2026-11-10-research.json",
+  "scheduled_target_cutoff": "2026-11-10T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 19,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第24号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月10日の確認号。基準時は午前8時50分です。"
+    },
+    {
+      "characters": 18,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "今回は新しい発表が、3件ありました。"
+    },
+    {
+      "characters": 25,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "まずAnthropicの、Fable 5.2です。"
+    },
+    {
+      "characters": 21,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "最も難しい技術課題向けの、最新モデルです。"
+    },
+    {
+      "characters": 24,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "速さは前の世代より、最大30パーセント速いです。"
+    },
+    {
+      "characters": 26,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "価格は100万トークンあたり、8ドルと40ドルです。"
+    },
+    {
+      "characters": 27,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "Mythos 5.2は同じモデルで、審査制の提供です。"
+    },
+    {
+      "characters": 25,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "次はOpenAIの、Control Roomです。"
+    },
+    {
+      "characters": 23,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "研究のモデル稼働を、追跡して止める仕組みです。"
+    },
+    {
+      "characters": 29,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "演習では8クラスター全体で、検出から停止まで35秒でした。"
+    },
+    {
+      "characters": 26,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2025年から運用中で、11月9日に公表されました。"
+    },
+    {
+      "characters": 30,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "最後はGoogle、地図をAI Studioで使う機能です。"
+    },
+    {
+      "characters": 21,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月9日付、地図アプリを言葉で作れます。"
+    },
+    {
+      "characters": 22,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "試用は1日100回までで、カードは不要です。"
+    },
+    {
+      "characters": 21,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "本番で使うには、課金アカウントが必要です。"
+    },
+    {
+      "characters": 33,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 27,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "以上、第24号でした。発表元のページをご確認ください。"
+    }
+  ]
+}
