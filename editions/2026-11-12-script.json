@@ -1,0 +1,322 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-12-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-12-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-12.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-12.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "7fed6c755672ad35abb39f4d40bc45a20a47f7e5c006975152821dcd76f52bc7",
+    "backup_sha256": "7fed6c755672ad35abb39f4d40bc45a20a47f7e5c006975152821dcd76f52bc7",
+    "duration_seconds": 136.5,
+    "file_size_bytes": 1639053,
+    "generated_at_jst": "2026-11-12T09:03+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-12",
+  "issue_id": "2026-11-12",
+  "issue_number": 26,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-11T08:45:00+09:00",
+  "previous_issue_id": "2026-11-11",
+  "research_cutoff": "2026-11-12T08:55:00+09:00",
+  "research_cutoff_utc": "2026-11-11T23:55:00Z",
+  "research_file": "../production/2026-11-12-research.json",
+  "scheduled_target_cutoff": "2026-11-12T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 38,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第26号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月12日の確認号。基準時は午前8時55分です。"
+    },
+    {
+      "characters": 18,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "今回は新しい発表が、8件ありました。"
+    },
+    {
+      "characters": 32,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "まずGoogle、Gemini Decisions APIです。"
+    },
+    {
+      "characters": 24,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月11日付、はいかいいえを高速に判定します。"
+    },
+    {
+      "characters": 28,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "1回で1000問まで、150から250ミリ秒で答えます。"
+    },
+    {
+      "characters": 23,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "価格は100万トークンあたり、0.1ドルです。"
+    },
+    {
+      "characters": 25,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次もGoogle、AlphaGenome 2です。"
+    },
+    {
+      "characters": 23,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月11日付、DNAから病気を読み解きます。"
+    },
+    {
+      "characters": 21,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "1億以上の細胞プロファイルで学習しました。"
+    },
+    {
+      "characters": 20,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "研究用に提供中で、臨床用ではありません。"
+    },
+    {
+      "characters": 30,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次はAlibaba、Qwen4-Max-Previewです。"
+    },
+    {
+      "characters": 21,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月11日付、次世代の最上位モデルです。"
+    },
+    {
+      "characters": 21,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "100万トークンの文脈で、推論もできます。"
+    },
+    {
+      "characters": 19,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月25日までの期間限定の提供です。"
+    },
+    {
+      "characters": 21,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次はMiniMax、H3-Imageです。"
+    },
+    {
+      "characters": 21,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月10日付、公開の画像生成モデルです。"
+    },
+    {
+      "characters": 23,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "6ステップで、1600万画素の画像を作ります。"
+    },
+    {
+      "characters": 20,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "16枚までの参考画像で、編集もできます。"
+    },
+    {
+      "characters": 27,
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次はNVIDIA、Alpamayo 2 Edgeです。"
+    },
+    {
+      "characters": 21,
+      "order": 21,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月10日付、自動運転の推論モデルです。"
+    },
+    {
+      "characters": 22,
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "20億パラメーターで、走行の軌跡を決めます。"
+    },
+    {
+      "characters": 26,
+      "order": 23,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "車載コンピューターで、毎秒10回の処理を目指します。"
+    },
+    {
+      "characters": 33,
+      "order": 24,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次はRicursive、Ripple-65B Previewです。"
+    },
+    {
+      "characters": 26,
+      "order": 25,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月4日付、650億パラメーターの公開モデルです。"
+    },
+    {
+      "characters": 23,
+      "order": 26,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "100万トークンの文脈で、卓上機でも扱えます。"
+    },
+    {
+      "characters": 22,
+      "order": 27,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "開発者向けのベンチマークで、高い成績でした。"
+    },
+    {
+      "characters": 21,
+      "order": 28,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次はPruna、P-H3-Imageです。"
+    },
+    {
+      "characters": 30,
+      "order": 29,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月3日付、MiniMax-H3を軽くした画像モデルです。"
+    },
+    {
+      "characters": 25,
+      "order": 30,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "8ステップで、4メガピクセルを2.6秒で作ります。"
+    },
+    {
+      "characters": 25,
+      "order": 31,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "量子化すれば、21ギガバイトのVRAMで動きます。"
+    },
+    {
+      "characters": 35,
+      "order": 32,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "最後はBaidu、ERNIE 5.5 Flash Previewです。"
+    },
+    {
+      "characters": 18,
+      "order": 33,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月11日付、調整済みの新版です。"
+    },
+    {
+      "characters": 27,
+      "order": 34,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2800億パラメーターで、100万トークンの文脈です。"
+    },
+    {
+      "characters": 22,
+      "order": 35,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "調整途中の版で、一部の性能はまだ未完成です。"
+    },
+    {
+      "characters": 33,
+      "order": 36,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 37,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 27,
+      "order": 38,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第26号でした。発表元のページをご確認ください。"
+    }
+  ]
+}

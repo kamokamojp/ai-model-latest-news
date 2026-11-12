@@ -1,0 +1,201 @@
+{
+  "issue_date": "2026-11-12",
+  "issue_number": 26,
+  "scheduled_target_cutoff": "2026-11-12T08:00:00+09:00",
+  "research_cutoff": "2026-11-12T08:55:00+09:00",
+  "research_cutoff_utc": "2026-11-11T23:55:00Z",
+  "previous_issue_id": "2026-11-11",
+  "previous_issue_cutoff": "2026-11-11T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Google",
+      "date": "2026-11-11",
+      "item": "Gemini Decisions API: a new Decisions API for fast multimodal decisions over text, images, audio, video and PDFs. Answers up to 1,000 yes/no, choice (2-255 options) or rubric questions in a single pass, scoring options in one forward pass without generating text. Input up to 256K tokens (262,144-token context per the API docs); end-to-end latency 150-250 ms (50-100 ms model compute) for inputs up to 16K tokens. Pricing $0.10 per 1M input tokens, $0 output. Available in v1beta through the Gemini API in AI Studio on the no-cost tier; Google Cloud support coming soon. In use by Gemini Notebook (routing, up to 40% lower latency), Stitch, CC emoji and a Search MCP safety layer. Vendor-reported benchmarks: leads 5 of 7 shared tests vs Jev 1.14 and GPT-6 Luna; JevBench 92.2% (GPT-6 Luna 90.9%, Jev 90.0%); Top-1 ECE calibration error 0.0250 vs Jev 0.0494; about 5x cheaper than Gemini 3.5 Flash-Lite plus the Interactions API. Independent counterpoint: the Artificial Analysis Decision Index v2.1 ranks it 9th of 18 models at launch, so rankings vary by evaluation method. All vendor figures are Google's own, not independent verification.",
+      "sources": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+        "https://ai.google.dev/gemini-api/docs/changelog"
+      ],
+      "date_only": true,
+      "note": "The Google blog post is dated November 11, 2026 and the Gemini API changelog entry is dated November 11, 2026. Not covered in earlier issues of this series. The Decision Index counterpoint is secondary coverage (VentureBeat / siliconnoon) and is reported as a counterpoint, not a primary figure. Context: OpenAI's Decisions API reached GA on October 22 with GPT-6 Luna."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "date": "2026-11-11",
+      "item": "AlphaGenome 2: a next-generation DNA sequence model that predicts the effects of genetic variants for each cell type and state, published in Science. A conditional model trained on over 107 million individual cell profiles across 68 tissues, in human and mouse. On TenK10K (28 primary immune cell types) it identifies causal variants at 30% vs 16% for the original AlphaGenome fine-tuned on single-cell data, and directional gene effects at 43% vs 23%. Available today for non-commercial research through the AlphaGenome API; commercial access is in private preview. Research-only: not validated or approved for clinical or diagnostic use. AlphaGenome 2 Skills are coming soon to Antigravity.",
+      "sources": [
+        "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+      ],
+      "date_only": true,
+      "note": "The DeepMind blog post is dated November 11, 2026. Not covered in earlier issues of this series."
+    },
+    {
+      "vendor": "Alibaba",
+      "date": "2026-11-11",
+      "item": "Qwen4-Max-Preview (qwen4-max-preview, alias qwen4.0-max-preview): the first tier of the Qwen4 family, a next-generation flagship multimodal model with text, image and video input and reasoning. 1M-token context window; maximum output 393,216 tokens shared between reasoning and the final answer. Available only through the Token Plan subscription (credits); pay-as-you-go access is not supported. Preview window November 11, 10:00 to November 25, 24:00 (UTC+8); the preview model is retired after the period. Also available in Qwen Chat, Qwen Studio, QwenWork, Qoder and the Qwen app. No weights, model card, benchmarks, parameter count or per-token price published. Vendor claims it beats Qwen3.8 on world knowledge, code generation and sustained performance on long tasks with repeated tool calls; no benchmark backs the claim yet.",
+      "sources": [
+        "https://help.aliyun.com/en/model-studio/newly-released-models"
+      ],
+      "date_only": true,
+      "note": "The Alibaba Cloud Model Studio page lists qwen4-max-preview first under the 2026 newly released models, but the fetched text carries no dates. The release date November 11, 2026 is taken from the official @Alibaba_Qwen X post of November 11, 2026 at 02:01 UTC (10:01 Beijing) and consistent secondary coverage. Not covered in earlier issues of this series."
+    },
+    {
+      "vendor": "MiniMax",
+      "date": "2026-11-10",
+      "item": "MiniMax-H3-Image: an open-weight image generation and editing model built on the H3 architecture (audio layers removed). A 33.1B dense diffusion transformer (DiT) that generates in 6 sampling steps with no classifier-free guidance (CFG). Native resolution up to about 16MP (4096x4096 at 1:1 to 6272x2688 at 21:9) with no upscaler; up to 16 reference images for editing. Weights are 68.65 GB in BF16. Provided under the MiniMax-H3-Image Community License (dated November 10, 2026), which excludes the EU, UK, South Korea and US, requires written permission above $1M annual revenue, and requires commercial products to display the model name. API access via platform.minimax.io, Hailuo AI and MiniMax Code. A 50% discount applies to images of 16.6MP or larger until November 17, 16:00 UTC. The vendor's X post claims 4K images in about 10 seconds; no independent benchmark confirms the speed.",
+      "sources": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+      ],
+      "date_only": true,
+      "note": "The Hugging Face repository was created November 3, 2026 and the weights landed November 10, 2026; the announcement was posted on X on November 10, 2026 at 14:15 UTC. The Community License file is dated November 10, 2026, which is the date recorded here. Not covered in earlier issues of this series. The MiniMax blog post cited in secondary coverage was not fetched directly in this run."
+    },
+    {
+      "vendor": "NVIDIA",
+      "date": "2026-11-10",
+      "item": "Alpamayo 2 Edge (Alpamayo2-Edge): open weights and code for NVIDIA's 2B-parameter reasoning vision-language-action (VLA) model for autonomous driving, built on the Cosmos 3 Edge backbone. The backbone is 2.45B parameters (1.96B language model, 0.41B SigLIP2 vision encoder, 0.08B projector) plus a 0.2B diffusion action expert. It generates driving trajectories together with Chain-of-Causation explanations of why each action was chosen. Runs on DRIVE AGX Thor with a target of 10 Hz. Weights under OpenMDW-1.1, code under Apache 2.0 (NVlabs/alpamayo2-edge); the AlpaJudge evaluation and reward model was released alongside it. Vendor-reported results, all in simulation: LingoQA Lingo-Judge 75.2; closed-loop AlpaSim 15.15 km per at-fault incident across 875 scenarios; open-loop minADE_6 0.52 m at 5 s over 1,392 samples. These are simulation results, not road-safety records.",
+      "sources": [
+        "https://huggingface.co/nvidia/Alpamayo2-Edge"
+      ],
+      "date_only": true,
+      "note": "The model itself was first announced October 21, 2026; the Hugging Face release of weights and code is dated November 10, 2026, which is the date recorded here. Not covered in earlier issues of this series (a grep of all earlier production research found no Alpamayo entry)."
+    },
+    {
+      "vendor": "Ricursive",
+      "date": "2026-11-04",
+      "item": "Ripple-65B Preview: the first public model from Ricursive Intelligence, a Palo Alto chip-design lab co-founded by Anna Goldie and Azalia Mirhoseini. A 65B dense Transformer pre-trained on 12T tokens with a 1,048,576-token context window, released under Apache 2.0 with BF16 and NVFP4 weights plus the base model. Fits on a single NVIDIA DGX Spark; vendor-reported 250 tokens per second on 2x B200. Total R&D cost of $32M is the vendor's own claim. Vendor-reported benchmarks: Terminal-Bench 2.1 80.52 (vs Reflection Beam 501B 80.1, Muse Spark Open 816B 76.4, Inkling 975B 63.8, Nemotron 3 Ultra 550B 56.4), SWE-bench Verified 76.5, SWE-bench Pro v2.0 Hard 79.1. Hosted at $0.20 per million input tokens and $0.60 per million output tokens (OpenRouter / Together AI). A preview with light post-training; the model card notes Terminal-Bench 2.1 harness discrepancies. All benchmark claims are the vendor's own, not independent verification.",
+      "sources": [
+        "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+      ],
+      "date_only": true,
+      "note": "The Hugging Face model card carries no date line in the fetched text; the release date November 4, 2026 is taken from the repository creation date and consistent secondary coverage. Not covered in earlier issues of this series."
+    },
+    {
+      "vendor": "Pruna",
+      "date": "2026-11-03",
+      "item": "P-H3-Image: Pruna's open-weights text-to-image and image-editing model built on MiniMax-H3. Generates in 8 steps with no CFG; default output 2912x2912 (8MP); edits with up to 8 input images. Combines a 33.1B transformer with a 4B text encoder, a VAE and a prompt upsampler (Qwen3.5-9B); weights are 100 GB in bf16. In ComfyUI, int8/4-bit quantisation runs 8MP in about 21 GB of VRAM. Pruna claims it is 7x smaller and 5x faster than H3, generating 4MP in 2.6 seconds on a B200; these are Pruna's own claims, not independent verification. Provided under the MiniMax H3 Community License, which excludes the EU, UK, South Korea and US and requires products to display 'Powered by MiniMax H3'.",
+      "sources": [
+        "https://huggingface.co/PrunaAI/P-H3-Image"
+      ],
+      "date_only": true,
+      "note": "The Hugging Face model card carries no date line in the fetched text; the release date November 3, 2026 is taken from Pruna's launch announcement as reported in secondary coverage (llms.blog, themodelatlas). The Pruna blog post did not render in this run (JavaScript-heavy page, no content). Not covered in earlier issues of this series. Kamo researched P-H3-Image on 2026-11-09 for the shop workflow; this is its first coverage in the radio series."
+    },
+    {
+      "vendor": "Baidu",
+      "date": "2026-11-11",
+      "item": "ERNIE 5.5 Flash Preview (baidu/ernie-5.5-flash-preview): the first post-trained model built on ERNIE 5.5 Flash Base (November 5, 2026). A sparse mixture-of-experts model with 280B total parameters and 14B activated per token, a 1M-token context, strong at coding, 3D modelling, knowledge work and content creation per Baidu. An intermediate checkpoint from post-training: already competitive with models of its size, but training is not finished and some capabilities may still fall short. The API is now available on the Qianfan platform; the release page also links OpenRouter. Weights will be open-sourced under Apache 2.0 soon, with no date given. The release page carries no price. Benchmark figures appear only as an image appendix, so no benchmark numbers are transcribed in this issue.",
+      "sources": [
+        "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+        "https://ernie.baidu.com/release/"
+      ],
+      "date_only": true,
+      "note": "The ERNIE release page is dated November 11, 2026; verified by a read-only browser check of https://ernie.baidu.com/release/ on 2026-11-12 08:44-08:46 JST, which also confirmed the release index lists ERNIE 5.5 Flash Preview first, followed by the November 9, 2026 research post 'ERNIE Evolve' and the November 5, 2026 ERNIE 5.5 Flash Base. The secondary price claims ($0.28/$1.13 per million tokens on OpenRouter; Qianfan peak/off-peak yuan pricing) and a November 25 open-source date are NOT confirmed by the primary page and are not used in this issue. Not covered in earlier issues of this series."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 11 item is 'ChatGPT Plus for veterans and servicemembers' (company, not a model release). Nov 10 items were covered in No.25 (Businesses in ChatGPT and other company items, no model release)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 5 gpt-6-cyber (No.20); no Nov 6, Nov 7, Nov 8, Nov 9, Nov 10, Nov 11 or Nov 12 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "Latest is Oct 30 Rosalind (No.14); no Nov 11 or Nov 12 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "secondary coverage only",
+      "result": "'Cyber at the Frontier' keynote scheduled Nov 12, 10:00 PT is a preview event after the research cutoff, so not selected."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Latest is Nov 9 Claude Fable 5.2 / Mythos 5.2 (No.24); no Nov 10, Nov 11 or Nov 12 entry."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://www.anthropic.com/news",
+      "result": "Latest is Nov 9 Fable 5.2 / Mythos 5.2 (No.24); no Nov 10, Nov 11 or Nov 12 item."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "secondary coverage only",
+      "result": "Claude Meetings / Claude workspace with plugins, spreadsheets and whiteboards (reported Nov 10) and Personal Finance beta (reported Nov 11) are product features, not model releases, so not selected; no primary source was checked in this run."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Nov 11 entry is Gemini Decisions API (selected). Nov 6 Gemini Embedding 2 Preview deprecation was covered in No.21. No Nov 12 entry."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "https://deepmind.google/blog/",
+      "result": "Latest model post is Nov 11 'AlphaGenome 2' (selected); next is the November 2026 research post 'Introducing AlphaProof Code' (a verification framework, not a model release, so not selected), then November 2026 'Gemini Omni 1.2 Flash' (No.20). No Nov 12 model entry in the selected index."
+    },
+    {
+      "vendor": "Google",
+      "page": "secondary coverage only",
+      "result": "TPU 8tx and TPU 8i Max (reported Nov 10) are hardware, not a model release, so not selected."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview (selected); next is Nov 9 'ERNIE Evolve: Toward Automated Research for Real-World AI R&D' (research post, not a model release, so not selected), then Nov 5 ERNIE 5.5 Flash Base (No.25)."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is October 22 Z.ai GLM 5.3 Flash (No.11); no Nov 10, Nov 11 or Nov 12 entry."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is 2026-10-17 DeepSeek-V4.1-Flash-1017 (No.16); no Nov 10, Nov 11 or Nov 12 entry."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is November 2 grok-imagine-image-quality retirement note (already noted earlier); no Nov 10, Nov 11 or Nov 12 entry."
+    },
+    {
+      "vendor": "xAI",
+      "page": "secondary coverage only",
+      "result": "Grok 4.8: pre-training done, in RL, rollout 'this week' to a narrow group per Musk — not released, so not selected."
+    },
+    {
+      "vendor": "Alibaba",
+      "page": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "result": "Fetched text carries no dates (no '2026-11-1' match); Nov 10, Nov 11 or Nov 12 rows cannot be confirmed. Qwen4-Max-Preview is handled via the official X announcement and secondary coverage (selected)."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched text carries no dates; Nov 10, Nov 11 or Nov 12 entries cannot be confirmed."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "secondary coverage only",
+      "result": "Deja View (117M 3D-geometry model, NeurIPS 2026 oral, arXiv paper May 2026) was announced only via an X post on Nov 11, 20:38 UTC; a research-paper model with no product or API release, so not selected."
+    },
+    {
+      "vendor": "Meta",
+      "page": "secondary coverage only",
+      "result": "No new model after Muse Ember (Nov 9, No.25). Muse on Apple Watch and Wear OS (reported Nov 10) is a product feature, not a model release, so not selected."
+    },
+    {
+      "vendor": "Thinking Machines Lab",
+      "page": "secondary coverage only",
+      "result": "Latest is Nov 5 Inkling 2 Small (No.23); no Nov 10, Nov 11 or Nov 12 item in secondary coverage."
+    },
+    {
+      "vendor": "OpenMOSS",
+      "page": "secondary coverage only",
+      "result": "MOSS Image (5B DiT, Apache 2.0) was released October 16, 2026 — predates the series coverage window, too old for first-coverage pickup, so not selected."
+    }
+  ]
+}
