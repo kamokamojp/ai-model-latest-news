@@ -1,0 +1,155 @@
+{
+  "issue_date": "2026-11-13",
+  "issue_number": 27,
+  "scheduled_target_cutoff": "2026-11-13T08:00:00+09:00",
+  "research_cutoff": "2026-11-13T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-12T23:45:00Z",
+  "previous_issue_id": "2026-11-12",
+  "previous_issue_cutoff": "2026-11-12T08:55:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Google",
+      "date": "2026-11-12",
+      "item": "Gemini 4 Hydrogen (gemini-4-hydrogen): Google's fast, cost-efficient Gemini 4 model for everyday coding and agentic workflows, generally available on November 12, 2026. 1M-token input context and up to 1M output tokens; the upgrade path from Gemini 3.8 Flash. Four thinking levels: low, medium, high (default) and a new xhigh. Flat pricing of $1.50 per 1M input tokens and $7.50 per 1M output tokens across the whole 1M-token context; a free tier is available. Available in Google AI Studio (all tiers), the Gemini API, Gemini for business, the Gemini app, Google Search for all users globally, and Google Antigravity for paid Google AI Pro and Ultra subscribers; it is the default model for the Antigravity agent in Gemini Managed Agents. Vendor-reported: 2.5x faster than Gemini 3.8 Flash at the high default setting; Terminal-Bench 4.1 57% vs 18.2%; fabricated claims cut by more than 5x; Artificial Analysis Intelligence Index 51 at default high and 54 at xhigh vs 50 for Gemini 4 Argon; Agent Arena #5; HLE-Diamond 58.8% (class lead); Vals Tax Agent Bench #1 (52.3%); Vals Legal Research Bench tied #1 (55.8%); AutomationBench-AA class lead; Multimodal Knowledge Agent benchmark 53.4%; Agents' Last Exam v1.1 71.6%. Orchestrator in Antigravity dynamically switches between Carbon and Hydrogen; on Terminal-Bench 4.0 it reached near-Carbon success with 24% less quota and 19% faster completion. Safety: overreach in agentic tasks down up to 81%, under-service down up to 79%, misaligned actions and task shortcutting down 12x, 96.7% honesty on the internal agent honesty evaluation, 99.9% chain-of-thought legibility, 2.3x more resilient to indirect prompt injection on Gray Swan IPI. All performance figures are Google's own, not independent verification.",
+      "sources": [
+        "https://blog.google/intl/en-in/products/introducing-gemini-4-hydrogen/",
+        "https://ai.google.dev/gemini-api/docs/changelog"
+      ],
+      "date_only": true,
+      "note": "The Google blog post is dated November 12, 2026 (published 19:30 UTC) and the Gemini API changelog entry is dated November 12, 2026. Both were read directly in this run. Not covered in earlier issues of this series."
+    },
+    {
+      "vendor": "OpenAI",
+      "date": "2026-11-12",
+      "item": "API inference residency in India for GPT-6 Luna (gpt-6-luna): OpenAI extended its India data residency from storage to processing. For eligible API projects, supported requests and the model computation that generates the response now take place in India, and supported customer content is stored there. Initially GPT-6 Luna only, through the Responses and Chat Completions APIs (text and image inputs, text output), for direct API use. Requires active Zero Data Retention (Modified Abuse Monitoring alone is insufficient); Standard pay-as-you-go only; hosted tools are unavailable for regional processing in India. Access via a new regional API project selecting India for storage and processing, endpoint in.api.openai.com. India joins Australia and Japan as the latest additions; the US, Europe and UAE already offer regional processing. Data-residency endpoints carry a 10% uplift for eligible models released on or after March 5, 2026.",
+      "sources": [
+        "https://developers.openai.com/api/docs/guides/your-data"
+      ],
+      "date_only": true,
+      "note": "The November 12, 2026 announcement date is from OpenAI's press statement as reported by multiple outlets (PTI via The Hindu BusinessLine, Economic Times, Business Standard, Rediff). The capability itself is confirmed in OpenAI's API documentation (your-data guide), read directly in this run, which lists India (in.api.openai.com) with Storage Yes / Processing Yes for gpt-6-luna. The docs page carries no date."
+    },
+    {
+      "vendor": "Anthropic",
+      "date": "2026-11-12",
+      "item": "Self-hosted Claude Managed Agents: Anthropic launched a self-hosted option for its Managed Agents service. Organizations run the whole Managed Agents service - not only self-hosted sandboxes - on their own infrastructure, and store agents, sessions and session history there. The server sends model requests to the provider of the organization's choice, Anthropic by default. Access is by request through the Anthropic account team. This is a deployment/service option, not a new model.",
+      "sources": [
+        "https://docs.anthropic.com/en/release-notes/overview"
+      ],
+      "date_only": true,
+      "note": "Release-notes entry dated November 12, 2026, read directly in this run. Not covered in earlier issues of this series."
+    },
+    {
+      "vendor": "OpenAI",
+      "date": "2026-11-12",
+      "item": "Daybreak Defense Factory and Daybreak Red Team: OpenAI introduced two cybersecurity products at its 'Cyber at the Frontier' keynote on November 12, 2026 (10:00 PT, November 13 03:00 JST). Defense Factory uses AI agents to investigate vulnerabilities and prepare patches for review; Red Team tests web apps, validates vulnerabilities and verifies fixes with coordinated AI agents. Both start from an early-access application (Request Daybreak Access). GPT-6 Cyber, the cyber-specialized model behind this work, was covered in No.20 (November 5). Details beyond the keynote page are limited in this run.",
+      "sources": [
+        "https://openai.com/cyber-at-the-frontier/"
+      ],
+      "date_only": true,
+      "note": "The keynote page was read directly in this run; it lists the two products and the early-access application but carries no date line. The keynote date and time (November 12, 10:00 PT) are from OpenAI's own keynote announcement. Not covered in earlier issues of this series."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 11 item is 'ChatGPT Plus for veterans and servicemembers' (company, not a model release). The Nov 12 India announcement was handled via the API documentation and press reports (selected)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 5 gpt-6-cyber (No.20); no Nov 6, Nov 7, Nov 8, Nov 9, Nov 10, Nov 11 or Nov 12 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "Latest is Oct 30 Rosalind (No.14); no Nov 11 or Nov 12 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "secondary coverage only",
+      "result": "Codex Security CLI/SDK 'open source' coverage on Nov 12 is a v0.10.0 update; the CLI/SDK were open-sourced in July 2026 under Apache 2.0, and Codex Security Cloud was announced at DevDay on September 29, so neither is new."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Nov 12 entry is self-hosted Claude Managed Agents (selected). Nov 9 Fable 5.2 / Mythos 5.2 (No.24). Nov 5 Compliance API security-posture data, Nov 3 text watermark and Nov 2 message threads are platform features, not model releases, so not selected."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://www.anthropic.com/news",
+      "result": "Not re-checked in this run; No.26's check had latest Nov 9 Fable 5.2 / Mythos 5.2 (No.24). The release-notes page (the authoritative changelog) was read directly today."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Nov 12 entry is Gemini 4 Hydrogen (selected). Nov 11 Decisions API (No.26). Nov 10 Carbon (No.25). No Nov 13 entry."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://blog.google/intl/en-in/products/introducing-gemini-4-hydrogen/",
+      "result": "Hydrogen announcement read directly (selected). A companion Search post the same day describes the same model in Search; no separate model facts are taken from it."
+    },
+    {
+      "vendor": "Google",
+      "page": "secondary coverage only",
+      "result": "Gemini glasses pre-orders opened Nov 12 (reported Nov 12): hardware, not a model release, so not selected."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "Latest model post is Nov 12 Hydrogen on blog.google (selected); Nov 11 AlphaGenome 2 (No.26); 'Introducing AlphaProof Code' is a research post, not a model release, so not selected. The DeepMind blog index itself was not re-fetched in this run."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Not re-checked in this run; No.26's check had latest Nov 11 ERNIE 5.5 Flash Preview (No.26), then Nov 9 'ERNIE Evolve' (research post)."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Not re-checked in this run; No.26's check had latest October 22 Z.ai GLM 5.3 Flash (No.11). Large 4 ('Le Chonk') weights were covered in earlier issues."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Not re-checked in this run; No.26's check had latest 2026-10-17 DeepSeek-V4.1-Flash-1017 (No.16)."
+    },
+    {
+      "vendor": "xAI",
+      "page": "secondary coverage only",
+      "result": "Grok 4.8: no release found in today's secondary coverage; still unannounced. The xAI release-notes page was not re-checked in this run; No.26's check had latest Nov 2."
+    },
+    {
+      "vendor": "Alibaba",
+      "page": "secondary coverage only",
+      "result": "No Nov 12 item: today's Qwen coverage only discusses the Nov 11 Qwen4-Max-Preview (No.26). The Model Studio page was not re-fetched in this run."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Not re-checked in this run; No.26's check found the fetched text carries no dates."
+    },
+    {
+      "vendor": "NVIDIA / ElevenLabs",
+      "page": "secondary coverage only",
+      "result": "Nemotron 3.5 Super VL is now available in ElevenAgents (announced Nov 11 at the ElevenLabs New York Summit; NVIDIA X post 21:17 UTC Nov 11). Multiple secondary sources agree on the date and facts, but no official ElevenLabs or NVIDIA release-page URL was located in this session, so it is not selected (this series links primary pages directly)."
+    },
+    {
+      "vendor": "Meta",
+      "page": "secondary coverage only",
+      "result": "No new model after Muse Ember (Nov 9, No.25) in today's secondary coverage."
+    },
+    {
+      "vendor": "Thinking Machines Lab",
+      "page": "secondary coverage only",
+      "result": "Latest is Nov 5 Inkling 2 Small (No.23); no Nov 11 or Nov 12 item in secondary coverage."
+    },
+    {
+      "vendor": "OpenMOSS",
+      "page": "secondary coverage only",
+      "result": "MOSS Image (5B DiT, Apache 2.0) was released October 16, 2026 - predates the series coverage window, too old for first-coverage pickup, so not selected."
+    }
+  ]
+}

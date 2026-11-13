@@ -1,0 +1,245 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-13-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-13-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-13.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-13.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "fbe31a8cd99864b402a75db20a99bc01b70e4b9aa5a85d00d19ff0cc620d4f4b",
+    "backup_sha256": "fbe31a8cd99864b402a75db20a99bc01b70e4b9aa5a85d00d19ff0cc620d4f4b",
+    "duration_seconds": 95.86,
+    "file_size_bytes": 1151469,
+    "generated_at_jst": "2026-11-13T09:09+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-13",
+  "issue_id": "2026-11-13",
+  "issue_number": 27,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-12T08:55:00+09:00",
+  "previous_issue_id": "2026-11-12",
+  "research_cutoff": "2026-11-13T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-12T23:45:00Z",
+  "research_file": "../production/2026-11-13-research.json",
+  "scheduled_target_cutoff": "2026-11-13T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 27,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第27号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月13日の確認号。基準時は午前8時45分です。"
+    },
+    {
+      "characters": 18,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "今回は新しい発表が、4件ありました。"
+    },
+    {
+      "characters": 29,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "まずGoogle、Gemini 4 Hydrogenです。"
+    },
+    {
+      "characters": 24,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月12日付、日常の仕事向けの速いモデルです。"
+    },
+    {
+      "characters": 24,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "100万トークンの文脈で、入力は1.5ドルです。"
+    },
+    {
+      "characters": 19,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "出力は7.5ドルで、無料枠もあります。"
+    },
+    {
+      "characters": 28,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "3.8 Flashより2.5倍速く、精度も上がりました。"
+    },
+    {
+      "characters": 17,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "思考の深さは、4段階から選べます。"
+    },
+    {
+      "characters": 20,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "アプリと検索でも、すべての人に届きます。"
+    },
+    {
+      "characters": 19,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "次はOpenAI、インドでの推論です。"
+    },
+    {
+      "characters": 29,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月12日付、GPT-6 Lunaをインドで処理します。"
+    },
+    {
+      "characters": 23,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "対象はAPIのみで、ゼロデータ保持が条件です。"
+    },
+    {
+      "characters": 23,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "標準の従量課金で、ホスト型ツールは使えません。"
+    },
+    {
+      "characters": 26,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "次はAnthropic、自社運用のエージェントです。"
+    },
+    {
+      "characters": 32,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月12日付、Managed Agentsを自社で動かせます。"
+    },
+    {
+      "characters": 22,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "エージェントや履歴を、自社の基盤に置けます。"
+    },
+    {
+      "characters": 24,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "モデルの送信先は、Anthropicが既定です。"
+    },
+    {
+      "characters": 25,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "最後はOpenAI、Daybreakの新製品です。"
+    },
+    {
+      "characters": 22,
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月12日付、サイバー防衛の基調講演です。"
+    },
+    {
+      "characters": 33,
+      "order": 21,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "Defense Factoryは、脆弱性を調べて修正案を作ります。"
+    },
+    {
+      "characters": 23,
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "Red Teamは、ウェブアプリを検証します。"
+    },
+    {
+      "characters": 21,
+      "order": 23,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "どちらも早期アクセスの申請から始まります。"
+    },
+    {
+      "characters": 24,
+      "order": 24,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "今回は4件で、発表日はいずれも11月12日です。"
+    },
+    {
+      "characters": 33,
+      "order": 25,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 26,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 27,
+      "order": 27,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "以上、第27号でした。発表元のページをご確認ください。"
+    }
+  ]
+}
