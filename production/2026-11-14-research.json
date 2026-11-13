@@ -1,0 +1,114 @@
+{
+  "issue_date": "2026-11-14",
+  "issue_number": 28,
+  "scheduled_target_cutoff": "2026-11-14T08:00:00+09:00",
+  "research_cutoff": "2026-11-14T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-13T23:45:00Z",
+  "previous_issue_id": "2026-11-13",
+  "previous_issue_cutoff": "2026-11-13T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "ByteDance",
+      "date": "2026-11-12",
+      "item": "Seedance 2.5 Flash: ByteDance's Volcano Engine announced a faster, lower-cost tier of the Seedance 2.5 video-generation model on November 12, 2026. Generation is twice as fast as Seedance 2.5, and the price is about 34% lower for 720p text-to-video and image-to-video, about 0.99 yuan per second. Clips of up to 30 seconds at 480p or 720p; up to 10 images, 5 videos and 5 audio clips per request; video editing is supported. Positioned for high-volume work such as testing ad creative and producing regular footage, while Seedance 2.5 stays the choice for the highest quality, 1080p and 4K, and Draft mode. Rolling out on Jimeng (Dreamina), LibTV, Updream, Creao AI and TapNow; the API is scheduled to open on Volcano Ark on November 15. All performance and price figures are ByteDance's own, not independent verification.",
+      "sources": [
+        "https://ai.byteplus.com/lumina/en/video/seedance-2-5-flash"
+      ],
+      "date_only": true,
+      "note": "The official announcement was made by ByteDance's Volcano Engine (announcement published November 12, 2026, 14:11 UTC+08, via its WeChat account); no direct web announcement URL was locatable, so the announcement date and facts are recorded from the announcement as reported by multiple outlets (PANews, IT Home via WaveSpeedAI, Pandaily). The linked primary page is BytePlus's official Seedance 2.5 Flash model page (ByteDance's international platform); its text fetch returned only the title, so the specs above are taken from the reported announcement, not from that page's body text. Not covered in earlier issues of this series."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 12 Gemini 4 Hydrogen (No.27). No Nov 13 entry."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "result": "Nov 13 post releases the PARDIG and SatWeave datasets that support WeatherNext 3. WeatherNext 3 itself was released September 3, 2026, so it is not new; datasets are not a model release, so not selected."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Latest is Nov 12 self-hosted Claude Managed Agents (No.27). No Nov 13 entry."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://www.anthropic.com/news",
+      "result": "Latest is Nov 9 Claude Fable 5.2 / Mythos 5.2 (No.24). No Nov 13 item. Claude Meetings (reported Nov 12 evening in secondary coverage) is a product feature, not a model, so not selected."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 5 gpt-6-cyber (No.20); no Nov 6, Nov 7, Nov 8, Nov 9, Nov 10, Nov 11, Nov 12 or Nov 13 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "Latest is Oct 30 Rosalind (No.14); no Nov 11, Nov 12 or Nov 13 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 13 item is 'Introducing ChatGPT Wallet for agents' (product, not a model). Nov 11 item is ChatGPT Plus for veterans (company, not a model release)."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is Nov 2 grok-imagine-image-quality routing note; no Nov 13 entry. Grok 4.8 still unannounced in secondary coverage; Grok Bot 1.0 (secondary) is a product, not a model."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 22 Z.ai GLM 5.3 Flash (No.11). No Nov 13 entry."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Nov 13 entry opens the full suite of application APIs (web search, file input, URL reading, voice, safety) for deepseek-flash. It is an API capability, not a new model, so not selected. Previous model entry is Oct 17 DeepSeek-V4.1-Flash-1017 (No.16)."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview (No.26); next is Nov 9 'ERNIE Evolve' (research post). No Nov 12 or Nov 13 item."
+    },
+    {
+      "vendor": "ByteDance",
+      "page": "secondary coverage only",
+      "result": "Seedance 2.5 Flash (selected). The Volcano Engine announcement itself was published via WeChat; the direct web announcement URL could not be located, so the official BytePlus model page is linked and the announcement facts are recorded from multiple reporting outlets."
+    },
+    {
+      "vendor": "Edge0",
+      "page": "secondary coverage only",
+      "result": "Edge0-145B and Edge0-120B open weights (Nov 12) are derived from Qwen3.8-Flash-Next per the coverage itself; a niche lab, secondary coverage only, no official vendor announcement page located, so not selected."
+    },
+    {
+      "vendor": "Alibaba",
+      "page": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "result": "Not re-checked in this run; No.26's check found the fetched text carries no dates. No Nov 13 Qwen item in secondary coverage."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Not re-checked in this run; No.26's check found the fetched text carries no dates."
+    },
+    {
+      "vendor": "Meta",
+      "page": "secondary coverage only",
+      "result": "No new model after Muse Ember (Nov 9, No.25) in secondary coverage."
+    },
+    {
+      "vendor": "Thinking Machines Lab",
+      "page": "secondary coverage only",
+      "result": "Latest is Nov 5 Inkling 2 Small (No.23); no Nov 12 or Nov 13 item in secondary coverage."
+    },
+    {
+      "vendor": "NVIDIA / ElevenLabs",
+      "page": "secondary coverage only",
+      "result": "Nemotron 3.5 Super VL (announced Nov 11) still has no official ElevenLabs or NVIDIA release-page URL located, so it remains not selected (same as No.27)."
+    }
+  ]
+}
