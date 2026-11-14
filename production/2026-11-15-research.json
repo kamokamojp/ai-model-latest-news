@@ -1,0 +1,124 @@
+{
+  "issue_date": "2026-11-15",
+  "issue_number": 29,
+  "scheduled_target_cutoff": "2026-11-15T08:00:00+09:00",
+  "research_cutoff": "2026-11-15T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-14T23:45:00Z",
+  "previous_issue_id": "2026-11-14",
+  "previous_issue_cutoff": "2026-11-14T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Nex-AGI",
+      "date": "2026-11-14",
+      "item": "Nex-AGI published Nex-N2.6, a multimodal agentic model built on GLM-5.3-Flash, on November 14, 2026. The FP8-quantized weights are about 321B parameters, released under Apache 2.0. It is designed for computer use, coding and long-horizon tool-using tasks. The team reports 83.0 on OSWorld (up from 82.2 for Nex-N2.5-Pro and 78.0 for the base GLM-5.3-Flash) and 84.1 on Terminal-Bench 2.1, with reasoning repetition down from 16.0% to 1.6% in its internal checkpoint-replay evaluation. All benchmark figures are the vendor's own, not independent verification.",
+      "sources": [
+        "https://huggingface.co/nex-agi/Nex-N2.6"
+      ],
+      "date_only": true,
+      "note": "The Hugging Face model card carries no visible date, so the announcement date is recorded from the AI Weekly report (published 2026-11-14T06:12:00Z, updated 06:45Z) that the card was published that day. The card links the GitHub repository github.com/sii-nex/Nex-N2.6 and OpenRouter serving. Not covered in earlier issues of this series."
+    },
+    {
+      "vendor": "Bland",
+      "date": "2026-11-13",
+      "item": "Bland announced Tofu-1, a full-duplex speech-to-speech model, on November 13, 2026. It listens to audio itself rather than working from a transcript, so it can tell speakers apart, hear overlapping speech and background sounds, and keep reasoning while it talks. It is built for high-stakes phone calls in banking, healthcare, insurance and government. Requests are open for a research preview limited to enterprise teams; it is not generally available. No parameter count, model card, standalone API documentation or general-availability timetable is published.",
+      "sources": [
+        "https://www.bland.ai/speech-to-speech"
+      ],
+      "date_only": true,
+      "note": "Announced by Bland's official @usebland account on X on 2026-11-13 at 18:03:38 UTC (02:03:38 on November 14, Asia/Shanghai); the official product page carries no date display. Not covered in earlier issues, although the announcement falls inside No.28's research window (its cutoff was 2026-11-14T08:45 JST)."
+    },
+    {
+      "vendor": "Thinking Machines Lab",
+      "date": "2026-11-12",
+      "item": "Thinking Machines Lab published the weights for Inkling 2 Small on Hugging Face on November 12, 2026, under Apache 2.0, ending the model's first week as a hosted-only release. Inkling 2 Small is a 594B-total / 17B-active mixture-of-experts model with image inputs, launched November 5, 2026 (No.23). The same update adds integrations with Unsloth, SGLang, vLLM and TokenSpeed, post-training with Miles, SkyRL and Snowflake Cortex Training, and API access through NVIDIA, Fireworks, Together, Baseten, Nebius, Modal and Cloudflare. The lab has not published the results of the external safety testing it cited for the week's delay.",
+      "sources": [
+        "https://thinkingmachines.ai/news/inkling-2-small/"
+      ],
+      "date_only": true,
+      "note": "The lab's own announcement page carries a 'Nov 12, 2026 Update' stating the weights are now available for download on HuggingFace. The model itself launched November 5 (No.23); only the weights publication is new here. The Hugging Face repository link on that page was not separately fetched (a guessed repository slug returned 404); the announcement page is the primary source for the weights release. The absence of published safety-testing results is recorded from secondary reports."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 12 Gemini 4 Hydrogen (No.27). No Nov 13 or Nov 14 entry."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Latest is Nov 12 self-hosted Claude Managed Agents (No.27). No Nov 13 or Nov 14 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 5 gpt-6-cyber (No.20). No Nov 6-14 entries."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "Latest is Oct 30 GPT-6 Rosalind (No.14). No Nov 11-14 entries."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 13 item is ChatGPT Wallet for agents, a product, not a model. No Nov 14 item."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is Nov 2. No Nov 13 or Nov 14 entry. Grok 4.8 is still unannounced."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 22 Z.ai GLM 5.3 Flash (No.11). No Nov 13 or Nov 14 entry."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 full suite of application APIs (No.28, not a model). No Nov 14 entry."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview (No.26). No Nov 12-14 entries."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "Nov 13 PARDIG and SatWeave dataset post (No.28, not a model). No new Nov 14 post in the secondary sweep; only a repost of the Sep 3 WeatherNext 3 announcement."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text (Embed 5 / Rerank 5 on OpenRouter, Model Vault open models, Rerank 5, Embed 5, North Small Translate, Parse, Transcribe Arabic, North Mini Code, Command A+). No datable Nov 13 or Nov 14 item."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "secondary coverage only",
+      "result": "Qwen4-Max-Preview is Nov 11 (No.26). No new Nov 13 or Nov 14 Qwen item. Qwen3-8B GGUF quantizations (Nov 14, secondary) and a ChatR Labs Qwen-Image-2.1 quantization are community quantization builds of existing models, not new models, so not selected."
+    },
+    {
+      "vendor": "Thinking Machines Lab",
+      "page": "secondary coverage only",
+      "result": "Nov 13 post on end-to-end 4-bit (NVFP4) training is a training-method publication, not a model release, so not selected."
+    },
+    {
+      "vendor": "ByteDance",
+      "page": "secondary coverage only",
+      "result": "Seedance 2.5 Flash API is scheduled to open on Volcano Ark on Nov 15 at 14:00 Beijing time per Ark documentation (secondary); not yet open at this issue's cutoff, and the model itself was covered in No.28, so not re-selected."
+    },
+    {
+      "vendor": "NVIDIA / ElevenLabs",
+      "page": "secondary coverage only",
+      "result": "Nemotron 3.5 Super VL (announced Nov 11) still has no official ElevenLabs or NVIDIA release-page URL located, so it remains not selected (same as No.27 and No.28)."
+    },
+    {
+      "vendor": "Meta",
+      "page": "secondary coverage only",
+      "result": "Muse Ember (Nov 9, No.25) remains the latest; no Nov 13 or Nov 14 item in secondary coverage."
+    }
+  ]
+}
