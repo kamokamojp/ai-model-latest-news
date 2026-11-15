@@ -1,0 +1,210 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-16-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-16-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-16.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-16.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "b36e70dd25462da8a43df0cd3a86b5b62b4fc02df3e3b72312d4dc5b3c95100e",
+    "backup_sha256": "b36e70dd25462da8a43df0cd3a86b5b62b4fc02df3e3b72312d4dc5b3c95100e",
+    "duration_seconds": 86.01,
+    "file_size_bytes": 1033101,
+    "generated_at_jst": "2026-11-16T08:55+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-16",
+  "issue_id": "2026-11-16",
+  "issue_number": 30,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-15T08:45:00+09:00",
+  "previous_issue_id": "2026-11-15",
+  "research_cutoff": "2026-11-16T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-15T23:45:00Z",
+  "research_file": "../production/2026-11-16-research.json",
+  "scheduled_target_cutoff": "2026-11-16T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 22,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第30号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月16日の確認号。基準時は午前8時45分です。"
+    },
+    {
+      "characters": 18,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "今回は新しい発表が、4件ありました。"
+    },
+    {
+      "characters": 18,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "決定モデルが、相次いで登場しました。"
+    },
+    {
+      "characters": 44,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "PerplexityのDecider 1.3と、HeyGenのDecision 1です。"
+    },
+    {
+      "characters": 30,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "それに、Bielikの決定モデル、Bielik-Oneです。"
+    },
+    {
+      "characters": 26,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "Decider 1.3は、11月12日付の発表です。"
+    },
+    {
+      "characters": 23,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "文章から、該当箇所を抜き出す機能が増えました。"
+    },
+    {
+      "characters": 24,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "重みはApache 2.0で、公開されています。"
+    },
+    {
+      "characters": 34,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "HeyGen Decision 1は、11月13日付の新モデルです。"
+    },
+    {
+      "characters": 18,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "質問に確率で答える、決定モデルです。"
+    },
+    {
+      "characters": 23,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "入力100万トークンあたり、0.14ドルです。"
+    },
+    {
+      "characters": 31,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "LongCat-2.5の重みが、11月10日に公開されました。"
+    },
+    {
+      "characters": 21,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "1.6兆パラメーターの、大きなモデルです。"
+    },
+    {
+      "characters": 22,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "MITライセンスで、中国の加速器で動きます。"
+    },
+    {
+      "characters": 29,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "Bielik 11B 3.1は、11月10日付の発表です。"
+    },
+    {
+      "characters": 17,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "56言語に対応し、道具も使えます。"
+    },
+    {
+      "characters": 27,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "今回は、11月15日付の変更履歴に新項目はありません。"
+    },
+    {
+      "characters": 41,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "GoogleやOpenAI、Anthropicの最新は、11月12日付のままです。"
+    },
+    {
+      "characters": 33,
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 21,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 27,
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第30号でした。発表元のページをご確認ください。"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "issue_date": "2026-11-16",
+  "issue_number": 30,
+  "scheduled_target_cutoff": "2026-11-16T08:00:00+09:00",
+  "research_cutoff": "2026-11-16T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-15T23:45:00Z",
+  "previous_issue_id": "2026-11-15",
+  "previous_issue_cutoff": "2026-11-15T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Perplexity",
+      "date": "2026-11-12",
+      "item": "Perplexity released Decider v1.3 and Decider Flash v1.3, open-weight decision models, on November 12, 2026. Instead of generating text, they return probabilities for yes/no, choice and rubric-score questions. Version 1.3 adds locate, which extracts verbatim text spans with character offsets and a confidence score for named-entity recognition, personal-information detection and extractive question answering. Decider v1.3 is built on Qwen3.8-27B (about 27B parameters); Flash v1.3 is distilled from it on Qwen3.5-4B. Both ship under Apache 2.0 on Hugging Face and are served through the Perplexity Decisions API and OpenRouter at $0.02 and $0.01 per million input tokens, with no output-token charge. Perplexity reports 91.6% mean accuracy across 63 query-classification tasks (references independently relabeled by a frontier LLM), 6.54 percentage points above its production classifiers, and 93.98% agreement with frontier LLM judges on one million API requests. All accuracy figures are Perplexity's own, not independent verification.",
+      "sources": [
+        "https://www.perplexity.ai/hub/blog/perplexity-decider"
+      ],
+      "date_only": true,
+      "note": "Perplexity's research blog 'Perplexity Decider v1.3: Training, eval, and use cases', published 2026-11-12T21:12:53Z. The blog carries no separate date display in the fetched text; the date is recorded from the publication timestamp. Free use on OpenRouter until November 19 is reported only from a Perplexity post on X (secondary), so it is recorded as a secondary claim, not as a primary fact."
+    },
+    {
+      "vendor": "HeyGen",
+      "date": "2026-11-13",
+      "item": "HeyGen released HeyGen Decision 1, a decision model, on November 13, 2026, with a faster Decision 1 Turbo in preview. It answers named yes/no (noul), choice and score questions about text, JSON, images and video in one synchronous call to POST /v3/models/decisions, returning a probability for every answer instead of generated text. Up to 400 questions per request. Context is 131,072 tokens for Decision 1 and 262,144 for Turbo. Pricing is $0.14 per million input tokens for Decision 1 and $0.09 for Turbo, with output free. The model is proprietary; weights are not released. It is the second decision-model entry in this category after Google's Gemini Decision 1 (November 11, No.26).",
+      "sources": [
+        "https://developers.heygen.com/models"
+      ],
+      "date_only": true,
+      "note": "HeyGen's official developer documentation confirms the model, the endpoint and the question types, but the docs page carries no date display. The November 13 release date, the context sizes and the prices are recorded from OpenRouter's model listing (released Nov 13, 2026) and the LLM Releases entry (updated 2026-11-13); Inference360 lists the models under November 14, which is its indexing date, not the release date."
+    },
+    {
+      "vendor": "Meituan / LongCat",
+      "date": "2026-11-10",
+      "item": "Meituan open-sourced the weights of LongCat-2.5 on November 10, 2026, under the MIT license. LongCat-2.5 is a native multimodal mixture-of-experts model for long-horizon agentic tasks, with 1.6 trillion total parameters and about 48 billion activated per token. It combines visual understanding with agentic coding for codebase development, full-project builds, creative design and 3D tasks. The model was trained on domestic AI accelerators (Huawei Ascend) and uses W4A4 quantization for native INT4 computation on those accelerators. The BF16 weights are about 3.56 TB; a separate 4-bit W4A4 build is published alongside. The model card reports Terminal-Bench v2.1 at 88.4, BrowseComp at 91.9 and HLE with tools at 63.1; scores without an asterisk are measured in-house by Meituan and marked indicative only, not independent verification. Deployment guidance covers NPU platforms only (SGLang-FluentLLM); no NVIDIA route is given.",
+      "sources": [
+        "https://huggingface.co/meituan-longcat/LongCat-2.5"
+      ],
+      "date_only": true,
+      "note": "The model was announced November 2, 2026; only the weights publication (November 10) is new here. The Hugging Face model card carries no visible date. The November 10 date is recorded from Meituan's open-source announcement post of that day and the model card's last update (November 10); two secondary reports date the weights to November 9, so the date is recorded with that discrepancy noted. Not covered in earlier issues of this series."
+    },
+    {
+      "vendor": "SpeakLeash / Bielik",
+      "date": "2026-11-10",
+      "item": "SpeakLeash and ACK Cyfronet AGH released Bielik 11B v3.1 on November 10, 2026, with two companion launches the same week: the Bielik 11B v3.1 DFlash draft model on November 11 and the Bielik-One family of four decision models on November 12. Bielik 11B v3.1 is an 11-billion-parameter open language model trained on an additional 500 billion tokens, raising supported languages from 32 in version 3.0 to 56, including every official language of the European Union plus Arabic, Chinese, Japanese and Korean. It adds agentic capabilities: function calling, structured output and an explicit reasoning mode. SpeakLeash reports Belebele up 8 percentage points and INCLUDE up 5 percentage points, and tau-squared-bench scores 16 to 45 percentage points higher than version 3.0; all are the vendor's own figures, not independent verification. Weights are Apache 2.0 on Hugging Face (gated behind an account and a consent checkbox to be contacted for feedback). DFlash uses speculative decoding to speed up generation without changing response quality. Bielik-One models do not generate text; they classify and assess against preset criteria.",
+      "sources": [
+        "https://www.bielik.ai/en/blog/launching-bielik-11b-v31-dflash-and-the-bielik-one-family"
+      ],
+      "date_only": true,
+      "note": "The official Bielik.ai launch post gives the three-day schedule (10/11/12 November 2026) and was updated 2026-11-09T17:45:00Z. The Hugging Face model card for speakleash/Bielik-11B-v3.1-Instruct confirms Apache 2.0 and the 500B-token continual pre-training. Not covered in earlier issues of this series."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 12 Gemini 4 Hydrogen (No.27). No Nov 13, Nov 14 or Nov 15 entry."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Latest is Nov 12 self-hosted Claude Managed Agents (No.27). No Nov 13, Nov 14 or Nov 15 entry."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 5 gpt-6-cyber (No.20). No Nov 6-15 entries."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "Latest is Oct 30 GPT-6 Rosalind (No.14). No Nov 13-15 entries."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 13 item is ChatGPT Wallet for agents, a product, not a model. No Nov 14 or Nov 15 item."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is Nov 2. No Nov 13, Nov 14 or Nov 15 entry. Grok 4.8 is still unannounced."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 22 Z.ai GLM 5.3 Flash (No.11). No Nov 13, Nov 14 or Nov 15 entry."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 full suite of application APIs (No.28, not a model). No Nov 14 or Nov 15 entry."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview (No.26). No Nov 12-15 entries (fetched page crawl dated Nov 12)."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "Nov 13 PARDIG and SatWeave dataset post (No.28, not a model). No new Nov 14 or Nov 15 post in the secondary sweep; only a repost of the Sep 3 WeatherNext 3 announcement."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text (Embed 5 / Rerank 5 on OpenRouter, Model Vault open models, Rerank 5, Embed 5, North Small Translate, Parse, Transcribe Arabic, North Mini Code, Command A+). No datable Nov 13, Nov 14 or Nov 15 item."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "secondary coverage only",
+      "result": "Qwen4-Max-Preview is Nov 11 (No.26). No new Nov 13, Nov 14 or Nov 15 Qwen item."
+    },
+    {
+      "vendor": "Thinking Machines Lab",
+      "page": "secondary coverage only",
+      "result": "Nov 13 post on end-to-end 4-bit (NVFP4) training is a training-method publication, not a model release, so not selected. Inkling 2 Small weights were covered in No.29."
+    },
+    {
+      "vendor": "ByteDance",
+      "page": "secondary coverage only",
+      "result": "Seedance 2.5 Flash API opened on Volcano Ark on Nov 15 at 14:00 Beijing time per Ark documentation (secondary); the model itself was covered in No.28, so not re-selected."
+    },
+    {
+      "vendor": "NVIDIA / ElevenLabs",
+      "page": "secondary coverage only",
+      "result": "Nemotron 3.5 Super VL (announced Nov 11) still has no official ElevenLabs or NVIDIA release-page URL located, so it remains not selected (same as No.27, No.28 and No.29)."
+    },
+    {
+      "vendor": "Meta",
+      "page": "secondary coverage only",
+      "result": "Muse Ember (Nov 9, No.25) remains the latest; no Nov 13, Nov 14 or Nov 15 item in secondary coverage."
+    },
+    {
+      "vendor": "Hark",
+      "page": "secondary coverage only",
+      "result": "Handoff 2, a computer-use agent model, was announced Nov 12 by Brett Adcock on X and is rolling out to Hark Pro users. No standalone API model ID, context window or token rates are published, and no official release page was located, so not selected."
+    }
+  ]
+}
