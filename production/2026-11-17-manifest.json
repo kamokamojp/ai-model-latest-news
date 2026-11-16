@@ -55,7 +55,18 @@
     "human_listening_claimed": false,
     "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-17.html",
     "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
-    "status": "pending_push"
+    "status": "published",
+    "read_back_verified_at_jst": "2026-11-17T08:58+09:00",
+    "gh_pages_commit": "27252d1",
+    "main_commit": "1c0bb7e",
+    "read_back": {
+      "top": "200, 22846 bytes, 第31号 x9, 2026-11-17 x19",
+      "detail": "200, 19079 bytes, 第31号 x7, Qwen4-Max x14, CSAM x9, Nemotron x11, cutoff 2026-11-17 08:45 JST",
+      "index_json": "200, 37774 bytes, latest 2026-11-17, 31 issues, No.31 audio_status available",
+      "primary_mp3": "200, 865773 bytes, SHA-256 316f9ad1c256f52a5242af84fa6aba4ba296379e0d34caddf466469259e20050, mp3/24kHz/mono/72.05s/~96kbps, full decode passed",
+      "backup_mp3": "200, 865773 bytes, same SHA-256 as primary",
+      "old_issue_no30": "detail 200, audio 200, preserved"
+    }
   },
   "research_cutoff": "2026-11-17T08:45:00+09:00",
   "research_cutoff_utc": "2026-11-16T23:45:00Z",
