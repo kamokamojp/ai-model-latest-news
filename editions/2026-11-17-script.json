@@ -1,0 +1,189 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-17-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-17-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-17.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-17.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "316f9ad1c256f52a5242af84fa6aba4ba296379e0d34caddf466469259e20050",
+    "backup_sha256": "316f9ad1c256f52a5242af84fa6aba4ba296379e0d34caddf466469259e20050",
+    "duration_seconds": 72.05,
+    "file_size_bytes": 865773,
+    "generated_at_jst": "2026-11-17T08:53+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-17",
+  "issue_id": "2026-11-17",
+  "issue_number": 31,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-16T08:45:00+09:00",
+  "previous_issue_id": "2026-11-16",
+  "research_cutoff": "2026-11-17T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-16T23:45:00Z",
+  "research_file": "../production/2026-11-17-research.json",
+  "scheduled_target_cutoff": "2026-11-17T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 19,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第31号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月17日の確認号。基準時は午前8時45分です。"
+    },
+    {
+      "characters": 18,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "今回は新しい発表が、3件ありました。"
+    },
+    {
+      "characters": 17,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "どれも、11月16日付の発表です。"
+    },
+    {
+      "characters": 26,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "アリババのQwen4-Maxが、正式に登場しました。"
+    },
+    {
+      "characters": 20,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2.4兆パラメーターの、旗艦モデルです。"
+    },
+    {
+      "characters": 24,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "文脈は100万トークンで、画像や動画も扱えます。"
+    },
+    {
+      "characters": 26,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "料金は、北京で入力100万トークンあたり10元です。"
+    },
+    {
+      "characters": 26,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "OpenAIの画像分類モデルも、11月16日付です。"
+    },
+    {
+      "characters": 17,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "承認された組織が、無料で使えます。"
+    },
+    {
+      "characters": 26,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "NVIDIAの科学向けパッケージも、発表されました。"
+    },
+    {
+      "characters": 22,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "化学のデータと、学習の手順がそろっています。"
+    },
+    {
+      "characters": 22,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "対象のモデルは、10月15日に公開済みです。"
+    },
+    {
+      "characters": 26,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月16日付の変更履歴に、新項目が3件ありました。"
+    },
+    {
+      "characters": 34,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "GoogleやAnthropic、xAIの最新は、変わっていません。"
+    },
+    {
+      "characters": 28,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "Anthropicの11月16日付は、透かしの機能です。"
+    },
+    {
+      "characters": 33,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 27,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "以上、第31号でした。発表元のページをご確認ください。"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "issue_date": "2026-11-17",
+  "issue_number": 31,
+  "scheduled_target_cutoff": "2026-11-17T08:00:00+09:00",
+  "research_cutoff": "2026-11-17T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-16T23:45:00Z",
+  "previous_issue_id": "2026-11-16",
+  "previous_issue_cutoff": "2026-11-16T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Alibaba / Qwen",
+      "date": "2026-11-16",
+      "item": "Alibaba released Qwen4-Max, the next-generation flagship multimodal model in the Qwen family, on November 16, 2026. It is a sparse mixture-of-experts model with 2.4 trillion total parameters and about 71 billion activated per token, with native vision and a one-million-token context window. It accepts text, image and video inputs and returns text, with web search, tool calling and structured outputs, and is compatible with the OpenAI and Anthropic APIs. The model ID is qwen4-max; the maximum input length is 991,808 tokens and the maximum output is 131,072 tokens (262,144 in thinking mode). It is served in regions including Beijing, Singapore, Frankfurt, Virginia, Tokyo and Hong Kong. Pricing in Beijing is CNY 10 per million input tokens and CNY 30 per million output tokens, with a one-million-token free quota; the Alibaba Cloud announcement lists an implicit-cache-hit input price of $0.075 per million tokens. Alibaba reports that on its own Work360 benchmark (721 specialised fields) Qwen4-Max outperforms its predecessor Qwen3.8-Max overall while using 35% fewer tokens at High effort reasoning and cutting the average cost per task by about 60%, and that it ranked 6th on the Code Arena coding leaderboard; all are Alibaba's own claims, not independent verification. The flagship is closed-weight; Alibaba says smaller open-weight Qwen4 models will follow. The full release follows the Qwen4-Max-Preview (November 11, No.26), which was Token Plan only.",
+      "sources": [
+        "https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783",
+        "https://help.aliyun.com/en/model-studio/qwen4-max"
+      ],
+      "date_only": true,
+      "note": "The Alibaba Cloud blog is dated November 16, 2026 (Hangzhou). The Model Studio documentation page carries no date display; the qwen4-max entry and model page are new since the November 15 check. The USD list price of $1.50 input / $4.50 output per million tokens is reported from the Qwen blog by secondary coverage (Digital Trends, The Model Gap) and is recorded as a secondary claim, not as a primary fact. The $1.67 vs $4.43 average task-cost figures are from the same secondary reporting of the Qwen blog."
+    },
+    {
+      "vendor": "OpenAI",
+      "date": "2026-11-16",
+      "item": "OpenAI released the OpenAI CSAM Image Classifier (omni-moderation-csam-latest) on November 16, 2026. It is a moderation model that helps approved organisations review images for potential child sexual abuse material, including AI-generated material, through the Moderations API (v1/moderations). It returns separate signals for potential CSAM and potential AI-generated CSAM. Access is free for approved organisations and requires an application, verification, program onboarding and acceptance of the applicable terms. The classifier returns scores to help trained reviewers prioritise review; OpenAI states it does not replace human judgment and that organisations remain responsible for reviewing results and deciding what action to take, including any reporting obligations.",
+      "sources": [
+        "https://developers.openai.com/api/docs/changelog",
+        "https://help.openai.com/en/articles/9624314-model-release-notes"
+      ],
+      "date_only": true,
+      "note": "Both official pages carry a November 16, 2026 date. No pricing beyond 'at no cost' for approved organisations is stated. This is a safety/moderation classifier model, not a general-purpose language model."
+    },
+    {
+      "vendor": "NVIDIA",
+      "date": "2026-11-16",
+      "item": "NVIDIA introduced NVIDIA Nemotron for Science on November 16, 2026, at SC26. It brings together the Nemotron 3.5 Super VL open model, scientific evaluations, the new open chemistry dataset LitmusBench v0.2 and post-training recipes to help researchers build domain-specific science agents. Nemotron 3.5 Super VL is a vision-language model with 120 billion total parameters and 12 billion active per token, a context window of up to one million tokens, and text, image and video inputs with text output, under the OpenMDW 1.1 licence; the model itself was published on Hugging Face on October 15, 2026, so only the Science package is new here. LitmusBench v0.2 has nearly 50,000 questions (47,118 training and 2,056 test) for training and evaluating chemistry reasoning. NVIDIA reports partner results including a KTH agent repairing 81% of broken GROMACS setups in an overnight run on one DGX Spark and Lila Sciences reaching 61% accuracy on quantum-dot synthesis, above GPT-6 Astra's 54% at 10-20x lower inference cost; all are NVIDIA's own claims, not independent verification. The model was optimised to run locally on a 128GB DGX Spark system.",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/11/16/3403880/0/en/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents.html",
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16"
+      ],
+      "date_only": true,
+      "note": "The GlobeNewswire release is NVIDIA's official press release, published 2026-11-16T16:00:00Z. The Hugging Face model card confirms the 120B/12B parameters, 1M context and OpenMDW-1.1 licence and dates the model release to October 15, 2026. The LitmusBench question split (47,118 + 2,056) is from secondary reporting of the dataset card. This is the series' first Nemotron coverage; earlier issues declined it because no official release page had been located."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 12 Gemini 4 Hydrogen (No.27). No Nov 13, Nov 14, Nov 15 or Nov 16 entry."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Nov 16 entry is a text-watermark platform feature (Opus 4.6/4.5, Sonnet 4.5, Haiku 4.5), not a model release. Latest model items remain Nov 12 Managed Agents (No.27) and Nov 9 Fable 5.2 / Mythos 5.2 (No.24)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Nov 16 omni-moderation-csam-latest selected. Next latest is Nov 5 gpt-6-cyber (No.20)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "Nov 16 CSAM Image Classifier selected. Next latest is Oct 30 GPT-6 Rosalind (No.14)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 16 items are research/science (scientists' access, science blog), safety (child-safety fight, embedded assessments), partnership (LVMH) and healthcare products; no model release. Nov 15 items are science blog posts, not models."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is Nov 2. No Nov 13-16 entry. Grok 4.8 is still unannounced."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 29 Mistral Large 4 reasoning-effort change. No Nov entries."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 full suite of application APIs (No.28, not a model). No Nov 14, Nov 15 or Nov 16 entry."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview (No.26). No Nov 12-16 entries."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text (Embed 5 / Rerank 5 on OpenRouter, Model Vault open models, Rerank 5, Embed 5, North Small Translate, Parse, Transcribe Arabic, North Mini Code, Command A+). No datable Nov 16 item."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "result": "Qwen4-Max selected (full release). Qwen4-Max-Preview was Nov 11 (No.26)."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "secondary coverage only",
+      "result": "Nemotron for Science selected (Nov 16 press release). The underlying model dates to Oct 15 on Hugging Face."
+    },
+    {
+      "vendor": "Meta",
+      "page": "secondary coverage only",
+      "result": "Muse Ember (Nov 9, No.25) remains the latest; no Nov 16 item in this round's secondary sweep."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "No new Nov 16 post in this round's secondary sweep."
+    },
+    {
+      "vendor": "Hark",
+      "page": "secondary coverage only",
+      "result": "Handoff 2 (Nov 12) still has no official release page located, so it remains not selected (same as No.30)."
+    }
+  ]
+}
