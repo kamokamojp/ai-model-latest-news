@@ -1,0 +1,118 @@
+{
+  "issue_date": "2026-11-18",
+  "issue_number": 32,
+  "scheduled_target_cutoff": "2026-11-18T08:00:00+09:00",
+  "research_cutoff": "2026-11-18T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-17T23:45:00Z",
+  "previous_issue_id": "2026-11-17",
+  "previous_issue_cutoff": "2026-11-17T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "OpenAI",
+      "date": "2026-11-17",
+      "item": "OpenAI released GPT-6.2 Astra and GPT-6.2 Sol on November 17, 2026. Astra is the new frontier model for demanding professional work; Sol is the efficient, versatile model for everyday work. Both are available in ChatGPT Work and Codex for Plus, Pro, Enterprise and Edu users, and in the API as gpt-6.2-astra and gpt-6.2-sol through the Responses and Chat Completions APIs; they are not added to regular Chat. Both have a 1,050,000-token context window, 922,000 max input tokens and 128,000 max output tokens, accept text and image input and return text, support Batch and Flex, and reject reasoning effort 'none'. Astra's standard pricing is $8 input, $0.40 cached input and $40 output per million tokens, 20% below GPT-6 Astra's input and output rates with a 60% discount on cached input; Sol keeps GPT-6.1 Sol's prices of $2 input, $0.10 cached input and $10 output. Astra's knowledge cutoff is May 18, 2026 and Sol's is June 1, 2026. Both support web search, file search, image generation, code interpreter, hosted shell, apply patch, skills, computer use, MCP and tool search, and multi-agent delegation in beta. The Responses API offers discounted background completion windows in public beta: two-hour windows at 30% lower model token rates and eight-hour windows at 40% lower. OpenAI reports its own benchmark results: on Agents' Last Exam Astra scores 5.2 points above GPT-6 Astra at less than a third of the cost and 5.5 points above Claude Fable 5.2 at 5% of the cost; on Terminal-Bench-Science 0.1 Astra sets a new high, 9 points above GPT-6 Astra at less than a third of the cost; on Cognition's FrontierCode 2.0 Sol comes within 0.5 points of Astra at about a fifth of the cost at maximum reasoning effort; on Harvey LAB-AA v1.1 Astra more than doubles Claude Fable 5.2's pass rate at about a sixth of the cost; on GDPval v2 Astra improves 6.2 points over GPT-6 Astra using 22% fewer output tokens and Sol improves 5.3 points over GPT-6.1 Sol; on Artificial Analysis AA-3D Astra ranks first at 1,318 Elo. All are OpenAI's own claims, not independent verification. Both models meet the Critical threshold for cybersecurity and the High threshold for biological and chemical capabilities under OpenAI's Preparedness Framework; Astra is the first externally released model rated High for AI self-improvement. OpenAI says both launch with tighter safeguards for higher-risk cybersecurity assistance, which also restrict some legitimate vulnerability research and security testing; defenders can access GPT-6 Sol with reduced cyber refusals on Daybreak Blue and GPT-6 Astra in alpha, and GPT-6 Cyber on Daybreak Red.",
+      "sources": [
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+        "https://developers.openai.com/api/docs/changelog",
+        "https://developers.openai.com/api/docs/models/gpt-6.2-astra",
+        "https://developers.openai.com/api/docs/models/gpt-6.2-sol",
+        "https://help.openai.com/en/articles/9624314-model-release-notes"
+      ],
+      "date_only": true,
+      "note": "The model release notes page carries the GPT-6.2 section above the November 16 heading and gives no date for it; the November 17 date is from the API changelog and the announcement blog. The Artificial Analysis Intelligence Index scores reported by secondary coverage (Astra 62, Sol 57) are recorded as secondary claims, not primary facts. The announcement time of 17:54 UTC on November 17 is from secondary reporting; the primary pages carry date only, so no time is asserted from them."
+    },
+    {
+      "vendor": "NVIDIA",
+      "date": "2026-11-12",
+      "item": "NVIDIA published Nemotron-Labs-Sigma-8B on Hugging Face, dated November 12, 2026 on the official model card; it is included here as a dated catch-up because the series had not covered it. It is an 8-billion-parameter continuous diffusion language model: instead of generating text one token at a time, it denoises Gaussian noise in a 16-dimensional continuous token-embedding space and decodes text in parallel blocks, with a configurable number of denoising steps per block (DDPM or DDIM samplers, self-conditioning). This is the base (pretrained) model, intended as a starting point for research on parallel-decoding generation, fine-tuning and distillation, not as an instruction-following assistant; an instruct variant is linked from the card. The maximum context is 4,096 tokens (prompt plus generation), English only, under the NVIDIA Nemotron Open Model License, for commercial or non-commercial use. It loads with PyTorch and Hugging Face Transformers via trust_remote_code and requires a CUDA-capable NVIDIA GPU in bfloat16; CPU inference is not supported. It was trained on about 1.3 trillion tokens (about 1 trillion of autoregressive initialisation followed by about 0.3 trillion of continuous-diffusion training). The underlying paper is 'Large Language Continuous Diffusion Models' (arXiv:2610.02665, October 2026). NVIDIA reports measured generation throughput of roughly 120-140 tokens per second for 256 generated tokens with the DDPM sampler at 32 denoising steps per 64-token block on a single Hopper H100; that is NVIDIA's own figure, not independent verification.",
+      "sources": [
+        "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B"
+      ],
+      "date_only": true,
+      "note": "The Hugging Face model card states 'Release Date: Hugging Face 11/12/2026'. Secondary coverage dated November 17 is the coverage date, not the release date. The 3-billion-parameter variant mentioned in secondary coverage was not verified on the official 8B card, so it is not asserted here."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 12 Gemini 4 Hydrogen (No.27). No Nov 13, Nov 14, Nov 15, Nov 16 or Nov 17 entry."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Nov 17 entry is Linked billing in beta (platform/billing feature), not a model release. Nov 16 entry is a text-watermark platform feature. Latest model items remain Nov 12 Managed Agents (No.27) and Nov 9 Fable 5.2 / Mythos 5.2 (No.24)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Nov 17 GPT-6.2 Astra/Sol selected. The same date's background completion window entry (Responses API, 2-hour/8-hour windows at 30%/40% lower token rates) is an API feature, not a model, so it is not selected. Next latest is Nov 16 CSAM Image Classifier (No.31)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "result": "GPT-6.2 Astra/Sol section selected (undated on the page; dated Nov 17 by the changelog and blog). Next latest is Nov 16 CSAM Image Classifier (No.31)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 17 items are Introducing GPT-6.2 Astra and Sol (selected), Introducing ChatGPT for Sales (product, not a model), Astra for Law (legal configuration/benchmark, not a separate model) and the GPT-6.2 system card (publication). Nov 16 items are research, safety, partnership and healthcare, not models."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is Nov 2. No Nov 13-17 entry. Grok 4.8 is still unannounced."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 29 Mistral Large 4 reasoning-effort change. No Nov entries."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 full suite of application APIs (No.28, not a model). No Nov 14, Nov 15, Nov 16 or Nov 17 entry."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview (No.26). No Nov 12-17 entries."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text (Embed 5 / Rerank 5 on OpenRouter, Model Vault open models, Rerank 5, Embed 5, North Small Translate, Parse, Transcribe Arabic, North Mini Code, Command A+). No datable Nov 17 item."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "result": "Page carries no dates in the fetched text. Qwen4-Max covered No.31. Kimi K3.1 Pro weights were Nov 4 and its launch Oct 23 per secondary reporting, not a Nov 17 item."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "secondary coverage only",
+      "result": "Nemotron for Science covered No.31 (Nov 16). Nemotron-Labs-Sigma selected as a dated Nov 12 catch-up (official Hugging Face card)."
+    },
+    {
+      "vendor": "Meta",
+      "page": "secondary coverage only",
+      "result": "Muse Ember (Nov 9, No.25) remains the latest; no Nov 17 item in this round's secondary sweep."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "WeatherNext 3 appears in secondary coverage dated Nov 17, but no official DeepMind Nov 17 release page was located (the aggregator URL path dates September 10), so it is not selected."
+    },
+    {
+      "vendor": "AssemblyAI",
+      "page": "secondary coverage only",
+      "result": "A release tracker lists STT-3.7 as Nov 17, but the official AssemblyAI changelog's latest entry is Nov 3, so the Nov 17 release is not verified and is not selected."
+    },
+    {
+      "vendor": "Hark",
+      "page": "secondary coverage only",
+      "result": "Handoff 2 (Nov 12) still has no official release page located, so it remains not selected (same as No.30 and No.31)."
+    }
+  ]
+}
