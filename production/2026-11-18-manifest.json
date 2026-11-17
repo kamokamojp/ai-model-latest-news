@@ -55,7 +55,18 @@
     "human_listening_claimed": false,
     "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-18.html",
     "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
-    "status": "pending_push"
+    "status": "published",
+    "read_back_verified_at_jst": "2026-11-18T08:58+09:00",
+    "gh_pages_commit": "b793be5",
+    "main_commit": "aaea3f9",
+    "read_back": {
+      "top": "200, 23197 bytes, 第32号 x9, 2026-11-18 x19",
+      "detail": "200, 20764 bytes, 第32号 x7, GPT-6.2 x19, Nemotron-Labs-Sigma x9, cutoff 2026-11-18 08:45 JST",
+      "index_json": "200, 39171 bytes, latest 2026-11-18, 32 issues, No.32 audio_status available",
+      "primary_mp3": "200, 893133 bytes, SHA-256 36edac7be96ca6ae536e82650e3fbc38258f7dbc95904c4c091a39771039de7a, mp3/24kHz/mono/74.34s/~96kbps, full decode passed",
+      "backup_mp3": "200, 893133 bytes, same SHA-256 as primary",
+      "old_issue_no31": "detail 200, audio 200, preserved"
+    }
   },
   "research_cutoff": "2026-11-18T08:45:00+09:00",
   "research_cutoff_utc": "2026-11-17T23:45:00Z",
