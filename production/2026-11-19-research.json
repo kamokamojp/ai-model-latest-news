@@ -1,0 +1,125 @@
+{
+  "issue_date": "2026-11-19",
+  "issue_number": 33,
+  "scheduled_target_cutoff": "2026-11-19T08:00:00+09:00",
+  "research_cutoff": "2026-11-19T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-18T23:45:00Z",
+  "previous_issue_id": "2026-11-18",
+  "previous_issue_cutoff": "2026-11-18T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Google",
+      "date": "2026-11-18",
+      "item": "Google introduced Gemini 4 Neon on November 18, 2026, a new member of the Gemini 4 family positioned between Carbon (hardest long-horizon projects) and Hydrogen (fast everyday execution), built for complex software engineering, knowledge work and science workflows with fast end-to-end task completion. Pricing is $3 input, $0.15 cached input (a 95% discount) and $15 output per million tokens, with a 1 million-token context window and four thinking levels (low, medium, high, xhigh). Google reports its own results: at the xhigh thinking level Neon scores 61 on the Artificial Analysis Intelligence Index, ranking #3 overall; #2 on the Vals Index (70.9%); #1 on the Artificial Analysis Coding Agent Index (58.6); 65.2% on Terminal-Bench 4.1; 46.2% on FrontierCode 2.0 at the default high setting; 39.0% on SWE-sweep inside Antigravity; 75.8% on Agents' Last Exam v1.1. At default high it pairs a high Intelligence Index score with a 32% lower cost per task than Carbon, per Google. Neon is rolling out today in the Gemini API paid tier in Google AI Studio and Android Studio, in Gemini for business via the API and model dropdown, in Google Antigravity for paid Google AI Pro and Ultra subscribers, and in the Gemini app for Pro and Ultra subscribers. A cyber-defense variant, Gemini 4 Neon for cyber, is rolling out to eligible Fairwind Program members in the coming days. Tasks in Gemini can now run on Neon. All benchmark figures are Google's own reporting, some attributed to third-party evaluators, not independent verification. The model card is linked from the announcement.",
+      "sources": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      ],
+      "date_only": true,
+      "note": "The Google blog page carries the November 18, 2026 date only, so no announcement time is asserted. The 9to5Google report timestamps the announcement 2026-11-18T21:34:27Z, which is secondary information."
+    },
+    {
+      "vendor": "Microsoft",
+      "date": "2026-11-17",
+      "item": "Microsoft announced seven new MAI models at Ignite 2026 on November 17, 2026: MAI Code 2, MAI Code 2 Flash, MAI Cyber 2 Flash, MAI Image 2.7 (and a Flash variant), MAI Realtime 1, MAI Transcribe 2, and Decision 1.1, plus MAI Licensed Weights. MAI Code 2 is the flagship agentic coding model family for everyday enterprise coding (multi-file implementation, deep debugging, repo-wide reasoning, UI); Code 2 Flash is tuned for high-volume routine coding. Both are generally available today in GitHub Copilot (model picker and Copilot Fusion); Code 2 Flash is also in limited-access preview in Microsoft Foundry. MAI Cyber 2 Flash is Microsoft's most capable security model, trained inside the Codename MDASH harness for vulnerability discovery, validation and remediation, available through MDASH. MAI Image 2.7 and 2.7 Flash are in public preview in Foundry. Microsoft Decision 1.1 is now generally available, built on Gemma, for routing, classification, prioritization and verification, now with image inputs; more than 4,000 customers have used it. MAI Realtime 1 is Microsoft's first live speech-to-speech model, announced from $0.01 per audio minute; MAI Transcribe 2 powers transcription in Dragon Copilot. MAI Licensed Weights lets trusted customers access Microsoft AI model weights through Frontier Co. to tune and run them in their own Azure environment. Microsoft's own claims: Code 2 reaches 98% of GPT-6.1 Sol's coding performance at about 40% of the price and 96% of Claude Opus 5.5's at about 5% of the price, averaged across DeepSWE 1.1, Terminal Bench 2.1, SWE-Atlas and FrontierCode v1.1; the cost comparison uses a 50% promotional price per the announcement footnote. Cyber 2 Flash is claimed ahead of GPT-6 Astra on CyberGymE2E at under 2% of the cost per task. Microsoft also says Code 2 is not yet tuned for fundamental science or very long-horizon agent work. All figures are Microsoft's own, not independently verified. Microsoft also announced that Meta's Muse Wonder, Muse Spark 1.3 and Muse Ember are coming soon to Foundry; that is an availability announcement, not a Meta model release.",
+      "sources": [
+        "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+        "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/from-model-choice-to-your-durable-advantage-build-ai-that-keeps-improving/4573609"
+      ],
+      "date_only": true,
+      "note": "The two official Microsoft pages read for this issue directly confirm Code 2, Code 2 Flash, Cyber 2 Flash, Image 2.7/Flash and Decision 1.1. Realtime 1, Transcribe 2, the $0.01 per audio minute starting price and the Dragon Copilot detail are from the Ignite announcement as reported in secondary coverage; the 98%/40% and 96%/5% figures and the 50% promotional-price footnote are Microsoft's own announcement claims as reported in the same coverage. The Microsoft blog is dated November 17, 2026 (published 18:36 UTC); no time is asserted from the date-only pages."
+    },
+    {
+      "vendor": "Google",
+      "date": "2026-11-17",
+      "item": "Google made Tasks in Gemini free on November 17, 2026, rolling out free of charge for hundreds of millions of people in the US, Japan, Korea, Canada, Australia and India, running on the new Gemini 4 Hydrogen model. Tasks is the agent formerly called Spark (tested with paid Google AI Pro and Ultra subscribers since May 2026, renamed and moved into the Gemini app in October). The free rollout covers the six countries above; elsewhere it still needs Google AI Pro or Ultra, and the European Economic Area, Nigeria, Switzerland and the United Kingdom are excluded. Requirements are being 18 or over, a personal Google account and History on. Advanced features are rolling out starting in the US: Gemini can call businesses in parallel to check prices, stock or book appointments, pay through Google Pay using the Agent Payments Protocol (Visa and Mastercard; American Express coming soon) with a spending cap, forward emails to gemini@google.com, and be texted via RCS. Google says tasks run in a hardware-isolated virtual machine (Agent Compute Engine) and that Gemini asks for confirmation before purchases. This is a feature running on a model, not a new model; it is included because it changes who can use Gemini 4 Hydrogen's agent and because Tasks can now also run on Gemini 4 Neon.",
+      "sources": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+      ],
+      "date_only": true,
+      "note": "The Google blog page carries the November 17, 2026 date only, so no announcement time is asserted. The blog was updated 2026-11-18T04:45:22Z."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Nov 18 entry is GPT-6.2 Astra/Sol in the API (No.32, dated Nov 17). No new model entry. Nov 17 background completion windows covered No.32 as an API feature."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 17 items are GPT-6.2 (No.32), ChatGPT for Sales (product), Astra for Law (configuration) and the GPT-6.2 system card. No Nov 18 model item in this round's sweep."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "secondary coverage only",
+      "result": "Codex CLI 0.170.0 (Nov 18) is a tool release, not a model. OpenCode 2.3.1 adding GPT-6.2 to its picker is the same Nov 17 model (No.32)."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Nov 17 entry is Linked billing in beta (platform/billing feature), not a model release. Nov 16 entry is a text-watermark platform feature. Latest model items remain Nov 12 Managed Agents (No.27) and Nov 9 Fable 5.2 / Mythos 5.2 (No.24)."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 12 Gemini 4 Hydrogen (No.27). Neon was announced on the Google blog on Nov 18 (selected), not via this changelog in this round."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is Nov 2. No Nov 13-18 entry. Grok 4.8 is still unannounced."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 29 Mistral Large 4 reasoning-effort change. No Nov entries."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 full suite of application APIs (No.28, not a model). No Nov 14-18 entry."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview (No.26). No Nov 12-18 entries."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text (Embed 5 / Rerank 5 on OpenRouter, Model Vault open models, Rerank 5, Embed 5, North Small Translate, Parse, Transcribe Arabic, North Mini Code, Command A+). No datable Nov 18 item."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "https://help.aliyun.com/en/model-studio/newly-released-models",
+      "result": "Page carries no dates in the fetched text. Qwen4-Max covered No.31. No datable Nov 18 item."
+    },
+    {
+      "vendor": "Meta",
+      "page": "secondary coverage only",
+      "result": "Muse Ember (Nov 9, No.25) remains the latest model; Nov 17-18 items are only the Foundry 'coming soon' availability announcement for Muse Wonder / Spark 1.3 / Ember, not a model release."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "secondary coverage only",
+      "result": "Nemotron-Labs-Sigma-8B covered No.32 (Nov 12). No Nov 17-18 item in this round's sweep."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "WeatherNext 3 appears in secondary coverage dated Nov 17, but no official DeepMind Nov 17 release page was located (same as No.32), so it is not selected."
+    },
+    {
+      "vendor": "AssemblyAI",
+      "page": "secondary coverage only",
+      "result": "A release tracker lists STT-3.7 as Nov 17, but the official AssemblyAI changelog's latest entry is Nov 3, so the Nov 17 release is not verified and is not selected (same as No.32)."
+    },
+    {
+      "vendor": "Hark",
+      "page": "secondary coverage only",
+      "result": "Handoff 2 (Nov 12) still has no official release page located, so it remains not selected (same as No.30, No.31 and No.32)."
+    }
+  ]
+}
