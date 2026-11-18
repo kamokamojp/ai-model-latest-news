@@ -1,0 +1,203 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-19-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-19-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-19.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-19.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "a631a9db8533d2af1ff1d2ff55a571ae2861c49378c9fc6dabad996473d8c48c",
+    "backup_sha256": "a631a9db8533d2af1ff1d2ff55a571ae2861c49378c9fc6dabad996473d8c48c",
+    "duration_seconds": 74.84,
+    "file_size_bytes": 899181,
+    "generated_at_jst": "2026-11-19T08:51+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-19",
+  "issue_id": "2026-11-19",
+  "issue_number": 33,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-18T08:45:00+09:00",
+  "previous_issue_id": "2026-11-18",
+  "research_cutoff": "2026-11-19T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-18T23:45:00Z",
+  "research_file": "../production/2026-11-19-research.json",
+  "scheduled_target_cutoff": "2026-11-19T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 21,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第33号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月19日の確認号。基準時は午前8時45分です。"
+    },
+    {
+      "characters": 18,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "今回は新しい発表が、2件ありました。"
+    },
+    {
+      "characters": 33,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "GoogleのGemini 4 Neonです。11月18日付です。"
+    },
+    {
+      "characters": 26,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "CarbonとHydrogenのあいだのモデルです。"
+    },
+    {
+      "characters": 23,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "料金は、入力100万トークンあたり3ドルです。"
+    },
+    {
+      "characters": 25,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "文脈は100万トークンで、4段階の思考があります。"
+    },
+    {
+      "characters": 20,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "今日からAPIやアプリで、順次使えます。"
+    },
+    {
+      "characters": 25,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "Microsoftの新しいモデル群も、紹介します。"
+    },
+    {
+      "characters": 20,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月17日付の、MAIの7モデルです。"
+    },
+    {
+      "characters": 18,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "中心は、コード用のCode 2です。"
+    },
+    {
+      "characters": 25,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "GitHub Copilotで、今日から使えます。"
+    },
+    {
+      "characters": 24,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "価格と性能は、Microsoft自身の数字です。"
+    },
+    {
+      "characters": 23,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "GeminiのTasksが、無料になりました。"
+    },
+    {
+      "characters": 20,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月17日付で、日本を含む6か国です。"
+    },
+    {
+      "characters": 27,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "動くモデルは、Gemini 4 Hydrogenです。"
+    },
+    {
+      "characters": 23,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "Tasksは、Neonでも動くようになります。"
+    },
+    {
+      "characters": 34,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "OpenAIやAnthropic、xAIの最新は、変わっていません。"
+    },
+    {
+      "characters": 33,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 27,
+      "order": 21,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "以上、第33号でした。発表元のページをご確認ください。"
+    }
+  ]
+}
