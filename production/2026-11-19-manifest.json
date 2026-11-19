@@ -55,7 +55,18 @@
     "human_listening_claimed": false,
     "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-19.html",
     "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
-    "status": "pending_push"
+    "status": "published",
+    "read_back_verified_at_jst": "2026-11-19T22:21+09:00",
+    "gh_pages_commit": "82726b7",
+    "main_commit": "aad7c89",
+    "read_back": {
+      "top": "200, 23569 bytes, 第33号 x9, 2026-11-19 x19",
+      "detail": "200, 21523 bytes, 第33号 x9, Gemini 4 Neon x8, cutoff 2026-11-19 08:45 JST",
+      "index_json": "200, 40568 bytes, latest 2026-11-19, 33 issues, No.33 audio_status available",
+      "primary_mp3": "200, 899181 bytes, SHA-256 a631a9db8533d2af1ff1d2ff55a571ae2861c49378c9fc6dabad996473d8c48c, mp3/24kHz/mono/74.84s/~96kbps, full decode passed",
+      "backup_mp3": "200, 899181 bytes, same SHA-256 as primary",
+      "old_issue_no32": "detail 200, audio 200, preserved"
+    }
   },
   "research_cutoff": "2026-11-19T08:45:00+09:00",
   "research_cutoff_utc": "2026-11-18T23:45:00Z",
