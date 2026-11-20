@@ -55,7 +55,21 @@
     "human_listening_claimed": false,
     "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-20.html",
     "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
-    "status": "pending_push"
+    "status": "published",
+    "read_back_verified_at_jst": "2026-11-20T09:09+09:00",
+    "gh_pages_commit": "8a6a448",
+    "main_commit": "4f84e14",
+    "gh_pages_fix_commit": "6a8d12f",
+    "main_fix_commit": "0c0a779",
+    "correction": "Edition HTML first published with self-reference \"第34号で紹介済みです\"; fixed to \"第33号で紹介済みです\" (Neon introduced in No.33) and re-pushed before this read-back. Same generator pattern produced the same self-reference in No.33 HTML (\"第33号で紹介済みです\", should be No.32); that past issue was left as-is.",
+    "read_back": {
+      "top": "200, 23706 bytes, 第34号 x10, 2026-11-20 x19",
+      "detail": "200, 17585 bytes, 第34号 x10, Genie 4 x12, cutoff 2026-11-20 08:45 JST, 第33号で紹介済み x1",
+      "index_json": "200, 41965 bytes, latest 2026-11-20, 34 issues, No.34 audio_status available",
+      "primary_mp3": "200, 820557 bytes, SHA-256 6e13bf4e2380e0fd1fcafaa6d375e4784acb2b940b412f199e551ce52344fdce, mp3/24kHz/mono/68.29s/~96kbps, full decode passed",
+      "backup_mp3": "200, 820557 bytes, same SHA-256 as primary",
+      "old_issue_no33": "detail 200, audio 200, preserved"
+    }
   },
   "research_cutoff": "2026-11-20T08:45:00+09:00",
   "research_cutoff_utc": "2026-11-19T23:45:00Z",
