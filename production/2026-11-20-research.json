@@ -1,0 +1,120 @@
+{
+  "issue_date": "2026-11-20",
+  "issue_number": 34,
+  "scheduled_target_cutoff": "2026-11-20T08:00:00+09:00",
+  "research_cutoff": "2026-11-20T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-19T23:45:00Z",
+  "previous_issue_id": "2026-11-19",
+  "previous_issue_cutoff": "2026-11-19T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Google",
+      "date": "2026-11-19",
+      "item": "Google made Genie 4 (models/genie-4) generally available on the Gemini API on November 19, 2026, through the Interactions API (v1beta) and Google AI Studio, on the paid tier. Genie 4 is a real-time interactive world generation model: seed a world from a text prompt, a 16:9 reference image, or both, then explore and steer the live 24 fps 16:9 720p video stream with synchronized 48 kHz stereo audio using keyboard movement controls (WASD and arrow keys) and mid-session text events. Pricing is $1.50 per 1M input tokens, $9.00 per 1M text output tokens and $17.50 per 1M video output tokens (about $0.10 per second of streamed output, stereo audio included). Sessions run up to 120 seconds, with visual coherence and object permanence strongest during the first 45-90 seconds. Serving regions are the United States, Western Europe and Japan. The November 19 item is the developer API general availability: Google DeepMind announced Genie 4 on October 27, 2026 as a research preview for trusted testers, and Project Genie began rolling Genie 4 out to eligible Google AI Ultra subscribers on November 18, 2026 (both dates from secondary coverage of Google's announcements). Every output carries imperceptible SynthID watermarking (secondary coverage of the November 19 blog post). For offline fixed-duration clip generation, multi-turn video editing and upsampling up to 4K, Google points to Gemini Omni 1.2 Flash instead.",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/changelog",
+        "https://ai.google.dev/gemini-api/docs/models/genie-4"
+      ],
+      "date_only": true,
+      "note": "The Gemini API changelog carries the November 19, 2026 date only, so no announcement time is asserted. The October 27 DeepMind announcement and November 18 Project Genie rollout dates are from secondary coverage, not from pages fetched this round."
+    },
+    {
+      "vendor": "OpenAI",
+      "date": "2026-11-19",
+      "item": "OpenAI released GPT-Live-1.1 (gpt-live-1.1) in the API on November 19, 2026. The changelog entry says GPT-Live-1.1 improves pronunciation, accent consistency, and transcription in multilingual voice conversations, and that developers use gpt-live-1.1 in an existing Live session configuration and describe in plain language when to delegate to their backend. A new standby configuration for GPT-Live-1 and GPT-Live-1.1 WebRTC sessions pauses inference during inactivity and resumes when someone speaks. OpenAI's developer account post (as reported in secondary coverage) says GPT-Live-1.1 has powered voice in ChatGPT Plus and Pro since October 15, 2026, and that standby bills at $0.02 per minute during silence versus the standard $0.05 per active minute, with a 5-60 second idle timeout; the changelog itself states no price. GPT-Live-1 is a full-duplex voice model, billed per second at $0.05 per active minute (secondary coverage of OpenAI's launch material).",
+      "sources": [
+        "https://developers.openai.com/api/docs/changelog"
+      ],
+      "date_only": true,
+      "note": "The OpenAI changelog carries the November 19 date only, so no announcement time is asserted. The standby price ($0.02 vs $0.05 per minute), the 5-60 second idle timeout, and the October 15 ChatGPT-voice date are from OpenAI's developer-account post as reported in secondary coverage, not from the changelog itself."
+    },
+    {
+      "vendor": "AssemblyAI",
+      "date": "2026-11-17",
+      "item": "AssemblyAI released AssemblyAI-STT-3.7, its next generation of transcription models, in three variants: AssemblyAI-STT-3.7 for pre-recorded speech-to-text, AssemblyAI-STT-3.7-Realtime for live conversations (meetings, calls, captions) and AssemblyAI-STT-3.7-Realtime-Agent for voice agents. The announcement blog post is dated November 17, 2026 and the official changelog entry is dated November 18, 2026. Secondary coverage of the announcement reports 32 supported languages (up from 18), pricing unchanged at $0.21 per hour, and a new diarization model with a 29% lower Diarization Error Rate in AssemblyAI's own tests. This is the first coverage in this series: the No.33 sweep (November 19) recorded the AssemblyAI changelog's latest entry as November 3 and missed this release, so it is introduced here with its original November 17 date clearly stated, not presented as a November 19 or 20 announcement.",
+      "sources": [
+        "https://www.assemblyai.com/changelog"
+      ],
+      "date_only": true,
+      "note": "The changelog entry is dated November 18, 2026 and the announcement blog November 17, 2026 (secondary). The 32-language count, the $0.21/hour price and the 29% diarization improvement are from secondary coverage of AssemblyAI's announcement, not from the changelog text fetched this round."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 19 item is 'How OpenAI's Performance Factory keeps ChatGPT fast' (engineering, not a model). Nov 18 items are research, safety and partnership posts. GPT-6.2 Astra and Sol are Nov 17 (No.32). No new Nov 19 model item on the news page."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Nov 19 entry is GPT-Live-1.1 (selected) plus the standby configuration. Nov 17 entries are GPT-6.2 Astra/Sol in the API (No.32) and background completion windows. No other Nov 19 model entry."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Nov 19 entries are Genie 4 GA (selected) and Tool retrieval (Preview), an Interactions API feature, not a model. Nov 18 entry is Gemini 4 Neon GA (No.33)."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Nov 17 entry is Linked billing in beta (platform/billing feature), not a model release. Nov 16 entry is a text-watermark platform feature. Latest model items remain Nov 12 Managed Agents (No.27) and Nov 9 Fable 5.2 / Mythos 5.2 (No.24)."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is Nov 2. No Nov 13-19 entry. Grok 4.8 is still unannounced."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 29 Mistral Large 4 reasoning-effort change. No Nov entries."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 full suite of application APIs (No.28, not a model). No Nov 14-19 entry."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview (No.26). No Nov 12-19 entries."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text (Embed 5 / Rerank 5 on OpenRouter, Model Vault open models, Rerank 5, Embed 5, North Small Translate, Parse, Transcribe Arabic, North Mini Code, Command A+). No datable Nov 19 item."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "secondary coverage only",
+      "result": "No datable Nov 19 item in this round's sweep. Qwen4-Max covered No.31."
+    },
+    {
+      "vendor": "Meta",
+      "page": "secondary coverage only",
+      "result": "Muse Ember (Nov 9, No.25) remains the latest model. Nov 17-19 items are the Muse Australia launch, voice try-on and Muse Charm pricing (product/device, not models). The Nov 6 rollout of Wonder-trained specialized versions of existing models is dated Nov 6, not new. Nov 17-18 items also include only the Foundry 'coming soon' availability announcement for Muse Wonder / Spark 1.3 / Ember."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "secondary coverage only",
+      "result": "Nemotron for Science was announced Nov 16 (No.33 window, missed): a package around the existing Nemotron 3.5 Super VL open model (Hugging Face Oct 15), a chemistry dataset and post-training recipes, not a new general model. Nov 19 items are Vera Rubin NVL72 preview on Azure and expanded Nemotron support in Foundry (availability/infrastructure, not a new model)."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "WeatherNext 3 appears in secondary coverage dated Nov 17, but no official DeepMind Nov 17 release page was located (same as No.32 and No.33), so it is not selected."
+    },
+    {
+      "vendor": "AssemblyAI",
+      "page": "https://www.assemblyai.com/changelog",
+      "result": "Nov 18 entry is STT-3.7 (selected, blog dated Nov 17). Previous latest was Nov 3 (MCP server)."
+    },
+    {
+      "vendor": "Hark",
+      "page": "secondary coverage only",
+      "result": "Handoff 2 (Nov 12) still has no official release page located, so it remains not selected (same as No.30, No.31, No.32 and No.33)."
+    }
+  ]
+}
