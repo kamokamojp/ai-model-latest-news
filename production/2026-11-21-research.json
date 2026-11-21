@@ -1,0 +1,115 @@
+{
+  "issue_date": "2026-11-21",
+  "issue_number": 35,
+  "scheduled_target_cutoff": "2026-11-21T08:00:00+09:00",
+  "research_cutoff": "2026-11-21T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-20T23:45:00Z",
+  "previous_issue_id": "2026-11-20",
+  "previous_issue_cutoff": "2026-11-20T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Microsoft",
+      "date": "2026-11-19",
+      "item": "Microsoft made Aion Instruct generally available on November 19, 2026, as an open-weights model on Hugging Face and as Microsoft Edge's built-in small language model, replacing Phi-4-mini. Aion Instruct is a 2.3B-parameter model, smaller and faster than Phi and able to run on many more devices, with comparable quality for common web tasks such as text synthesis and generation, summarization, instruction following and structured outputs. Edge downloads Aion Instruct only when a site or feature first needs it and only on devices that can run it well; users can turn off on-device AI in Edge settings, which removes the model and stops future downloads. Aion is also coming to Windows later in 2026. The same post opens an origin trial for the Prompt API (previously a developer preview only in Edge Canary and Dev) so developers can call Aion Instruct from a live site, and a developer preview of an experimental Decisions API powered by Aion Instruct, which answers yes/no, multiple-choice or scoring questions about text in a single pass, returning probabilities and a confidence value without generating text. Aion Instruct builds on the earlier Aion-1.0-Instruct developer preview, refined with early-adopter feedback. It is not one of the seven MAI models covered in No.33 (Code 2, Code 2 Flash, Cyber 2 Flash, Image 2.7, Realtime 1, Transcribe 2, Decision 1.1). The blog post states no price.",
+      "sources": [
+        "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/"
+      ],
+      "date_only": true,
+      "note": "The Edge blog carries the November 19, 2026 date only, so no announcement time is asserted. No price is stated in the post."
+    },
+    {
+      "vendor": "Google",
+      "date": "2026-11-17",
+      "item": "Google added voice editing to Gemini 3.5 Transcribe (gemini-3.5-transcribe) and Gemini 3.5 Transcribe Live (gemini-3.5-transcribe-live) on November 17, 2026, per the Gemini API changelog. Voice editing lets users edit, rewrite or format dictated speech or pre-existing text (source_text) with spoken instructions, and is enabled by default in Smart transcription mode, according to the transcription documentation. Gemini 3.5 Transcribe supports automatic language identification across 85+ locales, speaker diarization, word-level timestamps, custom vocabulary hints and smart transcription (disfluency removal and formatting). This is a capability addition to existing models, not a new model. This is the first coverage in this series: the No.34 sweep (November 20) recorded the changelog's latest entries as November 19 and 18 and missed this November 17 item, so it is introduced here with its original November 17 date clearly stated, not presented as a November 19, 20 or 21 announcement.",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/changelog",
+        "https://ai.google.dev/gemini-api/docs/transcribe"
+      ],
+      "date_only": true,
+      "note": "The Gemini API changelog carries the November 17, 2026 date only, so no announcement time is asserted. No price is stated for voice editing in the changelog."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 19 GPT-Live-1.1 (No.34). No Nov 20 entry; re-checked after the 08:18 JST crawl, still Nov 19 latest."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 20 item is MedChemBench (a benchmark, not a model). Nov 19 item is the Performance Factory engineering post. GPT-6.2 is Nov 17 (No.32). No new Nov 20 model item."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Nov 19 entry is Genie 4 GA (No.34). Nov 18 entry is Gemini 4 Neon GA (No.33). Nov 17 entry is voice editing in Gemini 3.5 Transcribe (selected). No Nov 20 entry."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "Genie 4 Project Genie rollout Nov 18-19 (No.34). The Nov 20 Project Genie waitlist opening for AI Pro subscribers is an availability expansion, not a new model. WeatherNext 3 still has no official DeepMind Nov 17 release page located (same as No.32, No.33 and No.34)."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Nov 17 entry is Linked billing in beta (platform/billing feature), not a model release. Nov 16 entry is a text-watermark platform feature. No Nov 18-20 entries. Latest model items remain Nov 12 Managed Agents (No.27) and Nov 9 Fable 5.2 / Mythos 5.2 (No.24)."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Nov 19 entry is the end of life of grok-build-0.1, not a new model. Latest model item remains Nov 2."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 29 Mistral Large 4 reasoning-effort change. No Nov entries. Pixtral Large 2502 appeared on OpenRouter dated Nov 20, 2026, but OpenRouter's own FAQ says it is the February 2025 version of Mistral's large multimodal model, following Pixtral Large 2411, so it is a new API listing, not a new model release."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 full suite of application APIs (No.28, not a model). No Nov 14-20 entry."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview (No.26). No Nov 12-20 entries. Note: the fetched page copy was crawled Nov 12, so the check relies on the Nov 11 latest-update listing."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text (Embed 5 / Rerank 5 on OpenRouter, Model Vault open models, Rerank 5, Embed 5, North Small Translate, Parse, Transcribe Arabic, North Mini Code, Command A+). No datable Nov 20 item."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "secondary coverage only",
+      "result": "No datable Nov 19-20 item in this round's sweep. Qwen4-Max covered No.31. mindlab/macaron-v1.1-venti-pro (Nov 20) is an Alibaba Cloud Model Studio listing, minor; not selected."
+    },
+    {
+      "vendor": "Meta",
+      "page": "secondary coverage only",
+      "result": "Muse Spark 1.1 was released July 9, 2026 (Reuters); Nov 20 articles about it are recycled re-dates, not a new release. Muse Glimmer covered Oct 24 (research publication Oct 19). Muse Ember (Nov 9, No.26) remains the latest model. Muse Spark Open is dated Oct 15 in the model chronicle and was not covered in this series; Nov 18-19 coverage reflects distribution availability (Fireworks/OpenRouter), not a new model. SAM 3 was released November 19, 2025, with SAM 3.1 in March 2026; Nov 20 articles about it are recycled. Nov 17-20 items are the Muse Australia launch, voice try-on, Muse Charm pricing and the Muse Chrome extension (product, not models)."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "secondary coverage only",
+      "result": "Nemotron-Labs-Sigma-8B (Nov 12, No.32) remains the latest model; Nov 20 coverage is press pickup of the Nov 12 Hugging Face release, not a new release."
+    },
+    {
+      "vendor": "AssemblyAI",
+      "page": "https://www.assemblyai.com/changelog",
+      "result": "Latest is Nov 18 STT-3.7 (No.34). No Nov 19-20 entry."
+    },
+    {
+      "vendor": "Hark",
+      "page": "secondary coverage only",
+      "result": "Handoff 2 (Nov 12) still has no official release page located, so it remains not selected (same as No.30, No.31, No.32, No.33 and No.34)."
+    },
+    {
+      "vendor": "Other niche vendors",
+      "page": "secondary coverage only",
+      "result": "Rumble-2-Flash (Reson8, Nov 18) and U2-Flash-1118 (Unisound, Nov 18) are niche audio models outside the series' regular vendor scope; no official release page was fetched this round. DaisyRose-27B (RadixArk, Nov 20) is a derivative fine-tune of Qwen3.8-27B from a small vendor; not selected."
+    }
+  ]
+}

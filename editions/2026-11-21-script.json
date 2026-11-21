@@ -1,0 +1,182 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-21-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-21-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-21.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-21.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "2076ad34e09bc6543ff91d7fcaebbd0386c0df227b354e85f577f3be177d1429",
+    "backup_sha256": "2076ad34e09bc6543ff91d7fcaebbd0386c0df227b354e85f577f3be177d1429",
+    "duration_seconds": 61.39,
+    "file_size_bytes": 737613,
+    "generated_at_jst": "2026-11-21T08:59+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-21",
+  "issue_id": "2026-11-21",
+  "issue_number": 35,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-20T08:45:00+09:00",
+  "previous_issue_id": "2026-11-20",
+  "research_cutoff": "2026-11-21T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-20T23:45:00Z",
+  "research_file": "../production/2026-11-21-research.json",
+  "scheduled_target_cutoff": "2026-11-21T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 18,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第35号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月21日の確認号。基準時は午前8時45分です。"
+    },
+    {
+      "characters": 18,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "今回は新しい発表が、2件ありました。"
+    },
+    {
+      "characters": 36,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "MicrosoftのAion Instructです。11月19日付です。"
+    },
+    {
+      "characters": 18,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "ブラウザーで動く、小さなモデルです。"
+    },
+    {
+      "characters": 28,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "23億パラメーターで、Phi-4-miniと代わります。"
+    },
+    {
+      "characters": 15,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "文章や要約、翻訳にも使えます。"
+    },
+    {
+      "characters": 19,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "サイトから呼べる、試験も始まりました。"
+    },
+    {
+      "characters": 20,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "Googleの文字起こしも、紹介します。"
+    },
+    {
+      "characters": 16,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月17日付で、声で直せます。"
+    },
+    {
+      "characters": 17,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "話した言葉や、元の文章を整えます。"
+    },
+    {
+      "characters": 15,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "録音用と生の会話用、両方です。"
+    },
+    {
+      "characters": 15,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "前号の3件は、繰り返しません。"
+    },
+    {
+      "characters": 34,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "OpenAIやAnthropic、xAIの最新は、変わっていません。"
+    },
+    {
+      "characters": 22,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "Metaの新しいモデルも、ありませんでした。"
+    },
+    {
+      "characters": 33,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "選定した公式資料の範囲で確認しました。全発表の網羅ではありません。"
+    },
+    {
+      "characters": 28,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "日付だけの記載には、時刻やタイムゾーンを補っていません。"
+    },
+    {
+      "characters": 27,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第35号でした。発表元のページをご確認ください。"
+    }
+  ]
+}
