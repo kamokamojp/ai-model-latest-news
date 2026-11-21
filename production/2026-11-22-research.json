@@ -1,0 +1,155 @@
+{
+  "issue_date": "2026-11-22",
+  "issue_number": 36,
+  "scheduled_target_cutoff": "2026-11-22T08:00:00+09:00",
+  "research_cutoff": "2026-11-22T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-21T23:45:00Z",
+  "previous_issue_id": "2026-11-21",
+  "previous_issue_cutoff": "2026-11-21T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Thinking Machines Lab",
+      "date": "2026-11-20",
+      "item": "Thinking Machines Lab released Inkling 2 Mini on November 20, 2026, as an open-weight general-purpose multimodal model. The official Hugging Face model card states 'Date of release: November 20, 2026' and Apache 2.0. It is the lab's first looped transformer: a 24-layer decoder-only MoE transformer whose middle 12 layers run three times with shared weights, giving 48 layer applications per token from 24 layers of weights. It has 26.4B total parameters and 3.4B active per token (5.4B effective active with the three loop passes), a 1M-token context window, text and image inputs and text outputs, and is distributed as a single ~20GB checkpoint in NVFP4/MXFP8. The card says it can run on 1x NVIDIA DGX Spark and on Apple silicon devices with 32GB or more memory. Vendor-reported evaluations include an Artificial Analysis Index of 20.1 and 79.2% on SWE-Bench Verified.",
+      "sources": [
+        "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
+      ],
+      "date_only": true,
+      "note": "The official model card states the release date as November 20, 2026; no announcement time is asserted. Performance figures are the vendor's own reported numbers."
+    },
+    {
+      "vendor": "Tencent",
+      "date": "2026-11-16",
+      "item": "Tencent launched Hy4-flash on November 16, 2026, on its official Hunyuan research site (hy.tencent.ai), and released the open weights (Hy4-flash, Hy4-flash-FP8 and Hy4-flash-base) on November 18 on Hugging Face, ModelScope and GitCode. Per Tencent's official Hugging Face model card, Hy4-flash is the most cost-effective Hy model to date: 220B total parameters (including 64B Engram parameters) with about 12B active per token, native text and image inputs, text outputs, and a 1M-token context window. The announcement page lists API prices of 0.5 yuan per 1M input tokens, 2 yuan per 1M output tokens and 0.02 yuan per 1M cached-input tokens. On Tencent's internal WorkIndex benchmark it scores 42.1, slightly above Hy4 preview (39.7), with an average cost per task of 1/13 of Hy4 preview and 1/20 of Hy4. Tencent recommends it for everyday productivity work and Hy4 for complex work such as long-horizon software engineering. It is distinct from the flagship Hy4 (November 4, 2026).",
+      "sources": [
+        "https://huggingface.co/tencent/Hy4-flash"
+      ],
+      "date_only": true,
+      "note": "The Hugging Face model card itself carries no date line, so the November 16 launch date is recorded from Tencent's official announcement page as reported by multiple independent secondary sources (TechNode, explainx, 4sapi, Longbridge/Zhitong, ai-oriens, web-observer), corroborated by the November 16 OpenRouter listing and first-day usage reports. The November 18 open-weight release date is from the same secondary reports. Prices are from the announcement page as reported. Performance figures are the vendor's own claims."
+    },
+    {
+      "vendor": "SenseTime",
+      "date": "2026-11-17",
+      "item": "SenseTime officially released SenseNova Loop-9B on November 17, 2026, per its official release page dated 2026/11/17. It is an open-weight multimodal model of approximately 9B parameters whose 32 decoder layers are looped: layers 4-27 run twice with shared weights, giving 56 decoder-layer executions per forward pass (about 14.6B inference-equivalent parameters). It accepts text and image inputs, produces text outputs, and supports a context length of up to 512K tokens. The official 4-bit AWQ quantized weights occupy about 4.9GB, and deployment GPU memory can be under 10GB. SenseTime positions its performance as comparable to 27B-class models, reporting NL2Repo 41.36 (Qwen3.8-27B: 44.60) and AIDABench 65.31 (Qwen3.8-27B: 65.01). It is the official release following the October 31 Preview version.",
+      "sources": [
+        "https://www.sensetime.com/en/news/sensenova-loop-9b-release-20261118-1435",
+        "https://huggingface.co/sensenova/SenseNova-Loop-9B"
+      ],
+      "date_only": true,
+      "note": "The official SenseTime release page carries the 2026/11/17 date only, so no announcement time is asserted. Performance figures are the vendor's own reported numbers. No license is asserted from the SenseTime page."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 19 GPT-Live-1.1 (No.34). No Nov 20 or Nov 21 entry; verified directly this round (page crawled Nov 21 23:37 UTC)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 20 item is MedChemBench (a benchmark, not a model; No.35). No new Nov 21 model item."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 19: Genie 4 GA (No.34) and Tool retrieval (Preview, an Interactions API capability, not a model). Nov 18 is Gemini 4 Neon GA (No.33). Nov 17 is voice editing in Gemini 3.5 Transcribe (No.35). No Nov 20 or Nov 21 entry; verified directly this round (page crawled Nov 21 23:37 UTC)."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "Gemini 4 Neon blog post is Nov 18 (No.33). No new Nov 20/21 model post found."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Nov 17 entry is Linked billing in beta (platform/billing feature), not a model release. Nov 16 entries are a text-watermark platform feature and webhooks. No Nov 18-21 entries. Latest model items remain Nov 12 Managed Agents (No.27)."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Nov 19 entry is the end of life of grok-build-0.1, not a new model. Latest model item remains Nov 2."
+    },
+    {
+      "vendor": "Microsoft",
+      "page": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/",
+      "result": "Nov 19 Aion Instruct GA (No.35). Edge blog archive shows no Nov 20/21 post; the Nov 17 Edge for Business Ignite post has no new model."
+    },
+    {
+      "vendor": "Meta",
+      "page": "https://ai.meta.com/blog/",
+      "result": "Latest visible on the fetched official listing is Jul 9, 2026 (Muse Spark 1.1). No November 2026 post visible; Muse Spark Open was not found on an official Meta page (third-party report only, no date). Muse Ember (Nov 9, No.26) remains the latest confirmed model."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B",
+      "result": "Nemotron-Labs-Sigma-8B card dates the release 11/12/2026 (No.32). Nov 20 press pieces are reposts of the Nov 12 release, not a new release."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents",
+      "result": "Nemotron for Science (Nov 16) is a bundle of the existing Nemotron 3.5 Super VL (Oct 15) plus the new LitmusBench v0.2 chemistry dataset and post-training recipes, not a new model."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 29 Mistral Large 4 reasoning-effort change. No Nov entries."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 full suite of application APIs (No.28, not a model). No Nov 14-21 entry."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview (No.26). No Nov 12-21 entries. Note: the fetched page copy was crawled Nov 12, so the check relies on the Nov 11 latest-update listing."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text. No datable Nov 20/21 item."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "secondary coverage only",
+      "result": "Qwen4-Max GA Nov 16 (No.31). Nov 19-20 items are earnings-call remarks and the Nov 20 Cloud Summit recap; no new model."
+    },
+    {
+      "vendor": "Z.ai / Zhipu",
+      "page": "secondary coverage only",
+      "result": "GLM-5.5 is NOT released as of Nov 21 checks: Z.ai release notes still end at GLM-5.3-Flash (Aug 26) and GLM-5.3 (Aug 18); no model card, API ID, price or weights. A page claiming a Nov 19 launch is contradicted by the official pages. A Nov 21 community-group teaser says only that a new model will arrive 'before December' (name and date unconfirmed, rumor only). Not selected."
+    },
+    {
+      "vendor": "MiniMax",
+      "page": "secondary coverage only",
+      "result": "A page headed 'MiniMax-M3.1-Flash - 2026-11-20 release' is a benchmark-evidence refresh dated Nov 20, not a release; MiniMax's latest model arrived Oct 19. Not selected."
+    },
+    {
+      "vendor": "ByteDance",
+      "page": "secondary coverage only",
+      "result": "Axion 1.0 is a new open agent foundation model, but it was released Nov 2, 2026, not Nov 21 (a tracker listing date). Out of scope for today."
+    },
+    {
+      "vendor": "Apple",
+      "page": "secondary coverage only",
+      "result": "FastFrames-S (Nov 21, text-to-video) is mentioned only in secondary sources this round; no official Apple page was fetched. Not selected."
+    },
+    {
+      "vendor": "Baseten",
+      "page": "secondary coverage only",
+      "result": "Bison-1 and Groundhog-1 (open-weight decision models built on Gemma 4) are mentioned only in secondary sources this round; no official page was fetched. Not selected."
+    },
+    {
+      "vendor": "Hark",
+      "page": "secondary coverage only",
+      "result": "Handoff 2 (Nov 12) still has no official release page located, so it remains not selected (same as No.30 through No.35)."
+    },
+    {
+      "vendor": "Other niche vendors",
+      "page": "secondary coverage only",
+      "result": "DaisyRose-27B (RadixArk, Nov 20-21 listings) is a derivative fine-tune of Qwen3.8-27B from a small vendor; not selected. mindlab/macaron-v1.1-venti-pro (Nov 20) is an Alibaba Cloud Model Studio listing, minor; not selected. Rumble-2-Flash (Reson8, Nov 18) and U2-Flash-1118 (Unisound, Nov 18) are niche audio models outside the series' regular vendor scope; no official release page was fetched this round."
+    }
+  ]
+}
