@@ -1,0 +1,166 @@
+{
+  "issue_date": "2026-11-23",
+  "issue_number": 37,
+  "scheduled_target_cutoff": "2026-11-23T08:00:00+09:00",
+  "research_cutoff": "2026-11-23T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-22T23:45:00Z",
+  "previous_issue_id": "2026-11-22",
+  "previous_issue_cutoff": "2026-11-22T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Apple",
+      "date": "2026-11-16",
+      "item": "Apple ML Research released FastFrames, a family of autoregressive two-step video diffusion models for interactive-latency 480p video generation, on November 16, 2026 (weights on Hugging Face; code public November 17). FastFrames-S (1.3B) generates 832x480 video, 81 frames at 16 fps, at about 36 ms per frame on a single B200-class GPU; FastFrames-L (14B) runs at about 45 ms per frame on eight GPUs. Both are two-step models: FastFrames-S keeps a two-step frame-wise Causal Forcing++ generator frozen and trains the surrounding networks, while FastFrames-L distills Wan2.1-T2V-14B into a two-step causal model. An optimized LingBot 1.3B with 16x speedup for fluid camera-conditioned control is also released. Checkpoints are under the Apple Research Model License (research only); code is under the Apple Sample Code License.",
+      "sources": [
+        "https://huggingface.co/apple/FastFrames-S"
+      ],
+      "date_only": true,
+      "note": "The Hugging Face model card itself carries no date line, so the November 16 weights date is recorded from the card creation date as reported by multiple independent secondary sources (TSN, The Reel Stack), with code going public November 17. The arXiv paper is arXiv:2611.23226. Latency figures are the authors' own measurements on B200-class hardware. The release is research-only, not a product feature."
+    },
+    {
+      "vendor": "Kyutai",
+      "date": "2026-11-20",
+      "item": "Kyutai released AURA (AUdio-dRiven streaming Avatar) on November 20, 2026, per its official blog dated 2026-11-20 (paper arXiv:2611.26540 dated November 19). AURA is a family of causal, few-step speech-to-video models that stream talking-head video chunk by chunk with a rolling KV cache, needing only the current chunk's audio to start. AURA 1.3B streams 576p video at 20.7 fps end-to-end on a single H100 for 16 Hz playback (23x faster than its bidirectional teacher) and AURA 5B streams 720p at 9.7 fps (17x faster than its teacher). Both are 4-step causal students distilled from 50-step bidirectional teachers. Weights, inference code, a dataset of 30,000 synthetic videos with precomputed teacher trajectories, and a live demo are released. AURA 1.3B is under CC BY-NC 4.0 (non-commercial); AURA 5B is under Snap Inc.'s non-commercial license.",
+      "sources": [
+        "https://huggingface.co/kyutai/AURA-1.3B",
+        "https://kyutai.org/blog/"
+      ],
+      "date_only": true,
+      "note": "The November 20 date is the Kyutai official blog date; the arXiv paper is dated November 19. Performance figures are Kyutai's own measurements on a single H100 GPU. Both weights are non-commercial only."
+    },
+    {
+      "vendor": "AMD",
+      "date": "2026-11-20",
+      "item": "AMD announced Nitro-P on November 20, 2026, on its official ROCm blog. Nitro-P is an end-to-end pixel-space text-to-image diffusion framework that removes the VAE decoder from the inference pipeline: a patch-level E-MMDiT semantic modeling component is joined hierarchically to a lightweight U-Net pixel-reconstruction decoder with modulation-guided semantic injection. The main network has 679M parameters and uses Qwen3-1.7B as the text encoder. AMD reports a GenEval score of 0.88 at 512x512 (0.87 at 1024x1024) and throughput of 10.26 samples/s on a single AMD Instinct MI300X GPU at 512px with batch size 32; the distilled one-step variant reaches 90.02 samples/s. Model weights and complete training code are released. Training used 25M publicly available images.",
+      "sources": [
+        "https://rocm.blogs.amd.com/artificial-intelligence/nitro-p/README.html",
+        "https://huggingface.co/amd/Nitro-P"
+      ],
+      "date_only": true,
+      "note": "The ROCm blog page itself carries no date line in the fetched text, so the November 20 announcement date is recorded from the announcement coverage (AI Weekly, TLDR, hane-lab) that cites the ROCm blog. The Hugging Face model page amd/Nitro-P is linked from the blog's Additional Resources. No license is set on the model page, so no license is asserted here. Performance figures are AMD's own reported numbers."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 19 GPT-Live-1.1 (No.34). No Nov 20, 21 or 22 entry; verified directly this round (page crawled Nov 22 23:37 UTC)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 22 item is 'Perplexity and Intelligence' (research, not a model). Nov 20 item is MedChemBench (a benchmark, not a model; No.35). Nov 19 is Performance Factory (engineering). No new Nov 20-22 model item."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 19: Genie 4 GA (No.34) and Tool retrieval (Preview, an Interactions API capability, not a model). Nov 18 is Gemini 4 Neon GA (No.33). Nov 17 is voice editing in Gemini 3.5 Transcribe (No.35). No Nov 20, 21 or 22 entry; verified directly this round (page crawled Nov 22 23:37 UTC)."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "Gemini 4 Neon blog post is Nov 18 (No.33). Nov 21 Gemini app GIF creation is an app feature, not a model release. No new Nov 20-22 model post found."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Nov 17 entry is Linked billing in beta (platform/billing feature), not a model release. Nov 16 entries are a text-watermark platform feature and webhooks. No Nov 18-22 entries. Latest model items remain Nov 12 Managed Agents (No.27) and Nov 9 Claude Fable 5.2 / Mythos 5.2 (covered Nov 10-18)."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Nov 19 entry is the end of life of grok-build-0.1, not a new model. Latest model item remains Nov 2."
+    },
+    {
+      "vendor": "Microsoft",
+      "page": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/",
+      "result": "Nov 19 Aion Instruct GA (No.35). No Nov 20-22 post found in this round's checks. The Nov 17 MAI 7 models (Code 2, Code 2 Flash, Cyber 2 Flash, Image 2.7, Realtime 1, Transcribe 2, Decision 1.1) were covered in No.33."
+    },
+    {
+      "vendor": "Meta",
+      "page": "https://ai.meta.com/blog/",
+      "result": "Latest visible on the fetched official listing is Jul 9, 2026 (Muse Spark 1.1). No November 2026 post visible; Muse Spark Open was not found on an official Meta page (third-party report only, no date). Muse Ember (Nov 9, No.26) remains the latest confirmed model."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B",
+      "result": "Nemotron-Labs-Sigma-8B card dates the release 11/12/2026 (No.32). Alpamayo 2 Edge weights are Nov 10 (No.26). Nov 20-22 press pieces are reposts of those releases, not new releases."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents",
+      "result": "Nemotron for Science (Nov 16) is a bundle of the existing Nemotron 3.5 Super VL (Oct 15) plus the new LitmusBench v0.2 chemistry dataset and post-training recipes, not a new model."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 29 Mistral Large 4 reasoning-effort change. No Nov entries."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 full suite of application APIs (No.28, not a model). No Nov 14-22 entry."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview (No.26). No Nov 12-22 entries. Confirmed by a live browser read on 2026-11-23 08:39 JST (Latest Updates list, newest first)."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text. No datable Nov 20, 21 or 22 item."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "secondary coverage only",
+      "result": "Qwen4-Max GA Nov 16 (No.31). No new Nov 20-22 model item found in this round's checks."
+    },
+    {
+      "vendor": "Moonshot",
+      "page": "secondary coverage only",
+      "result": "Kimi K3.1 Pro open weights were released Nov 2-5, 2026 (HF repo moonshotai/Kimi-K3.1-Pro; API launch Oct 23). The weights release is not yet covered in this series, but it is older than this issue's Nov 16-20 items and was not directly fetched from the official model card this round, so it stays a catch-up candidate rather than a selected item."
+    },
+    {
+      "vendor": "Z.ai / Zhipu",
+      "page": "secondary coverage only",
+      "result": "GLM-5.5: no new release found in this round's news search; per No.36 it was unreleased as of Nov 21 (official release notes end at GLM-5.3-Flash, Aug 26). Not selected."
+    },
+    {
+      "vendor": "MiniMax",
+      "page": "secondary coverage only",
+      "result": "A page headed 'MiniMax-M3.1-Flash - 2026-11-20 release' is a benchmark-evidence refresh dated Nov 20, not a release; MiniMax's latest model arrived Oct 19 (No.36). pi-H3 1.0 (Nov 21) is a Lakonik/Stanford+Luma research adapter set for MiniMax H3 (weights, code, ComfyUI support released Nov 21); official blog/HF card (Lakonik/pi-H3) not directly fetched this round, and it is an adapter set rather than a new model, so not selected."
+    },
+    {
+      "vendor": "ByteDance",
+      "page": "secondary coverage only",
+      "result": "Axion 1.0 is a new open agent foundation model, but it was released Nov 2, 2026, not Nov 22 (a tracker listing date). Out of scope for today."
+    },
+    {
+      "vendor": "Ideogram",
+      "page": "secondary coverage only",
+      "result": "Ideogram 4.6 was released Nov 19, 2026 (native 4K image generation and editing; first on Rapidata's Multi-step Image Edit leaderboard per Ideogram; open weights promised with no date). The official Ideogram model page / X announcement thread was not directly fetched this round, so it is not selected; the secondary coverage is consistent across outlets."
+    },
+    {
+      "vendor": "Baseten",
+      "page": "secondary coverage only",
+      "result": "Bison-1 and Groundhog-1 (open-weight decision models built on Gemma 4) are mentioned only in secondary sources this round; no official page was fetched and no date was confirmed. Not selected."
+    },
+    {
+      "vendor": "Ant Group",
+      "page": "secondary coverage only",
+      "result": "Ling-3.0-flash-VL architecture details were disclosed Nov 21 (124B total, 5.5B active, 256K context), but no official model card was fetched this round. Not selected."
+    },
+    {
+      "vendor": "Hark",
+      "page": "secondary coverage only",
+      "result": "Handoff 2 (Nov 12) still has no official release page located, so it remains not selected (same as No.30 through No.36)."
+    },
+    {
+      "vendor": "Other niche vendors",
+      "page": "secondary coverage only",
+      "result": "DaisyRose-27B (RadixArk, Nov 20-21 listings) is a derivative fine-tune of Qwen3.8-27B from a small vendor; not selected. mindlab/macaron-v1.1-venti-pro (Nov 20) is an Alibaba Cloud Model Studio listing, minor; not selected. Rumble-2-Flash (Reson8, Nov 18) and U2-Flash-1118 (Unisound, Nov 18) are niche audio models outside the series' regular vendor scope; no official release page was fetched this round."
+    }
+  ]
+}

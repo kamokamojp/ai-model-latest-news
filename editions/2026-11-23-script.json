@@ -1,0 +1,196 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-23-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-23-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-23.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-23.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "aaf4700c7e27c3367b3013ba355493aecd2c8f8ae69c53ab5df328e79475a11f",
+    "backup_sha256": "aaf4700c7e27c3367b3013ba355493aecd2c8f8ae69c53ab5df328e79475a11f",
+    "duration_seconds": 72.97,
+    "file_size_bytes": 876717,
+    "generated_at_jst": "2026-11-23T08:49+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-23",
+  "issue_id": "2026-11-23",
+  "issue_number": 37,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-22T08:45:00+09:00",
+  "previous_issue_id": "2026-11-22",
+  "research_cutoff": "2026-11-23T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-22T23:45:00Z",
+  "research_file": "../production/2026-11-23-research.json",
+  "scheduled_target_cutoff": "2026-11-23T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 20,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第37号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月23日の確認号。基準時は午前8時45分です。"
+    },
+    {
+      "characters": 24,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月22日付の新しい発表は、ありませんでした。"
+    },
+    {
+      "characters": 20,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "代わりに、見逃していた3件を紹介します。"
+    },
+    {
+      "characters": 31,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "まず、アップルのFastFramesです。11月16日付です。"
+    },
+    {
+      "characters": 18,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "動画を1枚ずつ、速く作るモデルです。"
+    },
+    {
+      "characters": 20,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "小さい方は13億で、1枚36ミリ秒です。"
+    },
+    {
+      "characters": 21,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "大きい方は140億で、480pの動画です。"
+    },
+    {
+      "characters": 18,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "研究用の公開で、商用には使えません。"
+    },
+    {
+      "characters": 25,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次は、キュタイのAURAです。11月20日付です。"
+    },
+    {
+      "characters": 19,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "声に合わせて、顔が話す動画を作ります。"
+    },
+    {
+      "characters": 21,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "小さい方は576pで、毎秒20.7枚です。"
+    },
+    {
+      "characters": 20,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "大きい方は720pで、毎秒9.7枚です。"
+    },
+    {
+      "characters": 18,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "重みも公開され、商用には使えません。"
+    },
+    {
+      "characters": 29,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "3件目は、AMDのNitro-Pです。11月20日付です。"
+    },
+    {
+      "characters": 17,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "画像を、画素のまま作るモデルです。"
+    },
+    {
+      "characters": 24,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "6億7900万で、GenEvalは0.88です。"
+    },
+    {
+      "characters": 18,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "重みと学習コードも公開されています。"
+    },
+    {
+      "characters": 20,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "いずれも、この番組では初めての紹介です。"
+    },
+    {
+      "characters": 27,
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第37号でした。発表元のページをご確認ください。"
+    }
+  ]
+}
