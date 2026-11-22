@@ -55,7 +55,20 @@
     "human_listening_claimed": false,
     "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-22.html",
     "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
-    "status": "pending_push"
+    "status": "published",
+    "read_back_verified_at_jst": "2026-11-22T09:01+09:00",
+    "gh_pages_commit": "1764584",
+    "main_commit": "fa56b30",
+    "read_back": {
+      "top": "200, 24450 bytes, 第36号 x9, 2026-11-22 x19",
+      "detail": "200, 19190 bytes, 第35号 x1 (intentional), Inkling 2 Mini x9, Hy4-flash x17, SenseNova Loop-9B x8, cutoff 2026-11-22 08:45 JST",
+      "index_json": "200, 44759 bytes, latest 2026-11-22, 36 issues, No.36 audio_status available",
+      "primary_mp3": "200, 854541 bytes, SHA-256 eaf54a32ed4e6ab457842fe1630a8627f6d57d53f66a1e3503447dee6dfb3adc, mp3/24kHz/mono/71.13s/96kbps, full decode passed",
+      "backup_mp3": "200, 854541 bytes, same SHA-256 as primary",
+      "old_issue_no35": "detail 200, audio 200, preserved",
+      "article_md": "200, 12347 bytes, 23:45 UTC cutoff present",
+      "main_manifest": "200 via raw.githubusercontent.com, SHA-256 matches local manifest (pre-update)"
+    }
   },
   "research_cutoff": "2026-11-22T08:45:00+09:00",
   "research_cutoff_utc": "2026-11-21T23:45:00Z",
