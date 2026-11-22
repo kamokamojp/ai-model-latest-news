@@ -55,7 +55,21 @@
     "human_listening_claimed": false,
     "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-23.html",
     "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
-    "status": "pending_push"
+    "status": "published",
+    "read_back_verified_at_jst": "2026-11-23T08:58+09:00",
+    "gh_pages_commit": "c276c9e",
+    "main_commit": "58a9e2c",
+    "read_back": {
+      "top": "200, 24681 bytes, 第37号 x9, 2026-11-23 x19, 第36号 x2 (feature ref + archive card)",
+      "detail": "200, 20141 bytes, 第36号 x1 (intentional), FastFrames x18, AURA x14, Nitro-P x11, cutoff 2026-11-23 08:45 JST",
+      "index_json": "200, 46156 bytes, latest 2026-11-23, 37 issues, No.37 audio_status available",
+      "primary_mp3": "200, 876717 bytes, SHA-256 aaf4700c7e27c3367b3013ba355493aecd2c8f8ae69c53ab5df328e79475a11f, mp3/24kHz/mono/72.97s/96kbps, full decode passed",
+      "backup_mp3": "200, 876717 bytes, same SHA-256 as primary",
+      "old_issue_no36": "detail 200, audio 200, preserved",
+      "article_md": "200, 13382 bytes, 23:45 UTC cutoff present, FastFrames x15, AURA x11, Nitro-P x8",
+      "main_manifest": "200 via raw.githubusercontent.com, SHA-256 matches local manifest (pre-update)"
+    },
+    "push_note": "First push attempt used stale No.36 reg scripts that pointed at C:\\Temp\\push36-pages.ps1 / push36-main.ps1, committing the No.37 index.html + editions/index.json under No.36 messages (gh-pages 1c670c6, main 642937f) and pushing them. Corrected reg scripts were then run: gh-pages c276c9e 'Publish AI model radio issue 2026-11-23 (No.37) to GitHub Pages' and main 58a9e2c 'Archive AI model radio No.37 GitHub Pages edition to main' added all remaining No.37 files. Final trees are identical to a single correct push; only the two intermediate commit messages are mislabeled. No history rewrite was done (force=false)."
   },
   "research_cutoff": "2026-11-23T08:45:00+09:00",
   "research_cutoff_utc": "2026-11-22T23:45:00Z",
