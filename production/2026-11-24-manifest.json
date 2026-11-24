@@ -34,7 +34,8 @@
     "research_scope": "bounded official pages; no global absence claim",
     "same_day_index_check": "passed; no existing 2026-11-24 record in Pages index before authoring",
     "short_sample": "passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode",
-    "utterance_limit": "passed, all 22 utterances <=90 chars (max 30)"
+    "utterance_limit": "passed, all 22 utterances <=90 chars (max 30)",
+    "public_read_back": "passed; edition/top HTTP 200, body/date present, primary+backup MP3 SHA-256 match local, public MP3 full decode passed (78.89 s, ~96 kbps); archive keeps 2026-11-09 and 2026-11-23"
   },
   "idempotency": {
     "input_hash": "d7992c81e6f1db1f31cbe954797a4a117051195924eb2654e272e9ca8dad419d",
@@ -55,7 +56,37 @@
     "human_listening_claimed": false,
     "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-24.html",
     "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
-    "status": "pending_push"
+    "status": "published",
+    "gh_pages_commit": "185363c",
+    "main_commit": "b6f745c",
+    "read_back": {
+      "checked_at_jst": "2026-11-24T09:04+09:00",
+      "checked_at_precision": "approximate; run clock at verification time",
+      "edition_page_http": 200,
+      "edition_page_contains": [
+        "第38号",
+        "GLM-5.4",
+        "2026年11月24日"
+      ],
+      "top_page_http": 200,
+      "top_page_contains": [
+        "ISSUE 038",
+        "2026-11-24",
+        "editions/2026-11-09.html",
+        "editions/2026-11-23.html"
+      ],
+      "primary_mp3_http": 200,
+      "primary_mp3_sha256": "2fbaaa72c46c0b8a732ac26aa074e905964aa51a5dbec547a7a045951b90efed",
+      "backup_mp3_http": 200,
+      "backup_mp3_sha256": "2fbaaa72c46c0b8a732ac26aa074e905964aa51a5dbec547a7a045951b90efed",
+      "primary_mp3_full_decode": "passed",
+      "primary_mp3_duration_seconds": 78.89,
+      "primary_mp3_bit_rate_bps": 96118,
+      "synthesis_input_sha256_on_pages": "756ee1e79164c2d59169ccd23b8c23ff6f28feffaf24a6e01dda7b783b014adb",
+      "synthesis_input_sha256_occurrences": 3,
+      "human_listening_claimed": false,
+      "result": "passed"
+    }
   },
   "research_cutoff": "2026-11-24T08:45:00+09:00",
   "research_cutoff_utc": "2026-11-23T23:45:00Z",
