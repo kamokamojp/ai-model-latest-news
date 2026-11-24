@@ -1,0 +1,169 @@
+{
+  "issue_date": "2026-11-24",
+  "issue_number": 38,
+  "scheduled_target_cutoff": "2026-11-24T08:00:00+09:00",
+  "research_cutoff": "2026-11-24T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-23T23:45:00Z",
+  "previous_issue_id": "2026-11-23",
+  "previous_issue_cutoff": "2026-11-23T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Z.ai",
+      "date": "2026-11-23",
+      "item": "Z.ai released GLM-5.4 on November 23, 2026, its first flagship model built on a Loop Transformer architecture, per its official blog. GLM-5.4 loops 28 layers of the 750B-parameter GLM-5 base model for two iterations per token, reusing shared weights to deepen reasoning without adding parameters; Z.ai says it reaches intelligence comparable to 2T-3T parameter models. It adds vision (images for coding), a 1M-token context, and up to 200 tokens/s off-peak (70-80 tokens/s at peak load). It is available now to GLM Coding Plan subscribers in ZCode and Z.ai Chat (model name glm-5.4; glm-5.4[1m] in Claude Code). API access follows a safety evaluation; open weights are planned after safety hardening. Z.ai discloses a limitation: the model can fall into overly long 'marathon thinking' loops. No benchmark table for the 750B model has been published; the blog's evidence is an iso-parameter ablation on a 30B model. Performance figures are Z.ai's own claims, not independent verification.",
+      "sources": [
+        "https://z.ai/blog/glm-5.4"
+      ],
+      "date_only": true,
+      "note": "The Z.ai blog page itself carries no date line in the fetched text, so the November 23 date is recorded from announcement coverage dated November 23, 2026 (multiple outlets). No benchmark table for the 750B flagship has been published; figures are Z.ai's own claims."
+    },
+    {
+      "vendor": "Ant Group",
+      "date": "2026-11-23",
+      "item": "Ant Group's inclusionAI published Ling-3.2-air on November 23, 2026, as open weights on Hugging Face (repo created 2026-11-23T03:55:12Z per the Hugging Face API; MIT license per the repo's license tag). Ling-3.2-air is a native multimodal hybrid-linear MoE with 124B total parameters and 5.5B active per token, sharing the architecture of Ling-3.0-flash-VL. It takes image and video input with a 256K-token context in the vendor's serving recipe. inclusionAI reports an Artificial Analysis Intelligence Index of 23 (v5.0.1), AutomationBench-AA rising from 15.7% to 61% versus its predecessor, AA-Briefcase v1.1 Elo 987 to 1340, and Terminal-Bench 4.0 from 0% to 27%. Day-0 SGLang and vLLM support is published. All performance figures are inclusionAI's own measurements.",
+      "sources": [
+        "https://huggingface.co/inclusionAI/Ling-3.2-air"
+      ],
+      "date_only": true,
+      "note": "The Hugging Face model card itself carries no date line in the fetched text; the November 23 date is recorded from the repo creation date (2026-11-23T03:55:12Z) in the Hugging Face API and same-day coverage. One secondary report earlier on November 23 described the repo as not yet public; by the 16:02 UTC crawl the card was public and SGLang announced day-0 support the same day. License MIT is recorded from the repo's license tag in the Hugging Face API."
+    },
+    {
+      "vendor": "Sarvam",
+      "date": "2026-11-22",
+      "item": "Sarvam AI released Sarvam-105B-1711 on November 22, 2026, a new open-weight checkpoint of Sarvam 105B, per its official blog dated Nov 22, 2026. It is a Flash-Lite model for high-volume work (customer support, voice agents, agentic tasks), trained on upgraded B200 infrastructure. The 105B-parameter MoE has 10.3B active parameters. Sarvam reports its eight conversational-agent benchmark average rose from 42.6 to 73.9, with IFBench instruction following up from 32.5 to 82.5, Tau2 tool use from 46.2 to 85.5, and its Indic suite from 30.1 to 79.1. Blended price fell from $0.44 to $0.15 per million tokens. Weights are on Hugging Face in BF16 (for fine-tuning) and a 65 GB NVFP4 version that runs on a single workstation GPU (RTX PRO 6000). Context is 160K tokens. All figures are Sarvam's own measurements.",
+      "sources": [
+        "https://web.sarvam.dev/blogs/sarvam-105b-1711"
+      ],
+      "date_only": true,
+      "note": "The official blog is dated Nov 22, 2026. License Apache 2.0 is reported in secondary coverage; the fetched blog text does not state a license. Performance figures are Sarvam's own measurements."
+    },
+    {
+      "vendor": "Ideogram",
+      "date": "2026-11-19",
+      "item": "Ideogram released Ideogram 4.6 on November 19, 2026, per its official model page, which states the release date. It is an image generation and editing model for precise multi-turn edits, generating natively at up to 4K (4096x4096) with no upscaling. It offers Generate and Precise Edit API endpoints, four quality modes (Very low, Low, Medium, High), up to five reference images, and an optional mask. Ideogram says 4.6 ranks first on Rapidata's Multi-step Image Edit leaderboard with a score of 1,892 (+-32; snapshot November 17, 2026), ahead of Ideogram 4.5 at 1,866. API prices run from $0.008 per image at Very low quality (2K) to $0.60 for a High-quality 4K edit. Ideogram says an open-weight release of 4.6 is planned but gives no date or license on the model page. The ranking and task percentages are Ideogram's own presentation of the Rapidata evaluation.",
+      "sources": [
+        "https://ideogram.ai/models/4.6/"
+      ],
+      "date_only": true,
+      "note": "The official model page states the release date November 19, 2026. Open weights are not on the model page; secondary coverage reports Ideogram said it will 'skip 4.5 open and go directly to 4.6 open' with no date or license. No blog announcement post was published for 4.6."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 19 GPT-Live-1.1 (No.34). No Nov 20, 21, 22 or 23 entry; verified directly this round (page crawled Nov 23 23:37 UTC)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 23 item is 'OpenAI and Cisco introduce Shirudo Security' (a security product/partnership, not a model). Nov 22 item is 'Perplexity and Intelligence' (research, not a model; No.37). Nov 20 item is MedChemBench (a benchmark, not a model; No.35)."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 19: Genie 4 GA (No.34) and Tool retrieval (Preview, an Interactions API capability, not a model). Nov 18 is Gemini 4 Neon GA (No.33). No Nov 20, 21, 22 or 23 entry; verified directly this round (page crawled Nov 23 23:37 UTC)."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "Gemini 4 Neon blog post is Nov 18 (No.33). No new Nov 20-23 model post found."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Nov 23 entries are the Claude Opus 4.5 deprecation (retirement Jan 22, 2027), Enterprise Frontier Safeguards beta (a platform feature), and organization webhook event types. No new model. Latest model items remain Nov 12 Managed Agents (No.27) and Nov 9 Claude Fable 5.2 / Mythos 5.2."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Nov 19 entry is the end of life of grok-build-0.1, not a new model. Latest model item remains Nov 2."
+    },
+    {
+      "vendor": "Microsoft",
+      "page": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/",
+      "result": "Nov 19 Aion Instruct GA (No.35). No Nov 20-23 post found in this round's checks. Tracker listings dated Nov 23 for the 2.3B on-device model replacing Phi-4-mini in Edge are the same Nov 19 Aion Instruct GA, reposted."
+    },
+    {
+      "vendor": "Meta",
+      "page": "https://ai.meta.com/blog/",
+      "result": "Latest visible on the fetched official listing is Jul 9, 2026 (Muse Spark 1.1). No November 2026 post visible; Muse Spark Open was not found on an official Meta page (third-party report only, no date). Muse Ember (Nov 9, No.26) remains the latest confirmed model."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B",
+      "result": "Nemotron-Labs-Sigma-8B card dates the release 11/12/2026 (No.32). Alpamayo 2 Edge weights are Nov 10 (No.26). No Nov 20-23 new release found in this round's checks."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents",
+      "result": "Nemotron for Science (Nov 16) is a bundle of the existing Nemotron 3.5 Super VL (Oct 15) plus the new LitmusBench v0.2 chemistry dataset and post-training recipes, not a new model."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 29 Mistral Large 4 reasoning-effort change. No Nov entries."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 full suite of application APIs (No.28, not a model). No Nov 14-23 entry."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview (No.26). No Nov 12-23 entries. Confirmed by direct fetch this round (page crawled Nov 23 23:39 UTC)."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text. No datable Nov 21, 22 or 23 item. Embed 5 / Rerank 5 / North Small Translate / Parse / Transcribe Arabic / North Mini Code carry no date in the fetched text."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "secondary coverage only",
+      "result": "qwen-audio-3.1-live (Nov 23) is a real-time full-duplex voice model on Model Studio, but only a leaked docs page and secondary coverage were found; no official announcement page was directly fetched this round, so not selected. Qwen4-Max GA Nov 16 (No.31)."
+    },
+    {
+      "vendor": "Z.ai / Zhipu",
+      "page": "secondary coverage only",
+      "result": "GLM-5.5 is not released; GLM-5.4 is the actual Nov 23 release. Official release notes still end at GLM-5.3-Flash (Aug 26). A third-party page claiming a Nov 19 GLM-5.5 launch is unconfirmed and not used."
+    },
+    {
+      "vendor": "China Telecom",
+      "page": "secondary coverage only",
+      "result": "Xing4.1-Preview (Nov 23) is covered only in secondary sources; no official release page was fetched this round. Not selected."
+    },
+    {
+      "vendor": "X Square Robot",
+      "page": "secondary coverage only",
+      "result": "WALL-OSS-1.0 (Nov 23) is covered only in secondary sources; no official release page was fetched this round. Not selected."
+    },
+    {
+      "vendor": "Ant Group",
+      "page": "secondary coverage only",
+      "result": "LingSante medical model family (Nov 23) is covered only in secondary sources (AFP); no official release page was fetched this round. Not selected. LingSante-3.1-flash weights appeared on Hugging Face Nov 23 per trends, but the official page was not fetched."
+    },
+    {
+      "vendor": "Moonshot",
+      "page": "secondary coverage only",
+      "result": "Kimi K3.1 Pro open weights were released Nov 2-5, 2026 (HF repo moonshotai/Kimi-K3.1-Pro; API launch Oct 23). The weights release is not yet covered in this series, but it is older than this issue's Nov 19-23 items and was not directly fetched from the official model card this round, so it stays a catch-up candidate rather than a selected item."
+    },
+    {
+      "vendor": "MiniMax",
+      "page": "secondary coverage only",
+      "result": "pi-H3 1.0 (Nov 21) is a Lakonik/Stanford+Luma research adapter set for MiniMax H3 (weights, code, ComfyUI support released Nov 21); official blog/HF card (Lakonik/pi-H3) not directly fetched this round, and it is an adapter set rather than a new model, so not selected."
+    },
+    {
+      "vendor": "ByteDance",
+      "page": "secondary coverage only",
+      "result": "Axion 1.0 is a new open agent foundation model, but it was released Nov 2, 2026, not Nov 23 (a tracker listing date). Out of scope for today."
+    },
+    {
+      "vendor": "Hark",
+      "page": "secondary coverage only",
+      "result": "Handoff 2 (Nov 12) still has no official release page located, so it remains not selected (same as No.30 through No.37)."
+    }
+  ]
+}

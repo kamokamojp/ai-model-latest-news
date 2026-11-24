@@ -1,0 +1,210 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-24-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-24-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-24.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-24.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "2fbaaa72c46c0b8a732ac26aa074e905964aa51a5dbec547a7a045951b90efed",
+    "backup_sha256": "2fbaaa72c46c0b8a732ac26aa074e905964aa51a5dbec547a7a045951b90efed",
+    "duration_seconds": 78.89,
+    "file_size_bytes": 947853,
+    "generated_at_jst": "2026-11-24T08:56+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-24",
+  "issue_id": "2026-11-24",
+  "issue_number": 38,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-23T08:45:00+09:00",
+  "previous_issue_id": "2026-11-23",
+  "research_cutoff": "2026-11-24T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-23T23:45:00Z",
+  "research_file": "../production/2026-11-24-research.json",
+  "scheduled_target_cutoff": "2026-11-24T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 22,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第38号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月24日の確認号。基準時は午前8時45分です。"
+    },
+    {
+      "characters": 23,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月23日付の新しい発表は、2件ありました。"
+    },
+    {
+      "characters": 28,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "まず、Z.aiのGLM-5.4です。11月23日付です。"
+    },
+    {
+      "characters": 20,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "同じ層を2回通す、ループ型のモデルです。"
+    },
+    {
+      "characters": 20,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "7500億で、2兆から3兆級とされます。"
+    },
+    {
+      "characters": 21,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "画像も見られ、文脈は100万トークンです。"
+    },
+    {
+      "characters": 16,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "重みは、まだ公開されていません。"
+    },
+    {
+      "characters": 28,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "次は、Ant GroupのLing-3.2-airです。"
+    },
+    {
+      "characters": 20,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月23日付で、重みも公開されました。"
+    },
+    {
+      "characters": 19,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "合計1240億で、動くのは55億です。"
+    },
+    {
+      "characters": 20,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "画像と動画を扱い、MITライセンスです。"
+    },
+    {
+      "characters": 24,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "3件目は、Sarvamの105B-1711です。"
+    },
+    {
+      "characters": 18,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月22日付の、開かれた重みです。"
+    },
+    {
+      "characters": 21,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "1050億で、料金は3分の1になりました。"
+    },
+    {
+      "characters": 19,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "65ギガ版は、1枚のGPUで動きます。"
+    },
+    {
+      "characters": 30,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "4件目は、Ideogram 4.6です。11月19日付です。"
+    },
+    {
+      "characters": 17,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "画像を、正確に編集するモデルです。"
+    },
+    {
+      "characters": 17,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "4Kで作れ、編集の1位とされます。"
+    },
+    {
+      "characters": 18,
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "料金は、1枚0.008ドルからです。"
+    },
+    {
+      "characters": 20,
+      "order": 21,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "いずれも、この番組では初めての紹介です。"
+    },
+    {
+      "characters": 27,
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第38号でした。発表元のページをご確認ください。"
+    }
+  ]
+}
