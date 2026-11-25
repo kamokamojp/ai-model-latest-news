@@ -1,0 +1,144 @@
+{
+  "issue_date": "2026-11-26",
+  "issue_number": 40,
+  "scheduled_target_cutoff": "2026-11-26T08:00:00+09:00",
+  "research_cutoff": "2026-11-26T04:34:00+09:00",
+  "research_cutoff_utc": "2026-11-25T19:34:00Z",
+  "previous_issue_id": "2026-11-25",
+  "previous_issue_cutoff": "2026-11-25T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "JetBrains",
+      "date": "2026-11-25",
+      "item": "JetBrains released Mellum2.1 Instruct on November 25, 2026, per its official JetBrains AI blog. It is the non-thinking sibling of Mellum2.1 Thinking (released October 2026): the same 12B mixture-of-experts architecture with 2.5B active parameters per token, trained identically, but it gives straight answers without emitting its chain of thought. It is built for sub-agents, tool loops and chat, where much of an agent's work is simple fixes, commands or questions. On agentic coding tasks it generates about half as many tokens as the Thinking variant and performs almost as well on SWE-bench Verified; JetBrains says the SWE-bench Verified score doubled compared with the previous Instruct release (Mellum2 Instruct). On hard algorithmic and math problems such as LiveCodeBench and AIME, thinking remains crucial, so the Thinking variant stays the better choice. Both variants are available on Hugging Face under Apache 2.0, with GGUF builds and a multi-token prediction (MTP) head that makes generation up to 1.8x faster. Post-training used large-scale reinforcement learning on repository-level tasks in real environments, built on NVIDIA NeMo open-source libraries (NeMo RL and NeMo Megatron-Bridge) on H200 and B300 GPUs, collecting about half a million agent trajectories from 10,000 concurrent sandboxes. All benchmark figures are JetBrains' own measurements.",
+      "sources": [
+        "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/"
+      ],
+      "date_only": true,
+      "note": "The fetched blog text carries no timestamp line; the November 25 date is the blog's publication date (URL path /2026/11/ and same-day coverage). The blog states no absolute SWE-bench Verified score for the Instruct variant, only that it doubled versus the previous Instruct release, so no absolute figure is stated here."
+    },
+    {
+      "vendor": "NIO",
+      "date": "2026-11-25",
+      "item": "NIO unveiled NIO WorldModel (NWM) 3.0 on November 25, 2026 at its NIO IN 2026 innovation event in Guangzhou, per its official news page (read directly this round via the live browser). It is the third iteration of the world model for smart driving since its debut in July 2024. For onboard processing, NWM 3.0 introduces 4D spatiotemporal compression using tubelet-based spatiotemporal encoding, cutting the onboard computing resources required for attention 36-fold. Through coordinated optimization of algorithms, chips and chassis control, chassis control latency falls 78% and overall vehicle control latency 54%. Training uses a reinforcement learning framework with two closed loops (observation space and latent space), making overall training efficiency five times that of its predecessor, plus a reward model for dynamic real-world evaluation. Compared with the previous generation, NWM 3.0 requires 40% fewer driver interventions and boosts users' sense of reassurance by around 60%. Starting in December, NWM 3.0 will roll out to all users of the Banyan, Cedar, Cedar S and Coconut+ smart systems upon regulatory filing and clearance. At the same event NIO unveiled NOMI Intelligence 4.0, an all-scenario in-car emotional intelligence system. All performance figures are NIO's own claims.",
+      "sources": [
+        "https://www.nio.com/news/20261125001"
+      ],
+      "date_only": false,
+      "note": "The official page carries the date line 'November 25, 2026, Guangzhou China'. It was read directly via the live browser this round (the text fetcher could not resolve it)."
+    },
+    {
+      "vendor": "Sand.ai",
+      "date": "2026-11-24",
+      "item": "Sand.ai launched MAGI-2 on November 24, 2026, per its official research blog. It is the full-scale flagship video generation model: a Multi-Head Latent mixture-of-experts system with 480B total parameters and about 28B active parameters, trained on roughly 4T tokens (about 3x the MAGI-2 Preview from August 2026, ~114B total / ~6B active). It generates up to 30 seconds of 1080p, 25 fps native audio-video in a single pass - dialogue with lip-sync, foley, ambient sound and music - with omni-reference across up to 20 media items (images, video, audio), precision timeline control and video editing. Sand.ai reports a 4-task average Elo of 1150.3 on the Artificial Analysis Video Arena v2.1, up 151.8 points over Preview (998.5). The model is available through Sand.ai's API and on Higgsfield; Sand.ai says it will open-source MAGI-2 and publish a technical report. The flagship weights are not released yet; only the smaller Preview is open weights (Apache 2.0). Sand.ai itself lists limitations: extreme high-speed motion can produce trajectory or continuity artifacts, medium- and wide-shot 2D animation can look overly smooth in fine local motion, and complex soundscapes still have room for richer layering. All figures are Sand.ai's own measurements.",
+      "sources": [
+        "https://sand.ai/blog/magi-2"
+      ],
+      "date_only": true,
+      "note": "The fetched blog text carries no date line; the November 24 date is recorded from same-day announcement coverage and the release tracker that links the provider announcement."
+    },
+    {
+      "vendor": "PrismML",
+      "date": "2026-11-24",
+      "item": "PrismML released Ternary Bonsai 2.5 27B on November 24, 2026, per its official announcement page (published 2026-11-24). It is an upgrade of Ternary Bonsai 2 27B, based on Qwen3.8 27B, using ternary weights to keep a 27B-class coding model in a 5.9 GB footprint for on-device agentic coding and private knowledge work. PrismML says it is substantially stronger at agentic coding, multi-turn tool use and long-horizon task execution, completing tasks in fewer turns with fewer tokens. Its own benchmark table reports SWE-bench Verified 75.6 (vs 60.8 for Bonsai 2 and 80.6 for the full-precision Qwen3.8 27B base), DeepSWE v1.1 27.0 (vs 0), Terminal-Bench 2.1 60.1, AppWorld 90.5, tau-bench 73.9, BigCodeBench 60.3 and LiveCodeBench v6 83.0. On a single NVIDIA H100 it generates 291 tokens/s with multi-token prediction; on a consumer RTX 4090, 204 tokens/s. Weights are available under Apache 2.0; the model runs on NVIDIA and Intel GPUs via llama.cpp and on Apple devices via MLX. All benchmark figures are PrismML's own measurements.",
+      "sources": [
+        "https://prismml.com/news/bonsai-2-5-27b"
+      ],
+      "date_only": false,
+      "note": "The official page carries a publication date (2026-11-24)."
+    },
+    {
+      "vendor": "Midjourney / Spellbrush",
+      "date": "2026-11-24",
+      "item": "Midjourney and Spellbrush released Niji 8 on November 24, 2026, per the official Niji Journey blog ('Welcome to Niji 8!'). It is the newest version of the anime and illustration model line; Midjourney describes it as the fastest and most coherent Niji model yet, with improved prompt following and an HD feature. The headline change is a dedicated edit model that replaces Niji 6's character reference (cref): from a finished image's quick-edit button, a character can be posed into different backgrounds while keeping consistency, using one or two reference images. The design philosophy is Niji 7 aesthetics combined with Niji 6 variety: the same words no longer return the same character, with short prompts giving more variety and prompt length interpreted as intent. Better spatial reasoning allows simple comic pages from panel descriptions. It is selected with --niji 8 on Discord or from the Version dropdown in the web interface. Midjourney publishes no benchmark numbers for Niji models, so the speed and coherence claims are the company's own descriptions.",
+      "sources": [
+        "https://nijijourney.com/blog/niji-8"
+      ],
+      "date_only": true,
+      "note": "The fetched blog text carries no date line; the November 24 date is recorded from same-day reports (three independent roundups date it Nov 24). Some Japan-time coverage dates the announcement Nov 25 JST."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 24: healthcare model configurations (No.39) and a chat-latest snapshot update (an unnamed snapshot refresh, not a new model). No Nov 25 entry; verified directly this round (page crawled Nov 25 19:07 UTC)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Latest is Nov 24: 'GPT-6 models demonstrate intrinsic protein-design capabilities' and 'Searching for distant planets with Astra' (both Science research, not model releases). No Nov 25 item; verified directly this round (page crawled Nov 25 19:10 UTC)."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 19: Genie 4 GA (No.34) and Tool retrieval (Preview, an Interactions API capability, not a model). Nov 18 is Gemini 4 Neon GA (No.33). No Nov 20, 21, 22, 23, 24 or 25 entry; verified directly this round (page crawled Nov 25 19:07 UTC)."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "Gemini Robotics 2.5 was announced Nov 10 and covered in No.11/No.12; the Nov 25 coverage is press pickup of that announcement, not a new release. A Nov 24 DeepMind blog covers Gemini 4 Hydrogen for robotics and A2UI 1.0; Gemini 4 Hydrogen itself went GA Nov 12 (changelog), so this is not a new model release."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Latest is Nov 23: Claude Opus 4.5 deprecation (retirement Jan 22, 2027), Enterprise Frontier Safeguards beta (a platform feature), and organization webhook event types. No Nov 24 or 25 entry; verified directly this round (page crawled Nov 25 19:07 UTC). Claude Skills over MCP public beta (Nov 24, secondary coverage) is a platform feature, not a model."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Nov 19 entry is the end of life of grok-build-0.1, not a new model. Latest model item remains Nov 2. No Nov 20-25 entry; verified directly this round (page crawled Nov 25 19:07 UTC)."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 29 Mistral Large 4 reasoning-effort change. No Nov entries; verified directly this round (page crawled Nov 24 15:04 UTC)."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 full suite of application APIs (not a model). No Nov 14-25 entry; verified directly this round (page crawled Nov 25 19:08 UTC)."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview. No Nov 12-25 entries in the visible Latest Updates list; verified directly this round (page crawled Nov 25 19:10 UTC)."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text. No datable Nov 21, 22, 23, 24 or 25 item. Embed 5 / Rerank 5 / North Small Translate / Parse / Transcribe Arabic / North Mini Code carry no date in the fetched text."
+    },
+    {
+      "vendor": "Z.ai / Zhipu",
+      "page": "https://docs.z.ai/release-notes/new-released",
+      "result": "GLM-5.5 is still not released. The official release notes page (last updated 2026-10-10) still lists GLM-5.3-Flash as the latest flagship; it has no GLM-5.4 or GLM-5.5 entry. A third-party page claims a Nov 19 GLM-5.5 launch, but no official announcement was found. Verified directly this round."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/realtime-api-overview",
+      "result": "qwen-audio-3.1-live exists in the official Model Studio Realtime API docs (Qwen-Audio-Live), but the docs page carries no dated release entry for it, so it is still not selected. Qwen4-Max GA Nov 16 (No.31)."
+    },
+    {
+      "vendor": "Moonshot",
+      "page": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "result": "Kimi K3.1 Pro open weights: the official Hugging Face model card was fetched directly in the previous round (repo created 2026-11-02T04:13:51Z). It is a 2.8T-total / 104B-active MoE, natively multimodal agentic model with a 1M-token context; API on platform.kimi.ai. Not selected today because this issue already has five November 24-25 items; it remains a catch-up candidate."
+    },
+    {
+      "vendor": "XPENG",
+      "page": "https://www.xpeng.com/pressroom/news/01a20bcf44b3a1e838d68a02a2110153",
+      "result": "WorldGPT was unveiled Nov 24, 2026 per the official XPENG press release (Guangzhou): a single world model learning across cars, boats, drones, single-arm robots, dual-arm robots and humanoids, with 12 first-place public benchmark results as of Nov 12. No public weights, API, pricing or general availability date were announced. Not selected; remains a catch-up candidate."
+    },
+    {
+      "vendor": "MiniMax",
+      "page": "secondary coverage only",
+      "result": "H3 family page consolidation (Nov 24, secondary coverage only) is a model-family page, not a new model release; no official announcement page was fetched this round. Not selected."
+    },
+    {
+      "vendor": "Hark",
+      "page": "secondary coverage only",
+      "result": "Handoff 2 (Nov 12) still has no official release page located, so it remains not selected (same as No.30 through No.39)."
+    }
+  ]
+}

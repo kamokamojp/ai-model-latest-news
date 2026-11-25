@@ -1,0 +1,238 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-26-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-26-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-26.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-26.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "11849b6172ddb5bd58502e6b35481a08d40ea55415dadb82ad6f1999dbc65c44",
+    "backup_sha256": "11849b6172ddb5bd58502e6b35481a08d40ea55415dadb82ad6f1999dbc65c44",
+    "duration_seconds": 90.92,
+    "file_size_bytes": 1092141,
+    "generated_at_jst": "2026-11-26T04:38+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-26",
+  "issue_id": "2026-11-26",
+  "issue_number": 40,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-25T08:45:00+09:00",
+  "previous_issue_id": "2026-11-25",
+  "research_cutoff": "2026-11-26T04:34:00+09:00",
+  "research_cutoff_utc": "2026-11-25T19:34:00Z",
+  "research_file": "../production/2026-11-26-research.json",
+  "scheduled_target_cutoff": "2026-11-26T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 26,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第40号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月26日の確認号。基準時は午前4時34分です。"
+    },
+    {
+      "characters": 27,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月25日付が2件、11月24日付が3件ありました。"
+    },
+    {
+      "characters": 34,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "まず、JetBrainsのMellum2.1 Instructです。"
+    },
+    {
+      "characters": 19,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "推論を出さずに答える、速いモデルです。"
+    },
+    {
+      "characters": 20,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月25日付で、重みも公開されました。"
+    },
+    {
+      "characters": 15,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "12Bで、動くのは25億です。"
+    },
+    {
+      "characters": 24,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次は、NIOのWorldModel 3.0です。"
+    },
+    {
+      "characters": 19,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "車の世界モデルで、11月25日付です。"
+    },
+    {
+      "characters": 17,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "運転の介入が、4割減るとされます。"
+    },
+    {
+      "characters": 15,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "12月から、車へ順次届きます。"
+    },
+    {
+      "characters": 22,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "3件目は、Sand.aiのMAGI-2です。"
+    },
+    {
+      "characters": 18,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月24日付の、動画のモデルです。"
+    },
+    {
+      "characters": 23,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "30秒の1080p動画を、音と一緒に作ります。"
+    },
+    {
+      "characters": 18,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "4800億で、動くのは280億です。"
+    },
+    {
+      "characters": 26,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "4件目は、PrismMLのBonsai 2.5です。"
+    },
+    {
+      "characters": 24,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月24日付の、27Bのコード向けモデルです。"
+    },
+    {
+      "characters": 27,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "5.9GBに収まり、SWE-benchは75.6です。"
+    },
+    {
+      "characters": 25,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "5件目は、MidjourneyのNiji 8です。"
+    },
+    {
+      "characters": 20,
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月24日付の、アニメ絵のモデルです。"
+    },
+    {
+      "characters": 15,
+      "order": 21,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "編集で、同じキャラを保てます。"
+    },
+    {
+      "characters": 19,
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "どれも、この番組では初めての紹介です。"
+    },
+    {
+      "characters": 24,
+      "order": 23,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月24日付の3件は、前号では扱っていません。"
+    },
+    {
+      "characters": 20,
+      "order": 24,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "日付が古いものも、日付を明記しています。"
+    },
+    {
+      "characters": 16,
+      "order": 25,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "性能の数値は、発表元の主張です。"
+    },
+    {
+      "characters": 27,
+      "order": 26,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第40号でした。発表元のページをご確認ください。"
+    }
+  ]
+}
