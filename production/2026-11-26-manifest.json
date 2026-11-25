@@ -55,7 +55,37 @@
     "human_listening_claimed": false,
     "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-26.html",
     "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
-    "status": "pending_push"
+    "status": "published",
+    "gh_pages_commit": "5d55c25",
+    "main_commit": "850a1ef",
+    "read_back": {
+      "checked_at_jst": "2026-11-26T04:47+09:00",
+      "checked_at_precision": "approximate; run clock at verification time",
+      "edition_page_http": 200,
+      "edition_page_contains": [
+        "第40号",
+        "Mellum2.1",
+        "2026年11月26日"
+      ],
+      "top_page_http": 200,
+      "top_page_contains": [
+        "ISSUE 040",
+        "2026-11-26",
+        "editions/2026-11-09.html",
+        "editions/2026-11-25.html"
+      ],
+      "primary_mp3_http": 200,
+      "primary_mp3_sha256": "11849b6172ddb5bd58502e6b35481a08d40ea55415dadb82ad6f1999dbc65c44",
+      "backup_mp3_http": 200,
+      "backup_mp3_sha256": "11849b6172ddb5bd58502e6b35481a08d40ea55415dadb82ad6f1999dbc65c44",
+      "primary_mp3_full_decode": "passed",
+      "primary_mp3_duration_seconds": 90.92,
+      "primary_mp3_bit_rate_bps": 96094,
+      "synthesis_input_sha256_on_pages": "e2a66e0e2f9424e8110f8650096de3cc533f64d20af1910133ebc4ddd3e1a36e",
+      "synthesis_input_sha256_occurrences": 3,
+      "human_listening_claimed": false,
+      "result": "passed"
+    }
   },
   "research_cutoff": "2026-11-26T04:34:00+09:00",
   "research_cutoff_utc": "2026-11-25T19:34:00Z",
