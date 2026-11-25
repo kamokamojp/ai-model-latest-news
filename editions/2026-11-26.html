@@ -1,0 +1,124 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="AIモデル最新情報ラジオ 第40号。JetBrainsのMellum2.1 Instruct、NIOのWorldModel 3.0、Sand.aiのMAGI-2、PrismMLのTernary Bonsai 2.5、MidjourneyのNiji 8を公式資料で確認。11月25日付の2件と11月24日付の3件です。"><title>AIモデル最新情報ラジオ 第40号｜11月26日確認号</title><link rel="stylesheet" href="../styles.css"><script src="../app.js" defer></script></head><body><a class="skip-link" href="#main">本文へ移動</a><header class="masthead"><div class="masthead-inner"><a class="brand" href="../index.html">AI<span>モデル</span><br>最新情報</a><div class="masthead-meta"><span>MODEL WATCH / JAPAN</span><span>ISSUE 040 · 2026.11.26</span></div><a class="top-link" href="#sources">一次資料</a></div></header><main id="main"><section class="cover" id="top"><div class="cover-kicker"><span>ISSUE 040</span><span>確認基準時 2026-11-26 04:34 JST</span></div><figure class="cover-art host-hero"><img src="../assets/ai-model-radio-hosts.png" width="1672" height="941" alt="AI生成の架空の司会者、水野あかりと高瀬直人が並ぶ番組画像"><figcaption class="host-caption">AI生成の架空の司会者：水野あかり・高瀬直人</figcaption></figure><section class="listen" id="listen"><div class="listen-heading"><h2>第40号の音声</h2><span class="duration">VOICEVOX Nemo 0.24.0 · MP3 96 kbps · 1分31秒</span></div><audio controls preload="metadata" src="../audio/2026-11-26.mp3">お使いのブラウザーは音声再生に対応していません。</audio><p><a href="../audio/2026-11-26.mp3" download>音声をダウンロード</a> · <a href="../audio/2026-11-26-backup.mp3" download>予備音声をダウンロード</a> · <a href="2026-11-26-script.md">台本</a> · <a href="../production/2026-11-26-research.md">調査記録</a></p><p class="method-note">合成入力SHA-256：e2a66e0e2f9424e8110f8650096de3cc533f64d20af1910133ebc4ddd3e1a36e。短いサンプルと全編のffmpegデコードを確認。人による実聴は未実施です。</p></section><div class="cover-grid"><div class="cover-copy"><p class="eyebrow">DAILY CHECK / 40</p><h1>11月25日付が2件、<br><em>11月24日付も3件。</em></h1><p class="dek">JetBrainsのMellum2.1 InstructとNIOのWorldModel 3.0は11月25日付です。Sand.aiのMAGI-2、PrismMLのTernary Bonsai 2.5、MidjourneyのNiji 8は11月24日付です。</p></div></div><div class="cover-foot"><span>公式発表と提供条件を照合</span><span>AI / DEVELOPERS / AGENTS</span></div></section><article class="article"><div class="article-body"><p class="lead">前号の調査基準時は2026年11月25日 08:45 JSTです。今回の確認では、11月25日付の新しいモデル発表は2件ありました。JetBrainsのMellum2.1 Instructと、NIOのWorldModel 3.0です。あわせて、11月24日付で前号では扱わなかった3件（Sand.aiのMAGI-2、PrismMLのTernary Bonsai 2.5 27B、MidjourneyのNiji 8）も、日付を明記して紹介します。いずれもこの号で初めて紹介します。</p>
+
+      <section class="story-section" id="mellum2-1-instruct">
+        <h2>JetBrains：Mellum2.1 Instruct</h2>
+        <p>JetBrainsが、Mellum2.1 Instructを2026年11月25日に公開しました。Mellum2.1 Thinking（10月公開）の兄弟モデルです。同じ12BのMoE（動くのは25億）、同じ学習方法で作られていますが、推論の過程を出さずに直接答えます。サブエージェント、ツールループ、チャット向けのモデルです。</p>
+        <p>エージェント的なコーディングでは、Thinking版の半分ほどのトークンで、SWE-bench Verifiedではほぼ同等の性能です。JetBrainsによれば、SWE-bench Verifiedのスコアは前のInstruct版の2倍になりました。難しいアルゴリズムや数学の問題では、推論が重要で、Thinking版が良いとされています。</p>
+        <p>学習後の強化学習は、実際の環境でリポジトリ単位のタスクを扱います。NVIDIA NeMo（NeMo RL、NeMo Megatron-Bridge）を使い、H200とB300のGPUで、10,000の同時サンドボックスから約50万のエージェント軌跡を収集しました。両モデルともHugging FaceでApache 2.0、GGUF版もあり、マルチトークン予測（MTP）のヘッドで最大1.8倍速く生成できます。性能の数値はすべてJetBrains自身の測定です。絶対スコアは、Instruct版について公式ブログに記載がなく、この記事でも数値を記載しません。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/" target="_blank" rel="noopener">JetBrains — Mellum2.1 Instruct（公式ブログ）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="nwm-3-0">
+        <h2>NIO：WorldModel 3.0</h2>
+        <p>NIOが、NIO WorldModel（NWM）3.0を2026年11月25日に発表しました。広州で開かれたNIO IN 2026での発表です。2024年7月の初代から数えて3代目で、スマートドライビングの世界モデルです。</p>
+        <p>4D時空間圧縮を導入しました。注意機構に必要な車載計算資源を36分の1に削減します。シャシー制御の遅延は78%減、車両全体の制御遅延は54%減です。学習は、観測空間と潜在空間の2つの閉ループによる強化学習で、学習効率は前の世代の5倍です。運転者の介入は4割減、安心感は約6割向上するとしています。</p>
+        <p>12月から、Banyan、Cedar、Cedar S、Coconut+のスマートシステム全ユーザーへ、規制の届出と許可の後に順次展開します。同じイベントで、車内の感情インテリジェンスシステム「NOMI Intelligence 4.0」も発表されました。性能の数値はすべてNIO自身の主張です。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://www.nio.com/news/20261125001" target="_blank" rel="noopener">NIO — NIO WorldModel 3.0（公式ニュース）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="magi-2">
+        <h2>Sand.ai：MAGI-2</h2>
+        <p>Sand.aiが、MAGI-2を2026年11月24日に公開しました。フラッグシップの動画生成モデルです。480B（動くのは約28B）のMulti-Head Latent MoEで、約4Tトークンで学習しています（8月のPreviewの約3倍）。</p>
+        <p>1回の生成で最大30秒の1080p・25fpsの音声付き動画を作ります。会話のリップシンク、フォーリー、環境音、音楽を含みます。最大20件のメディア参照、精密なタイムライン制御、動画編集もできます。Artificial Analysis Video Arena v2.1の4タスク平均は1150.3で、Preview（998.5）から151.8向上しました。Sand.aiのAPIとHiggsfieldで利用できます。オープンソース化と技術レポートは今後の予定で、フラッグシップの重みはまだ公開されていません（PreviewのみApache 2.0で公開）。</p>
+        <p>Sand.ai自身が挙げる制限もあります。極端な高速運動では軌道や連続性に乱れが出る、2Dアニメの広いショットでは細かい動きが滑らかすぎる、複雑な音響はまだ改善の余地がある、としています。数値はすべてSand.ai自身の測定です。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://sand.ai/blog/magi-2" target="_blank" rel="noopener">Sand.ai — MAGI-2（公式ブログ）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="bonsai-2-5">
+        <h2>PrismML：Ternary Bonsai 2.5 27B</h2>
+        <p>PrismMLが、Ternary Bonsai 2.5 27Bを2026年11月24日に公開しました。Qwen3.8 27Bを基にした三値重みのモデルで、27Bクラスを5.9GBに収めます。エージェント的コーディング、複数ターンのツール使用、長期間のタスク実行が強化されています。</p>
+        <p>PrismML自身のベンチマークは次の通りです。SWE-bench Verified 75.6（Bonsai 2は60.8、フル精度のQwen3.8 27Bは80.6）、DeepSWE v1.1 27.0（前は0）、Terminal-Bench 2.1 60.1、AppWorld 90.5、tau-bench 73.9、BigCodeBench 60.3、LiveCodeBench v6 83.0です。H100 1枚でマルチトークン予測により毎秒291トークン、RTX 4090で毎秒204トークンを生成します。Apache 2.0で、llama.cpp（NVIDIA・Intel GPU）とMLX（Appleデバイス）で動きます。数値はすべてPrismML自身の測定です。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://prismml.com/news/bonsai-2-5-27b" target="_blank" rel="noopener">PrismML — Ternary Bonsai 2.5 27B（公式発表ページ）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="niji-8">
+        <h2>Midjourney：Niji 8</h2>
+        <p>MidjourneyとSpellbrushが、Niji 8を2026年11月24日に公開しました。アニメ・イラスト系モデルの最新版です。Midjourneyは「これまでで最速かつ最も一貫性が高いNiji」と説明しています。プロンプト追従の改善とHD機能があります。</p>
+        <p>大きな変更は専用の編集モデルです。Niji 6のキャラ参照（cref）に代わり、完成した画像のクイック編集ボタンから、1〜2枚の参照画像で同じキャラを別の背景に配置できます。設計思想は「Niji 7の美しさとNiji 6の多様性」です。同じ言葉でも同じキャラが出続けない、短いプロンプトほど多様性が出る、としています。空間理解の改善で、パネル説明から簡単な漫画ページも作れます。Discordでは--niji 8、WebではVersionドロップダウンで選択します。ベンチマーク数値はMidjourneyから公開されていません。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://nijijourney.com/blog/niji-8" target="_blank" rel="noopener">Midjourney — Niji 8（公式ブログ）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="not-reused">
+        <h2>前号の内容は再利用しない</h2>
+        <p>前号（第39号）で扱ったCognitionのSWE-2.1、SenseTimeのSenseNova U1.6、TencentのOmniEVIE-4BとHy-MT3、OpenAIの医療向けモデル設定は、この号では新しい発表として繰り返していません。</p>
+        <p>OpenAIの変更履歴の最新は11月24日付の医療向け設定で、11月25日付の項目はありません。OpenAIのニュースの最新も11月24日付で、どちらもScienceの研究記事です。Googleの変更履歴の最新は11月19日付のままです。Anthropicの最新は11月23日付、xAIは11月19日付、Mistralは10月29日付、Baiduは11月11日付、DeepSeekは11月13日付です。</p>
+        <p>Google DeepMindのGemini Robotics 2.5は11月10日付の発表で、第11号・第12号で紹介済みです。11月25日の報道は、その発表の紹介です。Z.aiのGLM-5.5は、11月25日時点で発表を確認できていません。</p>
+        <p>Alibabaのqwen-audio-3.1-liveは、公式の発表ページを今回直接取得していないため、この号では紹介していません。MoonshotのKimi K3.1 Proは11月2日付の重み公開で、公式モデルカードは前号で直接取得しましたが、今回は11月25日付と11月24日付が5件あるため、この号では紹介していません。XPENGのWorldGPTは11月24日付の発表ですが、公開されている重みやAPI、料金はなく、今後の追いかけ候補とします。</p>
+      </section>
+
+      <section class="story-section" id="scope">
+        <h2>確認した範囲と限界</h2>
+        <p>OpenAI、Google、Google DeepMind、Anthropic、xAI、Mistral、DeepSeek、Baidu、Cohere、Z.ai、Alibaba/Qwen、JetBrains、NIO、Sand.ai、PrismML、Midjourney、XPENGの選定した公式リリース履歴・モデル/API資料と、モデル発表の追跡ページを確認しました。</p>
+        <p>MAGI-2の公式ブログ記事には、取得したテキストに日付の記載がありません。11月24日付は、同日付の発表報道と、発表元へのリンクを持つ発表追跡ページで確認したものです。Niji 8の公式ブログ記事にも、取得したテキストに日付の記載がありません。11月24日付は、同日付の報道3件で確認したものです。日本時間の報道の中には、発表を11月25日（日本時間）と書くものがあります。</p>
+        <p>Mellum2.1 Instructの公式ブログ記事にも、取得したテキストに日付の記載がありません。11月25日付は、ブログの公開日（URLの/2026/11/と同日付の報道）で確認したものです。Ternary Bonsai 2.5 27Bの公式ページには、Published 2026-11-24の記載があります。NIOの公式ページには、November 25, 2026の記載があります。</p>
+        <p>このラジオは全社・全配信先を網羅するものではなく、公式資料で確認できたモデル発表をこの号で初めて紹介する、という基準で選んでいます。日付だけの項目は時刻・タイムゾーンを推測していません。記載した性能の数値は、すべて発表元自身の測定または主張です。</p>
+      </section>
+
+<section class="story-section" id="sources"><h2>一次資料</h2><ul class="source-list">
+          <li><a href="https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/" target="_blank" rel="noopener">JetBrains — Mellum2.1 Instruct（公式ブログ）</a></li>
+          <li><a href="https://www.nio.com/news/20261125001" target="_blank" rel="noopener">NIO — NIO WorldModel 3.0（公式ニュース）</a></li>
+          <li><a href="https://sand.ai/blog/magi-2" target="_blank" rel="noopener">Sand.ai — MAGI-2（公式ブログ）</a></li>
+          <li><a href="https://prismml.com/news/bonsai-2-5-27b" target="_blank" rel="noopener">PrismML — Ternary Bonsai 2.5 27B（公式発表ページ）</a></li>
+          <li><a href="https://nijijourney.com/blog/niji-8" target="_blank" rel="noopener">Midjourney — Niji 8（公式ブログ）</a></li>
+          <li><a href="https://openai.com/news/" target="_blank" rel="noopener">OpenAI News</a></li>
+          <li><a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noopener">Google Gemini API 変更履歴</a></li>
+          <li><a href="https://docs.anthropic.com/en/release-notes/overview" target="_blank" rel="noopener">Anthropic リリースノート</a></li>
+          <li><a href="https://docs.x.ai/developers/release-notes" target="_blank" rel="noopener">xAI リリースノート</a></li>
+          <li><a href="https://docs.mistral.ai/resources/changelogs" target="_blank" rel="noopener">Mistral 変更履歴</a></li>
+          <li><a href="https://api-docs.deepseek.com/updates/" target="_blank" rel="noopener">DeepSeek 更新</a></li>
+          <li><a href="https://ernie.baidu.com/release/" target="_blank" rel="noopener">Baidu ERNIE リリースページ</a></li>
+          <li><a href="https://docs.cohere.com/changelog" target="_blank" rel="noopener">Cohere 変更履歴</a></li>
+          <li><a href="https://docs.z.ai/release-notes/new-released" target="_blank" rel="noopener">Z.ai リリースノート</a></li>
+        </ul><p><a href="../production/2026-11-26-research.md">全カバレッジ調査記録</a> · <a href="2026-11-26-script.md">第40号台本</a> · <a href="2026-11-26-script.json">台本JSON</a></p></section><section class="story-section" id="transcript"><h2>第40号の台本</h2><p><a href="2026-11-26-script.md">台本テキスト</a> · <a href="2026-11-26-script.json">台本JSON</a></p><div class="script-transcript">
+<p><span class="script-speaker">あかり：</span>こんにちは。AIモデル最新情報ラジオ、第40号です。</p>
+<p><span class="script-speaker">なおと：</span>2026年11月26日の確認号。基準時は午前4時34分です。</p>
+<p><span class="script-speaker">あかり：</span>11月25日付が2件、11月24日付が3件ありました。</p>
+<p><span class="script-speaker">なおと：</span>まず、JetBrainsのMellum2.1 Instructです。</p>
+<p><span class="script-speaker">あかり：</span>推論を出さずに答える、速いモデルです。</p>
+<p><span class="script-speaker">なおと：</span>11月25日付で、重みも公開されました。</p>
+<p><span class="script-speaker">あかり：</span>12Bで、動くのは25億です。</p>
+<p><span class="script-speaker">なおと：</span>次は、NIOのWorldModel 3.0です。</p>
+<p><span class="script-speaker">あかり：</span>車の世界モデルで、11月25日付です。</p>
+<p><span class="script-speaker">なおと：</span>運転の介入が、4割減るとされます。</p>
+<p><span class="script-speaker">あかり：</span>12月から、車へ順次届きます。</p>
+<p><span class="script-speaker">なおと：</span>3件目は、Sand.aiのMAGI-2です。</p>
+<p><span class="script-speaker">あかり：</span>11月24日付の、動画のモデルです。</p>
+<p><span class="script-speaker">なおと：</span>30秒の1080p動画を、音と一緒に作ります。</p>
+<p><span class="script-speaker">あかり：</span>4800億で、動くのは280億です。</p>
+<p><span class="script-speaker">なおと：</span>4件目は、PrismMLのBonsai 2.5です。</p>
+<p><span class="script-speaker">あかり：</span>11月24日付の、27Bのコード向けモデルです。</p>
+<p><span class="script-speaker">なおと：</span>5.9GBに収まり、SWE-benchは75.6です。</p>
+<p><span class="script-speaker">あかり：</span>5件目は、MidjourneyのNiji 8です。</p>
+<p><span class="script-speaker">なおと：</span>11月24日付の、アニメ絵のモデルです。</p>
+<p><span class="script-speaker">あかり：</span>編集で、同じキャラを保てます。</p>
+<p><span class="script-speaker">なおと：</span>どれも、この番組では初めての紹介です。</p>
+<p><span class="script-speaker">あかり：</span>11月24日付の3件は、前号では扱っていません。</p>
+<p><span class="script-speaker">なおと：</span>日付が古いものも、日付を明記しています。</p>
+<p><span class="script-speaker">あかり：</span>性能の数値は、発表元の主張です。</p>
+<p><span class="script-speaker">なおと：</span>以上、第40号でした。発表元のページをご確認ください。</p>
+</div></section></div></article></main><footer class="site-footer"><a href="../index.html">最新号・バックナンバーへ</a></footer></body></html>
