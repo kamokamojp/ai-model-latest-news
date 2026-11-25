@@ -1,63 +1,93 @@
 {
-  "audio": {
-    "archive_sha256_expected": "c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7",
-    "archive_source": "https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001",
-    "backup": "audio/2026-11-25-backup.mp3",
-    "backup_sha256": "e948c0dcf2d38348d823922e7d7b09711ec5e71760d4f9360d965f84e8171f48",
-    "bitrate_bps": 96095,
-    "bytes": 1042317,
-    "channels": 1,
-    "codec": "mp3",
-    "duration_seconds": 86.77,
-    "engine": "VOICEVOX Nemo",
-    "engine_version": "0.24.0",
-    "full_mp3_decode": "passed",
-    "generated_at_jst": "2026-11-25T09:07+09:00",
-    "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
-    "human_listening_claimed": false,
-    "primary": "audio/2026-11-25.mp3",
-    "sample_rate_hz": 24000,
-    "sha256": "e948c0dcf2d38348d823922e7d7b09711ec5e71760d4f9360d965f84e8171f48",
-    "short_sample_full_decode": "passed",
-    "speaker_ids": {
-      "akari": 10005,
-      "naoto": 10001
-    },
-    "speed": "standard",
-    "status": "available_locally",
-    "style": "normal"
+ "audio": {
+  "archive_sha256_expected": "c2af9ddf42dd28f55e831f0e76f605321daaec981dda3c8be558c734dc6830e7",
+  "archive_source": "https://github.com/VOICEVOX/voicevox_nemo_engine/releases/download/0.24.0/voicevox_engine-linux-cpu-x64-0.24.0.7z.001",
+  "backup": "audio/2026-11-25-backup.mp3",
+  "backup_sha256": "e948c0dcf2d38348d823922e7d7b09711ec5e71760d4f9360d965f84e8171f48",
+  "bitrate_bps": 96095,
+  "bytes": 1042317,
+  "channels": 1,
+  "codec": "mp3",
+  "duration_seconds": 86.77,
+  "engine": "VOICEVOX Nemo",
+  "engine_version": "0.24.0",
+  "full_mp3_decode": "passed",
+  "generated_at_jst": "2026-11-25T09:07+09:00",
+  "generated_at_precision": "approximate; local filesystem output timestamp to the minute",
+  "human_listening_claimed": false,
+  "primary": "audio/2026-11-25.mp3",
+  "sample_rate_hz": 24000,
+  "sha256": "e948c0dcf2d38348d823922e7d7b09711ec5e71760d4f9360d965f84e8171f48",
+  "short_sample_full_decode": "passed",
+  "speaker_ids": {
+   "akari": 10005,
+   "naoto": 10001
   },
-  "checks": {
-    "full_mp3_decode": "passed; 24 kHz mono, ~96 kbps; primary and backup byte-identical",
-    "historical_preservation": "source files for past issues retained; only additive changes in both pushes",
-    "html_archive_qa": "passed by production/verify-issue-2026-11-25.py (local staging checks; old-archive preservation verified on the AI-device git worktree before push)",
-    "research_scope": "bounded official pages; no global absence claim",
-    "same_day_index_check": "passed; no existing 2026-11-25 record in Pages index before authoring",
-    "short_sample": "passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode",
-    "utterance_limit": "passed, all 26 utterances <=90 chars (max 33)"
-  },
-  "idempotency": {
-    "input_hash": "ea9a5b49bda0acd4fc5fff78e4d9e73067f751cb50aa68cd1fe89136f6afaf26",
-    "input_hash_definition": "SHA-256 of research JSON bytes concatenated with the pre-audio script JSON bytes",
-    "same_day_duplicate_policy": "update this issue if new verified evidence; do not create a second row",
-    "same_day_record_count": 0,
-    "synthesis_input_definition": "SHA-256 of the script JSON file before audio metadata (sha/size/duration) was filled",
-    "synthesis_input_script_sha256": "e337c2af77ae38dddf2d52eab5b18f4d65752d838313f3c778e0024f17903794"
-  },
-  "issue_date": "2026-11-25",
-  "issue_id": "2026-11-25",
-  "issue_number": 39,
-  "previous_issue_cutoff": "2026-11-24T08:45:00+09:00",
-  "previous_issue_id": "2026-11-24",
-  "publication": {
-    "audio_backup_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-25-backup.mp3",
-    "audio_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-25.mp3",
-    "human_listening_claimed": false,
-    "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-25.html",
-    "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
-    "status": "pending_push"
-  },
-  "research_cutoff": "2026-11-25T08:45:00+09:00",
-  "research_cutoff_utc": "2026-11-24T23:45:00Z",
-  "scheduled_target_cutoff": "2026-11-25T08:00:00+09:00"
+  "speed": "standard",
+  "status": "available_locally",
+  "style": "normal"
+ },
+ "checks": {
+  "full_mp3_decode": "passed; 24 kHz mono, ~96 kbps; primary and backup byte-identical",
+  "historical_preservation": "source files for past issues retained; only additive changes in both pushes",
+  "html_archive_qa": "passed by production/verify-issue-2026-11-25.py (local staging checks; old-archive preservation verified on the AI-device git worktree before push)",
+  "research_scope": "bounded official pages; no global absence claim",
+  "same_day_index_check": "passed; no existing 2026-11-25 record in Pages index before authoring",
+  "short_sample": "passed; VOICEVOX Nemo 0.24.0 styles 10005 and 10001; full decode",
+  "utterance_limit": "passed, all 26 utterances <=90 chars (max 33)"
+ },
+ "idempotency": {
+  "input_hash": "ea9a5b49bda0acd4fc5fff78e4d9e73067f751cb50aa68cd1fe89136f6afaf26",
+  "input_hash_definition": "SHA-256 of research JSON bytes concatenated with the pre-audio script JSON bytes",
+  "same_day_duplicate_policy": "update this issue if new verified evidence; do not create a second row",
+  "same_day_record_count": 0,
+  "synthesis_input_definition": "SHA-256 of the script JSON file before audio metadata (sha/size/duration) was filled",
+  "synthesis_input_script_sha256": "e337c2af77ae38dddf2d52eab5b18f4d65752d838313f3c778e0024f17903794"
+ },
+ "issue_date": "2026-11-25",
+ "issue_id": "2026-11-25",
+ "issue_number": 39,
+ "previous_issue_cutoff": "2026-11-24T08:45:00+09:00",
+ "previous_issue_id": "2026-11-24",
+ "publication": {
+  "audio_backup_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-25-backup.mp3",
+  "audio_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-25.mp3",
+  "human_listening_claimed": false,
+  "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-25.html",
+  "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
+  "status": "published",
+  "gh_pages_commit": "286e6da",
+  "main_commit": "c2b67cb",
+  "read_back": {
+   "checked_at_jst": "2026-11-25T09:14+09:00",
+   "checked_at_precision": "approximate; run clock at verification time",
+   "edition_page_http": 200,
+   "edition_page_contains": [
+    "第39号",
+    "SWE-2.1",
+    "2026年11月25日"
+   ],
+   "top_page_http": 200,
+   "top_page_contains": [
+    "ISSUE 039",
+    "2026-11-25",
+    "editions/2026-11-09.html",
+    "editions/2026-11-24.html"
+   ],
+   "primary_mp3_http": 200,
+   "primary_mp3_sha256": "e948c0dcf2d38348d823922e7d7b09711ec5e71760d4f9360d965f84e8171f48",
+   "backup_mp3_http": 200,
+   "backup_mp3_sha256": "e948c0dcf2d38348d823922e7d7b09711ec5e71760d4f9360d965f84e8171f48",
+   "primary_mp3_full_decode": "passed",
+   "primary_mp3_duration_seconds": 86.77,
+   "primary_mp3_bit_rate_bps": 96095,
+   "synthesis_input_sha256_on_pages": "e337c2af77ae38dddf2d52eab5b18f4d65752d838313f3c778e0024f17903794",
+   "synthesis_input_sha256_occurrences": 3,
+   "human_listening_claimed": false,
+   "result": "passed"
+  }
+ },
+ "research_cutoff": "2026-11-25T08:45:00+09:00",
+ "research_cutoff_utc": "2026-11-24T23:45:00Z",
+ "scheduled_target_cutoff": "2026-11-25T08:00:00+09:00"
 }
