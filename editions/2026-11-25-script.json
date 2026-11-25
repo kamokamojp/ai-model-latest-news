@@ -1,0 +1,238 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-25-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-25-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-25.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-25.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "e948c0dcf2d38348d823922e7d7b09711ec5e71760d4f9360d965f84e8171f48",
+    "backup_sha256": "e948c0dcf2d38348d823922e7d7b09711ec5e71760d4f9360d965f84e8171f48",
+    "duration_seconds": 86.77,
+    "file_size_bytes": 1042317,
+    "generated_at_jst": "2026-11-25T09:07+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-25",
+  "issue_id": "2026-11-25",
+  "issue_number": 39,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-24T08:45:00+09:00",
+  "previous_issue_id": "2026-11-24",
+  "research_cutoff": "2026-11-25T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-24T23:45:00Z",
+  "research_file": "../production/2026-11-25-research.json",
+  "scheduled_target_cutoff": "2026-11-25T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 26,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第39号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月25日の確認号。基準時は午前8時45分です。"
+    },
+    {
+      "characters": 23,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月24日付の新しい発表は、5件ありました。"
+    },
+    {
+      "characters": 33,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "まず、CognitionのSWE-2.1です。11月24日付です。"
+    },
+    {
+      "characters": 28,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "Kimi K3をもとに、強化学習だけで育てたモデルです。"
+    },
+    {
+      "characters": 20,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "脆弱性の発見と実行で、大きく伸びました。"
+    },
+    {
+      "characters": 23,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "ExploitBenchは80パーセントです。"
+    },
+    {
+      "characters": 21,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "10倍速いUltrafast版も出ました。"
+    },
+    {
+      "characters": 30,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "次は、SenseTimeのSenseNova U1.6です。"
+    },
+    {
+      "characters": 20,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月24日付で、重みも公開されました。"
+    },
+    {
+      "characters": 19,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "80億の画像モデルで、自分で直します。"
+    },
+    {
+      "characters": 19,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "図の文字の誤りも、見直して修正します。"
+    },
+    {
+      "characters": 27,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "3件目は、TencentのOmniEVIE-4Bです。"
+    },
+    {
+      "characters": 21,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月24日付の、検索のためのモデルです。"
+    },
+    {
+      "characters": 18,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "45億で、文や画像、動画を探します。"
+    },
+    {
+      "characters": 18,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "100万件を、54ミリ秒で探せます。"
+    },
+    {
+      "characters": 22,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "4件目は、TencentのHy-MT3です。"
+    },
+    {
+      "characters": 19,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月24日付の、翻訳のモデル群です。"
+    },
+    {
+      "characters": 13,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "102の言語に対応します。"
+    },
+    {
+      "characters": 16,
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "300億で、動くのは30億です。"
+    },
+    {
+      "characters": 21,
+      "order": 21,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "5件目は、OpenAIの医療向け設定です。"
+    },
+    {
+      "characters": 20,
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月24日付で、4つの設定が出ました。"
+    },
+    {
+      "characters": 18,
+      "order": 23,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "新しい基本モデルではなく、設定です。"
+    },
+    {
+      "characters": 16,
+      "order": 24,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "臨床の質問に合わせた仕組みです。"
+    },
+    {
+      "characters": 20,
+      "order": 25,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "いずれも、この番組では初めての紹介です。"
+    },
+    {
+      "characters": 27,
+      "order": 26,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第39号でした。発表元のページをご確認ください。"
+    }
+  ]
+}

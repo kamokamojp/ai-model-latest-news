@@ -1,0 +1,186 @@
+{
+  "issue_date": "2026-11-25",
+  "issue_number": 39,
+  "scheduled_target_cutoff": "2026-11-25T08:00:00+09:00",
+  "research_cutoff": "2026-11-25T08:45:00+09:00",
+  "research_cutoff_utc": "2026-11-24T23:45:00Z",
+  "previous_issue_id": "2026-11-24",
+  "previous_issue_cutoff": "2026-11-24T08:45:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Cognition",
+      "date": "2026-11-24",
+      "item": "Cognition released SWE-2.1 on November 24, 2026, per its official blog (published 2026-11-24T08:00:00-08:00). Like its predecessor SWE-2, it is trained with pure reinforcement learning on Kimi K3. Cognition says it delivers large gains across coding benchmarks including FrontierCode 2.0 and Terminal-Bench 4.1 by targeting general intelligence and long-horizon workflows. On cybersecurity, SWE-2.1 achieves 80% on ExploitBench and captures 27.3% of flags via intended exploits on ExploitGym. Cognition also released SWE-2.1 Ultrafast through a Cerebras partnership, the same model at 10x the speed (600 tokens/s versus 60 tokens/s for standard SWE-2.1; SWE-2 Flash is 200 tokens/s), and SWE-2.1 Cyber, a version with more permissive safeguards, rolling out to Devin Security for defensive work. SWE-2.1 is available in Devin Desktop, Cloud and CLI; it is free through December 8, 2026 on Desktop and CLI, and at a discounted price until January 30. Secondary coverage of the announcement reports 50.0% on Terminal-Bench 4.1 (up from 24.2 for SWE-2), 41.3% on FrontierCode 2.0 and 44.0% on ProgramBench; those figures are not in the fetched blog text, so this issue does not state them as blog-verified. All performance figures are Cognition's own measurements.",
+      "sources": [
+        "https://cognition.com/blog/swe-2-1"
+      ],
+      "date_only": false,
+      "note": "The official blog carries a publication timestamp (2026-11-24T08:00:00-08:00). Terminal-Bench 4.1 50.0%, FrontierCode 2.0 41.3% and ProgramBench 44.0% are reported in secondary coverage of the same announcement, not in the fetched blog text, so they are recorded here as secondary-reported only."
+    },
+    {
+      "vendor": "SenseTime",
+      "date": "2026-11-24",
+      "item": "SenseTime released SenseNova U1.6 on November 24, 2026, an open-weight 8B native unified multimodal model for image generation and editing, per its official Hugging Face model card (sensenova/SenseNova-U1.6-8B-MoT) and the SenseNova-U1 GitHub repository. The BF16 checkpoint adds a native self-correction / interleaved protocol: the model draws an image, reads it back and fixes its own mistakes, including text errors in infographics. Weights are under Apache 2.0. The matching runtime is in the OpenSenseNova/SenseNova-U1 GitHub repository. A lighter U1.6 Lite is offered via the SenseNova Token Plan and apps, per secondary coverage. Performance figures are SenseTime's own claims, not independent verification.",
+      "sources": [
+        "https://huggingface.co/sensenova/SenseNova-U1.6-8B-MoT",
+        "https://github.com/OpenSenseNova/SenseNova-U1"
+      ],
+      "date_only": true,
+      "note": "The Hugging Face model card itself carries no date line in the fetched text, and the repository was created 2026-11-16T17:00:53Z, so the November 24 date is recorded from announcement coverage dated November 24, 2026. License Apache 2.0 is stated on the model card."
+    },
+    {
+      "vendor": "Tencent",
+      "date": "2026-11-24",
+      "item": "Tencent released OmniEVIE-4B on November 24, 2026, a 4.54B-parameter unified multimodal multi-vector retrieval model from Tencent IMA Product Center and Tencent Youtu Lab, per its official Hugging Face model card (repo created 2026-11-24T03:16:57Z). Built on Qwen3.5, it retrieves across text, natural images, visual documents and native video, and localizes each hit to a page region or video timestamp. Tencent reports it ranks #1 on the MMEB leaderboard excluding audio (60.68 full sequence, 60.06 compressed, across 190 tasks), and searches 1M records in 54.2 ms on a single CPU thread (120.2 ms for 5M). Weights and code are Apache 2.0, with the inference and indexing package on GitHub (Tencent/OmniEVIE). All benchmark figures are Tencent's own measurements.",
+      "sources": [
+        "https://huggingface.co/tencent/OmniEVIE-4B"
+      ],
+      "date_only": true,
+      "note": "The model card itself carries no date line in the fetched text; the November 24 date is recorded from the Hugging Face API repository creation date (2026-11-24T03:16:57Z) and same-day announcement coverage. License Apache 2.0 is stated on the model card."
+    },
+    {
+      "vendor": "Tencent",
+      "date": "2026-11-24",
+      "item": "Tencent open-sourced Hy-MT3 on November 24, 2026, the third generation of its Hunyuan multilingual translation model family, per the News line on its official Hugging Face model card ('2026.11.24 We open-sourced Hy-MT3-1.8B/Hy-MT3-7B/Hy-MT3-30B-A3B on HuggingFace and ModelScope, and released TransRubric on GitHub'). Three sizes are published: 1.8B, 7B and 30B-A3B (MoE, 3B active). Language coverage expands from 38 languages in Hy-MT2 to 102 languages. Versus Hy-MT2, Tencent reports mistranslations down 43%, omissions or additions down 74% and instruction-following errors down 40% on real-world scenario data. Hy-MT3-30B-A3B is tuned for game localization and OCR-cascaded image translation, and Tencent also open-sourced TransRubric, a rubric-based translation evaluation suite. All quality figures are Tencent's own measurements.",
+      "sources": [
+        "https://huggingface.co/tencent/Hy-MT3-30B-A3B"
+      ],
+      "date_only": true,
+      "note": "The model card's News section states the release date November 24, 2026. License is reported as Apache 2.0 in secondary coverage; the fetched model-card text contains no license line, so the license is recorded as secondary-reported only."
+    },
+    {
+      "vendor": "OpenAI",
+      "date": "2026-11-24",
+      "item": "OpenAI released healthcare model configurations for the Responses API on November 24, 2026, per its official API changelog: gpt-6.2-astra-healthcare, gpt-6.2-sol-healthcare, gpt-6-astra-healthcare and gpt-6.1-sol-healthcare. These are configurations of the existing GPT-6.2 Astra, GPT-6.2 Sol, GPT-6 Astra and GPT-6.1 Sol models, not new base models: each pairs the base model with a harness tailored to clinical questions, and when the model uses web search it searches a dedicated index of medical sources. Prices match the base models per 1M tokens: $8 input / $40 output for gpt-6.2-astra-healthcare, $2 / $10 for gpt-6.2-sol-healthcare, $10 / $50 for gpt-6-astra-healthcare, and $2 / $10 for gpt-6.1-sol-healthcare. Promotional pricing for the healthcare configurations is available at least through December 31, 2026, per the pricing page.",
+      "sources": [
+        "https://developers.openai.com/api/docs/changelog",
+        "https://developers.openai.com/api/docs/pricing"
+      ],
+      "date_only": true,
+      "note": "The changelog entry is dated November 24, 2026 (date only, no time). These are model configurations, not new base models; the distinction is stated in the article."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Nov 24 entries are the healthcare model configurations (selected) and a chat-latest snapshot update (an unnamed snapshot refresh, not a new model). Latest before that is Nov 19 GPT-Live-1.1 (No.34). Verified directly this round (page crawled Nov 24 23:38 UTC)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Nov 24 items are 'GPT-6 models demonstrate intrinsic protein-design capabilities' and 'Searching for distant planets with Astra' (both Science research, not model releases). Nov 23 item is 'OpenAI and Cisco introduce Shirudo Security' (a security product/partnership, not a model). GPT-6.2 Sol coming to ChatGPT Chat and Dots in the EU (Nov 24, tracker) is an availability expansion, not a new model."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 19: Genie 4 GA (No.34) and Tool retrieval (Preview, an Interactions API capability, not a model). Nov 18 is Gemini 4 Neon GA (No.33). No Nov 20, 21, 22, 23 or 24 entry; verified directly this round (page crawled Nov 24 23:38 UTC)."
+    },
+    {
+      "vendor": "Google DeepMind",
+      "page": "secondary coverage only",
+      "result": "A Nov 24 blog covers Gemini 4 Hydrogen for robotics and A2UI 1.0 (an agent UI protocol). Gemini 4 Hydrogen itself went GA Nov 12 (changelog), so this is not a new model release. Gemini 4 Neon blog post is Nov 18 (No.33)."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Latest is Nov 23: Claude Opus 4.5 deprecation (retirement Jan 22, 2027), Enterprise Frontier Safeguards beta (a platform feature), and organization webhook event types. No Nov 24 entry; verified directly this round (page crawled Nov 24 23:38 UTC). Claude Ship (Nov 23, claude.com article) is a set of PR-review agents, not a model."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Nov 19 entry is the end of life of grok-build-0.1, not a new model. Latest model item remains Nov 2. No Nov 20-24 entry; verified directly this round (page crawled Nov 24 23:39 UTC)."
+    },
+    {
+      "vendor": "Microsoft",
+      "page": "secondary coverage only",
+      "result": "Aion Instruct GA is Nov 19 (No.35). MAI-Code-2 / MAI-Code-2-Flash and MAI-Cyber-2-Flash / MAI-Realtime-1 / MAI-Image-2.7-Flash / Decision 1.1 are Nov 17. No Nov 20-24 post found in this round's checks."
+    },
+    {
+      "vendor": "Meta",
+      "page": "secondary coverage only",
+      "result": "Latest visible on the fetched official listing is Jul 9, 2026 (Muse Spark 1.1). No November 2026 post visible; Muse Spark Open was not found on an official Meta page (third-party report only, no date). Muse Ember (Nov 9, No.26) remains the latest confirmed model."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "secondary coverage only",
+      "result": "BioReason-Pro 2 (Nov 23) is covered only in secondary sources; no official release page was fetched this round. Nemotron-Labs-Sigma-8B card dates the release 11/12/2026 (No.32)."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 29 Mistral Large 4 reasoning-effort change. No Nov entries; verified directly this round (page crawled Nov 24 15:04 UTC)."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 full suite of application APIs (No.28, not a model). No Nov 14-24 entry; verified directly this round (page crawled Nov 24 23:39 UTC)."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview. No Nov 12-24 entries in the visible Latest Updates list; verified via live browser read this round (Nov 25 08:45 JST)."
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text. No datable Nov 21, 22, 23 or 24 item. Embed 5 / Rerank 5 / North Small Translate / Parse / Transcribe Arabic / North Mini Code carry no date in the fetched text."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/realtime-api-overview",
+      "result": "qwen-audio-3.1-live exists in the official Model Studio Realtime API docs (Qwen-Audio-Live), but the docs page carries no dated release entry for it, so it is still not selected. Qwen4-Max GA Nov 16 (No.31)."
+    },
+    {
+      "vendor": "MemTensor",
+      "page": "https://huggingface.co/MemTensor/MemT-1.0-Pro",
+      "result": "MemT-1.0-Pro (554B total / 59B active, NVIDIA Nemotron-3-Ultra backbone, OpenMDW-1.1 license) has a directly fetched official Hugging Face card, but the card carries no date line and the repo was created Nov 20; the Nov 24 date appears only in wire coverage (PRNewswire). Not selected this round; remains a candidate."
+    },
+    {
+      "vendor": "PrismML",
+      "page": "secondary coverage only",
+      "result": "Ternary Bonsai 2.5 27B (Nov 24) is covered only in wire/secondary sources; no official launch page or Hugging Face repo was directly fetched this round. Not selected."
+    },
+    {
+      "vendor": "Phonic",
+      "page": "secondary coverage only",
+      "result": "Phonic-1.1 (Nov 23) is a speech-to-speech model reported to top the Artificial Analysis Speech to Speech Index (88.9), but no official announcement page was fetched this round. Not selected."
+    },
+    {
+      "vendor": "Ant Group",
+      "page": "secondary coverage only",
+      "result": "LingSante-3.1-flash and LingSante-3.1-air-VL (Nov 23) are Ant Group's open medical models (MIT weights per trackers; HF repo inclusionAI/LingSante-3.1-flash was created Nov 19), but no official announcement page was fetched this round. Not selected. Ling-3.2-air remains covered in No.38."
+    },
+    {
+      "vendor": "China Telecom",
+      "page": "secondary coverage only",
+      "result": "Xing4.1-Preview (Nov 23) is covered only in secondary sources; no official release page was fetched this round. Not selected."
+    },
+    {
+      "vendor": "Aleph Alpha",
+      "page": "secondary coverage only",
+      "result": "Kolibri 1.1 (Nov 23) is an English-German MoE reasoning model (75B total / 3.44B active, Apache 2.0 per trackers), but no official announcement page was fetched this round. Not selected."
+    },
+    {
+      "vendor": "Midjourney",
+      "page": "secondary coverage only",
+      "result": "Niji 8 (Nov 23/24) is an anime-focused image model with reference-based editing, but no official announcement page was fetched this round. Not selected."
+    },
+    {
+      "vendor": "Moonshot",
+      "page": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "result": "Kimi K3.1 Pro open weights: the official Hugging Face model card was fetched directly this round (repo created 2026-11-02T04:13:51Z). It is a 2.8T-total / 104B-active MoE, natively multimodal agentic model with a 1M-token context; API on platform.kimi.ai. Not selected today because this issue already has five November 24 items; it remains a catch-up candidate."
+    },
+    {
+      "vendor": "Z.ai / Zhipu",
+      "page": "secondary coverage only",
+      "result": "GLM-5.5 is not released; GLM-5.4 is the actual Nov 23 release (No.38). Official release notes still end at GLM-5.3-Flash (Aug 26)."
+    },
+    {
+      "vendor": "Hark",
+      "page": "secondary coverage only",
+      "result": "Handoff 2 (Nov 12) still has no official release page located, so it remains not selected (same as No.30 through No.38)."
+    }
+  ]
+}
