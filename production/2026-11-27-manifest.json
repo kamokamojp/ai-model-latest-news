@@ -55,7 +55,37 @@
     "human_listening_claimed": false,
     "issue_url": "https://kamokamojp.github.io/ai-model-latest-news/editions/2026-11-27.html",
     "pages_site_url": "https://kamokamojp.github.io/ai-model-latest-news/",
-    "status": "pending_push"
+    "status": "published",
+    "gh_pages_commit": "b13bece",
+    "main_commit": "3607326",
+    "read_back": {
+      "checked_at_jst": "2026-11-27T04:22+09:00",
+      "checked_at_precision": "approximate; run clock at verification time",
+      "edition_page_http": 200,
+      "edition_page_contains": [
+        "第41号",
+        "GigaChat",
+        "2026年11月27日"
+      ],
+      "top_page_http": 200,
+      "top_page_contains": [
+        "ISSUE 041",
+        "2026-11-27",
+        "editions/2026-11-09.html",
+        "editions/2026-11-26.html"
+      ],
+      "primary_mp3_http": 200,
+      "primary_mp3_sha256": "def1338af94a97c9253e24bf05b26d5392ea89adfc863bc18926fcbc7d314808",
+      "backup_mp3_http": 200,
+      "backup_mp3_sha256": "def1338af94a97c9253e24bf05b26d5392ea89adfc863bc18926fcbc7d314808",
+      "primary_mp3_full_decode": "passed",
+      "primary_mp3_duration_seconds": 84.49,
+      "primary_mp3_bit_rate_bps": 96101,
+      "synthesis_input_sha256_on_pages": "33c955322b8362021506ccc915b883960c4113563859db39e0d5c3f6dbb1280f",
+      "synthesis_input_sha256_occurrences": 3,
+      "human_listening_claimed": false,
+      "result": "passed"
+    }
   },
   "research_cutoff": "2026-11-27T04:15:00+09:00",
   "research_cutoff_utc": "2026-11-26T19:15:00Z",
