@@ -1,0 +1,160 @@
+{
+  "issue_date": "2026-11-27",
+  "issue_number": 41,
+  "scheduled_target_cutoff": "2026-11-27T08:00:00+09:00",
+  "research_cutoff": "2026-11-27T04:15:00+09:00",
+  "research_cutoff_utc": "2026-11-26T19:15:00Z",
+  "previous_issue_id": "2026-11-26",
+  "previous_issue_cutoff": "2026-11-26T04:34:00+09:00",
+  "same_day_existing_issue_count": 0,
+  "selected": [
+    {
+      "vendor": "Sber / GigaChat Team",
+      "date": "2026-11-26",
+      "item": "Sber's GigaChat team unveiled GigaChat 4 on November 26, 2026 at the AI Journey conference in Moscow, with open weights published on Hugging Face under ai-sage. The flagship GigaChat4-708B-A41B is a hybrid mixture-of-experts model with 708B total and 41B active parameters, 64 layers, 256 routed experts (8 active) plus 1 shared, combining DeepSeek Sparse Attention with Gated DeltaNet in a 3:1 mix, and a 1,048,576-token context. The compact GigaChat4-37B-A4B has 37B total and about 4B active parameters. A single checkpoint supports both Instant and Reasoning modes, selectable per request (GigaChat 3.5 needed separate checkpoints). Weights are published in FP8, BF16 and GGUF, plus base and intermediate checkpoints; the 708B instruction-tuned model is under the MIT License, while the 37B uses a noncommercial license for individuals (per summaries of the model cards). The card's own Reasoning-mode benchmark table reports LiveCodeBench v6 88.82, SWE-bench Verified 80.89, Terminal-Bench 2.0 71.26, GPQA Diamond 82.83, AIME 2026 pass@8 96.67 and BFCL v4 79.55; the same table shows some rivals ahead on individual benchmarks. All figures are the vendor's own measurements.",
+      "sources": [
+        "https://huggingface.co/ai-sage/GigaChat4-708B-A41B"
+      ],
+      "date_only": true,
+      "note": "The model card itself carries no date line; the November 26 date is from same-day coverage of the AI Journey unveiling and the cards going live the same day."
+    },
+    {
+      "vendor": "BharatGen",
+      "date": "2026-11-26",
+      "item": "BharatGen released Patram 1.5 on November 26, 2026, per its official vision-models page (marked 'New - 26 November 2026', read directly this round). It is a 7B-parameter vision-language model for document intelligence that runs on a single GPU, reading, parsing, extracting and answering from page images (stamps, tables, handwriting) in Markdown, HTML or JSON. New in 1.5 are OCR 3.0, a promptable OCR that reads only what is asked, in the requested format and labels, with personal data masked, and Abstention, where the model says it does not know, and why, on blank, blurred or unanswerable pages instead of hallucinating. Weights are open on Hugging Face (bharatgenai/Patram1.5-7B) and in the BharatGen Playground, released under Apache 2.0, free for commercial use. BharatGen's headline figures are an overall score of 83 ('no model scores higher'), 97x smaller in total parameters than the biggest model level with it, and 21x fewer tokens than Qwen3.5-9B with thinking on at the same accuracy; press coverage adds evaluation on 49 tests including the PatramBench tasks built from 8,773 pages of Indian documents. All figures are BharatGen's own.",
+      "sources": [
+        "https://bharatgen.com/models/vision/"
+      ],
+      "date_only": false,
+      "note": "The official page carries the line 'New - 26 November 2026'. Read directly this round."
+    },
+    {
+      "vendor": "DeepL",
+      "date": "2026-11-26",
+      "item": "DeepL launched Aure v2 on November 26, 2026, per its own press release (published 2026-11-26T06:00:00Z, dateline Cologne, read directly this round), at its inaugural Unmute Summit in Tokyo. Aure v2 is a voice AI translation model with a new end-to-end speech-to-speech architecture that removes the separate transcription, translation and speech stages, plus reinforcement learning that teaches the model when it has heard enough context to start translating. It succeeds Aure, introduced earlier in November 2026. It is now available to DeepL Voice customers across DeepL Voice for Online Meetings, DeepL Voice for In-Person Conversations and the DeepL API for Voice, auto-enabled with no extra setup, in six languages at launch: English, German, French, Spanish, Japanese and Korean. In DeepL's internal study (November 2026, 1-minute real-speech recordings across 10 language pairs), Aure v2 showed a 50% lower median translation delay than Aure, higher translation quality than six competing systems in every language pair, and 32% fewer English-Japanese translation errors than Google Gemini 3.5 Live Translate. No parameter count is disclosed. All figures are DeepL's internal measurements.",
+      "sources": [
+        "https://www.prnewswire.com/apac/news-releases/deepl-introduces-aure-v2-its-fastest-voice-ai-translation-model-302950696.html"
+      ],
+      "date_only": false,
+      "note": "The release carries a publication timestamp (2026-11-26T06:00:00Z) and a Nov. 26, 2026 dateline. Read directly this round."
+    },
+    {
+      "vendor": "Chariot Artificial Intelligence (IndiaAI Mission)",
+      "date": "2026-11-26",
+      "item": "Chariot Artificial Intelligence launched the Chariot-1 foundation models on November 26, 2026 in New Delhi, per the Press Information Bureau (Government of India / MeitY) release. The suite is Chariot-1 LLM and Chariot-1 TTS, both pre-trained from scratch in India. The LLM is an 11B-parameter mixture-of-experts model with 4B active parameters per token, produced in three sizes from one training run (10.7B, 1.7B, 745M) via nested training. Its IndicShift tokenizer uses a shared alphabet of 1,012 characters covering 12 Indian scripts in 350 letters, using up to 2.5x fewer tokens on Indian text than the GPT tokenizer, and Mixture of Vocabularies scores 5.7x fewer vocabulary entries for a reported 38% training speed gain. The TTS speaks English plus 10 Indian languages, with context-aware verbalisation of numbers, dates, currency and URLs. The PIB release states no weights, API or license terms. Reported figures include over 97% verbalisation accuracy on the Async TTS Pronunciation Benchmark and a Hindi character error rate of 7.60%. All figures are the developer's / government's own reports.",
+      "sources": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341725&reg=48&lang=2"
+      ],
+      "date_only": true,
+      "note": "The extracted PIB text carries no explicit date line; the release's image files are dated 2026/11/26 and press coverage dates the New Delhi launch to November 26, 2026."
+    },
+    {
+      "vendor": "SenseTime / SenseNova",
+      "date": "2026-11-25",
+      "item": "SenseTime's SenseNova team made the full release of SenseNova-RoboRSI-27B, a 27B vision-language embodied model, per the official SenseTime news page (page header dated 2026/11/25) and the SenseNova technical blog on Hugging Face. Unlike the Preview, which relied on predefined VLA skills, the full release lets the model choose per step between invoking a VLA trajectory (inspect it, execute part of it, or reject it) and Code as Policy, writing a program to position the gripper. It was trained through multiple rounds of Recursive Self-Improvement, co-evolving the model and its harness, with GPT-6 Astra as teacher; recorded environment steps split 41.9% VLA and 58.1% Code as Policy. On the RoboDojo Agent protocol (seed 0, layout 0, no task-specific examples) SenseTime reports average progress of 34.7, up from 10.0 for the retested Preview and above the 27.6 reported by the RoboDojo team for GPT-6 Astra. Sim-to-real used the same weights with no real-robot training: Piper pick-and-place 6/10 and Piper X block stacking 9/10. Weights and code are open-sourced on Hugging Face and GitHub. All figures are SenseTime's own reports.",
+      "sources": [
+        "https://www.sensetime.com/en/news/sensenova-roborsi-27b-full-release-20261126-1138",
+        "https://huggingface.co/blog/sensenova/roborsi"
+      ],
+      "date_only": false,
+      "note": "The SenseTime news page header shows 2026/11/25 (its URL contains 20261126, the publication-processing date). The license is not stated in the SenseTime news text read this round, so no license is asserted here."
+    }
+  ],
+  "checked_not_selected": [
+    {
+      "vendor": "OpenAI",
+      "page": "https://developers.openai.com/api/docs/changelog",
+      "result": "Latest is Nov 24: healthcare model configurations (No.39) and a chat-latest snapshot update. No Nov 25 or 26 entry; verified directly this round (page crawled Nov 26 19:06 UTC)."
+    },
+    {
+      "vendor": "OpenAI",
+      "page": "https://openai.com/news/",
+      "result": "Latest is Nov 24: 'GPT-6 models demonstrate intrinsic protein-design capabilities' and 'Searching for distant planets with Astra' (both Science research, not model releases). No Nov 25 or 26 item; verified directly this round."
+    },
+    {
+      "vendor": "Google",
+      "page": "https://ai.google.dev/gemini-api/docs/changelog",
+      "result": "Latest is Nov 19: Genie 4 GA and Tool retrieval (Preview). No Nov 20-26 entry; verified directly this round."
+    },
+    {
+      "vendor": "Anthropic",
+      "page": "https://docs.anthropic.com/en/release-notes/overview",
+      "result": "Latest is Nov 23 (Claude Opus 4.5 deprecation, Enterprise Frontier Safeguards beta, organization webhooks, analytics fixes). No Nov 24, 25 or 26 entry; verified directly this round."
+    },
+    {
+      "vendor": "xAI",
+      "page": "https://docs.x.ai/developers/release-notes",
+      "result": "Latest is Nov 19 (grok-build-0.1 end of life). No Nov 20-26 entry; verified directly this round."
+    },
+    {
+      "vendor": "Mistral",
+      "page": "https://docs.mistral.ai/resources/changelogs",
+      "result": "Latest is Oct 30 (Studio Managed search index). No November entries at all; verified directly this round. This corrects the Oct 29 date recorded in No.40."
+    },
+    {
+      "vendor": "DeepSeek",
+      "page": "https://api-docs.deepseek.com/updates/",
+      "result": "Latest is Nov 13 (full suite of application APIs, not a model). No Nov 14-26 entry; verified directly this round."
+    },
+    {
+      "vendor": "Baidu",
+      "page": "https://ernie.baidu.com/release/",
+      "result": "Latest is Nov 11 ERNIE 5.5 Flash Preview. No Nov 12-26 entries in the visible list; verified directly this round. (Open weights for the Flash Preview were posted to Hugging Face on Nov 23; that is a weights posting, not a new announcement.)"
+    },
+    {
+      "vendor": "Cohere",
+      "page": "https://docs.cohere.com/changelog",
+      "result": "Fetched this round. Entries carry no dates in the fetched text, so no Nov 25 or 26 item can be confirmed by date."
+    },
+    {
+      "vendor": "Z.ai / Zhipu",
+      "page": "https://docs.z.ai/release-notes/new-released",
+      "result": "GLM-5.5 is still not released; the official release-notes page (last updated 2026-10-10) still lists GLM-5.3-Flash as latest. Reuters reported on Nov 26 that GLM-5.5 has been delayed, possibly to Q1 2027; that is press reporting, not an official announcement, so it is not presented as a release."
+    },
+    {
+      "vendor": "NVIDIA",
+      "page": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "result": "Nov 26 post: open synthetic datasets, a fine-tuning recipe and the DFlash2 speculator for Nemotron 3.5 Parse. The model itself was released earlier; this is data/recipe tooling, not a new model, so it is not selected."
+    },
+    {
+      "vendor": "KRAFTON AI",
+      "page": "https://huggingface.co/KRAFTON/Raon-1-mini",
+      "result": "Raon-1 mini full version: Korean press dates the announcement Nov 25; the model card carries no date. 28.8B total / 4.3B active MoE, 262,144-token native context, Apache 2.0. Not selected today because this issue already has five Nov 25-26 items; it remains a catch-up candidate."
+    },
+    {
+      "vendor": "Tripo (VAST)",
+      "page": "https://www.tripo3d.ai/blog/tripo-h3-5",
+      "result": "Tripo H3.5 Preview became selectable in Tripo Studio (blog index dated Nov 25; Japanese coverage says usable Nov 26). A preview availability step for a model first previewed Nov 17, so it is not selected; catch-up candidate."
+    },
+    {
+      "vendor": "AWS",
+      "page": "https://aws.amazon.com/about-aws/whats-new/ (read via AWS News Feed mirror)",
+      "result": "Amazon Transcribe Turbo public preview announced Nov 25 (US East Ohio). Read via a mirror of the AWS announcement rather than aws.amazon.com itself, so it is recorded here but not selected."
+    },
+    {
+      "vendor": "Alibaba / Qwen",
+      "page": "secondary coverage of an official @Alibaba_Qwen post (Nov 26 03:48 UTC)",
+      "result": "Qwen-Audio-3.1 language expansion (ASR 59 languages, TTS 65, Realtime 53) was reported from an official X post, but no dated official announcement page was found or opened this round, so it is not selected. Separately, secondary sources date qwen-audio-3.1-live itself to Nov 23."
+    },
+    {
+      "vendor": "Ant Group / inclusionAI",
+      "page": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+      "result": "Ling-3.2-air weights were posted Nov 23 (reported Nov 25). A 124B total / 5.5B active multimodal MoE under MIT. Not a Nov 25-26 release; catch-up candidate."
+    },
+    {
+      "vendor": "MiniMax",
+      "page": "https://www.minimax.cn/h3-family",
+      "result": "The H3 family announcement was Nov 24 (official X post), reported Nov 25. No new MiniMax model on Nov 25-26; not selected."
+    },
+    {
+      "vendor": "Moonshot",
+      "page": "secondary coverage only",
+      "result": "No new Kimi development on Nov 25-26. The only Nov 26 Moonshot news is a Reuters report about release cadence and compute access, not a model release."
+    },
+    {
+      "vendor": "XPENG",
+      "page": "https://www.xpeng.com/pressroom/news/01a20bcf44b3a1e838d68a02a2110153",
+      "result": "WorldGPT press release is dated Nov 24; no new development on Nov 25-26. Still no public weights, API or pricing; remains a catch-up candidate."
+    }
+  ]
+}

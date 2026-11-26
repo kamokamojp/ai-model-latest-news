@@ -1,0 +1,127 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="AIモデル最新情報ラジオ 第41号。SberのGigaChat 4、BharatGenのPatram 1.5、DeepLのAure v2、Chariot-1、SenseTimeのSenseNova-RoboRSI-27Bを公式資料で確認。11月26日付の4件と11月25日付の1件です。"><title>AIモデル最新情報ラジオ 第41号｜11月27日確認号</title><link rel="stylesheet" href="../styles.css"><script src="../app.js" defer></script></head><body><a class="skip-link" href="#main">本文へ移動</a><header class="masthead"><div class="masthead-inner"><a class="brand" href="../index.html">AI<span>モデル</span><br>最新情報</a><div class="masthead-meta"><span>MODEL WATCH / JAPAN</span><span>ISSUE 041 · 2026.11.27</span></div><a class="top-link" href="#sources">一次資料</a></div></header><main id="main"><section class="cover" id="top"><div class="cover-kicker"><span>ISSUE 041</span><span>確認基準時 2026-11-27 04:15 JST</span></div><figure class="cover-art host-hero"><img src="../assets/ai-model-radio-hosts.png" width="1672" height="941" alt="AI生成の架空の司会者、水野あかりと高瀬直人が並ぶ番組画像"><figcaption class="host-caption">AI生成の架空の司会者：水野あかり・高瀬直人</figcaption></figure><section class="listen" id="listen"><div class="listen-heading"><h2>第41号の音声</h2><span class="duration">VOICEVOX Nemo 0.24.0 · MP3 96 kbps · 1分24秒</span></div><audio controls preload="metadata" src="../audio/2026-11-27.mp3">お使いのブラウザーは音声再生に対応していません。</audio><p><a href="../audio/2026-11-27.mp3" download>音声をダウンロード</a> · <a href="../audio/2026-11-27-backup.mp3" download>予備音声をダウンロード</a> · <a href="2026-11-27-script.md">台本</a> · <a href="../production/2026-11-27-research.md">調査記録</a></p><p class="method-note">合成入力SHA-256：33c955322b8362021506ccc915b883960c4113563859db39e0d5c3f6dbb1280f。短いサンプルと全編のffmpegデコードを確認。人による実聴は未実施です。</p></section><div class="cover-grid"><div class="cover-copy"><p class="eyebrow">DAILY CHECK / 41</p><h1>11月26日付が4件、<br><em>11月25日付も1件。</em></h1><p class="dek">SberのGigaChat 4、BharatGenのPatram 1.5、DeepLのAure v2、Chariot-1は11月26日付です。SenseTimeのSenseNova-RoboRSI-27B正式版は11月25日付です。</p></div></div><div class="cover-foot"><span>公式発表と提供条件を照合</span><span>AI / DEVELOPERS / AGENTS</span></div></section><article class="article"><div class="article-body"><p class="lead">前号の調査基準時は2026年11月26日 04:34 JSTです。今回の確認では、11月26日付の新しいモデル発表は4件ありました。SberのGigaChat 4、BharatGenのPatram 1.5、DeepLのAure v2、Chariot Artificial IntelligenceのChariot-1です。あわせて、11月25日付で前号では扱わなかったSenseTimeのSenseNova-RoboRSI-27B正式版も、日付を明記して紹介します。いずれもこの号で初めて紹介します。</p>
+
+      <section class="story-section" id="gigachat-4">
+        <h2>Sber：GigaChat 4</h2>
+        <p>SberのGigaChatチームが、GigaChat 4を2026年11月26日に発表し、重みをHugging Faceで公開しました。モスクワで開かれたAI Journeyでの発表です。フラッグシップのGigaChat4-708B-A41Bは、708B（動くのは41B）のハイブリッドMoEで、DeepSeek Sparse AttentionとGated DeltaNetを3対1で組み合わせ、文脈は1,048,576トークンです。小型のGigaChat4-37B-A4Bは37B（動くのは約4B）です。</p>
+        <p>1つのチェックポイントで、即答のInstantモードと推論のReasoningモードをリクエストごとに切り替えられます（GigaChat 3.5では別チェックポイントが必要でした）。重みはFP8・BF16・GGUFに加え、ベースと中間のチェックポイントも公開されています。708Bの指示調整版はMITライセンス、37Bは個人向けの非商用ライセンスです（モデルカードの要約による）。</p>
+        <p>モデルカード自身のReasoningモードの表では、LiveCodeBench v6が88.82、SWE-bench Verifiedが80.89、Terminal-Bench 2.0が71.26、GPQA Diamondが82.83、AIME 2026（pass@8）が96.67、BFCL v4が79.55です。同じ表では、個別の項目で競合モデルが上回るものもあります。性能の数値はすべてSber自身の測定です。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://huggingface.co/ai-sage/GigaChat4-708B-A41B" target="_blank" rel="noopener">Sber / GigaChat Team — GigaChat 4（Hugging Faceモデルカード）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="patram-1-5">
+        <h2>BharatGen：Patram 1.5</h2>
+        <p>BharatGenが、Patram 1.5を2026年11月26日に公開しました。公式のビジョンモデルページに「New · 26 November 2026」の表示があります。7Bの視覚言語モデルで、文書インテリジェンス向けです。GPU 1枚で動き、印影・表・手書きを含むページ画像から、読み取り・解析・抽出・回答をMarkdown・HTML・JSONで返します。</p>
+        <p>新機能は2つです。OCR 3.0は、指示した部分だけを、指定した形式とラベルで読み取り、個人情報をマスクするプロンプト可能なOCRです。Abstentionは、空白・ぼやけ・答えのないページでは、作り話をせず「分からない」と理由を言います。重みはHugging FaceとBharatGen Playgroundで公開され、Apache 2.0で商用利用も無料です。</p>
+        <p>BharatGenの見出し数値は、総合スコア83（「これより高いモデルはない」としています）、同点の最大のモデルより総パラメータで97分の1、Qwen3.5-9B（思考オン）よりトークン21分の1で同等の精度、です。報道では、インドの文書8,773ページから作ったPatramBenchを含む49件のテストで評価したとされています。数値はすべてBharatGen自身のものです。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://bharatgen.com/models/vision/" target="_blank" rel="noopener">BharatGen — Patram 1.5（公式ビジョンモデルページ）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="aure-v2">
+        <h2>DeepL：Aure v2</h2>
+        <p>DeepLが、Aure v2を2026年11月26日に提供開始しました。DeepL自身のプレスリリース（公開時刻は2026-11-26T06:00:00Z）によるもので、東京で開かれた初のUnmute Summitでの発表です。今月初めに出たAureの後継の、音声AI翻訳モデルです。</p>
+        <p>新しいエンドツーエンド構造で、音声から音声へ直接翻訳し、文字起こし・翻訳・音声化の分離工程をなくしました。さらに強化学習で、「翻訳を始めるのに十分な文脈が聞けた時点」をモデルが判断します。DeepL Voiceの顧客向けに、Online Meetings、In-Person Conversations、API for Voiceで提供され、自動で有効化されます。開始時の対応言語は、英語・ドイツ語・フランス語・スペイン語・日本語・韓国語の6言語です。パラメータ数は公開されていません。</p>
+        <p>DeepLの社内調査（2026年11月、実際の音声1分を10言語ペアで評価）では、翻訳遅延の中央値が前のAureより50%減り、6つの競合システムより全言語ペアで翻訳品質が高く、英日ペアの翻訳エラーはGoogle Gemini 3.5 Live Translateより32%少なかったとしています。数値はすべてDeepL社内の測定です。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://www.prnewswire.com/apac/news-releases/deepl-introduces-aure-v2-its-fastest-voice-ai-translation-model-302950696.html" target="_blank" rel="noopener">DeepL — Aure v2（公式プレスリリース）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="chariot-1">
+        <h2>Chariot Artificial Intelligence：Chariot-1</h2>
+        <p>Chariot Artificial Intelligenceが、Chariot-1基盤モデルを2026年11月26日にニューデリーで発表しました。インド政府・電子情報技術省のPress Information Bureauの発表によるもので、IndiaAI Missionの取り組みです。Chariot-1 LLMと言葉の音声合成Chariot-1 TTSの組で、どちらもインド国内でゼロから事前学習されています。</p>
+        <p>LLMは11BのMoE（動くのは4B）で、1回の学習から10.7B・1.7B・745Mの3サイズを生む入れ子学習が使われています。IndicShiftトークナイザは、12のインド系文字を350文字に収めた1,012文字の共有アルファベットで、インド系のテキストではGPTのトークナイザより最大で2.5分の1のトークン数になります。Mixture of Vocabulariesで学習速度が38%上がったとされます。TTSは英語とインドの10言語に対応し、数字・日付・通貨・URLを文脈に応じて読み上げます。</p>
+        <p>PIBの発表には、重み・API・ライセンスの条件の記載はありません。読み上げの正確性はAsync TTS Pronunciation Benchmarkで97%を超え、ヒンディー語の文字誤り率は7.60%と報告されています。数値はすべて開発元・政府側の報告です。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341725&reg=48&lang=2" target="_blank" rel="noopener">Chariot Artificial Intelligence — Chariot-1（インド政府PIB発表）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="roborsi-27b">
+        <h2>SenseTime：SenseNova-RoboRSI-27B 正式版</h2>
+        <p>SenseTimeのSenseNovaチームが、SenseNova-RoboRSI-27Bの正式版（Full Release）を発表しました。SenseTimeの公式ニュースページの見出しの日付は2026年11月25日です。27Bの視覚言語・身体性モデルで、ロボットの動作を扱います。</p>
+        <p>Preview版があらかじめ定義されたVLAスキルに頼っていたのに対し、正式版はステップごとに、VLAの軌道を呼び出す（点検する、一部だけ実行する、却下する）か、グリッパの位置決めプログラムをその場で書くCode as Policyかを、モデル自身が選びます。学習は複数ラウンドのRecursive Self-Improvementで、モデルと実行の枠組み（Harness）が一緒に育ち、教師はGPT-6 Astraです。記録された環境ステップの内訳は、VLAが41.9%、Code as Policyが58.1%です。</p>
+        <p>RoboDojo Agentプロトコル（seed 0、layout 0、タスク固有の例なし）での平均進捗は34.7で、再測定したPreviewの10.0を大きく上回り、RoboDojoチームが報告したGPT-6 Astraの27.6も上回るとしています。実機への移行は同じ重み・実機での学習なしで、Piperのピック＆プレースが10回中6回、Piper Xのブロック積みが10回中9回でした。重みとコードはHugging FaceとGitHubでオープンソースとして公開されています。数値はすべてSenseTime自身の報告です。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://www.sensetime.com/en/news/sensenova-roborsi-27b-full-release-20261126-1138" target="_blank" rel="noopener">SenseTime — SenseNova-RoboRSI-27B 正式版（公式ニュース）</a></li>
+            <li><a href="https://huggingface.co/blog/sensenova/roborsi" target="_blank" rel="noopener">SenseNova — RoboRSI技術ブログ（Hugging Face）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="not-reused">
+        <h2>前号の内容は再利用しない</h2>
+        <p>前号（第40号）で扱ったJetBrainsのMellum2.1 Instruct、NIOのWorldModel 3.0、Sand.aiのMAGI-2、PrismMLのTernary Bonsai 2.5 27B、MidjourneyのNiji 8は、この号では新しい発表として繰り返していません。</p>
+        <p>OpenAIの変更履歴の最新は11月24日付の医療向け設定のままで、11月25日・26日付の項目はありません。Googleの変更履歴の最新は11月19日付、Anthropicは11月23日付、xAIは11月19日付、DeepSeekは11月13日付、Baiduは11月11日付です。Mistralの変更履歴の最新は10月30日付で、11月の項目はありません（第40号で記録した10月29日は、今回の直接確認で10月30日に訂正します）。</p>
+        <p>Z.aiのGLM-5.5は、11月26日時点で公式発表を確認できていません。同日のReuters報道は、GLM-5.5の発表が遅れていると伝えるもので、公式発表ではありません。NVIDIAのNemotron 3.5 Parse向けデータセットとレシピの公開（11月26日付）は、モデル自体は既出のため、この号では紹介していません。KRAFTONのRaon-1 mini正式版（11月25日付と韓国報道）は、今回は11月25日・26日付が5件あるため紹介せず、今後の追いかけ候補とします。AlibabaのQwen-Audio-3.1の対応言語拡大は、公式の投稿を引用する二次情報では確認しましたが、日付のある公式発表ページを取得できていないため、この号では紹介していません。</p>
+      </section>
+
+      <section class="story-section" id="scope">
+        <h2>確認した範囲と限界</h2>
+        <p>OpenAI、Google、Anthropic、xAI、Mistral、DeepSeek、Baidu、Cohere、Z.ai、Alibaba/Qwen、Sber/GigaChat、BharatGen、DeepL、Chariot Artificial Intelligence（インド政府PIB）、SenseTime、NVIDIA、KRAFTON、Tripo、AWS、MiniMax、Moonshot、XPENGの選定した公式リリース履歴・モデル/API資料と、モデル発表の追跡ページを確認しました。</p>
+        <p>GigaChat 4のモデルカード自体には、取得したテキストに日付の記載がありません。11月26日付は、AI Journeyでの発表を伝える同日付の報道と、同日にカードが公開されたことで確認したものです。Chariot-1のPIB発表にも、取得したテキストに明示の日付行がありません。11月26日付は、発表の画像ファイルの日付と、ニューデリーでの発表を11月26日とする報道で確認したものです。SenseNova-RoboRSI-27Bのニュースページは見出しの日付が2026年11月25日で、URLには20261126が含まれます。この号では見出しの日付を発表日として記録します。ニュース本文にライセンスの記載がなかったため、この号ではライセンスを断定しません。</p>
+        <p>Patram 1.5の公式ページには「New · 26 November 2026」の記載があり、直接取得して確認しました。Aure v2のプレスリリースには公開時刻2026-11-26T06:00:00Zと日付行があり、直接取得して確認しました。Cohereの変更履歴ページには日付表示がなく、11月25日・26日付の項目を日付では確認できませんでした。</p>
+        <p>このラジオは全社・全配信先を網羅するものではなく、公式資料で確認できたモデル発表をこの号で初めて紹介する、という基準で選んでいます。日付だけの項目は時刻・タイムゾーンを推測していません。記載した性能の数値は、すべて発表元自身の測定または主張です。</p>
+      </section>
+
+<section class="story-section" id="sources"><h2>一次資料</h2><ul class="source-list">
+          <li><a href="https://huggingface.co/ai-sage/GigaChat4-708B-A41B" target="_blank" rel="noopener">Sber / GigaChat Team — GigaChat 4（Hugging Faceモデルカード）</a></li>
+          <li><a href="https://bharatgen.com/models/vision/" target="_blank" rel="noopener">BharatGen — Patram 1.5（公式ビジョンモデルページ）</a></li>
+          <li><a href="https://www.prnewswire.com/apac/news-releases/deepl-introduces-aure-v2-its-fastest-voice-ai-translation-model-302950696.html" target="_blank" rel="noopener">DeepL — Aure v2（公式プレスリリース）</a></li>
+          <li><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341725&reg=48&lang=2" target="_blank" rel="noopener">Chariot Artificial Intelligence — Chariot-1（インド政府PIB発表）</a></li>
+          <li><a href="https://www.sensetime.com/en/news/sensenova-roborsi-27b-full-release-20261126-1138" target="_blank" rel="noopener">SenseTime — SenseNova-RoboRSI-27B 正式版（公式ニュース）</a></li>
+          <li><a href="https://huggingface.co/blog/sensenova/roborsi" target="_blank" rel="noopener">SenseNova — RoboRSI技術ブログ（Hugging Face）</a></li>
+          <li><a href="https://openai.com/news/" target="_blank" rel="noopener">OpenAI News</a></li>
+          <li><a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noopener">Google Gemini API 変更履歴</a></li>
+          <li><a href="https://docs.anthropic.com/en/release-notes/overview" target="_blank" rel="noopener">Anthropic リリースノート</a></li>
+          <li><a href="https://docs.x.ai/developers/release-notes" target="_blank" rel="noopener">xAI リリースノート</a></li>
+          <li><a href="https://docs.mistral.ai/resources/changelogs" target="_blank" rel="noopener">Mistral 変更履歴</a></li>
+          <li><a href="https://api-docs.deepseek.com/updates/" target="_blank" rel="noopener">DeepSeek 更新</a></li>
+          <li><a href="https://ernie.baidu.com/release/" target="_blank" rel="noopener">Baidu ERNIE リリースページ</a></li>
+          <li><a href="https://docs.cohere.com/changelog" target="_blank" rel="noopener">Cohere 変更履歴</a></li>
+          <li><a href="https://docs.z.ai/release-notes/new-released" target="_blank" rel="noopener">Z.ai リリースノート</a></li>
+        </ul><p><a href="../production/2026-11-27-research.md">全カバレッジ調査記録</a> · <a href="2026-11-27-script.md">第41号台本</a> · <a href="2026-11-27-script.json">台本JSON</a></p></section><section class="story-section" id="transcript"><h2>第41号の台本</h2><p><a href="2026-11-27-script.md">台本テキスト</a> · <a href="2026-11-27-script.json">台本JSON</a></p><div class="script-transcript">
+<p><span class="script-speaker">あかり：</span>こんにちは。AIモデル最新情報ラジオ、第41号です。</p>
+<p><span class="script-speaker">なおと：</span>2026年11月27日の確認号。基準時は午前4時15分です。</p>
+<p><span class="script-speaker">あかり：</span>11月26日付が4件、11月25日付が1件ありました。</p>
+<p><span class="script-speaker">なおと：</span>まず、SberのGigaChat 4です。</p>
+<p><span class="script-speaker">あかり：</span>11月26日付で、重みも公開されました。</p>
+<p><span class="script-speaker">なおと：</span>最大7080億で、動くのは410億です。</p>
+<p><span class="script-speaker">あかり：</span>文脈は、約105万トークンです。</p>
+<p><span class="script-speaker">なおと：</span>次は、BharatGenのPatram 1.5です。</p>
+<p><span class="script-speaker">あかり：</span>11月26日付の、文書を読むモデルです。</p>
+<p><span class="script-speaker">なおと：</span>70億で、GPU 1枚で動きます。</p>
+<p><span class="script-speaker">あかり：</span>分からない時は、分からないと言います。</p>
+<p><span class="script-speaker">なおと：</span>3件目は、DeepLのAure v2です。</p>
+<p><span class="script-speaker">あかり：</span>11月26日付の、音声翻訳のモデルです。</p>
+<p><span class="script-speaker">なおと：</span>遅延が半分になり、日本語にも対応します。</p>
+<p><span class="script-speaker">あかり：</span>東京のイベントで、発表されました。</p>
+<p><span class="script-speaker">なおと：</span>4件目は、Chariot-1です。</p>
+<p><span class="script-speaker">あかり：</span>11月26日付で、インド政府の発表です。</p>
+<p><span class="script-speaker">なおと：</span>110億の言葉のモデルと、音声の組です。</p>
+<p><span class="script-speaker">あかり：</span>インドの11の言語で、話せます。</p>
+<p><span class="script-speaker">なおと：</span>5件目は、SenseTimeのRoboRSIです。</p>
+<p><span class="script-speaker">あかり：</span>11月25日付の、ロボット向けモデルです。</p>
+<p><span class="script-speaker">なおと：</span>270億で、正式版になりました。</p>
+<p><span class="script-speaker">あかり：</span>重みとコードが、公開されています。</p>
+<p><span class="script-speaker">なおと：</span>どれも、この番組では初めての紹介です。</p>
+<p><span class="script-speaker">あかり：</span>性能の数値は、発表元の主張です。</p>
+<p><span class="script-speaker">なおと：</span>以上、第41号でした。発表元のページをご確認ください。</p>
+</div></section></div></article></main><footer class="site-footer"><a href="../index.html">最新号・バックナンバーへ</a></footer></body></html>
