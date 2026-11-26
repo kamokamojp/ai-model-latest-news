@@ -1,0 +1,238 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-27-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-27-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-27.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-27.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "def1338af94a97c9253e24bf05b26d5392ea89adfc863bc18926fcbc7d314808",
+    "backup_sha256": "def1338af94a97c9253e24bf05b26d5392ea89adfc863bc18926fcbc7d314808",
+    "duration_seconds": 84.49,
+    "file_size_bytes": 1014957,
+    "generated_at_jst": "2026-11-27T04:16+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-27",
+  "issue_id": "2026-11-27",
+  "issue_number": 41,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-26T04:34:00+09:00",
+  "previous_issue_id": "2026-11-26",
+  "research_cutoff": "2026-11-27T04:15:00+09:00",
+  "research_cutoff_utc": "2026-11-26T19:15:00Z",
+  "research_file": "../production/2026-11-27-research.json",
+  "scheduled_target_cutoff": "2026-11-27T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 26,
+  "utterances": [
+    {
+      "characters": 26,
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第41号です。"
+    },
+    {
+      "characters": 30,
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月27日の確認号。基準時は午前4時15分です。"
+    },
+    {
+      "characters": 27,
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月26日付が4件、11月25日付が1件ありました。"
+    },
+    {
+      "characters": 21,
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "まず、SberのGigaChat 4です。"
+    },
+    {
+      "characters": 20,
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月26日付で、重みも公開されました。"
+    },
+    {
+      "characters": 20,
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "最大7080億で、動くのは410億です。"
+    },
+    {
+      "characters": 16,
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "文脈は、約105万トークンです。"
+    },
+    {
+      "characters": 26,
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "次は、BharatGenのPatram 1.5です。"
+    },
+    {
+      "characters": 20,
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月26日付の、文書を読むモデルです。"
+    },
+    {
+      "characters": 17,
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "70億で、GPU 1枚で動きます。"
+    },
+    {
+      "characters": 19,
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "分からない時は、分からないと言います。"
+    },
+    {
+      "characters": 21,
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "3件目は、DeepLのAure v2です。"
+    },
+    {
+      "characters": 20,
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月26日付の、音声翻訳のモデルです。"
+    },
+    {
+      "characters": 20,
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "遅延が半分になり、日本語にも対応します。"
+    },
+    {
+      "characters": 17,
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "東京のイベントで、発表されました。"
+    },
+    {
+      "characters": 17,
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "4件目は、Chariot-1です。"
+    },
+    {
+      "characters": 20,
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月26日付で、インド政府の発表です。"
+    },
+    {
+      "characters": 20,
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "110億の言葉のモデルと、音声の組です。"
+    },
+    {
+      "characters": 16,
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "インドの11の言語で、話せます。"
+    },
+    {
+      "characters": 25,
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "5件目は、SenseTimeのRoboRSIです。"
+    },
+    {
+      "characters": 21,
+      "order": 21,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月25日付の、ロボット向けモデルです。"
+    },
+    {
+      "characters": 16,
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "270億で、正式版になりました。"
+    },
+    {
+      "characters": 17,
+      "order": 23,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "重みとコードが、公開されています。"
+    },
+    {
+      "characters": 19,
+      "order": 24,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "どれも、この番組では初めての紹介です。"
+    },
+    {
+      "characters": 16,
+      "order": 25,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "性能の数値は、発表元の主張です。"
+    },
+    {
+      "characters": 27,
+      "order": 26,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第41号でした。発表元のページをご確認ください。"
+    }
+  ]
+}
