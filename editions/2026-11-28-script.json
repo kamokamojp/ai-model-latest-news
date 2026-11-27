@@ -1,0 +1,252 @@
+{
+  "audio": {
+    "backup_file": "../audio/2026-11-28-backup.mp3",
+    "backup_public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-28-backup.mp3",
+    "backup_status": "available",
+    "channels": 1,
+    "codec": "mp3",
+    "engine": "VOICEVOX Nemo",
+    "engine_version": "0.24.0",
+    "file": "../audio/2026-11-28.mp3",
+    "human_listening_claimed": false,
+    "public_url": "https://kamokamojp.github.io/ai-model-latest-news/audio/2026-11-28.mp3",
+    "sample_rate_hz": 24000,
+    "speaker_ids": {
+      "akari": 10005,
+      "naoto": 10001
+    },
+    "speed": "standard",
+    "style": "normal",
+    "sha256": "77fdda94f45ad382d21da43d570711d5f2bbe4d4cf643cba1ec72541ce5f8b81",
+    "backup_sha256": "77fdda94f45ad382d21da43d570711d5f2bbe4d4cf643cba1ec72541ce5f8b81",
+    "duration_seconds": 90.07,
+    "file_size_bytes": 1081773,
+    "generated_at_jst": "2026-11-28T04:14+09:00",
+    "generated_at_precision": "approximate; local filesystem output timestamp to the minute"
+  },
+  "audio_status": "available",
+  "issue_date": "2026-11-28",
+  "issue_id": "2026-11-28",
+  "issue_number": 42,
+  "max_characters_per_utterance": 90,
+  "previous_issue_cutoff": "2026-11-27T04:15:00+09:00",
+  "previous_issue_id": "2026-11-27",
+  "research_cutoff": "2026-11-28T04:11:00+09:00",
+  "research_cutoff_utc": "2026-11-27T19:11:00Z",
+  "research_file": "../production/2026-11-28-research.json",
+  "scheduled_target_cutoff": "2026-11-28T08:00:00+09:00",
+  "speaker_reference": {
+    "akari": {
+      "gender": "female",
+      "speaker_id": 10005,
+      "speaker_name": "あかり"
+    },
+    "naoto": {
+      "gender": "male",
+      "speaker_id": 10001,
+      "speaker_name": "なおと"
+    }
+  },
+  "speed": "standard",
+  "style": "normal",
+  "timezone": "Asia/Tokyo",
+  "utterance_count": 28,
+  "utterances": [
+    {
+      "order": 1,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "こんにちは。AIモデル最新情報ラジオ、第42号です。",
+      "characters": 26
+    },
+    {
+      "order": 2,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2026年11月28日の確認号。基準時は午前4時11分です。",
+      "characters": 30
+    },
+    {
+      "order": 3,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月27日付が1件、26日付が1件ありました。",
+      "characters": 24
+    },
+    {
+      "order": 4,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "25日付が2件、24日付が1件です。",
+      "characters": 18
+    },
+    {
+      "order": 5,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "まず、RobbyantのLingBotです。",
+      "characters": 22
+    },
+    {
+      "order": 6,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "11月27日付で、Ant Groupの発表です。",
+      "characters": 24
+    },
+    {
+      "order": 7,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "地図を作るモデルと、案内するモデルです。",
+      "characters": 20
+    },
+    {
+      "order": 8,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "長い距離でも、地図のずれが減りました。",
+      "characters": 19
+    },
+    {
+      "order": 9,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "重みとコードが、公開されています。",
+      "characters": 17
+    },
+    {
+      "order": 10,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "2件目は、TencentのDFly2です。",
+      "characters": 21
+    },
+    {
+      "order": 11,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月26日付の、生成を速くする部品です。",
+      "characters": 21
+    },
+    {
+      "order": 12,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "大きなモデルの記憶を、共有します。",
+      "characters": 17
+    },
+    {
+      "order": 13,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "最大で、4.2倍速くなるとのことです。",
+      "characters": 19
+    },
+    {
+      "order": 14,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "3件目は、KRAFTONのRaon-1 miniです。",
+      "characters": 27
+    },
+    {
+      "order": 15,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月25日付で、正式版になりました。",
+      "characters": 19
+    },
+    {
+      "order": 16,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "約300億で、考える長さを選べます。",
+      "characters": 18
+    },
+    {
+      "order": 17,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "Apache 2.0で、公開されています。",
+      "characters": 21
+    },
+    {
+      "order": 18,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "4件目は、AminiのSoma-1X Liteです。",
+      "characters": 26
+    },
+    {
+      "order": 19,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "11月25日付の、文書を読むモデルです。",
+      "characters": 20
+    },
+    {
+      "order": 20,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "20億で、アフリカの10言語に対応します。",
+      "characters": 21
+    },
+    {
+      "order": 21,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "紙の記録を、データに変えます。",
+      "characters": 15
+    },
+    {
+      "order": 22,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "5件目は、NVIDIAの画像モデルです。",
+      "characters": 20
+    },
+    {
+      "order": 23,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "重みの公開は、11月24日付です。",
+      "characters": 17
+    },
+    {
+      "order": 24,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "300億の、自己回帰の画像生成です。",
+      "characters": 18
+    },
+    {
+      "order": 25,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "研究と評価だけの、ライセンスです。",
+      "characters": 17
+    },
+    {
+      "order": 26,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "どれも、この番組では初めての紹介です。",
+      "characters": 19
+    },
+    {
+      "order": 27,
+      "speaker": "akari",
+      "speaker_id": 10005,
+      "text": "性能の数値は、発表元の主張です。",
+      "characters": 16
+    },
+    {
+      "order": 28,
+      "speaker": "naoto",
+      "speaker_id": 10001,
+      "text": "以上、第42号でした。発表元のページをご確認ください。",
+      "characters": 27
+    }
+  ]
+}
