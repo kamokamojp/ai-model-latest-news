@@ -1,0 +1,73 @@
+{
+ "issue_date": "2026-11-28",
+ "issue_number": 42,
+ "scheduled_target_cutoff": "2026-11-28T08:00:00+09:00",
+ "research_cutoff": "2026-11-28T04:11:00+09:00",
+ "research_cutoff_utc": "2026-11-27T19:11:00Z",
+ "previous_issue_id": "2026-11-27",
+ "previous_issue_cutoff": "2026-11-27T04:15:00+09:00",
+ "same_day_existing_issue_count": 0,
+ "selected": [
+  {
+   "vendor": "Robbyant (Ant Group)",
+   "date": "2026-11-27",
+   "item": "Robbyant, an embodied AI company within Ant Group, announced the open-source release of LingBot-Map 2.0, a streaming 3D reconstruction model, and LingBot-Navi, a spatial-memory navigation model, in a BusinessWire release dated November 27, 2026 (read directly this round). LingBot-Map 2.0, following version 1.0 from April 2026, introduces native internal error correction during inference (Geometric Context Reshaping, inspired by memory reconsolidation), removing reliance on external place-recognition or pose-graph backends. In a VBR urban test of 5.2 km and nearly 19,000 frames, average trajectory error fell from 31.12 m (v1.0) to 4.72 m, nearly 85% lower and more than twice as accurate as the best external loop-closure method (9.98 m); inference runs at 27.51 FPS on a single NVIDIA RTX 5090, with first place on the CroCoDL, EuRoC and Oxford dense reconstruction benchmarks. LingBot-Navi, built on Map 2.0, keeps persistent spatial memory across missions and reported 68.60% success on a GOAT-Bench subset in simulator-executed tests and 56.09% end-to-end. Technical reports, code, the Pure Streaming weights for Map 2.0, Navi weights and a dataset of 511 real-world scenes are open-sourced via GitHub and Hugging Face. All figures are Robbyant's own.",
+   "sources": [
+    "https://www.businesswire.com/news/home/20261126690702/en/"
+   ],
+   "date_only": true,
+   "note": "BusinessWire release ID 20261126690702; the release is dated Nov. 27, 2026 (Shanghai dateline). Read via the Morningstar republication of the full BusinessWire text this round."
+  },
+  {
+   "vendor": "Tencent Hunyuan",
+   "date": "2026-11-26",
+   "item": "Tencent's Hunyuan AI Infra team open-sourced DFly2 on November 26, 2026, per the AngelSpec repository's release notes (weights, training code and technical report released together). DFly2 is a block-parallel draft model for speculative decoding aimed at natively sparse-attention models: each draft layer reads the KV cache of a paired target sparse-attention layer and attends only to the positions that layer's indexer selected (at most about 2,048 keys), so the drafter keeps no cache of its own and skips prefill. The Hy4-flash drafter has 0.85B parameters (three MoE layers, 128 routed experts each, per the model card summary); MoE drafters for DeepSeek-V4.1-Flash and GLM-5.3-Flash are also included. Tencent reports average speedups about 12% and 30% above DSpark depending on the set, with a maximum single-item speedup of 4.2x, output unchanged. The technical report is arXiv:2611.34776. All figures are Tencent's own measurements.",
+   "sources": [
+    "https://github.com/Tencent/AngelSpec",
+    "https://arxiv.org/abs/2611.34776"
+   ],
+   "date_only": true,
+   "note": "The November 26 release date is stated in the AngelSpec repository's Latest News and in Tencent's announcement coverage; the repo text was checked via secondary summaries this round."
+  },
+  {
+   "vendor": "KRAFTON",
+   "date": "2026-11-25",
+   "item": "KRAFTON announced the full (official) version of Raon-1 mini on November 25, 2026, following an October preview; the Hugging Face repository was published November 24. The model was designed and trained from scratch in-house. The model card describes a 28.8B-total, 4.3B-active mixture-of-experts model (the announcement rounds this to 30B / 4B) with hybrid Raon Delta Attention plus MLA layers, a 262,144-token context, and six response modes: standard (no reasoning) plus five reasoning levels (low, medium, high, xhigh, max). It is released on Hugging Face under Apache 2.0 for research and commercial use, with a playground and API also provided. KRAFTON reports MultiChallenge 64.9 (up 5.9 points from the preview, ahead of six comparable overseas models), GDPval 72.3 and BrowseComp Plus 55.9; the card also lists AIME 2026 96.7 and GPQA Diamond 86.0. All figures are KRAFTON's own. This item was a follow-up candidate in No.41 and is introduced here for the first time.",
+   "sources": [
+    "https://huggingface.co/KRAFTON-AI/Raon-1-mini"
+   ],
+   "date_only": true,
+   "note": "Announcement date November 25 is from KRAFTON's announcement as reported the same day; the Hugging Face repository creation is November 24 per release trackers. The card URL is the canonical repository named in coverage."
+  },
+  {
+   "vendor": "Amini",
+   "date": "2026-11-25",
+   "item": "Amini released Soma-1X Lite on November 25, 2026, per its official announcement (dateline Bridgetown, Barbados, 25 November 2026; read via the official blog text this round). It is a 2B-parameter open-weight vision-language model, fine-tuned from Qwen3.5-2B, that converts paper records into structured, machine-readable data, designed to run on a single GPU inside a government's own infrastructure. Amini reports 84.7 on olmOCR-Bench, ahead of Gemini 3.8 Flash, GPT-5.5 and Claude Sonnet 5 in its comparison, and the lowest average character error rate (2.9%) among five open models over 435 document pages in ten African languages including Swahili, Yoruba, Hausa and Wolof. Throughput is about 15,000 pages per hour at an estimated GPU cost of $0.22 per 1,000 pages. Weights, inference instructions and evaluation code are on Hugging Face under Apache 2.0. All figures are Amini's own.",
+   "sources": [
+    "https://www.amini.ai/blog-post/amini-releases-soma-an-open-ai-model-to-take-nations-from-analogue-to-ai-ready"
+   ],
+   "date_only": true,
+   "note": "The official announcement carries the dateline 'BRIDGETOWN, Barbados, 25 November 2026'."
+  },
+  {
+   "vendor": "NVIDIA",
+   "date": "2026-11-24",
+   "item": "NVIDIA published the weights of Nemotron-Labs-Image-30B-A3B on Hugging Face; the 'Clean release snapshot' commit is dated 2026-11-24T21:55:46Z, with card and paper commits following on November 25, and release coverage appearing November 25-27. It is the raster image-generation component of the Nemotron-Labs-VisualCreation agentic framework: an autoregressive generator initialized from Nemotron 3 Nano with 30B total and 3B active parameters, a 262,144-token context in the card's spec table, and a bundled Nemotron-Labs-Image-Tokenizer (about 642M parameters). The initial release covers only the image generator, tokenizer, model definition and inference code; the VisualCreation harness and VisionCode are listed as to be released upon legal clearance. The license is NVIDIA's non-commercial license for research and evaluation only. The card's headline benchmark results are for the broader agent-linked VisualCreation configurations rather than the standalone generator alone. All figures are NVIDIA's own.",
+   "sources": [
+    "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+   ],
+   "date_only": true,
+   "note": "No dated announcement post was found; the release date is the Hugging Face clean-release snapshot commit (2026-11-24 UTC). The date is stated explicitly wherever this item is introduced."
+  }
+ ],
+ "checked_not_selected": [
+  "Google Gemini API changelog read directly: latest entry November 19, 2026 (Genie 4 GA); no November 20-27 entries.",
+  "Anthropic Claude Platform release notes read directly: latest entry November 23, 2026; no November 24-27 model release entries.",
+  "OpenAI: no new dated model item for November 25-27 was confirmed on the official pages checked in this round's coverage; the previous issue's latest confirmed item remains November 24.",
+  "Ant Group / inclusionAI Ling-3.2-air: weights date to November 23 (already recorded as a follow-up candidate in No.41); November 27 items are coverage of that release, so it is not presented as a November 27 announcement.",
+  "Hon Hai / FoxBrain v2.1: a release-tracker listing dated November 27 was seen, but no dated primary announcement page for v2.1 could be obtained this round, so it is not selected.",
+  "GENTEL Lab EVA (RNA design foundation model, November 27 listing): a research model listing only; not selected this round.",
+  "NVIDIA Nemotron 3.5 Parse datasets/recipe (November 26): the model itself is previously released; already noted in No.41.",
+  "Anthropic Messages API Rust rewrite: seen only in secondary summaries, not in the official release notes read this round; not a model release and not selected."
+ ]
+}

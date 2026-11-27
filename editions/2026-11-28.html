@@ -1,0 +1,124 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="AIモデル最新情報ラジオ 第42号。RobbyantのLingBot-Map 2.0とLingBot-Navi、TencentのDFly2、KRAFTONのRaon-1 mini正式版、AminiのSoma-1X Lite、NVIDIAのNemotron-Labs-Image-30B-A3Bを公式資料で確認。11月27日付の1件と、26日・25日・24日付の4件です。"><title>AIモデル最新情報ラジオ 第42号｜11月28日確認号</title><link rel="stylesheet" href="../styles.css"><script src="../app.js" defer></script></head><body><a class="skip-link" href="#main">本文へ移動</a><header class="masthead"><div class="masthead-inner"><a class="brand" href="../index.html">AI<span>モデル</span><br>最新情報</a><div class="masthead-meta"><span>MODEL WATCH / JAPAN</span><span>ISSUE 042 · 2026.11.28</span></div><a class="top-link" href="#sources">一次資料</a></div></header><main id="main"><section class="cover" id="top"><div class="cover-kicker"><span>ISSUE 042</span><span>確認基準時 2026-11-28 04:11 JST</span></div><figure class="cover-art host-hero"><img src="../assets/ai-model-radio-hosts.png" width="1672" height="941" alt="AI生成の架空の司会者、水野あかりと高瀬直人が並ぶ番組画像"><figcaption class="host-caption">AI生成の架空の司会者：水野あかり・高瀬直人</figcaption></figure><section class="listen" id="listen"><div class="listen-heading"><h2>第42号の音声</h2><span class="duration">VOICEVOX Nemo 0.24.0 · MP3 96 kbps · 1分30秒</span></div><audio controls preload="metadata" src="../audio/2026-11-28.mp3">お使いのブラウザーは音声再生に対応していません。</audio><p><a href="../audio/2026-11-28.mp3" download>音声をダウンロード</a> · <a href="../audio/2026-11-28-backup.mp3" download>予備音声をダウンロード</a> · <a href="2026-11-28-script.md">台本</a> · <a href="../production/2026-11-28-research.md">調査記録</a></p><p class="method-note">合成入力SHA-256：b220f587ebb9301b176728ea5c283f6dae99c24464b95789731c279eb314f2fe。短いサンプルと全編のffmpegデコードを確認。人による実聴は未実施です。</p></section><div class="cover-grid"><div class="cover-copy"><p class="eyebrow">DAILY CHECK / 42</p><h1>11月27日付が1件、<br><em>26日・25日・24日付も4件。</em></h1><p class="dek">RobbyantのLingBot-Map 2.0とLingBot-Naviは11月27日付です。TencentのDFly2は11月26日付、KRAFTONのRaon-1 mini正式版とAminiのSoma-1X Liteは11月25日付、NVIDIAのNemotron-Labs-Image-30B-A3Bは11月24日付です。</p></div></div><div class="cover-foot"><span>公式発表と提供条件を照合</span><span>AI / DEVELOPERS / AGENTS</span></div></section><article class="article"><div class="article-body"><p class="lead">前号の調査基準時は2026年11月27日 04:15 JSTです。今回の確認では、11月27日付の新しいモデル発表はRobbyantのLingBot-Map 2.0とLingBot-Naviの1件でした。あわせて、11月26日付のTencentのDFly2、11月25日付のKRAFTONのRaon-1 mini正式版とAminiのSoma-1X Lite、11月24日付のNVIDIAのNemotron-Labs-Image-30B-A3Bを、日付を明記して紹介します。いずれもこの号で初めて紹介します。</p>
+
+      <section class="story-section" id="lingbot">
+        <h2>Robbyant：LingBot-Map 2.0 / LingBot-Navi</h2>
+        <p>Ant Group傘下の身体性AI企業Robbyantが、LingBot-Map 2.0とLingBot-Naviを2026年11月27日にオープンソースとして公開しました。BusinessWireのプレスリリースによるものです。LingBot-Map 2.0は、連続した映像から3D空間をその場で再構成するモデルで、2026年4月の1.0の後継です。LingBot-Naviは、空間記憶を持つナビゲーションモデルです。</p>
+        <p>Map 2.0の新しい点は、推論中にモデル内部の記憶そのものを誤り訂正することです。人間の記憶の再固定化に着想を得たGeometric Context Reshapingで、外部の場所認識モジュールやポーズグラフ最適化に頼らず、長い移動でたまる地図のずれを内側から直します。5.2km・約19,000フレームの都市部テストでは、平均軌道誤差が1.0の31.12mから4.72mへ約85%減り、最良の外部ループ閉鎖手法（9.98m）の2倍以上の精度でした。RTX 5090 1枚で27.51 FPSで動き、CroCoDL・EuRoC・Oxfordの3つの密な3D再構成ベンチマークで1位としています。</p>
+        <p>Naviは、Map 2.0の3D認識の上に、タスクをまたいで残る空間記憶を持ちます。地図をタスクごとに捨てず、自然言語の指示で対象を探し、無駄な探索なしに経路を計画します。シミュレータが移動を実行する条件のGOAT-Benchサブセットで成功率68.60%、モデル自身が経路計画から移動まで行うエンドツーエンドでは56.09%でした。技術レポート・コード・Map 2.0のPure Streaming重み・Naviの重み・511件の実世界シーンのデータセットが、GitHubとHugging Faceで公開されています。数値はすべてRobbyant自身のものです。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://www.businesswire.com/news/home/20261126690702/en/" target="_blank" rel="noopener">Robbyant — LingBot-Map 2.0 / LingBot-Navi（BusinessWire発表）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="dfly2">
+        <h2>Tencent：DFly2</h2>
+        <p>TencentのHunyuan AI Infraチームが、DFly2の重み・学習コード・技術レポートを2026年11月26日に公開しました。AngelSpecリポジトリのLatest Newsによるものです。DFly2は、生成を速くする投機的デコーディングのための小さなドラフトモデルです。</p>
+        <p>対象は、スパース注意を持つ大きなモデルです。各ドラフト層は、対応するターゲット層のKVキャッシュを直接読み、その層のインデクサが選んだ位置（最大で約2,048キー）だけに注意します。そのためドラフト側は独自のキャッシュを持たず、プリフィルも行いません。Hy4 flash向けのドラフタは0.85Bで、DeepSeek-V4.1-FlashとGLM-5.3-Flash向けのMoEドラフタも含まれます。Tencentは、DSparkと比べて平均で約12%と約30%の高速化、単一項目の最大で4.2倍を報告し、出力は変わらないとしています。技術レポートはarXiv:2611.34776です。数値はすべてTencent自身の測定です。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://github.com/Tencent/AngelSpec" target="_blank" rel="noopener">Tencent — AngelSpec（DFly2の公開リポジトリ）</a></li>
+            <li><a href="https://arxiv.org/abs/2611.34776" target="_blank" rel="noopener">Tencent — DFly2技術レポート（arXiv）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="raon-1-mini">
+        <h2>KRAFTON：Raon-1 mini 正式版</h2>
+        <p>KRAFTONが、自社開発の大規模言語モデルRaon-1 miniの正式版を2026年11月25日に発表しました。10月のプレビューの後継で、Hugging Faceリポジトリの公開は11月24日です。設計から学習まで自社で行っています。第41号で追いかけ候補とした項目で、今回初めて紹介します。</p>
+        <p>モデルカードでは28.8B（動くのは4.3B）のMoEで、発表では30B級（動くのは約4B）と丸めて表記されています。自社開発のLinear Attention系のRaon Delta AttentionとMLAのハイブリッドで、文脈は262,144トークンです。正式版で、応答モードが選べるようになりました。即答の標準モードと、low・medium・high・xhigh・maxの5段階の推論レベルです。Apache 2.0でHugging Faceに公開され、研究にも商用サービスの開発にも使えます。試せるPlaygroundとAPIも提供されます。</p>
+        <p>KRAFTONの報告では、長い会話で指示に従う力を見るMultiChallengeが64.9で、プレビューより5.9点上がり、同規模の海外6モデルを上回るとしています。GDPvalは72.3、BrowseComp Plusは55.9です。モデルカードにはAIME 2026が96.7、GPQA Diamondが86.0とも記載されています。数値はすべてKRAFTON自身のものです。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://huggingface.co/KRAFTON-AI/Raon-1-mini" target="_blank" rel="noopener">KRAFTON — Raon-1 mini（Hugging Faceモデルカード）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="soma-1x-lite">
+        <h2>Amini：Soma-1X Lite</h2>
+        <p>Aminiが、Soma-1X Liteを2026年11月25日に公開しました。公式発表の日付行は2026年11月25日（バルバドス・ブリッジタウン）です。紙の記録を、機械が読める構造化データに変えるための2Bの視覚言語モデルで、Qwen3.5-2Bの微調整です。政府や機関自身の基盤の中で、GPU 1枚で動かすことを狙っています。</p>
+        <p>Aminiの報告では、文書処理の公開ベンチマークolmOCR-Benchで84.7を取り、同社の比較ではGemini 3.8 Flash、GPT-5.5、Claude Sonnet 5を上回るとしています。アフリカの10言語（スワヒリ語・ヨルバ語・ハウサ語・ウォロフ語など）・435ページの文書では、平均の文字誤り率が2.9%で、比較した5つのオープンモデルの中で最小でした。処理は約15,000ページ/時で、GPU費用の見積もりは1,000ページあたり0.22ドルです。重み・推論手順・評価コードはHugging FaceでApache 2.0で公開されています。数値はすべてAmini自身のものです。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://www.amini.ai/blog-post/amini-releases-soma-an-open-ai-model-to-take-nations-from-analogue-to-ai-ready" target="_blank" rel="noopener">Amini — Soma-1X Lite（公式発表）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="nemotron-image">
+        <h2>NVIDIA：Nemotron-Labs-Image-30B-A3B</h2>
+        <p>NVIDIAが、Nemotron-Labs-Image-30B-A3Bの重みをHugging Faceで公開しました。日付のある発表記事は見つからず、重みのクリーンリリースのコミットは2026年11月24日（UTC）で、報道は11月25〜27日に出ています。この号では公開日を11月24日と明記して紹介します。</p>
+        <p>エージェント型の創作フレームワークNemotron-Labs-VisualCreationの、ラスタ画像生成を担う部分です。拡散ではなく、視覚トークンを順に予測する自己回帰型で、Nemotron 3 Nanoから初期化されています。30B（動くのは3B）で、カードの仕様表では文脈は262,144トークンです。同梱の画像トークナイザは約642Mです。今回の公開は、画像生成器・トークナイザ・モデル定義・推論コードのみで、全体を統括するハーネスとVisionCodeは、法的確認の後に公開予定とされています。</p>
+        <p>ライセンスはNVIDIAの非商用ライセンスで、研究と評価のみです。カードの見出しのベンチマーク数値は、モデル単体ではなく、エージェントが連携するVisualCreation構成での結果を含みます。数値はすべてNVIDIA自身のものです。</p>
+        <div class="source-box">
+          <h3>発表元</h3>
+          <ul>
+            <li><a href="https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B" target="_blank" rel="noopener">NVIDIA — Nemotron-Labs-Image-30B-A3B（Hugging Faceモデルカード）</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story-section" id="not-reused">
+        <h2>前号の内容は再利用しない</h2>
+        <p>前号（第41号）で扱ったSberのGigaChat 4、BharatGenのPatram 1.5、DeepLのAure v2、Chariot-1、SenseTimeのSenseNova-RoboRSI-27B正式版は、この号では新しい発表として繰り返していません。</p>
+        <p>GoogleのGemini API変更履歴の最新は11月19日付のままで、11月20〜27日付の項目はありません（直接確認）。Anthropicのリリースノートの最新は11月23日付です（直接確認）。Ant GroupのLing-3.2-airは重みが11月23日付のため、11月27日の報道をもって新しい発表としては扱いません。Hon HaiのFoxBrain v2.1は、追跡ページに11月27日付の掲載を見ましたが、日付のある一次発表ページを今回取得できなかったため、紹介していません。</p>
+      </section>
+
+      <section class="story-section" id="scope">
+        <h2>確認した範囲と限界</h2>
+        <p>Google、Anthropicの公式リリース履歴を直接確認し、Robbyant（BusinessWire）、Tencent（AngelSpec／arXiv）、KRAFTON、Amini、NVIDIA（Hugging Face）の選定した公式資料と、モデル発表の追跡ページを確認しました。</p>
+        <p>Nemotron-Labs-Image-30B-A3Bには日付のある発表記事がなく、発表日はHugging Faceのクリーンリリースコミット（2026-11-24 UTC）で記録しています。Raon-1 miniのパラメータ数は、モデルカードの表記（28.8B／4.3B）と発表の丸めた表記（30B級／約4B）が併存します。DFly2の11月26日付は、AngelSpecリポジトリのLatest Newsと発表報道によるものです。</p>
+        <p>このラジオは全社・全配信先を網羅するものではなく、公式資料で確認できたモデル発表をこの号で初めて紹介する、という基準で選んでいます。日付だけの項目は時刻・タイムゾーンを推測していません。記載した性能の数値は、すべて発表元自身の測定または主張です。</p>
+      </section>
+
+<section class="story-section" id="sources"><h2>一次資料</h2><ul class="source-list">
+          <li><a href="https://www.businesswire.com/news/home/20261126690702/en/" target="_blank" rel="noopener">Robbyant — LingBot-Map 2.0 / LingBot-Navi（BusinessWire発表）</a></li>
+          <li><a href="https://github.com/Tencent/AngelSpec" target="_blank" rel="noopener">Tencent — AngelSpec（DFly2の公開リポジトリ）</a></li>
+          <li><a href="https://arxiv.org/abs/2611.34776" target="_blank" rel="noopener">Tencent — DFly2技術レポート（arXiv）</a></li>
+          <li><a href="https://huggingface.co/KRAFTON-AI/Raon-1-mini" target="_blank" rel="noopener">KRAFTON — Raon-1 mini（Hugging Faceモデルカード）</a></li>
+          <li><a href="https://www.amini.ai/blog-post/amini-releases-soma-an-open-ai-model-to-take-nations-from-analogue-to-ai-ready" target="_blank" rel="noopener">Amini — Soma-1X Lite（公式発表）</a></li>
+          <li><a href="https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B" target="_blank" rel="noopener">NVIDIA — Nemotron-Labs-Image-30B-A3B（Hugging Faceモデルカード）</a></li>
+          <li><a href="https://openai.com/news/" target="_blank" rel="noopener">OpenAI News</a></li>
+          <li><a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noopener">Google Gemini API 変更履歴</a></li>
+          <li><a href="https://docs.anthropic.com/en/release-notes/overview" target="_blank" rel="noopener">Anthropic リリースノート</a></li>
+          <li><a href="https://docs.x.ai/developers/release-notes" target="_blank" rel="noopener">xAI リリースノート</a></li>
+          <li><a href="https://docs.mistral.ai/resources/changelogs" target="_blank" rel="noopener">Mistral 変更履歴</a></li>
+          <li><a href="https://api-docs.deepseek.com/updates/" target="_blank" rel="noopener">DeepSeek 更新</a></li>
+          <li><a href="https://docs.cohere.com/changelog" target="_blank" rel="noopener">Cohere 変更履歴</a></li>
+          <li><a href="https://docs.z.ai/release-notes/new-released" target="_blank" rel="noopener">Z.ai リリースノート</a></li>
+        </ul><p><a href="../production/2026-11-28-research.md">全カバレッジ調査記録</a> · <a href="2026-11-28-script.md">第42号台本</a> · <a href="2026-11-28-script.json">台本JSON</a></p></section><section class="story-section" id="transcript"><h2>第42号の台本</h2><p><a href="2026-11-28-script.md">台本テキスト</a> · <a href="2026-11-28-script.json">台本JSON</a></p><div class="script-transcript">
+<p><span class="script-speaker">あかり：</span>こんにちは。AIモデル最新情報ラジオ、第42号です。</p>
+<p><span class="script-speaker">なおと：</span>2026年11月28日の確認号。基準時は午前4時11分です。</p>
+<p><span class="script-speaker">あかり：</span>11月27日付が1件、26日付が1件ありました。</p>
+<p><span class="script-speaker">なおと：</span>25日付が2件、24日付が1件です。</p>
+<p><span class="script-speaker">あかり：</span>まず、RobbyantのLingBotです。</p>
+<p><span class="script-speaker">なおと：</span>11月27日付で、Ant Groupの発表です。</p>
+<p><span class="script-speaker">あかり：</span>地図を作るモデルと、案内するモデルです。</p>
+<p><span class="script-speaker">なおと：</span>長い距離でも、地図のずれが減りました。</p>
+<p><span class="script-speaker">あかり：</span>重みとコードが、公開されています。</p>
+<p><span class="script-speaker">なおと：</span>2件目は、TencentのDFly2です。</p>
+<p><span class="script-speaker">あかり：</span>11月26日付の、生成を速くする部品です。</p>
+<p><span class="script-speaker">なおと：</span>大きなモデルの記憶を、共有します。</p>
+<p><span class="script-speaker">あかり：</span>最大で、4.2倍速くなるとのことです。</p>
+<p><span class="script-speaker">なおと：</span>3件目は、KRAFTONのRaon-1 miniです。</p>
+<p><span class="script-speaker">あかり：</span>11月25日付で、正式版になりました。</p>
+<p><span class="script-speaker">なおと：</span>約300億で、考える長さを選べます。</p>
+<p><span class="script-speaker">あかり：</span>Apache 2.0で、公開されています。</p>
+<p><span class="script-speaker">なおと：</span>4件目は、AminiのSoma-1X Liteです。</p>
+<p><span class="script-speaker">あかり：</span>11月25日付の、文書を読むモデルです。</p>
+<p><span class="script-speaker">なおと：</span>20億で、アフリカの10言語に対応します。</p>
+<p><span class="script-speaker">あかり：</span>紙の記録を、データに変えます。</p>
+<p><span class="script-speaker">なおと：</span>5件目は、NVIDIAの画像モデルです。</p>
+<p><span class="script-speaker">あかり：</span>重みの公開は、11月24日付です。</p>
+<p><span class="script-speaker">なおと：</span>300億の、自己回帰の画像生成です。</p>
+<p><span class="script-speaker">あかり：</span>研究と評価だけの、ライセンスです。</p>
+<p><span class="script-speaker">なおと：</span>どれも、この番組では初めての紹介です。</p>
+<p><span class="script-speaker">あかり：</span>性能の数値は、発表元の主張です。</p>
+<p><span class="script-speaker">なおと：</span>以上、第42号でした。発表元のページをご確認ください。</p>
+</div></section></div></article></main><footer class="site-footer"><a href="../index.html">最新号・バックナンバーへ</a></footer></body></html>
